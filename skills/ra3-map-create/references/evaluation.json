@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-05",
+  "method": "Local deterministic MCP execution and visual review by the creating agent; no independent model benchmark or weight training.",
+  "results": [
+    {
+      "name": "Skill_CoastalCrossing_v2",
+      "passed": true,
+      "objects": 356,
+      "calls": 34,
+      "elapsedMs": 4920,
+      "sourceUnchanged": null,
+      "notes": [
+        "连通性是保守的地形标志／水位／建筑占地网格检查，不等于游戏引擎寻路实测。"
+      ],
+      "gameTested": false
+    },
+    {
+      "name": "Skill_SnowValley",
+      "passed": true,
+      "objects": 280,
+      "calls": 34,
+      "elapsedMs": 4123,
+      "sourceUnchanged": null,
+      "notes": [
+        "连通性是保守的地形标志／水位／建筑占地网格检查，不等于游戏引擎寻路实测。"
+      ],
+      "gameTested": false
+    },
+    {
+      "name": "Skill_LocalBeautify",
+      "passed": true,
+      "objects": 391,
+      "calls": 30,
+      "elapsedMs": 3516,
+      "sourceUnchanged": true,
+      "notes": [
+        "局部美化验收：校验原有对象和贴图，未重新认证整图寻路或平衡。"
+      ],
+      "gameTested": false
+    }
+  ],
+  "marker": {
+    "zooms": 3,
+    "displayScales": [
+      1,
+      1.5,
+      2
+    ],
+    "passed": true
+  },
+  "negativeTests": {
+    "blockedRoute": true,
+    "protectedInput": true,
+    "noOutputOnRefusal": true,
+    "overwrite": true,
+    "coordinateAndPlaneLimits": true
+  },
+  "portableKitExecution": {
+    "passed": true,
+    "removedEnvironmentVariables": [
+      "DOTNET_ROOT",
+      "DOTNET_ROOT_X64"
+    ],
+    "calls": 34,
+    "elapsedMs": 4302,
+    "objects": 356,
+    "notes": "使用独立 agent-kit 执行；机器仍安装了供素材检索使用的红警3游戏。"
+  },
+  "materialIntegrity": {
+    "sourceMapsChecked": 80,
+    "sourceMapsChanged": 0,
+    "images": 25,
+    "localLinksChecked": 42
+  },
+  "visualReview": {
+    "status": "prototype",
+    "observations": [
+      {
+        "image": "../assets/examples/coast-player-base.png",
+        "finding": "基地旁有成簇植被和建造留白；海岸及道路边缘仍有连续台阶，弧形道路显得规则。",
+        "nextAction": "对岸坡和道路边缘分别做小范围坡度/材质修正，复用原机位；修后重新检查通行性。"
+      },
+      {
+        "image": "../assets/examples/snow-overview.png",
+        "finding": "雪地材质和树林与主题一致；双人布局可读，但仍沿用同一个生成框架。",
+        "nextAction": "依据需求加入不同的主地貌和自然地标，再检查经济与通路，不能以换主题当作玩法泛化。"
+      },
+      {
+        "image": "../assets/maps/m058-detail.png",
+        "finding": "街区结构可参考，当前预览有路面条带与缺口。",
+        "nextAction": "只学习空间关系，先确认预览问题，保留原地图数据。"
+      }
+    ]
+  },
+  "gameTested": false,
+  "terrainRevision": {
+    "version": 2,
+    "date": "2026-10-05",
+    "referenceFiles": 9,
+    "referenceCaseGroups": 8,
+    "sourceMapsChanged": 0,
+    "imagesAdded": 30,
+    "measurements": [
+      {
+        "id": "m001",
+        "interiorP10": 210,
+        "interiorP90": 284.98,
+        "blockedInteriorPercent": 6.13
+      },
+      {
+        "id": "m002",
+        "interiorP10": 210,
+        "interiorP90": 280,
+        "blockedInteriorPercent": 7.62
+      },
+      {
+        "id": "m003",
+        "interiorP10": 210,
+        "interiorP90": 280,
+        "blockedInteriorPercent": 2.84
+      },
+      {
+        "id": "m004",
+        "interiorP10": 280,
+        "interiorP90": 350,
+        "blockedInteriorPercent": 2.27
+      },
+      {
+        "id": "m005",
+        "interiorP10": 210,
+        "interiorP90": 280,
+        "blockedInteriorPercent": 2.54
+      },
+      {
+        "id": "m006",
+        "interiorP10": 210,
+        "interiorP90": 280,
+        "blockedInteriorPercent": 8.39
+      },
+      {
+        "id": "m007",
+        "interiorP10": 210,
+        "interiorP90": 210,
+        "blockedInteriorPercent": 0
+      },
+      {
+        "id": "m008",
+        "interiorP10": 215.6,
+        "interiorP90": 281.01,
+        "blockedInteriorPercent": 29.34
+      },
+      {
+        "id": "m009",
+        "interiorP10": 210,
+        "interiorP90": 310,
+        "blockedInteriorPercent": 3.51
+      },
+      {
+        "id": "tidal-flat",
+        "interiorP10": 225.84,
+        "interiorP90": 244.75,
+        "blockedInteriorPercent": 0
+      },
+      {
+        "id": "terraced-gentle",
+        "interiorP10": 219.84,
+        "interiorP90": 269.92,
+        "blockedInteriorPercent": 8.16
+      },
+      {
+        "id": "terraced-standard",
+        "interiorP10": 219.65,
+        "interiorP90": 290.04,
+        "blockedInteriorPercent": 10.86
+      }
+    ],
+    "results": [
+      {
+        "name": "TerrainGentle_v2",
+        "passed": true,
+        "players": 2,
+        "oreCount": 10,
+        "oilCount": 0,
+        "calls": 35,
+        "elapsedMs": 5122,
+        "supportFilesVerified": true,
+        "structure3dReviewed": true,
+        "visualStatus": "prototype: coast steps and regular outlines remain",
+        "gameTested": false
+      },
+      {
+        "name": "TerrainStandard",
+        "passed": true,
+        "players": 2,
+        "oreCount": 6,
+        "oilCount": 2,
+        "calls": 35,
+        "elapsedMs": 4076,
+        "supportFilesVerified": true,
+        "structure3dReviewed": true,
+        "visualStatus": "prototype: coast steps and regular outlines remain",
+        "gameTested": false
+      }
+    ],
+    "regressions": [
+      "five supported size/aspect/relief combinations retain symmetric terraces and wide routes",
+      "seabed changes do not inflate land relief",
+      "valid flat-island diagnostics are not rejected",
+      "npm test passed, including map input protection"
+    ],
+    "legacyLimit": "Earlier v1 passes verified map data/connectivity but did not check both preview TGA files. The current runner explicitly checks support files and JSON error receipts."
+  }
+}

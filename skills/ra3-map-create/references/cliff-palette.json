@@ -1,0 +1,3321 @@
+{
+  "version": 4,
+  "date": "2026-10-06",
+  "source": "Original-game model bounds queried through validated editor assets; no game mesh or texture payload included.",
+  "caution": "Bounds are local AABBs; they do not locate a join edge or identify visible facing. Negative local Z commonly means a top-anchored, downward-extending cliff. Collision metadata is separate.",
+  "models": [
+    {
+      "type": "IL_SeaCliffWall03",
+      "count": 681,
+      "theatre": "Iceland_IL",
+      "collision": {
+        "fp": 60,
+        "h": 0,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -110.09715270996094,
+          -110.65434265136719,
+          -148.06845092773438
+        ],
+        "max": [
+          7.485764026641846,
+          7.244124889373779,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 813,
+      "triangleCount": 769,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall04",
+      "count": 579,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -39.874977111816406,
+          -36.243194580078125,
+          -70.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          50,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 250,
+      "triangleCount": 260,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall04",
+      "count": 494,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -39.874977111816406,
+          -36.24319076538086,
+          -80.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          50,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 250,
+      "triangleCount": 260,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "IL_SeaCliffWall01",
+      "count": 476,
+      "theatre": "Iceland_IL",
+      "collision": {
+        "fp": 60,
+        "h": 0,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -50.000003814697266,
+          -113.39509582519531,
+          -147.439208984375
+        ],
+        "max": [
+          50.67136001586914,
+          -4.513666152954102,
+          7.686400890350342
+        ]
+      },
+      "vertexCount": 459,
+      "triangleCount": 436,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "IL_SeaCliffWall04",
+      "count": 450,
+      "theatre": "Iceland_IL",
+      "collision": {
+        "fp": 60,
+        "h": 0,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -69.39176177978516,
+          -116.14100646972656,
+          -148.81439208984375
+        ],
+        "max": [
+          80.60823822021484,
+          24.96005630493164,
+          3.0312581062316895
+        ]
+      },
+      "vertexCount": 519,
+      "triangleCount": 495,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall02",
+      "count": 370,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -27.753875732421875,
+          -50.00004577636719,
+          -70
+        ],
+        "max": [
+          50.00005340576172,
+          27.753925323486328,
+          0.15900500118732452
+        ]
+      },
+      "vertexCount": 77,
+      "triangleCount": 93,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MY_CliffWall03",
+      "count": 314,
+      "theatre": "Mykonos_MY",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -110.09715270996094,
+          -110.65434265136719,
+          -87.62460327148438
+        ],
+        "max": [
+          7.485764026641846,
+          7.244124889373779,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 755,
+      "triangleCount": 699,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall01",
+      "count": 281,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50.000003814697266,
+          -42.45155334472656,
+          -70.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          27.75388526916504,
+          7.686400890350342
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 178,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall02",
+      "count": 277,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -27.753875732421875,
+          -50.00004577636719,
+          -80.013671875
+        ],
+        "max": [
+          50.00005340576172,
+          27.753925323486328,
+          0.15900500118732452
+        ]
+      },
+      "vertexCount": 77,
+      "triangleCount": 93,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "IL_SeaCliffWall05",
+      "count": 277,
+      "theatre": "Iceland_IL",
+      "collision": {
+        "fp": 60,
+        "h": 0,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -80.60823822021484,
+          -117.1543197631836,
+          -150.70635986328125
+        ],
+        "max": [
+          73.87495422363281,
+          24.96005630493164,
+          3.031259059906006
+        ]
+      },
+      "vertexCount": 898,
+      "triangleCount": 829,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall06",
+      "count": 273,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -100,
+          -33.22454071044922,
+          -70
+        ],
+        "max": [
+          50,
+          77.75386810302734,
+          3.0312540531158447
+        ]
+      },
+      "vertexCount": 222,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall05",
+      "count": 269,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -33.22452926635742,
+          -70.013671875
+        ],
+        "max": [
+          100,
+          77.75386810302734,
+          3.0312581062316895
+        ]
+      },
+      "vertexCount": 185,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "IL_SeaCliffWall02",
+      "count": 269,
+      "theatre": "Iceland_IL",
+      "collision": {
+        "fp": 60,
+        "h": 0,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -72.67496490478516,
+          -62.69517517089844,
+          -144.90008544921875
+        ],
+        "max": [
+          19.395244598388672,
+          19.034713745117188,
+          0.15900899469852448
+        ]
+      },
+      "vertexCount": 140,
+      "triangleCount": 159,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall03",
+      "count": 240,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -44.92316818237305,
+          -80.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          27.75388526916504,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 165,
+      "triangleCount": 164,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall03",
+      "count": 238,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -109.74769592285156,
+          -123.95770263671875,
+          -74.88365173339844
+        ],
+        "max": [
+          7.485764026641846,
+          7.106266021728516,
+          0.13975299894809723
+        ]
+      },
+      "vertexCount": 758,
+      "triangleCount": 687,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall06",
+      "count": 236,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -100,
+          -33.22454071044922,
+          -80.013671875
+        ],
+        "max": [
+          50,
+          77.75386810302734,
+          3.0312540531158447
+        ]
+      },
+      "vertexCount": 223,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MY_CliffWall02",
+      "count": 233,
+      "theatre": "Mykonos_MY",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -19.034700393676758,
+          -72.67498016357422,
+          -79.82649993896484
+        ],
+        "max": [
+          62.695247650146484,
+          19.395288467407227,
+          0.15900500118732452
+        ]
+      },
+      "vertexCount": 133,
+      "triangleCount": 149,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_DesolatorCliffWall06_GRID",
+      "count": 229,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 60,
+        "h": 2,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -60.1865119934082,
+          -105.62301635742188,
+          -166.78359985351562
+        ],
+        "max": [
+          60.275211334228516,
+          3.2584149837493896,
+          7.073506832122803
+        ]
+      },
+      "vertexCount": 460,
+      "triangleCount": 426,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall01",
+      "count": 227,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -42.45155334472656,
+          -80.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          27.75388526916504,
+          7.686400890350342
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 178,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall05",
+      "count": 219,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -33.22453308105469,
+          -80.013671875
+        ],
+        "max": [
+          100,
+          77.75386810302734,
+          3.0312581062316895
+        ]
+      },
+      "vertexCount": 185,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MY_CliffWall01",
+      "count": 206,
+      "theatre": "Mykonos_MY",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50.000003814697266,
+          -113.39509582519531,
+          -83.39179992675781
+        ],
+        "max": [
+          50.67136001586914,
+          -4.513666152954102,
+          7.686400890350342
+        ]
+      },
+      "vertexCount": 440,
+      "triangleCount": 412,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall03",
+      "count": 205,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -47.377960205078125,
+          -70
+        ],
+        "max": [
+          50.000003814697266,
+          27.75388526916504,
+          12.954269409179688
+        ]
+      },
+      "vertexCount": 691,
+      "triangleCount": 602,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_DesolatorCliffWall08_GRID",
+      "count": 194,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 60,
+        "h": 2,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -94.46563720703125,
+          -105.34196472167969,
+          -170.3980255126953
+        ],
+        "max": [
+          30.037811279296875,
+          30.000015258789062,
+          0.3180080056190491
+        ]
+      },
+      "vertexCount": 758,
+      "triangleCount": 687,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall04",
+      "count": 147,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -69.39176177978516,
+          -119.89344787597656,
+          -78.1954345703125
+        ],
+        "max": [
+          89.84884643554688,
+          24.96005630493164,
+          2.631632089614868
+        ]
+      },
+      "vertexCount": 533,
+      "triangleCount": 493,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall02",
+      "count": 130,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -19.034709930419922,
+          -72.67496490478516,
+          -74.62432861328125
+        ],
+        "max": [
+          63.5157470703125,
+          19.395240783691406,
+          0.14024199545383453
+        ]
+      },
+      "vertexCount": 183,
+      "triangleCount": 181,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MY_CliffWall04",
+      "count": 122,
+      "theatre": "Mykonos_MY",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -69.39176177978516,
+          -116.1410140991211,
+          -84.46435546875
+        ],
+        "max": [
+          80.60823822021484,
+          24.96005630493164,
+          3.0312581062316895
+        ]
+      },
+      "vertexCount": 485,
+      "triangleCount": 457,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall05",
+      "count": 111,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -83.64065551757812,
+          -132.81494140625,
+          -79.9961929321289
+        ],
+        "max": [
+          70.98301696777344,
+          26.422584533691406,
+          2.664012908935547
+        ]
+      },
+      "vertexCount": 754,
+      "triangleCount": 699,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MY_CliffWall05",
+      "count": 110,
+      "theatre": "Mykonos_MY",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -79.95967102050781,
+          -114.65619659423828,
+          -87.49751281738281
+        ],
+        "max": [
+          73.384033203125,
+          26.422584533691406,
+          3.0312540531158447
+        ]
+      },
+      "vertexCount": 897,
+      "triangleCount": 791,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_DesolatorCliffWall09_GRID",
+      "count": 102,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 90,
+        "h": 2,
+        "mj": 90
+      },
+      "bounds": {
+        "min": [
+          -68.19216918945312,
+          -107.56185150146484,
+          -180.1395263671875
+        ],
+        "max": [
+          90.03781127929688,
+          37.291648864746094,
+          6.062514781951904
+        ]
+      },
+      "vertexCount": 513,
+      "triangleCount": 477,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall01",
+      "count": 97,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -50.188575744628906,
+          -113.39509582519531,
+          -73.24967956542969
+        ],
+        "max": [
+          50.67136001586914,
+          -4.513666152954102,
+          3.1066129207611084
+        ]
+      },
+      "vertexCount": 460,
+      "triangleCount": 426,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall08",
+      "count": 88,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -109.74769592285156,
+          -123.95770263671875,
+          -170.3980255126953
+        ],
+        "max": [
+          7.485764026641846,
+          7.106266021728516,
+          0.3180080056190491
+        ]
+      },
+      "vertexCount": 758,
+      "triangleCount": 687,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HB_CliffWall01",
+      "count": 85,
+      "theatre": "Heidelberg_HB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -50.000003814697266,
+          -52.45155334472656,
+          -70.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          17.75388526916504,
+          7.686400890350342
+        ]
+      },
+      "vertexCount": 155,
+      "triangleCount": 178,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_DesolatorCliffWall010_GRID",
+      "count": 83,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 90,
+        "h": 2,
+        "mj": 90
+      },
+      "bounds": {
+        "min": [
+          -93.91635131835938,
+          -127.30115509033203,
+          -182.0477752685547
+        ],
+        "max": [
+          60.037811279296875,
+          33.258399963378906,
+          6.062509059906006
+        ]
+      },
+      "vertexCount": 754,
+      "triangleCount": 699,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff05",
+      "count": 80,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -50.188575744628906,
+          -113.39509582519531,
+          -73.24967956542969
+        ],
+        "max": [
+          50.67136001586914,
+          -4.513666152954102,
+          3.1066129207611084
+        ]
+      },
+      "vertexCount": 460,
+      "triangleCount": 426,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HB_CliffWall04",
+      "count": 79,
+      "theatre": "Heidelberg_HB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -59.874977111816406,
+          -56.243194580078125,
+          -70.013671875
+        ],
+        "max": [
+          30.000003814697266,
+          30,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 249,
+      "triangleCount": 260,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "GV_CliffWall03",
+      "count": 75,
+      "theatre": "Gypsy_Village_GV",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -82.38922119140625,
+          -79.13693237304688,
+          -70.013671875
+        ],
+        "max": [
+          7.485764026641846,
+          7.106266021728516,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 249,
+      "triangleCount": 260,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HB_CliffWall03",
+      "count": 74,
+      "theatre": "Heidelberg_HB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -54.92316818237305,
+          -70
+        ],
+        "max": [
+          50.000003814697266,
+          17.75388526916504,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 166,
+      "triangleCount": 164,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HB_CliffWall06",
+      "count": 70,
+      "theatre": "Heidelberg_HB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -100,
+          -53.22454071044922,
+          -70
+        ],
+        "max": [
+          50,
+          57.753868103027344,
+          3.0312540531158447
+        ]
+      },
+      "vertexCount": 185,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_DesolatorCliffWall07_GRID",
+      "count": 69,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 60,
+        "h": 2,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -33.25840377807617,
+          -65.7071304321289,
+          -169.21719360351562
+        ],
+        "max": [
+          60.03781509399414,
+          33.258419036865234,
+          0.31801098585128784
+        ]
+      },
+      "vertexCount": 183,
+      "triangleCount": 181,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff07",
+      "count": 67,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -69.39176177978516,
+          -119.89344787597656,
+          -78.1954345703125
+        ],
+        "max": [
+          89.84884643554688,
+          24.96005630493164,
+          2.631632089614868
+        ]
+      },
+      "vertexCount": 533,
+      "triangleCount": 493,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff16",
+      "count": 66,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -109.74769592285156,
+          -123.95770263671875,
+          -170.3980255126953
+        ],
+        "max": [
+          7.485764026641846,
+          7.106266021728516,
+          0.3180080056190491
+        ]
+      },
+      "vertexCount": 758,
+      "triangleCount": 687,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "GV_CliffWall01",
+      "count": 62,
+      "theatre": "Gypsy_Village_GV",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -50.000003814697266,
+          -74.71910095214844,
+          -70.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          -4.513666152954102,
+          7.686400890350342
+        ]
+      },
+      "vertexCount": 155,
+      "triangleCount": 178,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall12",
+      "count": 61,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -69.8749771118164,
+          -66.24319458007812,
+          -70.013671875
+        ],
+        "max": [
+          15.000003814697266,
+          15,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 250,
+      "triangleCount": 260,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_CliffWall06_GRID",
+      "count": 59,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 60,
+        "h": 2,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -60.1865119934082,
+          -105.62301635742188,
+          -166.78359985351562
+        ],
+        "max": [
+          60.275211334228516,
+          3.2584149837493896,
+          0.6348379850387573
+        ]
+      },
+      "vertexCount": 460,
+      "triangleCount": 426,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff06",
+      "count": 59,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -109.74769592285156,
+          -123.95770263671875,
+          -74.88365173339844
+        ],
+        "max": [
+          7.485764026641846,
+          7.106266021728516,
+          0.13975299894809723
+        ]
+      },
+      "vertexCount": 758,
+      "triangleCount": 687,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall08",
+      "count": 57,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -175.9212188720703,
+          -70.00000762939453
+        ],
+        "max": [
+          50,
+          27.75388526916504,
+          0.22752800583839417
+        ]
+      },
+      "vertexCount": 125,
+      "triangleCount": 144,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall07",
+      "count": 55,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -175.9212188720703,
+          -70.00000762939453
+        ],
+        "max": [
+          50,
+          27.75388526916504,
+          0.22752800583839417
+        ]
+      },
+      "vertexCount": 125,
+      "triangleCount": 144,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall06",
+      "count": 55,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -50.188575744628906,
+          -113.39509582519531,
+          -166.78359985351562
+        ],
+        "max": [
+          50.67136001586914,
+          -4.513666152954102,
+          7.073506832122803
+        ]
+      },
+      "vertexCount": 460,
+      "triangleCount": 426,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HB_CliffWall05",
+      "count": 52,
+      "theatre": "Heidelberg_HB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -53.22452926635742,
+          -70.013671875
+        ],
+        "max": [
+          100,
+          57.753868103027344,
+          3.0312581062316895
+        ]
+      },
+      "vertexCount": 185,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HA_SeaCliffWall04",
+      "count": 52,
+      "theatre": "Hawaii_HA",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -39.874977111816406,
+          -36.24319076538086,
+          -80.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          50,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 248,
+      "triangleCount": 258,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff17",
+      "count": 52,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -69.39176177978516,
+          -119.89344787597656,
+          -180.1395263671875
+        ],
+        "max": [
+          89.84884643554688,
+          24.96005630493164,
+          6.062514781951904
+        ]
+      },
+      "vertexCount": 533,
+      "triangleCount": 493,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall09",
+      "count": 51,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -45,
+          -42.45155334472656,
+          -80.013671875
+        ],
+        "max": [
+          45.000003814697266,
+          27.753883361816406,
+          7.686400890350342
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 178,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "BB_CliffWall01",
+      "count": 48,
+      "theatre": "Brighton_Beach_BB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -60.00000762939453,
+          -82.71430969238281,
+          -108.53695678710938
+        ],
+        "max": [
+          60.00000762939453,
+          19.840927124023438,
+          1.3044259548187256
+        ]
+      },
+      "vertexCount": 119,
+      "triangleCount": 190,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff08",
+      "count": 48,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -83.64065551757812,
+          -132.81494140625,
+          -79.9961929321289
+        ],
+        "max": [
+          70.98301696777344,
+          26.422584533691406,
+          2.664012908935547
+        ]
+      },
+      "vertexCount": 754,
+      "triangleCount": 699,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_CliffWall09_GRID",
+      "count": 45,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 90,
+        "h": 2,
+        "mj": 90
+      },
+      "bounds": {
+        "min": [
+          -68.19216918945312,
+          -107.56185150146484,
+          -180.1395263671875
+        ],
+        "max": [
+          90.03781127929688,
+          37.291648864746094,
+          0.4390360116958618
+        ]
+      },
+      "vertexCount": 492,
+      "triangleCount": 461,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall07",
+      "count": 43,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -19.034717559814453,
+          -72.67495727539062,
+          -169.21719360351562
+        ],
+        "max": [
+          63.51573944091797,
+          19.395235061645508,
+          0.31801098585128784
+        ]
+      },
+      "vertexCount": 183,
+      "triangleCount": 181,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MJ_CliffWall02",
+      "count": 43,
+      "theatre": "Mount_Fuji_MJ",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -29.999996185302734,
+          -87.49031066894531,
+          -60
+        ],
+        "max": [
+          88.49746704101562,
+          30.000001907348633,
+          1.3044259548187256
+        ]
+      },
+      "vertexCount": 129,
+      "triangleCount": 178,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MJ_CliffWall01",
+      "count": 43,
+      "theatre": "Mount_Fuji_MJ",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -60,
+          -60.51818084716797,
+          -60
+        ],
+        "max": [
+          60.00000762939453,
+          19.840927124023438,
+          1.3044259548187256
+        ]
+      },
+      "vertexCount": 78,
+      "triangleCount": 120,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff18",
+      "count": 43,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -83.64065551757812,
+          -132.81494140625,
+          -182.0477752685547
+        ],
+        "max": [
+          70.98301696777344,
+          26.422584533691406,
+          6.062509059906006
+        ]
+      },
+      "vertexCount": 754,
+      "triangleCount": 699,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall09",
+      "count": 42,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -45.000003814697266,
+          -42.45155334472656,
+          -70.013671875
+        ],
+        "max": [
+          45.000003814697266,
+          27.753883361816406,
+          7.686400890350342
+        ]
+      },
+      "vertexCount": 156,
+      "triangleCount": 178,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall09",
+      "count": 41,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -69.39176177978516,
+          -119.89344787597656,
+          -180.1395263671875
+        ],
+        "max": [
+          89.84884643554688,
+          24.96005630493164,
+          6.062514781951904
+        ]
+      },
+      "vertexCount": 533,
+      "triangleCount": 493,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall010",
+      "count": 39,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -83.64065551757812,
+          -132.81494140625,
+          -182.0477752685547
+        ],
+        "max": [
+          70.98301696777344,
+          26.422584533691406,
+          6.062509059906006
+        ]
+      },
+      "vertexCount": 754,
+      "triangleCount": 699,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff11",
+      "count": 39,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -27.753883361816406,
+          -45,
+          -70
+        ],
+        "max": [
+          45.00000762939453,
+          27.753868103027344,
+          0.15900500118732452
+        ]
+      },
+      "vertexCount": 77,
+      "triangleCount": 93,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "VL_CliffWall02",
+      "count": 39,
+      "theatre": "Vladivostok_VL",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -44.99999237060547,
+          -91.24486541748047,
+          -108.53694915771484
+        ],
+        "max": [
+          45.000022888183594,
+          17.667015075683594,
+          5.921471118927002
+        ]
+      },
+      "vertexCount": 121,
+      "triangleCount": 132,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "GV_CliffWall02",
+      "count": 38,
+      "theatre": "Gypsy_Village_GV",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -19.03471565246582,
+          -58.3586311340332,
+          -70
+        ],
+        "max": [
+          58.71916961669922,
+          19.395238876342773,
+          0.15900500118732452
+        ]
+      },
+      "vertexCount": 77,
+      "triangleCount": 93,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff02",
+      "count": 34,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -110.30789184570312,
+          -96.04112243652344,
+          -135.1262664794922
+        ],
+        "max": [
+          104.38627624511719,
+          -0.1476140022277832,
+          -0.28848299384117126
+        ]
+      },
+      "vertexCount": 776,
+      "triangleCount": 772,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall11",
+      "count": 32,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -45,
+          -47.377960205078125,
+          -70
+        ],
+        "max": [
+          45.000003814697266,
+          27.753883361816406,
+          12.954269409179688
+        ]
+      },
+      "vertexCount": 873,
+      "triangleCount": 730,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_CliffWall010_GRID",
+      "count": 32,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 90,
+        "h": 2,
+        "mj": 90
+      },
+      "bounds": {
+        "min": [
+          -93.91635131835938,
+          -127.30115509033203,
+          -182.0477752685547
+        ],
+        "max": [
+          60.037811279296875,
+          33.258399963378906,
+          0.43146198987960815
+        ]
+      },
+      "vertexCount": 733,
+      "triangleCount": 683,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "GV_CliffWall04",
+      "count": 31,
+      "theatre": "Gypsy_Village_GV",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -69.39176177978516,
+          -86.01834106445312,
+          -70.013671875
+        ],
+        "max": [
+          80.60823822021484,
+          24.96005630493164,
+          3.0312581062316895
+        ]
+      },
+      "vertexCount": 185,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "GV_CliffWall05",
+      "count": 31,
+      "theatre": "Gypsy_Village_GV",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -79.01698303222656,
+          -84.55582427978516,
+          -70
+        ],
+        "max": [
+          70.98301696777344,
+          26.422584533691406,
+          3.0312540531158447
+        ]
+      },
+      "vertexCount": 185,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "BB_CliffWall02",
+      "count": 30,
+      "theatre": "Brighton_Beach_BB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -29.999996185302734,
+          -99.04550170898438,
+          -108.53695678710938
+        ],
+        "max": [
+          105.80762481689453,
+          30.000003814697266,
+          1.3044259548187256
+        ]
+      },
+      "vertexCount": 192,
+      "triangleCount": 282,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MY_CliffWall07",
+      "count": 29,
+      "theatre": "Mykonos_MY",
+      "collision": {
+        "fp": 15,
+        "h": 2,
+        "mj": 15
+      },
+      "bounds": {
+        "min": [
+          -15.000003814697266,
+          -70.9724349975586,
+          -72.08404541015625
+        ],
+        "max": [
+          15.005718231201172,
+          -4.567593097686768,
+          2.794126033782959
+        ]
+      },
+      "vertexCount": 145,
+      "triangleCount": 101,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HA_SeaCliffWall06",
+      "count": 29,
+      "theatre": "Hawaii_HA",
+      "collision": {
+        "fp": 75,
+        "h": 5,
+        "mj": 75
+      },
+      "bounds": {
+        "min": [
+          -100,
+          -33.22454071044922,
+          -80.013671875
+        ],
+        "max": [
+          50,
+          77.75386810302734,
+          3.0312540531158447
+        ]
+      },
+      "vertexCount": 185,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_CliffWall08_GRID",
+      "count": 29,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 60,
+        "h": 2,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -94.46563720703125,
+          -105.34196472167969,
+          -170.3980255126953
+        ],
+        "max": [
+          30.037811279296875,
+          30.000015258789062,
+          0.3180080056190491
+        ]
+      },
+      "vertexCount": 758,
+      "triangleCount": 687,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HA_SeaCliffWall05",
+      "count": 28,
+      "theatre": "Hawaii_HA",
+      "collision": {
+        "fp": 75,
+        "h": 5,
+        "mj": 75
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -33.22453308105469,
+          -80.013671875
+        ],
+        "max": [
+          100,
+          77.75386810302734,
+          3.0312581062316895
+        ]
+      },
+      "vertexCount": 185,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall08_GRID",
+      "count": 28,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 60,
+        "h": 2,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -94.46563720703125,
+          -105.34196472167969,
+          -170.3980255126953
+        ],
+        "max": [
+          30.037811279296875,
+          30.000015258789062,
+          0.3180080056190491
+        ]
+      },
+      "vertexCount": 758,
+      "triangleCount": 687,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall12",
+      "count": 27,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -69.8749771118164,
+          -66.24319458007812,
+          -80.013671875
+        ],
+        "max": [
+          15.000003814697266,
+          15,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 250,
+      "triangleCount": 260,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall10",
+      "count": 27,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -27.753883361816406,
+          -45,
+          -70
+        ],
+        "max": [
+          45.00000762939453,
+          27.753868103027344,
+          0.15900500118732452
+        ]
+      },
+      "vertexCount": 77,
+      "triangleCount": 93,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall14",
+      "count": 27,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 75,
+        "h": 5,
+        "mj": 75
+      },
+      "bounds": {
+        "min": [
+          -75,
+          -63.22453308105469,
+          -79.99999237060547
+        ],
+        "max": [
+          75.00000762939453,
+          57.753868103027344,
+          3.031256914138794
+        ]
+      },
+      "vertexCount": 223,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HB_CliffWall02",
+      "count": 27,
+      "theatre": "Heidelberg_HB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -27.753883361816406,
+          -50,
+          -70
+        ],
+        "max": [
+          50.000003814697266,
+          27.753870010375977,
+          0.15900500118732452
+        ]
+      },
+      "vertexCount": 77,
+      "triangleCount": 93,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MY_CliffWall06",
+      "count": 27,
+      "theatre": "Mykonos_MY",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -77.19071960449219,
+          -80.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          -4.513666152954102,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 165,
+      "triangleCount": 164,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HA_SeaCliffWall03",
+      "count": 27,
+      "theatre": "Hawaii_HA",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -44.92316818237305,
+          -80.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          27.75388526916504,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 160,
+      "triangleCount": 164,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall13",
+      "count": 24,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 75,
+        "h": 5,
+        "mj": 75
+      },
+      "bounds": {
+        "min": [
+          -75.00000762939453,
+          -63.22454071044922,
+          -79.99999237060547
+        ],
+        "max": [
+          75,
+          57.753868103027344,
+          3.031255006790161
+        ]
+      },
+      "vertexCount": 185,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff04",
+      "count": 20,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -50,
+          -47.377960205078125,
+          -70
+        ],
+        "max": [
+          50.000003814697266,
+          27.75388526916504,
+          12.954269409179688
+        ]
+      },
+      "vertexCount": 692,
+      "triangleCount": 602,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_VolcCliffWall02",
+      "count": 18,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 2,
+        "h": 2,
+        "mj": 2
+      },
+      "bounds": {
+        "min": [
+          -19.034709930419922,
+          -72.67496490478516,
+          -74.62432861328125
+        ],
+        "max": [
+          63.5157470703125,
+          19.395240783691406,
+          0.14024199545383453
+        ]
+      },
+      "vertexCount": 183,
+      "triangleCount": 181,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall09_GRID",
+      "count": 18,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 90,
+        "h": 2,
+        "mj": 90
+      },
+      "bounds": {
+        "min": [
+          -68.19216918945312,
+          -107.56185150146484,
+          -180.1395263671875
+        ],
+        "max": [
+          90.03781127929688,
+          37.291648864746094,
+          6.062514781951904
+        ]
+      },
+      "vertexCount": 513,
+      "triangleCount": 477,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HA_SeaCliffWall01",
+      "count": 18,
+      "theatre": "Hawaii_HA",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -42.45155334472656,
+          -80.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          27.75388526916504,
+          0.5513920187950134
+        ]
+      },
+      "vertexCount": 162,
+      "triangleCount": 178,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MJ_CliffWall10",
+      "count": 17,
+      "theatre": "Mount_Fuji_MJ",
+      "collision": {
+        "fp": 105,
+        "h": 5,
+        "mj": 105,
+        "mn": 60
+      },
+      "bounds": {
+        "min": [
+          -105,
+          -93.44171905517578,
+          -62.38545608520508
+        ],
+        "max": [
+          105.00000762939453,
+          48.59539794921875,
+          1.3044259548187256
+        ]
+      },
+      "vertexCount": 317,
+      "triangleCount": 375,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall10",
+      "count": 16,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -27.753883361816406,
+          -45,
+          -80.013671875
+        ],
+        "max": [
+          45.00000762939453,
+          27.753868103027344,
+          0.15900500118732452
+        ]
+      },
+      "vertexCount": 77,
+      "triangleCount": 93,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MJ_CliffWall03",
+      "count": 16,
+      "theatre": "Mount_Fuji_MJ",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -48.1031494140625,
+          -90,
+          -60
+        ],
+        "max": [
+          90.00000762939453,
+          48.09551239013672,
+          1.304427981376648
+        ]
+      },
+      "vertexCount": 143,
+      "triangleCount": 218,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HA_SeaCliffWall02",
+      "count": 15,
+      "theatre": "Hawaii_HA",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -27.753883361816406,
+          -50,
+          -80.013671875
+        ],
+        "max": [
+          50.000003814697266,
+          27.753870010375977,
+          0.15900500118732452
+        ]
+      },
+      "vertexCount": 77,
+      "triangleCount": 93,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall13",
+      "count": 14,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 75,
+        "h": 5,
+        "mj": 75
+      },
+      "bounds": {
+        "min": [
+          -75.00000762939453,
+          -63.22454071044922,
+          -79.99999237060547
+        ],
+        "max": [
+          75,
+          57.753868103027344,
+          3.031255006790161
+        ]
+      },
+      "vertexCount": 185,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_VolcCliffWall03",
+      "count": 14,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 2,
+        "h": 2,
+        "mj": 2
+      },
+      "bounds": {
+        "min": [
+          -109.74769592285156,
+          -123.95770263671875,
+          -74.88365173339844
+        ],
+        "max": [
+          7.485764026641846,
+          7.106266021728516,
+          0.13975299894809723
+        ]
+      },
+      "vertexCount": 750,
+      "triangleCount": 679,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall18",
+      "count": 13,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 30,
+        "mn": 45
+      },
+      "bounds": {
+        "min": [
+          -30,
+          -42.451568603515625,
+          -70.013671875
+        ],
+        "max": [
+          30.000003814697266,
+          27.753883361816406,
+          6.008328914642334
+        ]
+      },
+      "vertexCount": 192,
+      "triangleCount": 248,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall11",
+      "count": 13,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -45,
+          -44.92316818237305,
+          -80.013671875
+        ],
+        "max": [
+          45.000003814697266,
+          27.753883361816406,
+          0.15900400280952454
+        ]
+      },
+      "vertexCount": 165,
+      "triangleCount": 164,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "IL_SeaCliffWall07",
+      "count": 13,
+      "theatre": "Iceland_IL",
+      "collision": {
+        "fp": 60,
+        "h": 0,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -81.34832763671875,
+          -117.88021087646484,
+          -150.70635986328125
+        ],
+        "max": [
+          73.1348648071289,
+          24.23416519165039,
+          16.318674087524414
+        ]
+      },
+      "vertexCount": 1048,
+      "triangleCount": 909,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "IL_SeaCliffWall06",
+      "count": 12,
+      "theatre": "Iceland_IL",
+      "collision": {
+        "fp": 60,
+        "h": 0,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -50.000003814697266,
+          -113.39509582519531,
+          -147.439208984375
+        ],
+        "max": [
+          50.67136001586914,
+          -4.513666152954102,
+          15.00623893737793
+        ]
+      },
+      "vertexCount": 504,
+      "triangleCount": 454,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_VolcCliffWall01",
+      "count": 11,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 2,
+        "h": 2,
+        "mj": 2
+      },
+      "bounds": {
+        "min": [
+          -49.936622619628906,
+          -113.39509582519531,
+          -74.9198989868164
+        ],
+        "max": [
+          50.92331314086914,
+          -4.513666152954102,
+          14.264775276184082
+        ]
+      },
+      "vertexCount": 538,
+      "triangleCount": 484,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MJ_CliffWall05",
+      "count": 11,
+      "theatre": "Mount_Fuji_MJ",
+      "collision": {
+        "fp": 105,
+        "h": 5,
+        "mj": 105,
+        "mn": 60
+      },
+      "bounds": {
+        "min": [
+          -105.00000762939453,
+          -87.49030303955078,
+          -60
+        ],
+        "max": [
+          105,
+          48.59540557861328,
+          1.3044240474700928
+        ]
+      },
+      "vertexCount": 175,
+      "triangleCount": 218,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_DesolatorCliffWall011_GRID",
+      "count": 9,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 240,
+        "h": 2,
+        "mj": 60,
+        "mn": 240
+      },
+      "bounds": {
+        "min": [
+          -98.75801086425781,
+          -357.57269287109375,
+          -203.8380584716797
+        ],
+        "max": [
+          49.999996185302734,
+          33.258399963378906,
+          0.5146570205688477
+        ]
+      },
+      "vertexCount": 694,
+      "triangleCount": 632,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_DesolatorCliffWall12_GRID",
+      "count": 9,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 240,
+        "h": 2,
+        "mj": 60,
+        "mn": 240
+      },
+      "bounds": {
+        "min": [
+          -49.999996185302734,
+          -357.57269287109375,
+          -203.83802795410156
+        ],
+        "max": [
+          98.75801086425781,
+          33.258399963378906,
+          0.5146570205688477
+        ]
+      },
+      "vertexCount": 694,
+      "triangleCount": 632,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff15",
+      "count": 9,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -19.034717559814453,
+          -72.67495727539062,
+          -169.21719360351562
+        ],
+        "max": [
+          63.51573944091797,
+          19.395235061645508,
+          0.31801098585128784
+        ]
+      },
+      "vertexCount": 183,
+      "triangleCount": 181,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "BB_CliffWall09",
+      "count": 8,
+      "theatre": "Brighton_Beach_BB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -29.999996185302734,
+          -99.04550170898438,
+          -108.62625122070312
+        ],
+        "max": [
+          110.3162841796875,
+          30.000003814697266,
+          1.3044259548187256
+        ]
+      },
+      "vertexCount": 354,
+      "triangleCount": 443,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_CliffWall011_GRID",
+      "count": 8,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 240,
+        "h": 2,
+        "mj": 60,
+        "mn": 240
+      },
+      "bounds": {
+        "min": [
+          -98.75801086425781,
+          -357.57269287109375,
+          -203.8380584716797
+        ],
+        "max": [
+          49.999996185302734,
+          33.258399963378906,
+          0.5146570205688477
+        ]
+      },
+      "vertexCount": 694,
+      "triangleCount": 632,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_CliffWall12_GRID",
+      "count": 8,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 240,
+        "h": 2,
+        "mj": 60,
+        "mn": 240
+      },
+      "bounds": {
+        "min": [
+          -49.999996185302734,
+          -357.57269287109375,
+          -203.83802795410156
+        ],
+        "max": [
+          98.75801086425781,
+          33.258399963378906,
+          0.5146570205688477
+        ]
+      },
+      "vertexCount": 694,
+      "triangleCount": 632,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MJ_CliffWall04",
+      "count": 8,
+      "theatre": "Mount_Fuji_MJ",
+      "collision": {
+        "fp": 105,
+        "h": 5,
+        "mj": 105,
+        "mn": 60
+      },
+      "bounds": {
+        "min": [
+          -105,
+          -87.49030303955078,
+          -60
+        ],
+        "max": [
+          105.00000762939453,
+          48.59539794921875,
+          1.3044259548187256
+        ]
+      },
+      "vertexCount": 143,
+      "triangleCount": 218,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff01",
+      "count": 8,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -146.34169006347656,
+          -96.04112243652344,
+          -135.1262664794922
+        ],
+        "max": [
+          146.28164672851562,
+          -0.1476289927959442,
+          -0.28848299384117126
+        ]
+      },
+      "vertexCount": 776,
+      "triangleCount": 772,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall14",
+      "count": 7,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 75,
+        "h": 5,
+        "mj": 75
+      },
+      "bounds": {
+        "min": [
+          -75,
+          -63.22453308105469,
+          -79.99999237060547
+        ],
+        "max": [
+          75.00000762939453,
+          57.753868103027344,
+          3.031256914138794
+        ]
+      },
+      "vertexCount": 223,
+      "triangleCount": 211,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MJ_CliffWall09",
+      "count": 7,
+      "theatre": "Mount_Fuji_MJ",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -29.999996185302734,
+          -87.49031066894531,
+          -60
+        ],
+        "max": [
+          88.49746704101562,
+          30.000001907348633,
+          1.3044259548187256
+        ]
+      },
+      "vertexCount": 253,
+      "triangleCount": 308,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff14",
+      "count": 7,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -50.188575744628906,
+          -113.39509582519531,
+          -166.78359985351562
+        ],
+        "max": [
+          50.67136001586914,
+          -4.513666152954102,
+          7.073506832122803
+        ]
+      },
+      "vertexCount": 460,
+      "triangleCount": 426,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "BB_CliffWall06",
+      "count": 6,
+      "theatre": "Brighton_Beach_BB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 15,
+        "mn": 60
+      },
+      "bounds": {
+        "min": [
+          -15,
+          -93.33056640625,
+          -108.62625122070312
+        ],
+        "max": [
+          15.000011444091797,
+          19.704734802246094,
+          1.304427981376648
+        ]
+      },
+      "vertexCount": 143,
+      "triangleCount": 164,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "BB_CliffWall08",
+      "count": 6,
+      "theatre": "Brighton_Beach_BB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 30,
+        "mn": 60
+      },
+      "bounds": {
+        "min": [
+          -30.000015258789062,
+          -70.10194396972656,
+          -108.53695678710938
+        ],
+        "max": [
+          30.000015258789062,
+          19.840927124023438,
+          2.627471923828125
+        ]
+      },
+      "vertexCount": 164,
+      "triangleCount": 198,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "BB_CliffWall03",
+      "count": 6,
+      "theatre": "Brighton_Beach_BB",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -48.1031494140625,
+          -90.00000762939453,
+          -108.53695678710938
+        ],
+        "max": [
+          90.00000762939453,
+          48.09551239013672,
+          1.304427981376648
+        ]
+      },
+      "vertexCount": 218,
+      "triangleCount": 346,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "RM_CliffWall07_GRID",
+      "count": 5,
+      "theatre": "Romania_RM",
+      "collision": {
+        "fp": 60,
+        "h": 2,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -33.25840377807617,
+          -65.7071304321289,
+          -169.21719360351562
+        ],
+        "max": [
+          60.03781509399414,
+          33.258419036865234,
+          0.31801098585128784
+        ]
+      },
+      "vertexCount": 183,
+      "triangleCount": 181,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall010_GRID",
+      "count": 5,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 90,
+        "h": 2,
+        "mj": 90
+      },
+      "bounds": {
+        "min": [
+          -93.91635131835938,
+          -127.30115509033203,
+          -182.0477752685547
+        ],
+        "max": [
+          60.037811279296875,
+          33.258399963378906,
+          6.062509059906006
+        ]
+      },
+      "vertexCount": 754,
+      "triangleCount": 699,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff12",
+      "count": 5,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -45,
+          -47.377960205078125,
+          -70
+        ],
+        "max": [
+          45.000003814697266,
+          27.753883361816406,
+          12.954269409179688
+        ]
+      },
+      "vertexCount": 874,
+      "triangleCount": 730,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall17",
+      "count": 4,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 15,
+        "mn": 45
+      },
+      "bounds": {
+        "min": [
+          -15.000003814697266,
+          -38.65095520019531,
+          -72.08404541015625
+        ],
+        "max": [
+          15.005718231201172,
+          27.753887176513672,
+          2.794126033782959
+        ]
+      },
+      "vertexCount": 145,
+      "triangleCount": 101,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "BB_CliffWall04",
+      "count": 4,
+      "theatre": "Brighton_Beach_BB",
+      "collision": {
+        "fp": 105,
+        "h": 5,
+        "mj": 105,
+        "mn": 60
+      },
+      "bounds": {
+        "min": [
+          -105.00001525878906,
+          -99.04548645019531,
+          -109.24127960205078
+        ],
+        "max": [
+          105.00000762939453,
+          48.59539794921875,
+          1.3044259548187256
+        ]
+      },
+      "vertexCount": 218,
+      "triangleCount": 346,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "BB_CliffWall05",
+      "count": 4,
+      "theatre": "Brighton_Beach_BB",
+      "collision": {
+        "fp": 105,
+        "h": 5,
+        "mj": 105,
+        "mn": 60
+      },
+      "bounds": {
+        "min": [
+          -105.00000762939453,
+          -99.04550170898438,
+          -109.24127197265625
+        ],
+        "max": [
+          105.00001525878906,
+          48.59539794921875,
+          1.304429054260254
+        ]
+      },
+      "vertexCount": 218,
+      "triangleCount": 346,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall15",
+      "count": 3,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 15,
+        "mn": 45
+      },
+      "bounds": {
+        "min": [
+          -15.000003814697266,
+          -38.65095520019531,
+          -72.08404541015625
+        ],
+        "max": [
+          15.005718231201172,
+          27.753887176513672,
+          2.794126033782959
+        ]
+      },
+      "vertexCount": 145,
+      "triangleCount": 101,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall12",
+      "count": 3,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -85.55304718017578,
+          -113.39509582519531,
+          -166.78359985351562
+        ],
+        "max": [
+          81.35340881347656,
+          53.31283950805664,
+          41.49315643310547
+        ]
+      },
+      "vertexCount": 516,
+      "triangleCount": 472,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MJ_CliffWall08",
+      "count": 3,
+      "theatre": "Mount_Fuji_MJ",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 30,
+        "mn": 60
+      },
+      "bounds": {
+        "min": [
+          -30.00000762939453,
+          -57.490318298339844,
+          -60
+        ],
+        "max": [
+          30.000015258789062,
+          19.840927124023438,
+          2.627471923828125
+        ]
+      },
+      "vertexCount": 135,
+      "triangleCount": 164,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall15",
+      "count": 2,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -45,
+          -175.9212188720703,
+          -70.00000762939453
+        ],
+        "max": [
+          50,
+          27.753887176513672,
+          0.22752800583839417
+        ]
+      },
+      "vertexCount": 125,
+      "triangleCount": 144,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_CliffWall16",
+      "count": 2,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -175.9212188720703,
+          -70.00000762939453
+        ],
+        "max": [
+          45,
+          27.75388526916504,
+          0.22752800583839417
+        ]
+      },
+      "vertexCount": 125,
+      "triangleCount": 144,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall011",
+      "count": 2,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 40,
+        "h": 2,
+        "mj": 40
+      },
+      "bounds": {
+        "min": [
+          -98.75801086425781,
+          -357.57269287109375,
+          -203.8380584716797
+        ],
+        "max": [
+          49.999996185302734,
+          27.75388526916504,
+          0.5146570205688477
+        ]
+      },
+      "vertexCount": 694,
+      "triangleCount": 632,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "BB_CliffWall11",
+      "count": 2,
+      "theatre": "Brighton_Beach_BB",
+      "collision": {
+        "fp": 105,
+        "h": 5,
+        "mj": 105,
+        "mn": 60
+      },
+      "bounds": {
+        "min": [
+          -105.00000762939453,
+          -121.5040054321289,
+          -108.68032836914062
+        ],
+        "max": [
+          105.00001525878906,
+          48.59540557861328,
+          1.3044240474700928
+        ]
+      },
+      "vertexCount": 416,
+      "triangleCount": 512,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall06_GRID",
+      "count": 2,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 60,
+        "h": 2,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -60.1865119934082,
+          -105.62301635742188,
+          -166.78359985351562
+        ],
+        "max": [
+          60.275211334228516,
+          3.2584149837493896,
+          7.073506832122803
+        ]
+      },
+      "vertexCount": 460,
+      "triangleCount": 426,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "EI_CliffWall07_GRID",
+      "count": 2,
+      "theatre": "Easter_Island_EI",
+      "collision": {
+        "fp": 60,
+        "h": 2,
+        "mj": 60
+      },
+      "bounds": {
+        "min": [
+          -33.25840377807617,
+          -65.7071304321289,
+          -169.21719360351562
+        ],
+        "max": [
+          60.03781509399414,
+          33.258419036865234,
+          0.31801098585128784
+        ]
+      },
+      "vertexCount": 183,
+      "triangleCount": 181,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MJ_CliffWall07",
+      "count": 2,
+      "theatre": "Mount_Fuji_MJ",
+      "collision": {
+        "fp": 60,
+        "h": 5,
+        "mj": 45,
+        "mn": 60
+      },
+      "bounds": {
+        "min": [
+          -44.99999237060547,
+          -62.931175231933594,
+          -62.42132568359375
+        ],
+        "max": [
+          45.0000114440918,
+          19.840927124023438,
+          3.375663995742798
+        ]
+      },
+      "vertexCount": 152,
+      "triangleCount": 184,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall07",
+      "count": 2,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -143.99264526367188,
+          -80
+        ],
+        "max": [
+          50,
+          27.75388526916504,
+          1.025987982749939
+        ]
+      },
+      "vertexCount": 122,
+      "triangleCount": 139,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "YU_SeaCliffWall08",
+      "count": 2,
+      "theatre": "Yucatan_YU",
+      "collision": {
+        "fp": 50,
+        "h": 2,
+        "mj": 50
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -143.99264526367188,
+          -80
+        ],
+        "max": [
+          50,
+          27.75388526916504,
+          1.025987982749939
+        ]
+      },
+      "vertexCount": 315,
+      "triangleCount": 139,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HA_SeaCliffWall07",
+      "count": 2,
+      "theatre": "Hawaii_HA",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -143.99264526367188,
+          -80
+        ],
+        "max": [
+          50,
+          27.75388526916504,
+          1.025987982749939
+        ]
+      },
+      "vertexCount": 125,
+      "triangleCount": 139,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "HA_SeaCliffWall08",
+      "count": 1,
+      "theatre": "Hawaii_HA",
+      "collision": {
+        "fp": 45,
+        "h": 5,
+        "mj": 45
+      },
+      "bounds": {
+        "min": [
+          -50,
+          -143.99264526367188,
+          -80
+        ],
+        "max": [
+          50,
+          27.75388526916504,
+          1.025987982749939
+        ]
+      },
+      "vertexCount": 125,
+      "triangleCount": 139,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MJ_CliffWall11",
+      "count": 1,
+      "theatre": "Mount_Fuji_MJ",
+      "collision": {
+        "fp": 105,
+        "h": 5,
+        "mj": 105,
+        "mn": 60
+      },
+      "bounds": {
+        "min": [
+          -105.00000762939453,
+          -93.44171905517578,
+          -62.38545227050781
+        ],
+        "max": [
+          105,
+          48.59540557861328,
+          1.3044240474700928
+        ]
+      },
+      "vertexCount": 349,
+      "triangleCount": 375,
+      "skippedSkinned": 0
+    },
+    {
+      "type": "MR_Cliff13",
+      "count": 1,
+      "theatre": "Mount_Rushmore_MR",
+      "collision": null,
+      "bounds": {
+        "min": [
+          -45,
+          -47.377960205078125,
+          -70
+        ],
+        "max": [
+          45.000003814697266,
+          27.753883361816406,
+          12.954269409179688
+        ]
+      },
+      "vertexCount": 874,
+      "triangleCount": 730,
+      "skippedSkinned": 0
+    }
+  ]
+}

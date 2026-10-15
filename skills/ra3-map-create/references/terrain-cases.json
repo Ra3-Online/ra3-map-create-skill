@@ -1,0 +1,1548 @@
+{
+  "version": 2,
+  "date": "2026-10-05",
+  "method": "Read-only full-cell MCP terrain/flag analysis, water polygons and source hashes; diagnostic grids plotted separately; 3D inspected by the creating agent.",
+  "referenceFiles": 9,
+  "referenceCaseGroups": 8,
+  "sourceMapsChanged": 0,
+  "notes": [
+    "Figures use a three-cell display grid; statistics use full-resolution data. Excludes seabed and a four-cell interior shoreline/border margin.",
+    "Bridge/platform surfaces and object collision are outside the heightmap model. No game run or independent model benchmark.",
+    "Original maps and full terrain grids are not distributed."
+  ],
+  "cases": [
+    {
+      "id": "m001",
+      "caseGroup": "m001",
+      "sourceName": "map_mp_2_black1b",
+      "sha256": "01862d99aa70cbcc61b245a02236861c2757c85d7f7b2fd17c2e4c9999f26de9",
+      "sourceUnchanged": true,
+      "kind": "参考",
+      "learn": "中央两级台地、外围台地与宽坡道；基地低地和近矿留空，绕行与上高地形成选择。",
+      "metrics": {
+        "playable": [
+          532,
+          400
+        ],
+        "interiorLand": {
+          "cells": 81040,
+          "min": 202.61,
+          "p05": 210,
+          "p10": 210,
+          "p25": 210,
+          "p50": 210.04,
+          "p75": 284.98,
+          "p90": 284.98,
+          "p95": 354.98,
+          "max": 360
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 210,
+            "to": 215,
+            "cells": 43360,
+            "percent": 53.5
+          },
+          {
+            "from": 280,
+            "to": 285,
+            "cells": 21845,
+            "percent": 26.96
+          },
+          {
+            "from": 350,
+            "to": 355,
+            "cells": 4275,
+            "percent": 5.28
+          },
+          {
+            "from": 205,
+            "to": 210,
+            "cells": 1716,
+            "percent": 2.12
+          },
+          {
+            "from": 215,
+            "to": 220,
+            "cells": 1619,
+            "percent": 2
+          },
+          {
+            "from": 220,
+            "to": 225,
+            "cells": 745,
+            "percent": 0.92
+          },
+          {
+            "from": 285,
+            "to": 290,
+            "cells": 649,
+            "percent": 0.8
+          },
+          {
+            "from": 225,
+            "to": 230,
+            "cells": 526,
+            "percent": 0.65
+          }
+        ],
+        "blockedInteriorPercent": 6.13,
+        "steepInteriorPercent": 3.26,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 41844,
+            "height": 210.09,
+            "bounds": {
+              "x0": 83,
+              "y0": 103,
+              "x1": 510,
+              "y1": 356
+            }
+          },
+          {
+            "cells": 12945,
+            "height": 284.98,
+            "bounds": {
+              "x0": 204,
+              "y0": 138,
+              "x1": 389,
+              "y1": 321
+            }
+          },
+          {
+            "cells": 3879,
+            "height": 354.88,
+            "bounds": {
+              "x0": 247,
+              "y0": 174,
+              "x1": 343,
+              "y1": 283
+            }
+          },
+          {
+            "cells": 2062,
+            "height": 284.98,
+            "bounds": {
+              "x0": 387,
+              "y0": 303,
+              "x1": 447,
+              "y1": 359
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/m001-terrain.png",
+      "overview": "../assets/maps/m001-overview.png",
+      "details": [
+        "../assets/maps/m001-detail.png"
+      ],
+      "gameTested": false
+    },
+    {
+      "id": "m002",
+      "caseGroup": "m002",
+      "sourceName": "map_mp_2_feasel1",
+      "sha256": "78be53de7f93e61815d4614e91125b108c7baf9db8121ea8127f32309632ae25",
+      "sourceUnchanged": true,
+      "kind": "参考",
+      "learn": "湾口、离散高地与低地通道；平台表面需结合实际物件与游戏验证。",
+      "metrics": {
+        "playable": [
+          680,
+          480
+        ],
+        "interiorLand": {
+          "cells": 111241,
+          "min": 203.15,
+          "p05": 210,
+          "p10": 210,
+          "p25": 210,
+          "p50": 210,
+          "p75": 280,
+          "p90": 280,
+          "p95": 280,
+          "max": 284.98
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 210,
+            "to": 215,
+            "cells": 77670,
+            "percent": 69.82
+          },
+          {
+            "from": 280,
+            "to": 285,
+            "cells": 29485,
+            "percent": 26.51
+          },
+          {
+            "from": 205,
+            "to": 210,
+            "cells": 1862,
+            "percent": 1.67
+          },
+          {
+            "from": 275,
+            "to": 280,
+            "cells": 390,
+            "percent": 0.35
+          },
+          {
+            "from": 215,
+            "to": 220,
+            "cells": 196,
+            "percent": 0.18
+          },
+          {
+            "from": 220,
+            "to": 225,
+            "cells": 169,
+            "percent": 0.15
+          },
+          {
+            "from": 270,
+            "to": 275,
+            "cells": 166,
+            "percent": 0.15
+          },
+          {
+            "from": 240,
+            "to": 245,
+            "cells": 152,
+            "percent": 0.14
+          }
+        ],
+        "blockedInteriorPercent": 7.62,
+        "steepInteriorPercent": 3.22,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 79861,
+            "height": 210.01,
+            "bounds": {
+              "x0": 89,
+              "y0": 94,
+              "x1": 620,
+              "y1": 415
+            }
+          },
+          {
+            "cells": 7372,
+            "height": 280,
+            "bounds": {
+              "x0": 498,
+              "y0": 300,
+              "x1": 611,
+              "y1": 406
+            }
+          },
+          {
+            "cells": 7258,
+            "height": 280,
+            "bounds": {
+              "x0": 98,
+              "y0": 298,
+              "x1": 218,
+              "y1": 406
+            }
+          },
+          {
+            "cells": 4726,
+            "height": 280,
+            "bounds": {
+              "x0": 299,
+              "y0": 268,
+              "x1": 420,
+              "y1": 369
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/m002-terrain.png",
+      "overview": "../assets/terrain/m002-overview.png",
+      "details": [],
+      "gameTested": false
+    },
+    {
+      "id": "m003",
+      "caseGroup": "m002",
+      "sourceName": "map_mp_2_feasel1_edit",
+      "sha256": "aa81f70a7a8ee5bd1dc14d207814e69b436513399c0062ba6195716382387dc7",
+      "sourceUnchanged": true,
+      "kind": "参考",
+      "learn": "同图编辑版，归入 m002 案例组；仅作修改前后的结构对照。",
+      "metrics": {
+        "playable": [
+          600,
+          400
+        ],
+        "interiorLand": {
+          "cells": 107669,
+          "min": 208.72,
+          "p05": 210,
+          "p10": 210,
+          "p25": 210,
+          "p50": 210,
+          "p75": 280,
+          "p90": 280,
+          "p95": 280,
+          "max": 284.98
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 210,
+            "to": 215,
+            "cells": 75304,
+            "percent": 69.94
+          },
+          {
+            "from": 280,
+            "to": 285,
+            "cells": 28496,
+            "percent": 26.47
+          },
+          {
+            "from": 205,
+            "to": 210,
+            "cells": 1988,
+            "percent": 1.85
+          },
+          {
+            "from": 275,
+            "to": 280,
+            "cells": 246,
+            "percent": 0.23
+          },
+          {
+            "from": 215,
+            "to": 220,
+            "cells": 211,
+            "percent": 0.2
+          },
+          {
+            "from": 220,
+            "to": 225,
+            "cells": 170,
+            "percent": 0.16
+          },
+          {
+            "from": 235,
+            "to": 240,
+            "cells": 140,
+            "percent": 0.13
+          },
+          {
+            "from": 270,
+            "to": 275,
+            "cells": 138,
+            "percent": 0.13
+          }
+        ],
+        "blockedInteriorPercent": 2.84,
+        "steepInteriorPercent": 3.49,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 75518,
+            "height": 210,
+            "bounds": {
+              "x0": 64,
+              "y0": 59,
+              "x1": 563,
+              "y1": 366
+            }
+          },
+          {
+            "cells": 7000,
+            "height": 280,
+            "bounds": {
+              "x0": 460,
+              "y0": 256,
+              "x1": 574,
+              "y1": 362
+            }
+          },
+          {
+            "cells": 6984,
+            "height": 280,
+            "bounds": {
+              "x0": 65,
+              "y0": 257,
+              "x1": 175,
+              "y1": 361
+            }
+          },
+          {
+            "cells": 4800,
+            "height": 280,
+            "bounds": {
+              "x0": 256,
+              "y0": 226,
+              "x1": 383,
+              "y1": 330
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/m003-terrain.png",
+      "details": [],
+      "gameTested": false
+    },
+    {
+      "id": "m004",
+      "caseGroup": "m004",
+      "sourceName": "map_mp_2_feasel4",
+      "sha256": "e8f0693f2bb4dd8f64304aa2a76cc6962db3abaef6f43ac2c696880c2c008cf9",
+      "sourceUnchanged": true,
+      "kind": "参考",
+      "learn": "工业平台的两级地表和水域凹口；迁移层级关系，勿套成自然山地装饰。",
+      "metrics": {
+        "playable": [
+          500,
+          560
+        ],
+        "interiorLand": {
+          "cells": 87372,
+          "min": 130,
+          "p05": 280,
+          "p10": 280,
+          "p25": 280,
+          "p50": 280,
+          "p75": 350,
+          "p90": 350,
+          "p95": 350,
+          "max": 351.52
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 280,
+            "to": 285,
+            "cells": 51754,
+            "percent": 59.23
+          },
+          {
+            "from": 350,
+            "to": 355,
+            "cells": 28384,
+            "percent": 32.49
+          },
+          {
+            "from": 230,
+            "to": 235,
+            "cells": 1529,
+            "percent": 1.75
+          },
+          {
+            "from": 275,
+            "to": 280,
+            "cells": 1048,
+            "percent": 1.2
+          },
+          {
+            "from": 345,
+            "to": 350,
+            "cells": 760,
+            "percent": 0.87
+          },
+          {
+            "from": 305,
+            "to": 310,
+            "cells": 301,
+            "percent": 0.34
+          },
+          {
+            "from": 335,
+            "to": 340,
+            "cells": 234,
+            "percent": 0.27
+          },
+          {
+            "from": 290,
+            "to": 295,
+            "cells": 233,
+            "percent": 0.27
+          }
+        ],
+        "blockedInteriorPercent": 2.27,
+        "steepInteriorPercent": 2.61,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 28283,
+            "height": 350,
+            "bounds": {
+              "x0": 99,
+              "y0": 171,
+              "x1": 447,
+              "y1": 427
+            }
+          },
+          {
+            "cells": 16822,
+            "height": 280.01,
+            "bounds": {
+              "x0": 54,
+              "y0": 101,
+              "x1": 258,
+              "y1": 295
+            }
+          },
+          {
+            "cells": 16653,
+            "height": 280.01,
+            "bounds": {
+              "x0": 282,
+              "y0": 309,
+              "x1": 487,
+              "y1": 498
+            }
+          },
+          {
+            "cells": 11796,
+            "height": 280,
+            "bounds": {
+              "x0": 250,
+              "y0": 109,
+              "x1": 423,
+              "y1": 275
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/m004-terrain.png",
+      "overview": "../assets/terrain/m004-overview.png",
+      "details": [
+        "../assets/terrain/m004-terrain-detail.png"
+      ],
+      "gameTested": false
+    },
+    {
+      "id": "m005",
+      "caseGroup": "m005",
+      "sourceName": "map_mp_2_feasel5",
+      "sha256": "52fd3060c157df7628dc8a530b31be175b1d1322eb5cc3c2bb07cbe0ee723614",
+      "sourceUnchanged": true,
+      "kind": "参考",
+      "learn": "雪岛的沿岸台地、深入主岛的水湾与实际桥口共同组织路线。",
+      "metrics": {
+        "playable": [
+          540,
+          540
+        ],
+        "interiorLand": {
+          "cells": 92078,
+          "min": 207.28,
+          "p05": 210,
+          "p10": 210,
+          "p25": 210,
+          "p50": 210,
+          "p75": 280,
+          "p90": 280,
+          "p95": 280,
+          "max": 283.85
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 210,
+            "to": 215,
+            "cells": 57294,
+            "percent": 62.22
+          },
+          {
+            "from": 280,
+            "to": 285,
+            "cells": 27828,
+            "percent": 30.22
+          },
+          {
+            "from": 215,
+            "to": 220,
+            "cells": 1198,
+            "percent": 1.3
+          },
+          {
+            "from": 220,
+            "to": 225,
+            "cells": 865,
+            "percent": 0.94
+          },
+          {
+            "from": 225,
+            "to": 230,
+            "cells": 679,
+            "percent": 0.74
+          },
+          {
+            "from": 205,
+            "to": 210,
+            "cells": 582,
+            "percent": 0.63
+          },
+          {
+            "from": 275,
+            "to": 280,
+            "cells": 544,
+            "percent": 0.59
+          },
+          {
+            "from": 230,
+            "to": 235,
+            "cells": 534,
+            "percent": 0.58
+          }
+        ],
+        "blockedInteriorPercent": 2.54,
+        "steepInteriorPercent": 2.26,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 58461,
+            "height": 210.02,
+            "bounds": {
+              "x0": 99,
+              "y0": 110,
+              "x1": 478,
+              "y1": 470
+            }
+          },
+          {
+            "cells": 7434,
+            "height": 280,
+            "bounds": {
+              "x0": 361,
+              "y0": 82,
+              "x1": 476,
+              "y1": 189
+            }
+          },
+          {
+            "cells": 7379,
+            "height": 280,
+            "bounds": {
+              "x0": 101,
+              "y0": 385,
+              "x1": 216,
+              "y1": 493
+            }
+          },
+          {
+            "cells": 4796,
+            "height": 280,
+            "bounds": {
+              "x0": 79,
+              "y0": 278,
+              "x1": 175,
+              "y1": 358
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/m005-terrain.png",
+      "overview": "../assets/maps/m005-overview.png",
+      "details": [
+        "../assets/maps/m005-detail.png"
+      ],
+      "gameTested": false
+    },
+    {
+      "id": "m006",
+      "caseGroup": "m006",
+      "sourceName": "map_mp_2_feasel6",
+      "sha256": "b71266c00e3f76d16c951c1c05e3e244ff5c95b5c8bf7c1330cbae93497cd575",
+      "sourceUnchanged": true,
+      "kind": "参考",
+      "learn": "弯曲高地包围低地，通路从缺口与侧面连接，矿区不依赖细噪声。",
+      "metrics": {
+        "playable": [
+          472,
+          472
+        ],
+        "interiorLand": {
+          "cells": 85594,
+          "min": 208.44,
+          "p05": 210,
+          "p10": 210,
+          "p25": 210,
+          "p50": 210,
+          "p75": 210.74,
+          "p90": 280,
+          "p95": 280,
+          "max": 293.15
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 210,
+            "to": 215,
+            "cells": 64242,
+            "percent": 75.05
+          },
+          {
+            "from": 280,
+            "to": 285,
+            "cells": 17917,
+            "percent": 20.93
+          },
+          {
+            "from": 275,
+            "to": 280,
+            "cells": 420,
+            "percent": 0.49
+          },
+          {
+            "from": 235,
+            "to": 240,
+            "cells": 403,
+            "percent": 0.47
+          },
+          {
+            "from": 250,
+            "to": 255,
+            "cells": 386,
+            "percent": 0.45
+          },
+          {
+            "from": 285,
+            "to": 290,
+            "cells": 360,
+            "percent": 0.42
+          },
+          {
+            "from": 205,
+            "to": 210,
+            "cells": 202,
+            "percent": 0.24
+          },
+          {
+            "from": 265,
+            "to": 270,
+            "cells": 193,
+            "percent": 0.23
+          }
+        ],
+        "blockedInteriorPercent": 8.39,
+        "steepInteriorPercent": 4.6,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 65711,
+            "height": 210,
+            "bounds": {
+              "x0": 68,
+              "y0": 69,
+              "x1": 443,
+              "y1": 440
+            }
+          },
+          {
+            "cells": 5335,
+            "height": 280.07,
+            "bounds": {
+              "x0": 314,
+              "y0": 271,
+              "x1": 429,
+              "y1": 422
+            }
+          },
+          {
+            "cells": 5250,
+            "height": 280.08,
+            "bounds": {
+              "x0": 82,
+              "y0": 89,
+              "x1": 197,
+              "y1": 240
+            }
+          },
+          {
+            "cells": 3392,
+            "height": 280,
+            "bounds": {
+              "x0": 217,
+              "y0": 219,
+              "x1": 297,
+              "y1": 289
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/m006-terrain.png",
+      "overview": "../assets/terrain/m006-overview.png",
+      "details": [
+        "../assets/terrain/m006-terrain-detail.png"
+      ],
+      "gameTested": false
+    },
+    {
+      "id": "m007",
+      "caseGroup": "m007",
+      "sourceName": "map_mp_2_feasel7",
+      "sha256": "85e0fc05cc1952ad5a283d89951c042d1442c8c877d2d4899f81a6dba4418e9b",
+      "sourceUnchanged": true,
+      "kind": "分岛",
+      "learn": "内部陆地几乎共层；分岛、水道、海上扩张与桥梁提供结构，不能强迫造山。",
+      "metrics": {
+        "playable": [
+          400,
+          400
+        ],
+        "interiorLand": {
+          "cells": 34241,
+          "min": 206.69,
+          "p05": 209.84,
+          "p10": 210,
+          "p25": 210,
+          "p50": 210,
+          "p75": 210,
+          "p90": 210,
+          "p95": 210,
+          "max": 218.29
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 210,
+            "to": 215,
+            "cells": 31718,
+            "percent": 92.63
+          },
+          {
+            "from": 205,
+            "to": 210,
+            "cells": 2505,
+            "percent": 7.32
+          },
+          {
+            "from": 215,
+            "to": 220,
+            "cells": 18,
+            "percent": 0.05
+          }
+        ],
+        "blockedInteriorPercent": 0,
+        "steepInteriorPercent": 0,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 13722,
+            "height": 210.01,
+            "bounds": {
+              "x0": 139,
+              "y0": 241,
+              "x1": 356,
+              "y1": 358
+            }
+          },
+          {
+            "cells": 13651,
+            "height": 210.01,
+            "bounds": {
+              "x0": 82,
+              "y0": 81,
+              "x1": 300,
+              "y1": 198
+            }
+          },
+          {
+            "cells": 3319,
+            "height": 210,
+            "bounds": {
+              "x0": 342,
+              "y0": 20,
+              "x1": 419,
+              "y1": 90
+            }
+          },
+          {
+            "cells": 3319,
+            "height": 210,
+            "bounds": {
+              "x0": 20,
+              "y0": 349,
+              "x1": 97,
+              "y1": 419
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/m007-terrain.png",
+      "overview": "../assets/terrain/m007-overview.png",
+      "details": [
+        "../assets/terrain/m007-terrain-detail.png"
+      ],
+      "gameTested": false
+    },
+    {
+      "id": "m008",
+      "caseGroup": "m008",
+      "sourceName": "map_mp_2_feasel8",
+      "sha256": "d0b77028699c0d6dabb60e0ff1ecc446b5a9d8d1230dc280a52faf0314326a79",
+      "sourceUnchanged": true,
+      "kind": "参考",
+      "learn": "平整作战空间贴邻曲折山脊，成片阻挡分路，避免均匀小鼓包。",
+      "metrics": {
+        "playable": [
+          500,
+          500
+        ],
+        "interiorLand": {
+          "cells": 88619,
+          "min": 202.57,
+          "p05": 215.6,
+          "p10": 215.6,
+          "p25": 215.6,
+          "p50": 215.6,
+          "p75": 234.9,
+          "p90": 281.01,
+          "p95": 299.61,
+          "max": 360.82
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 215,
+            "to": 220,
+            "cells": 58891,
+            "percent": 66.45
+          },
+          {
+            "from": 210,
+            "to": 215,
+            "cells": 2296,
+            "percent": 2.59
+          },
+          {
+            "from": 220,
+            "to": 225,
+            "cells": 1843,
+            "percent": 2.08
+          },
+          {
+            "from": 225,
+            "to": 230,
+            "cells": 1721,
+            "percent": 1.94
+          },
+          {
+            "from": 230,
+            "to": 235,
+            "cells": 1584,
+            "percent": 1.79
+          },
+          {
+            "from": 235,
+            "to": 240,
+            "cells": 1537,
+            "percent": 1.73
+          },
+          {
+            "from": 275,
+            "to": 280,
+            "cells": 1496,
+            "percent": 1.69
+          },
+          {
+            "from": 240,
+            "to": 245,
+            "cells": 1468,
+            "percent": 1.66
+          }
+        ],
+        "blockedInteriorPercent": 29.34,
+        "steepInteriorPercent": 13.43,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 56806,
+            "height": 215.63,
+            "bounds": {
+              "x0": 108,
+              "y0": 77,
+              "x1": 431,
+              "y1": 464
+            }
+          },
+          {
+            "cells": 1006,
+            "height": 214.91,
+            "bounds": {
+              "x0": 127,
+              "y0": 99,
+              "x1": 173,
+              "y1": 138
+            }
+          },
+          {
+            "cells": 302,
+            "height": 214.97,
+            "bounds": {
+              "x0": 383,
+              "y0": 414,
+              "x1": 406,
+              "y1": 439
+            }
+          },
+          {
+            "cells": 128,
+            "height": 215.59,
+            "bounds": {
+              "x0": 140,
+              "y0": 438,
+              "x1": 153,
+              "y1": 464
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/m008-terrain.png",
+      "overview": "../assets/terrain/m008-overview.png",
+      "details": [],
+      "gameTested": false
+    },
+    {
+      "id": "m009",
+      "caseGroup": "m009",
+      "sourceName": "MAP_MP_PROMO_Feasel1",
+      "sha256": "e3739ea5c2c4d31fdf2f6b74029774db0e827ff4f0734781dd567f923b5b48e5",
+      "sourceUnchanged": true,
+      "kind": "参考",
+      "learn": "主平地占比大，海湾、边缘山地与城市街区仍组织出明确空间。",
+      "metrics": {
+        "playable": [
+          500,
+          500
+        ],
+        "interiorLand": {
+          "cells": 158987,
+          "min": 100.97,
+          "p05": 210,
+          "p10": 210,
+          "p25": 260,
+          "p50": 260,
+          "p75": 260,
+          "p90": 310,
+          "p95": 330,
+          "max": 401.98
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 260,
+            "to": 265,
+            "cells": 116030,
+            "percent": 72.98
+          },
+          {
+            "from": 210,
+            "to": 215,
+            "cells": 17185,
+            "percent": 10.81
+          },
+          {
+            "from": 310,
+            "to": 315,
+            "cells": 6231,
+            "percent": 3.92
+          },
+          {
+            "from": 350,
+            "to": 355,
+            "cells": 5485,
+            "percent": 3.45
+          },
+          {
+            "from": 330,
+            "to": 335,
+            "cells": 5353,
+            "percent": 3.37
+          },
+          {
+            "from": 280,
+            "to": 285,
+            "cells": 630,
+            "percent": 0.4
+          },
+          {
+            "from": 380,
+            "to": 385,
+            "cells": 570,
+            "percent": 0.36
+          },
+          {
+            "from": 325,
+            "to": 330,
+            "cells": 554,
+            "percent": 0.35
+          }
+        ],
+        "blockedInteriorPercent": 3.51,
+        "steepInteriorPercent": 1.96,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 116132,
+            "height": 260,
+            "bounds": {
+              "x0": 30,
+              "y0": 30,
+              "x1": 529,
+              "y1": 529
+            }
+          },
+          {
+            "cells": 19363,
+            "height": 210.01,
+            "bounds": {
+              "x0": 30,
+              "y0": 30,
+              "x1": 482,
+              "y1": 430
+            }
+          },
+          {
+            "cells": 5884,
+            "height": 310.16,
+            "bounds": {
+              "x0": 388,
+              "y0": 386,
+              "x1": 529,
+              "y1": 529
+            }
+          },
+          {
+            "cells": 5305,
+            "height": 354.98,
+            "bounds": {
+              "x0": 401,
+              "y0": 416,
+              "x1": 529,
+              "y1": 529
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/m009-terrain.png",
+      "overview": "../assets/terrain/m009-overview.png",
+      "details": [],
+      "gameTested": false
+    },
+    {
+      "id": "tidal-flat",
+      "caseGroup": "tidal-flat",
+      "sourceName": "TidalWatch_1v1",
+      "sha256": "023675b288bacb48cb0327a9aa04daf23f3032b2aa4e82109636bfdf812728be",
+      "sourceUnchanged": true,
+      "kind": "反例",
+      "learn": "旧反例：内部无地形阻挡，少量低幅土包和贴图道路不能替代地貌分区。",
+      "metrics": {
+        "playable": [
+          400,
+          400
+        ],
+        "interiorLand": {
+          "cells": 75010,
+          "min": 203.38,
+          "p05": 214.28,
+          "p10": 225.84,
+          "p25": 234.01,
+          "p50": 235.72,
+          "p75": 239.22,
+          "p90": 244.75,
+          "p95": 247.86,
+          "max": 253.15
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 235,
+            "to": 240,
+            "cells": 31004,
+            "percent": 41.33
+          },
+          {
+            "from": 230,
+            "to": 235,
+            "cells": 17930,
+            "percent": 23.9
+          },
+          {
+            "from": 240,
+            "to": 245,
+            "cells": 10140,
+            "percent": 13.52
+          },
+          {
+            "from": 245,
+            "to": 250,
+            "cells": 4882,
+            "percent": 6.51
+          },
+          {
+            "from": 250,
+            "to": 255,
+            "cells": 2038,
+            "percent": 2.72
+          },
+          {
+            "from": 205,
+            "to": 210,
+            "cells": 2028,
+            "percent": 2.7
+          },
+          {
+            "from": 225,
+            "to": 230,
+            "cells": 1840,
+            "percent": 2.45
+          },
+          {
+            "from": 210,
+            "to": 215,
+            "cells": 1696,
+            "percent": 2.26
+          }
+        ],
+        "blockedInteriorPercent": 0,
+        "steepInteriorPercent": 0,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 30278,
+            "height": 236.49,
+            "bounds": {
+              "x0": 62,
+              "y0": 95,
+              "x1": 377,
+              "y1": 344
+            }
+          },
+          {
+            "cells": 7118,
+            "height": 242.76,
+            "bounds": {
+              "x0": 151,
+              "y0": 128,
+              "x1": 288,
+              "y1": 311
+            }
+          },
+          {
+            "cells": 6214,
+            "height": 233.62,
+            "bounds": {
+              "x0": 152,
+              "y0": 87,
+              "x1": 379,
+              "y1": 305
+            }
+          },
+          {
+            "cells": 6214,
+            "height": 233.62,
+            "bounds": {
+              "x0": 60,
+              "y0": 134,
+              "x1": 287,
+              "y1": 352
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/tidal-flat-terrain.png",
+      "overview": "../assets/terrain/flat-island-overview.png",
+      "details": [],
+      "gameTested": false
+    },
+    {
+      "id": "terraced-gentle",
+      "caseGroup": "terraced-gentle",
+      "sourceName": "TerrainGentle_v2",
+      "sha256": "f0e29b84f28fa799ca846d26dddbddb7cdf761c0a10d73f1b0bd6224e902bd8a",
+      "sourceUnchanged": true,
+      "kind": "测试",
+      "learn": "结构测试：低地、基地台地、高地扩张和宽坡道；近景岸坡和规则轮廓仍待美化。",
+      "metrics": {
+        "playable": [
+          400,
+          400
+        ],
+        "interiorLand": {
+          "cells": 79312,
+          "min": 204.28,
+          "p05": 216.38,
+          "p10": 219.84,
+          "p25": 220,
+          "p50": 220.16,
+          "p75": 240,
+          "p90": 269.92,
+          "p95": 270.04,
+          "max": 270.12
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 220,
+            "to": 225,
+            "cells": 23012,
+            "percent": 29.01
+          },
+          {
+            "from": 215,
+            "to": 220,
+            "cells": 15820,
+            "percent": 19.95
+          },
+          {
+            "from": 235,
+            "to": 240,
+            "cells": 10766,
+            "percent": 13.57
+          },
+          {
+            "from": 240,
+            "to": 245,
+            "cells": 9070,
+            "percent": 11.44
+          },
+          {
+            "from": 265,
+            "to": 270,
+            "cells": 6696,
+            "percent": 8.44
+          },
+          {
+            "from": 270,
+            "to": 275,
+            "cells": 5910,
+            "percent": 7.45
+          },
+          {
+            "from": 210,
+            "to": 215,
+            "cells": 2012,
+            "percent": 2.54
+          },
+          {
+            "from": 205,
+            "to": 210,
+            "cells": 1326,
+            "percent": 1.67
+          }
+        ],
+        "blockedInteriorPercent": 8.16,
+        "steepInteriorPercent": 3.17,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 6541,
+            "height": 219.75,
+            "bounds": {
+              "x0": 40,
+              "y0": 60,
+              "x1": 193,
+              "y1": 305
+            }
+          },
+          {
+            "cells": 6541,
+            "height": 219.75,
+            "bounds": {
+              "x0": 246,
+              "y0": 134,
+              "x1": 399,
+              "y1": 379
+            }
+          },
+          {
+            "cells": 5020,
+            "height": 220.1,
+            "bounds": {
+              "x0": 260,
+              "y0": 80,
+              "x1": 384,
+              "y1": 215
+            }
+          },
+          {
+            "cells": 5020,
+            "height": 220.1,
+            "bounds": {
+              "x0": 55,
+              "y0": 224,
+              "x1": 179,
+              "y1": 359
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/terraced-gentle-terrain.png",
+      "overview": "../assets/terrain/gentle-overview.png",
+      "details": [
+        "../assets/terrain/gentle-player-base.png",
+        "../assets/terrain/gentle-coast-detail.png"
+      ],
+      "gameTested": false
+    },
+    {
+      "id": "terraced-standard",
+      "caseGroup": "terraced-standard",
+      "sourceName": "TerrainStandard",
+      "sha256": "f1870708e1246a1ccddfaa404f12328dff8d8b00f9c62d1de516291c7bfe3688",
+      "sourceUnchanged": true,
+      "kind": "测试",
+      "learn": "结构测试：标准高差、同一拓扑配方；换雪地材质不等于另一种主地貌。",
+      "metrics": {
+        "playable": [
+          320,
+          320
+        ],
+        "interiorLand": {
+          "cells": 49672,
+          "min": 207.16,
+          "p05": 218.83,
+          "p10": 219.65,
+          "p25": 219.88,
+          "p50": 222.06,
+          "p75": 250,
+          "p90": 290.04,
+          "p95": 290.16,
+          "max": 290.31
+        },
+        "interiorInsetCells": 4,
+        "dominantInteriorBands": [
+          {
+            "from": 215,
+            "to": 220,
+            "cells": 12600,
+            "percent": 25.37
+          },
+          {
+            "from": 220,
+            "to": 225,
+            "cells": 11504,
+            "percent": 23.16
+          },
+          {
+            "from": 290,
+            "to": 295,
+            "cells": 6558,
+            "percent": 13.2
+          },
+          {
+            "from": 245,
+            "to": 250,
+            "cells": 6352,
+            "percent": 12.79
+          },
+          {
+            "from": 250,
+            "to": 255,
+            "cells": 5974,
+            "percent": 12.03
+          },
+          {
+            "from": 285,
+            "to": 290,
+            "cells": 1348,
+            "percent": 2.71
+          },
+          {
+            "from": 210,
+            "to": 215,
+            "cells": 1098,
+            "percent": 2.21
+          },
+          {
+            "from": 225,
+            "to": 230,
+            "cells": 646,
+            "percent": 1.3
+          }
+        ],
+        "blockedInteriorPercent": 10.86,
+        "steepInteriorPercent": 6.06,
+        "waterLevels": [
+          200
+        ],
+        "plateauPatches": [
+          {
+            "cells": 5499,
+            "height": 219.71,
+            "bounds": {
+              "x0": 36,
+              "y0": 55,
+              "x1": 158,
+              "y1": 246
+            }
+          },
+          {
+            "cells": 5499,
+            "height": 219.71,
+            "bounds": {
+              "x0": 201,
+              "y0": 113,
+              "x1": 323,
+              "y1": 304
+            }
+          },
+          {
+            "cells": 3174,
+            "height": 290.12,
+            "bounds": {
+              "x0": 150,
+              "y0": 90,
+              "x1": 237,
+              "y1": 152
+            }
+          },
+          {
+            "cells": 3174,
+            "height": 290.12,
+            "bounds": {
+              "x0": 122,
+              "y0": 207,
+              "x1": 209,
+              "y1": 269
+            }
+          }
+        ]
+      },
+      "diagnostic": "../assets/terrain/terraced-standard-terrain.png",
+      "overview": "../assets/terrain/standard-overview.png",
+      "details": [
+        "../assets/terrain/standard-player-base.png",
+        "../assets/terrain/standard-coast-detail.png"
+      ],
+      "gameTested": false
+    }
+  ]
+}

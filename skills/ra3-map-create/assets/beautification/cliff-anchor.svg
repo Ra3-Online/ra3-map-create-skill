@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="630" viewBox="0 0 1240 630">
+ <rect width="1240" height="630" fill="#f4f7f8"/>
+ <style>text{font-family:'Microsoft YaHei',sans-serif;fill:#263746}.title{font-size:27px;font-weight:600}.sub{font-size:17px}.small{font-size:15px}.line{stroke:#708493;stroke-width:2}.note{fill:#536875}</style>
+ <text x="35" y="47" class="title">悬崖原点与可见模型：先看真实几何，再定位</text>
+ <text x="35" y="78" class="sub note">IL_SeaCliffWall01 的真实局部边界；示意不表示完整网格，也不推断接合端点。</text>
+ <rect x="30" y="103" width="565" height="422" rx="10" fill="white" stroke="#d6e1e5"/>
+ <rect x="620" y="103" width="590" height="422" rx="10" fill="white" stroke="#d6e1e5"/>
+ <text x="55" y="140" class="sub">剖面：原点附近为崖顶，模型向下延伸</text>
+ <path d="M 70 210 H 282 V 290 H 555 V 485 H 70 Z" fill="#b6c7a7"/>
+ <path d="M 263 194 L 313 215 L 333 316 L 322 473 L 277 471 L 269 333 Z" fill="#7b8891" stroke="#4f6271" stroke-width="2"/>
+ <path d="M 283 291 H 555 V 485 H 282 Z" fill="#bacba9" fill-opacity=".83"/>
+ <circle cx="280" cy="210" r="7" fill="#dc8b13" stroke="white" stroke-width="2"/>
+ <path d="M 280 210 H 430 M 280 473 H 430" class="line" stroke-dasharray="4 5"/>
+ <text x="355" y="201" class="small">原点：地形高度 + 对象 Z</text>
+ <text x="356" y="249" class="small">局部 Z 最大约 +7.69</text>
+ <text x="355" y="465" class="small">最小约 −147.44</text>
+ <text x="82" y="185" class="small">上层地面</text><text x="405" y="282" class="small">低地遮住部分崖脚</text>
+ <text x="60" y="510" class="small note">不要依据占地高度 0，把整段抬到低地上当墙。</text>
+ <text x="648" y="140" class="sub">俯视：模型偏在原点局部 −Y 一侧</text>
+ <line x1="875" y1="340" x2="875" y2="180" class="line"/>
+ <path d="M 868 194 L 875 180 L 882 194" fill="none" class="line"/>
+ <line x1="760" y1="220" x2="1050" y2="220" class="line"/>
+ <path d="M 1036 213 L 1050 220 L 1036 227" fill="none" class="line"/>
+ <rect x="776" y="229" width="200" height="216" fill="#93a6b2" fill-opacity=".45" stroke="#4f6271" stroke-dasharray="5 5"/>
+ <circle cx="875" cy="220" r="7" fill="#dc8b13" stroke="white" stroke-width="2"/>
+ <text x="894" y="193" class="small">局部 +Y</text><text x="1065" y="225" class="small">+X</text>
+ <text x="786" y="280" class="small">局部 AABB</text>
+ <text x="786" y="312" class="small">X：−50.00 .. +50.67</text>
+ <text x="786" y="344" class="small">Y：−113.40 .. −4.51</text>
+ <text x="648" y="487" class="small note">AABB 只表示模型范围，不是可见崖面法线或接缝。</text>
+ <text x="35" y="563" class="sub">实际放置：查高低两侧 → 试放一段 → 从低地看正反面 → 调落点和角度 → 接转角与坡道口</text>
+ <text x="35" y="598" class="small note">对象角度为度；地形工具格坐标含 border。其他型号/MOD 模型需重新查几何与朝向。</text>
+</svg>

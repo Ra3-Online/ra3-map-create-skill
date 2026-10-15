@@ -1,0 +1,2331 @@
+{
+  "version": 1,
+  "date": "2026-10-15",
+  "source": "ra3-map-editor/skills/ra3-map-create",
+  "originalFiles": 464,
+  "originalBytes": 293578414,
+  "modifiedOriginalFiles": 0,
+  "excludedOriginalFiles": 0,
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 401,
+      "sha256": "99ddfc43f96571dac7dd5ad4675f9d87dbfb7c6b24a3a5ca078d2c5dfbacc49e"
+    },
+    {
+      "path": "assets/beautification/cliff-anchor.svg",
+      "bytes": 3028,
+      "sha256": "c36c56748142782b44434b36ffe45da3a0f8036fea6c7cf18d4a30cc4d3492b7"
+    },
+    {
+      "path": "assets/beautification/cliff-placement.png",
+      "bytes": 289592,
+      "sha256": "9b749f99c8adbb63ffcc73d3a060e4d0bb87fe8e77267d164af7d348cd83eb13"
+    },
+    {
+      "path": "assets/beautification/edge-auto.jpg",
+      "bytes": 169319,
+      "sha256": "301743bb1cf4799a9ad31639d8b2268535b41db3b2dfa07e9296d1e72f1cf30a"
+    },
+    {
+      "path": "assets/beautification/edge-painted.jpg",
+      "bytes": 170847,
+      "sha256": "eda6e54665f0e4adc447762c8d17b1c86fd414b670ecfd5e73bf49e40ce7392f"
+    },
+    {
+      "path": "assets/beautification/edge-single.jpg",
+      "bytes": 170920,
+      "sha256": "9120d3e1847bed32a8b5d2284a6961c351934a5a5b7f59952680ed40f00aa1ad"
+    },
+    {
+      "path": "assets/beautification/gallery.html",
+      "bytes": 14622,
+      "sha256": "e0583d3b31cdc9d21467c0558596fb5f0e3cece13d70883d80ff62079c240c87"
+    },
+    {
+      "path": "assets/beautification/m001-cliff-chain.jpg",
+      "bytes": 370630,
+      "sha256": "ef6cbd877b90a7679cd638425fe6d244dbaa94fcbe591467e8fd966e682b92b9"
+    },
+    {
+      "path": "assets/beautification/m001-material-ramp.jpg",
+      "bytes": 387499,
+      "sha256": "9b1b50d5148511097d935b7059417bc3669b678c1aa0b6e0f607c1cd6f70488f"
+    },
+    {
+      "path": "assets/beautification/m001-materials.png",
+      "bytes": 131783,
+      "sha256": "49a4446b5638afc49cac6691cdab8bfbb4f6dc059a63694a8f9c6522e80702d1"
+    },
+    {
+      "path": "assets/beautification/m001-overview.jpg",
+      "bytes": 186764,
+      "sha256": "08ba5e2d63db414917eb0cc3460f00c6c7ace7ac1b8a0800401c34d4ee7ef051"
+    },
+    {
+      "path": "assets/beautification/m049-cliff-face.jpg",
+      "bytes": 429098,
+      "sha256": "2a24ba5ae5eae41fcc6fb11b9f9e198cc5b261ff1bee4ad270c36e1c1d99a662"
+    },
+    {
+      "path": "assets/beautification/m049-layout.png",
+      "bytes": 327583,
+      "sha256": "c1bdacb7a4bd2c6ff36e04239adf317ad5f334a3fd0e5542f6ca94eb5dbb650b"
+    },
+    {
+      "path": "assets/beautification/m049-overview.jpg",
+      "bytes": 312235,
+      "sha256": "d83b06204879ba0725453cdbd9f2f07198a05ae1b903f5f550faea7db1c41566"
+    },
+    {
+      "path": "assets/beautification/m049-village-yard.jpg",
+      "bytes": 399216,
+      "sha256": "51099067d4e23ef7f2bfeb5346986b289fc0fc1a65a67f7ac4ff5bd59500f98e"
+    },
+    {
+      "path": "assets/beautification/m053-city-street.jpg",
+      "bytes": 445587,
+      "sha256": "a596775e8934c892545cfd0bf2637167cb3b72cd7bb4ad81dba13d2c483c46d8"
+    },
+    {
+      "path": "assets/beautification/m053-cliff-face.jpg",
+      "bytes": 416325,
+      "sha256": "bde4e9e977687d1947a958ef5c62b2138b9ae1a7d2ee5f783b860b09fa81727e"
+    },
+    {
+      "path": "assets/beautification/m053-layout.png",
+      "bytes": 562649,
+      "sha256": "f61301781c2de8dd3f9e2c8f36c45e896338beb457c8cf79c5e257d31163d5b6"
+    },
+    {
+      "path": "assets/beautification/m053-materials.png",
+      "bytes": 129043,
+      "sha256": "04e7dc64d80b73dc86856c5a99b9f0551eb7f0832630b100e97b6a526c578559"
+    },
+    {
+      "path": "assets/beautification/m053-overview.jpg",
+      "bytes": 327097,
+      "sha256": "b2b46be7578ded365dfbe5480f02af1d925278841fca69a50287b6e1432b34c7"
+    },
+    {
+      "path": "assets/beautification/m054-city-block.jpg",
+      "bytes": 368747,
+      "sha256": "d496277ab237e29ac68ff2f230e13120b269e2a7e800441f3868b0626a01f8f8"
+    },
+    {
+      "path": "assets/beautification/m054-cliff-face.jpg",
+      "bytes": 423833,
+      "sha256": "d55801c3a38fc327274a5e8596c73ee98bc8acddf4e48707fb61870de3bc1f1c"
+    },
+    {
+      "path": "assets/beautification/m054-layout.png",
+      "bytes": 514329,
+      "sha256": "0c864e6ce356673b98b6a437cdfffbc36e40d100c954821fae5a2a933deb3a03"
+    },
+    {
+      "path": "assets/beautification/m054-overview.jpg",
+      "bytes": 303247,
+      "sha256": "cef2d24342f472bab865bb8acdac7e209438d83d049880dccb501a85987e6c85"
+    },
+    {
+      "path": "assets/beautification/m054-village-yard.jpg",
+      "bytes": 395819,
+      "sha256": "d60b7c5f809ed1b77288da69ca3fb5c825986ad040a8121065fa208da9e42950"
+    },
+    {
+      "path": "assets/beautification/m068-cliff-chain.jpg",
+      "bytes": 333940,
+      "sha256": "e7d19e48262014c1a69c68be83c28fc4a033a7a4a6b1fabdf5f71d86d5a5372e"
+    },
+    {
+      "path": "assets/beautification/m068-garden.jpg",
+      "bytes": 382686,
+      "sha256": "98ecd1569660a2b8fdc405aa78a999062f2a7a497b98ffcd48f6eaf1efc3d043"
+    },
+    {
+      "path": "assets/beautification/m068-overview.jpg",
+      "bytes": 258159,
+      "sha256": "4b579919b3539ce3f4af314c2b3ca42c7024115c0cf1def967f4d12ea0c49176"
+    },
+    {
+      "path": "assets/beautification/m070-cliff-chain.jpg",
+      "bytes": 181119,
+      "sha256": "bf19fa022cf5d497a3e53f9aef06ce4940629faf7c363b4d0c2ce2f5776977dc"
+    },
+    {
+      "path": "assets/beautification/m070-overview.jpg",
+      "bytes": 252853,
+      "sha256": "d3fe0e3ec006481871e133f10fb5c17916c9cfc041f87da6acc1323f3cc17291"
+    },
+    {
+      "path": "assets/beautification/m070-plaza.jpg",
+      "bytes": 377995,
+      "sha256": "57d1a2802abb4c9d62e27f86be8f25f202a1ea99f37905ee760d4cebeed953eb"
+    },
+    {
+      "path": "assets/beautification/m071-church-yard.jpg",
+      "bytes": 510993,
+      "sha256": "3fa84416b7140d65fcbc56bc5b0be8fbb020ecc61e83ee63e988710de01cec25"
+    },
+    {
+      "path": "assets/beautification/m071-cliff-chain.jpg",
+      "bytes": 353381,
+      "sha256": "f137c0512224254e0bb1aac4e871a55ee2bbd85b6d266153b65c9ba3d859d016"
+    },
+    {
+      "path": "assets/beautification/m071-overview.jpg",
+      "bytes": 354140,
+      "sha256": "de589885aae96beb2ed16532a4edc7c1513088eb279caea3ac535ade461d57a0"
+    },
+    {
+      "path": "assets/beautification/m074-overview.jpg",
+      "bytes": 209967,
+      "sha256": "9753df82c6680ac63db392495593ee6fd88ab698af4e3f39a55a00456f466cdf"
+    },
+    {
+      "path": "assets/beautification/m074-town-street.jpg",
+      "bytes": 297360,
+      "sha256": "89742a169bc3dff22e8d96c5109c8e1cdd9bbb69ce146525671dc3556f13eef9"
+    },
+    {
+      "path": "assets/beautification/m075-overview.jpg",
+      "bytes": 313802,
+      "sha256": "fffa39c175e26c646ffa8a5d7b2cc403baef8e3ba0936128790160236d1d6c35"
+    },
+    {
+      "path": "assets/beautification/m075-suburb-yard.jpg",
+      "bytes": 395344,
+      "sha256": "ac929f8e9161febd4d2b00b85d94dd12a5a62b34ac9b62a746ff72d754a15ae9"
+    },
+    {
+      "path": "assets/beautification/m077-overview.jpg",
+      "bytes": 302573,
+      "sha256": "1a9d55aa4b9823184fdfd4be1ecd08bc10e904bf65e75acb840222d96fd84e5a"
+    },
+    {
+      "path": "assets/beautification/m077-urban-garden.jpg",
+      "bytes": 444775,
+      "sha256": "37a2c9657faeb36ec8b14a6c8446ed6380ab91d67a296c075c6f488ed13b3d92"
+    },
+    {
+      "path": "assets/beautification/m079-cliff-chain.jpg",
+      "bytes": 416058,
+      "sha256": "41bd7a3f91acd973781dc5132ffeebb6632f8c881ef864189e22af2a90636a5f"
+    },
+    {
+      "path": "assets/beautification/m079-overview.jpg",
+      "bytes": 310364,
+      "sha256": "55351df81d68e2589e458f11b82da4afa586c85186933cdff634a9813b817fa8"
+    },
+    {
+      "path": "assets/beautification/m079-restaurant-court.jpg",
+      "bytes": 535701,
+      "sha256": "444d167f11dda2d6ace85f1f378862cb31fbb777bc6c24cf9a10950061c8eb2d"
+    },
+    {
+      "path": "assets/beautification/m080-overview.jpg",
+      "bytes": 218478,
+      "sha256": "3dd05c18c2eb0d052024154828b2c8fe4b2ec15e97f745adda134c3d43ea7df7"
+    },
+    {
+      "path": "assets/beautification/m080-volcano-cliff.jpg",
+      "bytes": 346392,
+      "sha256": "1353bbd6589eef2e928fbadba6c5095f53b6bc1e74e0fc2c62b1f37ea3d7f8ad"
+    },
+    {
+      "path": "assets/campaign/m049-atlas.jpg",
+      "bytes": 1951876,
+      "sha256": "697a96e6ce45f11ca3286e33c4ac69971875e30cfd191b12f287d446a8ef09ad"
+    },
+    {
+      "path": "assets/campaign/m049-detail-cliff.jpg",
+      "bytes": 373581,
+      "sha256": "fea2b94b148f3f7c1a8e17dce3b870fee7addf682a10d4d7890efeda4451789f"
+    },
+    {
+      "path": "assets/campaign/m049-detail-courtyard.jpg",
+      "bytes": 336387,
+      "sha256": "61e839dabfe86885cfe18bf86d464aca50f4807fe199c9894bb5d4c48ecd73e1"
+    },
+    {
+      "path": "assets/campaign/m050-atlas.jpg",
+      "bytes": 3249833,
+      "sha256": "0bd6dc4077222e1b9cb9ee346e5ba66d22997e1bdfaf4bcaff5404e9fedacf45"
+    },
+    {
+      "path": "assets/campaign/m050-detail-courtyard.jpg",
+      "bytes": 406959,
+      "sha256": "96a5f827369090d8d9560f989c1bcb09437742ea1bb79b582d0c55c44c91ef3a"
+    },
+    {
+      "path": "assets/campaign/m050-detail-props.jpg",
+      "bytes": 404134,
+      "sha256": "08286a4b2ed8de579265384b469df8f7ee15a5d08f685e4904c5d93f9ea287ea"
+    },
+    {
+      "path": "assets/campaign/m051-atlas.jpg",
+      "bytes": 1686019,
+      "sha256": "c7c7606eb533ad41a3ed7b7a94a6436028603bb556eab1d722169b84e03e160a"
+    },
+    {
+      "path": "assets/campaign/m051-detail-cliff.jpg",
+      "bytes": 258681,
+      "sha256": "5ce149d46cfaaa7079f87f294629e5082482185aff514b3fd209eacd7c57e1ac"
+    },
+    {
+      "path": "assets/campaign/m051-detail-courtyard.jpg",
+      "bytes": 282668,
+      "sha256": "87aa6e431f510f3f3bc2d816e4278c4443271749831ea8ac6558b2dd6f2d6023"
+    },
+    {
+      "path": "assets/campaign/m055-atlas.jpg",
+      "bytes": 2023467,
+      "sha256": "cbf6a05083db3957dcc65e919eea318f5a92741648b87bf373b7ebc4ba42bb14"
+    },
+    {
+      "path": "assets/campaign/m055-detail-courtyard.jpg",
+      "bytes": 422011,
+      "sha256": "20f53a4c2eb121c9530c8f89b03f2b4ebda368d81b9f031a621a28357e9cf5dd"
+    },
+    {
+      "path": "assets/campaign/m055-detail-props.jpg",
+      "bytes": 358522,
+      "sha256": "fefffca88ab9a453a7a3169a5e31e8c5920af7c9ce843cf31014f46bf4072e56"
+    },
+    {
+      "path": "assets/campaign/m056-atlas.jpg",
+      "bytes": 2494515,
+      "sha256": "e9f622ece27f8d891fcff0eb1e6ad1b9a16d74943d35c78b5bcac32ac2708177"
+    },
+    {
+      "path": "assets/campaign/m056-detail-cliff.jpg",
+      "bytes": 266299,
+      "sha256": "5e4e782ffe562ed09f810c761720314c726fdf02dfc042042db092136a35b5b0"
+    },
+    {
+      "path": "assets/campaign/m056-detail-courtyard.jpg",
+      "bytes": 456701,
+      "sha256": "1ca91bf66bd24fda4816a2aca7d3a922dd51dc0cbe381fac053b0bc963886903"
+    },
+    {
+      "path": "assets/campaign/m057-atlas.jpg",
+      "bytes": 1961740,
+      "sha256": "f7bd64a8bfafa5b4dfbe3cd61cb5144238637bb0d206c3b8091ae8ca5f354d73"
+    },
+    {
+      "path": "assets/campaign/m057-detail-cliff.jpg",
+      "bytes": 175278,
+      "sha256": "294ecaa82fcead987fa03a5d5c3654895bee4e224939d8ad9717dd50233f8716"
+    },
+    {
+      "path": "assets/campaign/m057-detail-courtyard.jpg",
+      "bytes": 429361,
+      "sha256": "b22bd529d798ea8674374fe7156cc2946b4f42d5674d0eb95b68340dc34f4175"
+    },
+    {
+      "path": "assets/campaign/m058-atlas.jpg",
+      "bytes": 1735048,
+      "sha256": "031c9fdc053dfb4c9a588cb5c27dfa3335b62ba513eb21f59bcc4e17c3a738d1"
+    },
+    {
+      "path": "assets/campaign/m058-detail-courtyard.jpg",
+      "bytes": 336902,
+      "sha256": "f938d8ec4fbf81d3b68b28e289628ec353d5bbbea03f656a2bf1f53a33aec29c"
+    },
+    {
+      "path": "assets/campaign/m058-detail-props.jpg",
+      "bytes": 410872,
+      "sha256": "12f07e0f10cc901a8887f83df7f5caf281023a545f511553107663c560975ce0"
+    },
+    {
+      "path": "assets/campaign/m059-atlas.jpg",
+      "bytes": 1303081,
+      "sha256": "d97cdb5cf84ef8cefba34db91150c010ee18849b2101b8200ac56ca6045d393e"
+    },
+    {
+      "path": "assets/campaign/m059-detail-cliff.jpg",
+      "bytes": 296296,
+      "sha256": "81c2090d8c8c2bcc3819f9d5656999fa5d9cb67fc8b66f9a58da60bdc9382be4"
+    },
+    {
+      "path": "assets/campaign/m059-detail-courtyard.jpg",
+      "bytes": 252470,
+      "sha256": "ba33181ad14766d13dc1c93023f342052a0a6c317bebad2dad08db534a365d90"
+    },
+    {
+      "path": "assets/campaign/m063-atlas.jpg",
+      "bytes": 1769893,
+      "sha256": "857ddbb326872b774bc25844f6893b1dc8db89689e37591b2829770878b9b60c"
+    },
+    {
+      "path": "assets/campaign/m063-detail-courtyard.jpg",
+      "bytes": 296804,
+      "sha256": "5fb6c72baad422945cd9a208d623238306c1c826a8b5dd933531f3739f46641d"
+    },
+    {
+      "path": "assets/campaign/m063-detail-props.jpg",
+      "bytes": 352087,
+      "sha256": "769997c277698195fb33cbd074855352623cc3f9707e05febf527bdc420ad34e"
+    },
+    {
+      "path": "assets/campaign/m064-atlas.jpg",
+      "bytes": 1437424,
+      "sha256": "3ff5f9c44d1230782d0eafdd1c803addf18e6877c4d7b7438954f03beda1cbf9"
+    },
+    {
+      "path": "assets/campaign/m064-detail-courtyard.jpg",
+      "bytes": 372265,
+      "sha256": "47dbfb7fc4e2b4d8d2e4a9f72ee77ce9f7b00bfc89421911f8c1a38a4e90b01a"
+    },
+    {
+      "path": "assets/campaign/m064-detail-props.jpg",
+      "bytes": 284375,
+      "sha256": "bbe2469246ba01b52a55f4394fe6efa509c8ed3fd69012cbc3bedd4834c57466"
+    },
+    {
+      "path": "assets/campaign/m065-atlas.jpg",
+      "bytes": 955264,
+      "sha256": "2d8f40a2dfb6f98e163b57765e1162d012096ef6df7e56980a51e76aa08aef67"
+    },
+    {
+      "path": "assets/campaign/m065-detail-courtyard.jpg",
+      "bytes": 199419,
+      "sha256": "7470faedfbb5ad3140ec33cdb039c4d87b2859ba833e1f491476d05e7a3a3468"
+    },
+    {
+      "path": "assets/campaign/m065-detail-props.jpg",
+      "bytes": 135906,
+      "sha256": "ae1c34f88a463e4ad7060302523c4bc809e53d53a76758b27a925cbdf50f98a6"
+    },
+    {
+      "path": "assets/campaign/m065-diagnostic-detail-courtyard.jpg",
+      "bytes": 318602,
+      "sha256": "fc571a48e62737059c22acc721ffec8972f38e81a510c820642ab53fc0fd1134"
+    },
+    {
+      "path": "assets/campaign/m065-diagnostic-r2-c2.jpg",
+      "bytes": 254973,
+      "sha256": "288aa68e200ca6e0ca181596d2e7c303dca6bedafc5d3ce175d275f7a124f1ab"
+    },
+    {
+      "path": "assets/campaign/m065-diagnostic-r3-c3.jpg",
+      "bytes": 227881,
+      "sha256": "662a3296435b9464e89a3471cfdc5998dfc44cbd8bb67a250c281b76f5efc582"
+    },
+    {
+      "path": "assets/campaign/m066-atlas.jpg",
+      "bytes": 1700670,
+      "sha256": "da4d94d10a85457948720001e21289fcfbdbf281f530d9154377ead2d6d35879"
+    },
+    {
+      "path": "assets/campaign/m066-detail-cliff.jpg",
+      "bytes": 323123,
+      "sha256": "f03f2e598c2876e7d605a569079ff331a4f577aaae270418f8908a8f72ea2f48"
+    },
+    {
+      "path": "assets/campaign/m066-detail-courtyard.jpg",
+      "bytes": 347331,
+      "sha256": "ed5f7e03b483916a0e8956a99846cb5caba9abd82cec4f24c1b99f39f798ac01"
+    },
+    {
+      "path": "assets/campaign/m067-atlas.jpg",
+      "bytes": 1507350,
+      "sha256": "698db284496b86332381ef628beda1640b5aad036edd140b7ccebee772890e53"
+    },
+    {
+      "path": "assets/campaign/m067-detail-courtyard.jpg",
+      "bytes": 272370,
+      "sha256": "4c26a90c5fbef7e4d6a949d42dfa03c248fdcbc693200503a914f3eabba3c34b"
+    },
+    {
+      "path": "assets/campaign/m067-detail-props.jpg",
+      "bytes": 197263,
+      "sha256": "78f7f7b5330b88184a5194784d6ee96e3f38d27cc72d3359eda7e0be7c4a89b8"
+    },
+    {
+      "path": "assets/campaign/m068-atlas.jpg",
+      "bytes": 1800360,
+      "sha256": "1273f9e355ffc9cb651701c39e7f1fdf01acd4c3357ea81aaea6b359ab6b41f2"
+    },
+    {
+      "path": "assets/campaign/m068-detail-cliff.jpg",
+      "bytes": 250539,
+      "sha256": "93e06ad0261c5440886e22f59bde0d5bddcd04cf72cbc6b4e7eaa385bd021010"
+    },
+    {
+      "path": "assets/campaign/m068-detail-courtyard.jpg",
+      "bytes": 325253,
+      "sha256": "38f056ec438e653fb455b7aa9a62700f2e15f9eb9251f5b45adc379b89839889"
+    },
+    {
+      "path": "assets/campaign/m069-atlas.jpg",
+      "bytes": 1984157,
+      "sha256": "c554079c833c1728837e8ae41843ef5d7b6096b09bac291d49440facd6a2733a"
+    },
+    {
+      "path": "assets/campaign/m069-detail-cliff.jpg",
+      "bytes": 289306,
+      "sha256": "b2c27d26a7b83c7c013b2a7bc16784239da2ee63cb1a384d312cda9070b6688e"
+    },
+    {
+      "path": "assets/campaign/m069-detail-courtyard.jpg",
+      "bytes": 364156,
+      "sha256": "9db91eb7bc58995b8307a4292e880cc5e0def40d773b3dc4fbc8af81c6f47434"
+    },
+    {
+      "path": "assets/campaign/m070-atlas.jpg",
+      "bytes": 1861535,
+      "sha256": "2c825d2b69e8a56946fbb47044ce0cdc2335c15593f7493c4427c99ac729bda2"
+    },
+    {
+      "path": "assets/campaign/m070-detail-cliff.jpg",
+      "bytes": 272557,
+      "sha256": "c64f979a8dcc0a6563a8ece2576f244d3cf39c826b7e18114dec5a2176c9f6fd"
+    },
+    {
+      "path": "assets/campaign/m070-detail-courtyard.jpg",
+      "bytes": 458804,
+      "sha256": "d42219ec1c695ff246e3b9fce6cd6493b72aa604afbd89def617676602d36af2"
+    },
+    {
+      "path": "assets/campaign/m071-atlas.jpg",
+      "bytes": 2194576,
+      "sha256": "447079fc2c0e4c989abd9856deb8eb1b61f40ae2f44fe9f1741fb9fd0708d76a"
+    },
+    {
+      "path": "assets/campaign/m071-detail-cliff.jpg",
+      "bytes": 347017,
+      "sha256": "5e320016fb5fd6fcef12186bb80037b233c6d868cbafbd619342efeebe8236cb"
+    },
+    {
+      "path": "assets/campaign/m071-detail-courtyard.jpg",
+      "bytes": 455832,
+      "sha256": "4a64f9a786bb918b9167510a4615981aae560117f8c668dceb696762f652f79c"
+    },
+    {
+      "path": "assets/campaign/m072-atlas.jpg",
+      "bytes": 1919404,
+      "sha256": "c3c397e273d6756533b6edb689dab920f3c4116374811c6e420514ac8d5dd3d8"
+    },
+    {
+      "path": "assets/campaign/m072-detail-cliff.jpg",
+      "bytes": 302978,
+      "sha256": "1cb20b6c09e9e1fb6863300a291d487588d8eae5f709cd33d3812958c6111be3"
+    },
+    {
+      "path": "assets/campaign/m072-detail-courtyard.jpg",
+      "bytes": 439372,
+      "sha256": "cd66c0fea285e1a8ca10a37c33dac4ab1ab0f96e93878d44486c8d47fe37c64b"
+    },
+    {
+      "path": "assets/campaign/m073-atlas.jpg",
+      "bytes": 2016942,
+      "sha256": "5d5b7e534abb1db6b30b1a572b0bba891e502d8896b0048de94c7557615554cb"
+    },
+    {
+      "path": "assets/campaign/m073-detail-cliff.jpg",
+      "bytes": 362280,
+      "sha256": "8af250905e2016c3fe553ca65af05bcecabf8bba084d57997d48e8edbb31f9ef"
+    },
+    {
+      "path": "assets/campaign/m073-detail-courtyard.jpg",
+      "bytes": 393289,
+      "sha256": "fab5f961a8a20a10bc2b8c0c4cf6479a1aba0fcbc3cf99f065019f757bc19536"
+    },
+    {
+      "path": "assets/campaign/m074-atlas.jpg",
+      "bytes": 1728498,
+      "sha256": "a7cb8313a6b5fffddc051001e64b2e01957049ff291cdf69aae8ed32a26d19e4"
+    },
+    {
+      "path": "assets/campaign/m074-detail-courtyard.jpg",
+      "bytes": 272399,
+      "sha256": "4a885ed513c50acbb3fcd2bba582a0ee4087839672b5c7a746816cab8ab128a1"
+    },
+    {
+      "path": "assets/campaign/m074-detail-props.jpg",
+      "bytes": 366872,
+      "sha256": "070a716f1dd10f4371fbff0ab318335cc360afb82fea0a9d140c575e7d8e9e8d"
+    },
+    {
+      "path": "assets/campaign/m075-atlas.jpg",
+      "bytes": 2149471,
+      "sha256": "ddf1c22eb30aa13652f16b8cdf75acf8d3d8b7becaff7509d0504eff96aed978"
+    },
+    {
+      "path": "assets/campaign/m075-detail-cliff.jpg",
+      "bytes": 243005,
+      "sha256": "507e5381bbc78d648c6a6a47ba83337d5933b7bda82dbe13ffe115f82f8f2246"
+    },
+    {
+      "path": "assets/campaign/m075-detail-courtyard.jpg",
+      "bytes": 369617,
+      "sha256": "b65341ef5eed5570f9fd9d27a232b8467458574cc16cf0d3fd1f926557ee79d0"
+    },
+    {
+      "path": "assets/campaign/m076-atlas.jpg",
+      "bytes": 2161889,
+      "sha256": "c3a39678f8363846521e2ef87659e188c4946fb15df433f10a0cc67caf4e4f3c"
+    },
+    {
+      "path": "assets/campaign/m076-detail-courtyard.jpg",
+      "bytes": 422629,
+      "sha256": "547e1e08e5fb4e61acf5d829ab56a65b1c7394f7d9af0d64baddc768e9826d5c"
+    },
+    {
+      "path": "assets/campaign/m076-detail-props.jpg",
+      "bytes": 432124,
+      "sha256": "c447fdc028af7b8d2466758439f00430d676a2adc725f555f012ba80a7b1fde3"
+    },
+    {
+      "path": "assets/campaign/m077-atlas.jpg",
+      "bytes": 2031641,
+      "sha256": "448ffdec44fa76cda762c6e5f9d1c321dfd5291f00e156f8185de271735ca4fd"
+    },
+    {
+      "path": "assets/campaign/m077-detail-courtyard.jpg",
+      "bytes": 410233,
+      "sha256": "efaef1fbbe5b56a1f588bab0d32bd84823ad9612edfb83aaecbb6a2bee2478e2"
+    },
+    {
+      "path": "assets/campaign/m077-detail-props.jpg",
+      "bytes": 453873,
+      "sha256": "1b75ee798cb16ffd8e03f5980b9ff8aafdd1ad2583eeec0721d34cab260d5500"
+    },
+    {
+      "path": "assets/campaign/m078-atlas.jpg",
+      "bytes": 1816292,
+      "sha256": "74a8b137c8daf4a0211ff44bc8cc9a4fc56c0577d894ec7e298d840a2a135ba2"
+    },
+    {
+      "path": "assets/campaign/m078-detail-courtyard.jpg",
+      "bytes": 406842,
+      "sha256": "2db560394078090b08f500141aff4236aebe5174f6a336d473f1ff1d0a9057de"
+    },
+    {
+      "path": "assets/campaign/m078-detail-props.jpg",
+      "bytes": 300558,
+      "sha256": "c1635830a7e43c7726ce00da0b2e5c269fb9d73e2fb05a9b8583d7b46fd34fd6"
+    },
+    {
+      "path": "assets/campaign/m079-atlas.jpg",
+      "bytes": 1855896,
+      "sha256": "17c89c4785ad8ff90ef409a321ab7b8083661b6514fb351bc3dd9df74406a499"
+    },
+    {
+      "path": "assets/campaign/m079-detail-courtyard.jpg",
+      "bytes": 495420,
+      "sha256": "1ca0466c13bdb8d311632503c9b2014eb334f23a235ed27517aac1245556abfd"
+    },
+    {
+      "path": "assets/campaign/m079-detail-props.jpg",
+      "bytes": 351191,
+      "sha256": "5dfb54d39ebc6baef09f71ef4a7eea21027efeb7d0c05bfb20301858216d068e"
+    },
+    {
+      "path": "assets/campaign/m080-atlas.jpg",
+      "bytes": 1460270,
+      "sha256": "efa7bbaa19ced5fdb962b4ea6d0990e576532d9897082f6ae34df9d3e160f703"
+    },
+    {
+      "path": "assets/campaign/m080-detail-cliff.jpg",
+      "bytes": 277189,
+      "sha256": "eeca3a87fe87812f0dfde2bdbbfe62a6cb42ca405e2a6fb31e185c17e6c2eafe"
+    },
+    {
+      "path": "assets/examples/bad-wide-ring.png",
+      "bytes": 143711,
+      "sha256": "c883833a5d4ad240660944482d85ff00f925f38da7628c743f59a0acbfec8da3"
+    },
+    {
+      "path": "assets/examples/coast-coast-detail.png",
+      "bytes": 1663954,
+      "sha256": "29977c615413b427085ed34871b39fa9b6e6086e8a5b8cc38456c130722c3866"
+    },
+    {
+      "path": "assets/examples/coast-overview.png",
+      "bytes": 924916,
+      "sha256": "cfdc99fd74739d04ff53a9f04d1378606d41a410b323e12eab38d516601fa251"
+    },
+    {
+      "path": "assets/examples/coast-player-base.png",
+      "bytes": 1718125,
+      "sha256": "13973710f3278539d4eb43042571ca57e8dcc10752941b3f02ed3fe5c5cdd16b"
+    },
+    {
+      "path": "assets/examples/coast-topdown.png",
+      "bytes": 145907,
+      "sha256": "49358dca23a201e24f9d7beeeab15fd612583eca18ecc7b6aab3a7dbf0c6a003"
+    },
+    {
+      "path": "assets/examples/gallery.html",
+      "bytes": 6257,
+      "sha256": "6b67c910d3fc710212bd80ad97d897ea6afcc5751aefc8cadf8ff395580af866"
+    },
+    {
+      "path": "assets/examples/snow-coast-detail.png",
+      "bytes": 1192842,
+      "sha256": "17c52f4585ee791b2220eb0f496a1db4223aaab189e0ef58c45443ae0256f5ab"
+    },
+    {
+      "path": "assets/examples/snow-overview.png",
+      "bytes": 523345,
+      "sha256": "533a5470f0d3b980ae1ed65c177f28999f37ef36de336075e51a84c8d918bfb8"
+    },
+    {
+      "path": "assets/examples/snow-player-base.png",
+      "bytes": 1497099,
+      "sha256": "ce838f50e8b77119959baf7a8b4ee8ce37ebc2b1c04a5d9d8862a15b7de9b199"
+    },
+    {
+      "path": "assets/examples/snow-topdown.png",
+      "bytes": 163381,
+      "sha256": "db4208fe21debe5a9253d55d2df1dffae5d70911e08ac915ba9e126e4f45f684"
+    },
+    {
+      "path": "assets/maps/m001-detail.png",
+      "bytes": 2045569,
+      "sha256": "f165001b4fa906cbaaf5cf3d30841accfc1012d1d8685ac9e63dc8e791279891"
+    },
+    {
+      "path": "assets/maps/m001-layout.png",
+      "bytes": 304444,
+      "sha256": "5701adaf7df3741b7561cce5b30ef8991ef35c02f58661ac23c37e43c581e5e7"
+    },
+    {
+      "path": "assets/maps/m001-overview.png",
+      "bytes": 882683,
+      "sha256": "bd700cddeecb291556fd50f3656a9cfb362511a713f6366d85a1a8c17d64f133"
+    },
+    {
+      "path": "assets/maps/m005-detail.png",
+      "bytes": 2041256,
+      "sha256": "8c49038591b5d9d89c2f97b474506892107e9e96565b2a1d9d40d112aee01678"
+    },
+    {
+      "path": "assets/maps/m005-layout.png",
+      "bytes": 399220,
+      "sha256": "45ff3182eac76c0c4ef5edf004f7251ce4b34a69f7e99e0917dc7620f9316fee"
+    },
+    {
+      "path": "assets/maps/m005-overview.png",
+      "bytes": 1117083,
+      "sha256": "42bd635e0b7d7c61ceef1966a6a39760323895a5ef6c540ccaa2eafe51fdd2b8"
+    },
+    {
+      "path": "assets/maps/m006-layout.png",
+      "bytes": 291518,
+      "sha256": "785ba3a8ddb92081e1ceecdb9d1ef7cf6072684f53ce5905ccb6ead152ea4216"
+    },
+    {
+      "path": "assets/maps/m012-layout.png",
+      "bytes": 527222,
+      "sha256": "539e94de7134347c2d8ed5896b3363e3c608322f0c69b22cb281e920bb37ccf4"
+    },
+    {
+      "path": "assets/maps/m049-layout.png",
+      "bytes": 522335,
+      "sha256": "2479e22f21a34eb4b5a5ea1bc78d9cc1b782da7ddac144811eac0ac02c2a6175"
+    },
+    {
+      "path": "assets/maps/m058-detail.png",
+      "bytes": 1804731,
+      "sha256": "0c1220189a0aff286be58115bd02d0b84e0233ac9b2d0bac66ef258684bd20b0"
+    },
+    {
+      "path": "assets/maps/m058-layout.png",
+      "bytes": 142099,
+      "sha256": "09d3eaecb375de324f8351ea7081ed04c3b5e6d6055ba453c40eed956e6211ae"
+    },
+    {
+      "path": "assets/maps/m058-overview.png",
+      "bytes": 1431428,
+      "sha256": "1e05ff8ac1a4053c442cabdfefadac6e5a849e8b7a7c70be456d0f81dc8d8b81"
+    },
+    {
+      "path": "assets/maps/m067-detail.png",
+      "bytes": 1967327,
+      "sha256": "6fd8aea2b0f23a5898fa50b6e327067b2ddc1f5645faeea67879f1f13860c85d"
+    },
+    {
+      "path": "assets/maps/m067-layout.png",
+      "bytes": 262593,
+      "sha256": "c4d286e110ce3183f8c5a54230bf0a7a10ad208e271df0c6321bc0f5463f39ba"
+    },
+    {
+      "path": "assets/maps/m067-overview.png",
+      "bytes": 1196168,
+      "sha256": "f62cc365c38991d1fc0e629163561938057ace89eade812d0c44a3741b164da2"
+    },
+    {
+      "path": "assets/maps/m080-layout.png",
+      "bytes": 414937,
+      "sha256": "9eec8dadfdceb29d7db164e4bf123293ffda5dda4611b5bac01c462a67038234"
+    },
+    {
+      "path": "assets/roads/m049-focus-crop.jpg",
+      "bytes": 199767,
+      "sha256": "dd9fda64d081cc42165ec232bcb39133dd902945f497487279fbdb1161878eb9"
+    },
+    {
+      "path": "assets/roads/m050-focus-crop.jpg",
+      "bytes": 213218,
+      "sha256": "6142b9d90796fc967eb9bd55f0a85aba062d6110a8cd3579030ae3f9807c34bc"
+    },
+    {
+      "path": "assets/roads/m051-focus-crop.jpg",
+      "bytes": 179011,
+      "sha256": "8a8d8407a25aeca340bca33aadc9f45bb8970be178b301a49fd5eadd5d0c27bb"
+    },
+    {
+      "path": "assets/roads/m055-focus-crop.jpg",
+      "bytes": 160295,
+      "sha256": "3978eee0767ff8a29815a5c22c8dace1fef06105b8b9a43e9aedff4e3ce62423"
+    },
+    {
+      "path": "assets/roads/m056-focus-crop.jpg",
+      "bytes": 204987,
+      "sha256": "dd28ec8789239e4f588426b0516970f1310e526299e825dede0f8c19606ee775"
+    },
+    {
+      "path": "assets/roads/m064-focus-crop.jpg",
+      "bytes": 169708,
+      "sha256": "cf0219009b92318ab3335c402be9b21561060fe0cfc9293e7e438f9d6efc8654"
+    },
+    {
+      "path": "assets/roads/m066-focus-crop.jpg",
+      "bytes": 197241,
+      "sha256": "239471f9f3363a60010409547d923f41602cb14d138e08051055189dd981c866"
+    },
+    {
+      "path": "assets/roads/m071-focus-crop.jpg",
+      "bytes": 181416,
+      "sha256": "a04b9fb32dc47ef4a4155c86975c3c25c2e3b7c8b7bea75851c441eb08ce9156"
+    },
+    {
+      "path": "assets/roads/m075-focus-crop.jpg",
+      "bytes": 255323,
+      "sha256": "718d9a898afb72da8c55236744d9c74e457de1387c0a030d8262ba74da221970"
+    },
+    {
+      "path": "assets/roads/m076-focus-crop.jpg",
+      "bytes": 224774,
+      "sha256": "d490e591484b134c1a012d9794524750495e83d637196247365e647607b1ad34"
+    },
+    {
+      "path": "assets/roads/m078-focus-crop.jpg",
+      "bytes": 199816,
+      "sha256": "0a662373ee1e4feca2650f1792f0b272b49d7ee7803ab8d73187239f3cfc610e"
+    },
+    {
+      "path": "assets/roads/u005-focus-crop.jpg",
+      "bytes": 180573,
+      "sha256": "1719bf368c7889e2f6f1cc70ef033a0be072dbe86421975a8822378a7cf6a0eb"
+    },
+    {
+      "path": "assets/roads/u015-focus-crop.jpg",
+      "bytes": 169875,
+      "sha256": "8168249e767e8f097e1b818def133b23d03f9afb2f18b4f083fe597f9b5510ed"
+    },
+    {
+      "path": "assets/roads/u064-focus-crop.jpg",
+      "bytes": 232627,
+      "sha256": "6627da34b2cc1424ae71cf5b4cdc6270264b44601868ba9ec4f12d7ace013a8c"
+    },
+    {
+      "path": "assets/styles/gallery.html",
+      "bytes": 10677,
+      "sha256": "8373a0d596be46289891d398ce8de4c0551c6189129d25fa1f08b85551ce9fc9"
+    },
+    {
+      "path": "assets/styles/m049-neighborhood.jpg",
+      "bytes": 267901,
+      "sha256": "baa516a86a1843ae4634f7d5d3f1012570e760abd1913f31e2c497c6ccb71309"
+    },
+    {
+      "path": "assets/styles/m049-overview.jpg",
+      "bytes": 280279,
+      "sha256": "5a890fc83519615cc724774570defe626a272171600727a09a61f1a9e827bdcb"
+    },
+    {
+      "path": "assets/styles/m057-neighborhood.jpg",
+      "bytes": 351658,
+      "sha256": "df2bc7982163e0ed6a12afab57910567fbf35de1d1c717771402a8edc4604ffb"
+    },
+    {
+      "path": "assets/styles/m057-overview.jpg",
+      "bytes": 231825,
+      "sha256": "73d74a11fd578c247026390ceb16785ad4b851b5c63a5ab79d379b67beaa5bab"
+    },
+    {
+      "path": "assets/styles/m068-neighborhood.jpg",
+      "bytes": 284286,
+      "sha256": "35d8daf0cf853e0bf3922386d12dee223011a15f349c6ce3dbd5d2ac73fb47cd"
+    },
+    {
+      "path": "assets/styles/m068-overview.jpg",
+      "bytes": 246097,
+      "sha256": "0e28a99309be3e04eddcdaf9d7350fdcc90562dbf261ae3b511385b67941d521"
+    },
+    {
+      "path": "assets/styles/m070-neighborhood.jpg",
+      "bytes": 280779,
+      "sha256": "7330e826d5be07e116ff5849283f25d2fd9b04f4123aa0b2bdbe0b1f8e479a3f"
+    },
+    {
+      "path": "assets/styles/m070-overview.jpg",
+      "bytes": 226116,
+      "sha256": "9bca31172c4db80eb6269d8d7766f6cddd14a37e204ca7e2ca225a1162d83328"
+    },
+    {
+      "path": "assets/styles/m071-neighborhood.jpg",
+      "bytes": 347483,
+      "sha256": "12d001d739ff38a4c424ee379230943ab4e53be7434d9f1ced4ce011d692a1b8"
+    },
+    {
+      "path": "assets/styles/m071-overview.jpg",
+      "bytes": 314243,
+      "sha256": "41de586a381067d6044020f40a960fc107067faad36bcf5b56be853c9c4d4561"
+    },
+    {
+      "path": "assets/styles/m074-neighborhood.jpg",
+      "bytes": 280816,
+      "sha256": "c1cd8a1ee78f868c636d198c5a8f09db1e05503e25347c44a054ad0007a6f990"
+    },
+    {
+      "path": "assets/styles/m074-overview.jpg",
+      "bytes": 197772,
+      "sha256": "2d348d1dab9d0bd7a37a991703c4738196044ac30d27a4bcce94635778ef9293"
+    },
+    {
+      "path": "assets/styles/m075-neighborhood.jpg",
+      "bytes": 298251,
+      "sha256": "4da2d474118e89c23c2e313d47ec34d0f6dfdac5036bf00ac434cbe9ce978017"
+    },
+    {
+      "path": "assets/styles/m075-overview.jpg",
+      "bytes": 282221,
+      "sha256": "c2d891507d5faa59da874bb24ebf4460055da1ef98c049ee6840c7405b9871ef"
+    },
+    {
+      "path": "assets/styles/m077-neighborhood.jpg",
+      "bytes": 354189,
+      "sha256": "5b8d1b2e2482702f1b519f64dbb9cda84bc293141d8e9d0b6f09b28e251a207e"
+    },
+    {
+      "path": "assets/styles/m077-overview.jpg",
+      "bytes": 268314,
+      "sha256": "80ad9bff366306f57df43afcd868f144e61a188b61a13f0aba6ed012f0f405bc"
+    },
+    {
+      "path": "assets/styles/m079-neighborhood.jpg",
+      "bytes": 433500,
+      "sha256": "2e2ff839f2958333c60ec4c26518ad3435c56982858675eec472cbaf9dd07bf5"
+    },
+    {
+      "path": "assets/styles/m079-overview.jpg",
+      "bytes": 278008,
+      "sha256": "fae09f29f75276c673714347ea622229f3d92b3f360f13367181180d56aa5cab"
+    },
+    {
+      "path": "assets/styles/m080-neighborhood.jpg",
+      "bytes": 274747,
+      "sha256": "d481f696b55cf97b4fd89332c5f5a8a556982b8305f6501b10313848885f663a"
+    },
+    {
+      "path": "assets/styles/m080-overview.jpg",
+      "bytes": 199153,
+      "sha256": "cf0edc22edab4fd01e8e3012f4af8393980176aaa6f09bc8b1629551038b06fd"
+    },
+    {
+      "path": "assets/styles/terrain-levels.svg",
+      "bytes": 29129,
+      "sha256": "4c57aac33a0830d01d57ea57b57cb27b58c00b4ac9841254a4952d1ad56f2cd0"
+    },
+    {
+      "path": "assets/terrain/flat-island-overview.png",
+      "bytes": 1264008,
+      "sha256": "3d6527921e6b61ffdc7f842a38b64e3e952da270e4aa68be0f950eb18a1521cd"
+    },
+    {
+      "path": "assets/terrain/gallery.html",
+      "bytes": 11276,
+      "sha256": "c08fc78e524f4c2835d6ee39354b6ff3bf5509b0cd0b7b701b2adf96fdc48bb9"
+    },
+    {
+      "path": "assets/terrain/gentle-coast-detail.png",
+      "bytes": 1932346,
+      "sha256": "55f5871475193942b1c1865ab4d209275718e0560176558f1a703ef803c63f3b"
+    },
+    {
+      "path": "assets/terrain/gentle-overview.png",
+      "bytes": 1063838,
+      "sha256": "8de8ad2f112f6ba6cfc3e054ef47c2e3000de83b2a4fca68cd641a99ffbe6cfa"
+    },
+    {
+      "path": "assets/terrain/gentle-player-base.png",
+      "bytes": 1820670,
+      "sha256": "29997f0515107fa9f0138b6464b51e567c64e25aec02575d007e5b32da1528c6"
+    },
+    {
+      "path": "assets/terrain/m001-terrain.png",
+      "bytes": 212162,
+      "sha256": "1bd333f8c81abbcdbd1d71ead3d78940a8356062bb1919c4df7d1e2f91dcab20"
+    },
+    {
+      "path": "assets/terrain/m002-overview.png",
+      "bytes": 927482,
+      "sha256": "e29dc45424166ad9cfe0fa959d11e4e62a33b0492cb4f0b78e6047838fd73104"
+    },
+    {
+      "path": "assets/terrain/m002-terrain.png",
+      "bytes": 190326,
+      "sha256": "a13f8c018cfbceedc2016d4b5ea16683de1553c4de620adfd2f454a6df44ee0c"
+    },
+    {
+      "path": "assets/terrain/m003-terrain.png",
+      "bytes": 209600,
+      "sha256": "589ec8d2fe71625681daea56859b5979267e59b6d2e9c557ec5cd42a5af09583"
+    },
+    {
+      "path": "assets/terrain/m004-overview.png",
+      "bytes": 1121337,
+      "sha256": "b6ed7eb4f7d6611829825b2c4ab4c76d64eb6b7fa4b2fd2b5276fca9b934590d"
+    },
+    {
+      "path": "assets/terrain/m004-terrain-detail.png",
+      "bytes": 1825333,
+      "sha256": "d1abb3815019ca189d4c7b4d6f2413c7ba29384745e1db242ad1e4375caae1df"
+    },
+    {
+      "path": "assets/terrain/m004-terrain.png",
+      "bytes": 192598,
+      "sha256": "22ecb5ec4f95471a9be4c65dfb01a59f2e63a1de47cc2b6af597714a357b307b"
+    },
+    {
+      "path": "assets/terrain/m005-terrain.png",
+      "bytes": 170301,
+      "sha256": "72d5d968f4c5de7d936f8b930dc23e2f1c9c66a1e2f115cf51ea13b05c3acf02"
+    },
+    {
+      "path": "assets/terrain/m006-overview.png",
+      "bytes": 1158847,
+      "sha256": "a40886e2be4f1ecdd03dcd92eb4cab4f9d114b382d69140f64ea947670f80b14"
+    },
+    {
+      "path": "assets/terrain/m006-terrain-detail.png",
+      "bytes": 1846756,
+      "sha256": "538f23e981e77b8a1af06480acf6a790e76792339255d4e1c8707c37c01f8756"
+    },
+    {
+      "path": "assets/terrain/m006-terrain.png",
+      "bytes": 193806,
+      "sha256": "b0a75daeb7e403d23bb200a316cc0b4d487522adaf8df10f659f6680923184c5"
+    },
+    {
+      "path": "assets/terrain/m007-overview.png",
+      "bytes": 1155222,
+      "sha256": "0588a911a89ff09519f8427de7a0be2d7cf8240bb3c43854f806ffadf76d4e6a"
+    },
+    {
+      "path": "assets/terrain/m007-terrain-detail.png",
+      "bytes": 1625414,
+      "sha256": "29e0e5390f6c22f84a69de2ebe67c37e8b7d8064b5189066d37e0a1e820e21f2"
+    },
+    {
+      "path": "assets/terrain/m007-terrain.png",
+      "bytes": 128789,
+      "sha256": "3b883001f5fb5dff7fc9120b9640bfc27f0587e32beb9fb0ff16dc2e2aa7f120"
+    },
+    {
+      "path": "assets/terrain/m008-overview.png",
+      "bytes": 1139285,
+      "sha256": "0a85ad8d3eb5f4625b65d6cf82f84eff0db418d298af2739def88e546083b1f5"
+    },
+    {
+      "path": "assets/terrain/m008-terrain.png",
+      "bytes": 326695,
+      "sha256": "b2a12b058b20a6f8a4ed3c3cd23fa175b6cb889050b1a0928fc5078a0ae463b6"
+    },
+    {
+      "path": "assets/terrain/m009-overview.png",
+      "bytes": 1426887,
+      "sha256": "69e544e5de04e4ed6fe7a624fe3d909403d2016473f4d71d9db7ae18c0027d95"
+    },
+    {
+      "path": "assets/terrain/m009-terrain.png",
+      "bytes": 173012,
+      "sha256": "a0fe7de405d49ddd527ead9d9d7bf4ff4d43a60bf3554b9bf73b9414e12fcdad"
+    },
+    {
+      "path": "assets/terrain/standard-coast-detail.png",
+      "bytes": 1360138,
+      "sha256": "f4c4ea9dcac8d7f9dd682ccde7f0f8f4f88ae721edcf1eb7ba1ca6fb972d9739"
+    },
+    {
+      "path": "assets/terrain/standard-overview.png",
+      "bytes": 832512,
+      "sha256": "edc5560fe0f20b02b9f9579212a7c87abf78c94e82f1f940aa2d6ca1122e5409"
+    },
+    {
+      "path": "assets/terrain/standard-player-base.png",
+      "bytes": 1675326,
+      "sha256": "b427674e6543d5b073487f44f4d473d4fb5752de45881285cbf3d25e77da4272"
+    },
+    {
+      "path": "assets/terrain/terraced-gentle-terrain.png",
+      "bytes": 203566,
+      "sha256": "a90b1789991ebda91e6e8b7aafdadbe16aff320112fe0cf9cd195a9840f9c3b5"
+    },
+    {
+      "path": "assets/terrain/terraced-standard-terrain.png",
+      "bytes": 202328,
+      "sha256": "1247141698c489a52439579c686169ee3b30a57fc3b07da4e4010f03d1abffda"
+    },
+    {
+      "path": "assets/terrain/terrain-atlas-islands.png",
+      "bytes": 281220,
+      "sha256": "b61f3d3ca1634c9ac6dde2432df9859d99ada73744305d290cfea2738e77ca9a"
+    },
+    {
+      "path": "assets/terrain/terrain-atlas-main.png",
+      "bytes": 515242,
+      "sha256": "9814192041e9d89d42cc2000a419fb84a77eae47b0943c6267ab93365b2d72ad"
+    },
+    {
+      "path": "assets/terrain/tidal-flat-terrain.png",
+      "bytes": 176909,
+      "sha256": "f0bc744ea02d69dc59de7dc7f07704adea3645959e067583cf987b4847bd016a"
+    },
+    {
+      "path": "assets/terrain-edge-lab/all.png",
+      "bytes": 1574115,
+      "sha256": "63600dfe4f03fbd870c6f8ff1cf0344bea05fea5c19cc5b0f905e488b6cb52a6"
+    },
+    {
+      "path": "assets/terrain-edge-lab/paint-only.png",
+      "bytes": 1561298,
+      "sha256": "e3deed53c06d7bca29c15a5cc54fae4065e9a1195df7cf61d3c06f11079d8a7d"
+    },
+    {
+      "path": "assets/terrain-edge-lab/pave-out.png",
+      "bytes": 1581274,
+      "sha256": "7b3d5c408d8d4215406eb690906f544ba0617c938bcffb50bf1a8bf46bf8c801"
+    },
+    {
+      "path": "assets/terrain-edge-lab/single-cardinal.png",
+      "bytes": 1575524,
+      "sha256": "fee1ed08494ebef62ccd40dae0a84d465846565d3c00eeb90ccab38519d72aaf"
+    },
+    {
+      "path": "assets/uprising/gallery.html",
+      "bytes": 455619,
+      "sha256": "e87002611e3bd422813ae72f83f3d1824f2f58d490ef3680f215664bebbed0f9"
+    },
+    {
+      "path": "assets/uprising/u001-atlas.jpg",
+      "bytes": 2508264,
+      "sha256": "12dc1857772bfaa3a2c3f0d3c52c4ea9cc9dc35db4e4efc4fbeabaa81a42b739"
+    },
+    {
+      "path": "assets/uprising/u001-cover.jpg",
+      "bytes": 24063,
+      "sha256": "63bf68d51be99377ec78938cb387fbbed8d881490b89502fb1a3552003752439"
+    },
+    {
+      "path": "assets/uprising/u001-detail-cliff.jpg",
+      "bytes": 251029,
+      "sha256": "4dcbf887ff5e81071c67ca1b9789100e98bc6a259c4184905119e9627d95609b"
+    },
+    {
+      "path": "assets/uprising/u001-detail-courtyard.jpg",
+      "bytes": 372651,
+      "sha256": "a18d80e733a5e5df0a88bfb74e32a8ab061188de71ab637be1b213ed6bb14e7e"
+    },
+    {
+      "path": "assets/uprising/u002-atlas.jpg",
+      "bytes": 1531541,
+      "sha256": "19107a5916f0f40705cad4c28800ec8d6b1cf75a70f52c793d84ec34a6dde6ae"
+    },
+    {
+      "path": "assets/uprising/u002-cover.jpg",
+      "bytes": 15484,
+      "sha256": "fda6d9aba907d53607ce0482e095e9a42817545e2e7105bf7938137b520d3977"
+    },
+    {
+      "path": "assets/uprising/u002-detail-courtyard.jpg",
+      "bytes": 270845,
+      "sha256": "5496a5663cb34c77605b64457184562be85ce834389df5abb4c0bae4d7fe2039"
+    },
+    {
+      "path": "assets/uprising/u002-detail-props.jpg",
+      "bytes": 297199,
+      "sha256": "69b3a5b2c2d413820fb017b2ef85b3b8bda84cc4c1f6a5e91021b59410aa0203"
+    },
+    {
+      "path": "assets/uprising/u003-atlas.jpg",
+      "bytes": 2232347,
+      "sha256": "d84eba6855a269bc34414ad73aade0ed70694f7cd9854f68be2511d0434e5cd3"
+    },
+    {
+      "path": "assets/uprising/u003-cover.jpg",
+      "bytes": 22609,
+      "sha256": "5813b57328e28ffdcda9b4ebd69a59978e49d1cb986ebf9d827d92fa305c30f8"
+    },
+    {
+      "path": "assets/uprising/u003-detail-cliff.jpg",
+      "bytes": 225042,
+      "sha256": "a944213791132c2bab7e50a26bf79e531e0cafac7d5a4361af366d18640ec6b3"
+    },
+    {
+      "path": "assets/uprising/u003-detail-courtyard.jpg",
+      "bytes": 463991,
+      "sha256": "105846ec059bec4389c39716a1f028d130a99724de1e323c675996f1c9fb3ec7"
+    },
+    {
+      "path": "assets/uprising/u004-atlas.jpg",
+      "bytes": 1118540,
+      "sha256": "ee1e4ad213c703ae24992ad45f14e1c39bf12611c1ae2cb43f230f1b39d95d21"
+    },
+    {
+      "path": "assets/uprising/u004-cover.jpg",
+      "bytes": 13841,
+      "sha256": "d0e2838f224ea75140362bc4a430265e4d628339ba0ade8292301f25b986376f"
+    },
+    {
+      "path": "assets/uprising/u005-atlas.jpg",
+      "bytes": 2160385,
+      "sha256": "eeeba8336e4eefd8ffc25e31744f9478b79a3152f1260677c792913b34dc658d"
+    },
+    {
+      "path": "assets/uprising/u005-cover.jpg",
+      "bytes": 16362,
+      "sha256": "388b2a9b8a0eca364de0c9190f37511d513f73d5eb708d58f83c65e0611507d4"
+    },
+    {
+      "path": "assets/uprising/u005-detail-cliff.jpg",
+      "bytes": 270952,
+      "sha256": "7980afd51915db50e316605dc15d547a8169b46ca39bfc036ab596541236bb16"
+    },
+    {
+      "path": "assets/uprising/u005-detail-courtyard.jpg",
+      "bytes": 304098,
+      "sha256": "d6a1bc4666f1e535713bd54ff7beb3329cfeb2b5ba1012ab04d621da9f04eeaf"
+    },
+    {
+      "path": "assets/uprising/u006-atlas.jpg",
+      "bytes": 2167583,
+      "sha256": "8c326af2fc09d9aafaf435f66d4abc7d256bf20057c5934a63ef373586995a55"
+    },
+    {
+      "path": "assets/uprising/u006-cover.jpg",
+      "bytes": 16381,
+      "sha256": "fe8bdc92c66422324360816f691c993d4e88f63b9b746b0fd0517350d647940a"
+    },
+    {
+      "path": "assets/uprising/u007-atlas.jpg",
+      "bytes": 2168465,
+      "sha256": "b1b3903a9239b5c72972c6b976e5d0b6ef7b0e8078411e3bfb33f85dd34df589"
+    },
+    {
+      "path": "assets/uprising/u007-cover.jpg",
+      "bytes": 16381,
+      "sha256": "fe8bdc92c66422324360816f691c993d4e88f63b9b746b0fd0517350d647940a"
+    },
+    {
+      "path": "assets/uprising/u008-atlas.jpg",
+      "bytes": 1638501,
+      "sha256": "a67688e39adf63b1a80ddd8bcab7ea6682743010e13b347405b6dd4e4101a75e"
+    },
+    {
+      "path": "assets/uprising/u008-cover.jpg",
+      "bytes": 14690,
+      "sha256": "95a63f7c3e7655802256cd7285c41aead5de4ec17235c8327bbcad21669106c6"
+    },
+    {
+      "path": "assets/uprising/u009-atlas.jpg",
+      "bytes": 1641848,
+      "sha256": "8231eafe46135d2741b2d47837ea986ed1cd9d7a83166a99ed5798d4581b581d"
+    },
+    {
+      "path": "assets/uprising/u009-cover.jpg",
+      "bytes": 14757,
+      "sha256": "ac1f60e9db775cd0c8c67af78d33ddd919b966f74f6b93929c8084db906312ea"
+    },
+    {
+      "path": "assets/uprising/u010-atlas.jpg",
+      "bytes": 1641459,
+      "sha256": "eecd4d955737f28913ca100d97964854cb229eab3625ff26fdfeb281001f0781"
+    },
+    {
+      "path": "assets/uprising/u010-cover.jpg",
+      "bytes": 14700,
+      "sha256": "8e6ede9679472ea90809332ed0b4ec531b72a83b98e5abf89614b3866aa2b6aa"
+    },
+    {
+      "path": "assets/uprising/u011-atlas.jpg",
+      "bytes": 1839040,
+      "sha256": "112e4fae1ac479c1c61890e17057264eb740953a759e1a933f1b3a0a8a476023"
+    },
+    {
+      "path": "assets/uprising/u011-cover.jpg",
+      "bytes": 18568,
+      "sha256": "d88fc03708696ed65034eb824b0453912d96e25af8a025a133214322986c0581"
+    },
+    {
+      "path": "assets/uprising/u012-atlas.jpg",
+      "bytes": 1776404,
+      "sha256": "a67e4d848549690c4dd32519614e90f2d430316976450a8944640f6c4e6023d8"
+    },
+    {
+      "path": "assets/uprising/u012-cover.jpg",
+      "bytes": 19866,
+      "sha256": "ebc5ac9ff89fd010307608a423f19247ec82d5e91edbc5e124f290191ee45faa"
+    },
+    {
+      "path": "assets/uprising/u013-atlas.jpg",
+      "bytes": 1779395,
+      "sha256": "37e53134099efd3323470504b6fb570d21aa050e6710c6629feddec204b372c6"
+    },
+    {
+      "path": "assets/uprising/u013-cover.jpg",
+      "bytes": 19861,
+      "sha256": "1b693bb0daab64897c81d1a8a6545771a821350fa474524c7f181e918bffebd0"
+    },
+    {
+      "path": "assets/uprising/u014-atlas.jpg",
+      "bytes": 1734220,
+      "sha256": "8a716f17bd9d94a39e92450ed061210fa336676a849a89c151597e966ad1ddf3"
+    },
+    {
+      "path": "assets/uprising/u014-cover.jpg",
+      "bytes": 17904,
+      "sha256": "7c1200e6f70aff9a01a5ad559e91621c67334318f617d0830406a8721904b039"
+    },
+    {
+      "path": "assets/uprising/u015-atlas.jpg",
+      "bytes": 1847347,
+      "sha256": "6490d541d2ec6088c104f9d2a1f394e6df9144fe6c8f634cb836491ee582ae95"
+    },
+    {
+      "path": "assets/uprising/u015-cover.jpg",
+      "bytes": 17847,
+      "sha256": "3b9954ac3040f00d3bab065946c99906ee469f9fefdd5ba10be7cf99833473b2"
+    },
+    {
+      "path": "assets/uprising/u016-atlas.jpg",
+      "bytes": 1504665,
+      "sha256": "cbf946513c0382acade8e4c630c14c56956a4269865f4f2cba1d5123f4f6c0df"
+    },
+    {
+      "path": "assets/uprising/u016-cover.jpg",
+      "bytes": 17081,
+      "sha256": "6faac2e6d48d60614eced30bd36d8c43bf2f84047455c2f5b999e7bb3111e12e"
+    },
+    {
+      "path": "assets/uprising/u016-detail-courtyard.jpg",
+      "bytes": 197378,
+      "sha256": "a44e53181460f66aa0a3ec5bcbfc6bf789ca0b5b0bba64deb5e9c3dbf0ffc8df"
+    },
+    {
+      "path": "assets/uprising/u016-detail-props.jpg",
+      "bytes": 280375,
+      "sha256": "82cb8d69ab82a2cdfa559abb2d1a93c8554d9c57e4ca6b1e83efcb5177b2665f"
+    },
+    {
+      "path": "assets/uprising/u017-atlas.jpg",
+      "bytes": 1953825,
+      "sha256": "c1823eda07141ad946d8148f53ae26db8cd40237c45fa689a63236f77266c573"
+    },
+    {
+      "path": "assets/uprising/u017-cover.jpg",
+      "bytes": 18762,
+      "sha256": "e75a385a57c079b1def585800a28119115eac6d111642646f244d0f2816bfbc1"
+    },
+    {
+      "path": "assets/uprising/u018-atlas.jpg",
+      "bytes": 1831509,
+      "sha256": "0e0ad86253f6f74a25e2f42283d27f45084680155f47e9dc18df34cc82ab77a3"
+    },
+    {
+      "path": "assets/uprising/u018-cover.jpg",
+      "bytes": 19817,
+      "sha256": "a5ad0ce5878569d6674dca0dda87f093cb7a2995ebf1f216b579723b7e1e1360"
+    },
+    {
+      "path": "assets/uprising/u018-detail-courtyard.jpg",
+      "bytes": 242713,
+      "sha256": "c6058f79cbe6b27fe8082ed337095835ec9bb95ad7fd4ba5187b858104199c03"
+    },
+    {
+      "path": "assets/uprising/u018-detail-props.jpg",
+      "bytes": 251395,
+      "sha256": "eabed99f161ff36a5c205f694d07ba3a0fddde2eeb7e5ff27dce647c1ccb829a"
+    },
+    {
+      "path": "assets/uprising/u019-atlas.jpg",
+      "bytes": 1864878,
+      "sha256": "ca20f0e1588ace4dfcfae19f1b8e00bdf1ae411e3bb9043d8bd32b92a20bdde2"
+    },
+    {
+      "path": "assets/uprising/u019-cover.jpg",
+      "bytes": 18420,
+      "sha256": "2bc190d684bad7f9909628d17049e19982e6d14b8ef60eac236d8b3a5029ceef"
+    },
+    {
+      "path": "assets/uprising/u019-detail-courtyard.jpg",
+      "bytes": 344778,
+      "sha256": "1529b6407c7e49d4c629b098ae38dea83c190030d9407f449c07faaf63117d03"
+    },
+    {
+      "path": "assets/uprising/u019-detail-props.jpg",
+      "bytes": 362654,
+      "sha256": "1a60b318407e8b4c023370dcbfbbe012f51e62ab39c1db49f838fa7dfdee905a"
+    },
+    {
+      "path": "assets/uprising/u020-atlas.jpg",
+      "bytes": 1865884,
+      "sha256": "c0b67bdeb61a9ccabf1a479dfe55a5c1797d50cbc550aa1812b34afdce442a22"
+    },
+    {
+      "path": "assets/uprising/u020-cover.jpg",
+      "bytes": 18416,
+      "sha256": "ed1def2a98bd4cca45040f1cf83a525d1a86bb1e5b7d9f935d9503d6bada91fa"
+    },
+    {
+      "path": "assets/uprising/u021-atlas.jpg",
+      "bytes": 1223412,
+      "sha256": "fc5e60c902758c3cbe9718641591fb3db76272919d5037f56d56231ef6a67216"
+    },
+    {
+      "path": "assets/uprising/u021-cover.jpg",
+      "bytes": 12943,
+      "sha256": "1eb033d47c43a21c2bd17c3f5423274ad5a82e3dd9e35b9439f992e9eb62f10c"
+    },
+    {
+      "path": "assets/uprising/u022-atlas.jpg",
+      "bytes": 1226455,
+      "sha256": "5fac461132dbf4fd697fcf02c54c66fcdf3305b86d9d05248cb4f763099aa58e"
+    },
+    {
+      "path": "assets/uprising/u022-cover.jpg",
+      "bytes": 12923,
+      "sha256": "97a6ceda719d5a26c488a3c43bf3dc9ef33bb990b63f901f825d083c35e5942b"
+    },
+    {
+      "path": "assets/uprising/u023-atlas.jpg",
+      "bytes": 1332819,
+      "sha256": "8c8e6c30ccfdc8357b3a2627083f7c28455e6c25045251498aa76498a9ad7b43"
+    },
+    {
+      "path": "assets/uprising/u023-cover.jpg",
+      "bytes": 13419,
+      "sha256": "59595ceb9627205b71e125a2725f182e8337bd67838d1517bcf03dc447a017c2"
+    },
+    {
+      "path": "assets/uprising/u024-atlas.jpg",
+      "bytes": 1621116,
+      "sha256": "bf7a22f6a6c7c22dd7983aef890b8e1c4ae092c15815c6aceb0e744a95308d20"
+    },
+    {
+      "path": "assets/uprising/u024-cover.jpg",
+      "bytes": 17103,
+      "sha256": "daab35c0bac9bcc0d9f0406f70c7a1d9a78d7a67a014b0f6d2c22c170362e37c"
+    },
+    {
+      "path": "assets/uprising/u025-atlas.jpg",
+      "bytes": 1580056,
+      "sha256": "efdc749ad628c32fe36026f5e521c3ecac4475856b5265ba76623e27a29d6227"
+    },
+    {
+      "path": "assets/uprising/u025-cover.jpg",
+      "bytes": 18120,
+      "sha256": "47d2b6444e759036e61937994ffa75e6da9ab4d8ded84199b3280b32ea5b89bb"
+    },
+    {
+      "path": "assets/uprising/u025-detail-cliff.jpg",
+      "bytes": 236147,
+      "sha256": "da80678ebfe5e8e5bd7868c41bc9ecfe80208118cec03faf42f37d2751033ef2"
+    },
+    {
+      "path": "assets/uprising/u025-detail-courtyard.jpg",
+      "bytes": 232314,
+      "sha256": "75e7a12904349ca46222f5de9ed5ed39e4df4d7887ed0d0e5989ad789fa651d4"
+    },
+    {
+      "path": "assets/uprising/u026-atlas.jpg",
+      "bytes": 1183457,
+      "sha256": "d86c5a4ec7982156aab45985b8f5dcb165402f60f055c2e5dd13895f0af3375a"
+    },
+    {
+      "path": "assets/uprising/u026-cover.jpg",
+      "bytes": 13424,
+      "sha256": "f70416af8f2e5ee198a61d2ae3cc03958a2a523c05e3c28efb1bbd6341bb4575"
+    },
+    {
+      "path": "assets/uprising/u027-atlas.jpg",
+      "bytes": 1191544,
+      "sha256": "ead3da09d8b31548b3d13c7cce9053d866bac98b13929183ff44c3f33ed733ff"
+    },
+    {
+      "path": "assets/uprising/u027-cover.jpg",
+      "bytes": 13468,
+      "sha256": "e33e7d1f9715d7895dcbc2f23f9f4d3d2e69adb3b69f602bbf10a449b87f5e8d"
+    },
+    {
+      "path": "assets/uprising/u028-atlas.jpg",
+      "bytes": 1731276,
+      "sha256": "ae4454cb1f4fa8bb102f43180d6ba919c653470fce7244d2c03f9b98dbfff16c"
+    },
+    {
+      "path": "assets/uprising/u028-cover.jpg",
+      "bytes": 20183,
+      "sha256": "97baa46c67037d5636b59d210897afdb71f0601afff12e9935c5a4ed5b1905ee"
+    },
+    {
+      "path": "assets/uprising/u029-atlas.jpg",
+      "bytes": 1467844,
+      "sha256": "597c61c6f8ba4089d693c1b3770c621f09533653e10307c2ecdd4731d16ba285"
+    },
+    {
+      "path": "assets/uprising/u029-cover.jpg",
+      "bytes": 18895,
+      "sha256": "38cf572ed47e740000968d7120c60e6114bcb0c2a086405db505616a81064962"
+    },
+    {
+      "path": "assets/uprising/u030-atlas.jpg",
+      "bytes": 2241691,
+      "sha256": "607250b1040fd6ed364d40afdd919310971accbd6276014b671f8117f747b92b"
+    },
+    {
+      "path": "assets/uprising/u030-cover.jpg",
+      "bytes": 19767,
+      "sha256": "b7f62e4c935ab7276168b109ea671dd33fc4d201ace223a88f7efa1f860a0155"
+    },
+    {
+      "path": "assets/uprising/u031-atlas.jpg",
+      "bytes": 2242496,
+      "sha256": "ab436caf76b34848c7c6188994aa6ab3d76a4d90cf26b5b9048e4cf5c7b1ee2e"
+    },
+    {
+      "path": "assets/uprising/u031-cover.jpg",
+      "bytes": 19616,
+      "sha256": "215084536adb0fd7b37c59e54e99a96719448c0eaa6146d1e92ea199c2124f58"
+    },
+    {
+      "path": "assets/uprising/u032-atlas.jpg",
+      "bytes": 1545954,
+      "sha256": "91cc0119d9f7862a2bd90fb8b969dc843c68afdd7c2e69ce21b4ef157072024e"
+    },
+    {
+      "path": "assets/uprising/u032-cover.jpg",
+      "bytes": 16090,
+      "sha256": "008383c61f3c1697665e64e218427471cc8f79cbb7ed03a245990b9806f0d869"
+    },
+    {
+      "path": "assets/uprising/u033-atlas.jpg",
+      "bytes": 1516985,
+      "sha256": "76f1a175765ef53ade42904d9ade0ec3ec692fdc5fb38b6e09dc0e2317d2c8da"
+    },
+    {
+      "path": "assets/uprising/u033-cover.jpg",
+      "bytes": 17923,
+      "sha256": "2b8b2bf02d0fc3ce7b84f293e4d56ac96a42d777bcf1a4848fbacd8cc036f3c8"
+    },
+    {
+      "path": "assets/uprising/u034-atlas.jpg",
+      "bytes": 1381935,
+      "sha256": "d7d1ca4eb39f0b2e8008c48e33919b59e6e64baa4b37278f87d4ee9aa15129f1"
+    },
+    {
+      "path": "assets/uprising/u034-cover.jpg",
+      "bytes": 17975,
+      "sha256": "53482ca7a0e38dbacebffcb97947c756dfcd87c6d5e574481f7ca8ff399c3ce9"
+    },
+    {
+      "path": "assets/uprising/u035-atlas.jpg",
+      "bytes": 1550419,
+      "sha256": "b69ffdbad9c0efd4b65fb8670cd0c76deeb97130b359e37c525deba6715ac4d4"
+    },
+    {
+      "path": "assets/uprising/u035-cover.jpg",
+      "bytes": 17808,
+      "sha256": "b4bf836ffe88605debb164bd15d3cef6dbf3cdd5fdd59c53b1694d3e811e9d41"
+    },
+    {
+      "path": "assets/uprising/u036-atlas.jpg",
+      "bytes": 1952185,
+      "sha256": "76491f797f12f8d822fbd29b344978a18e9def76157d0056b578c23fc42b41b4"
+    },
+    {
+      "path": "assets/uprising/u036-cover.jpg",
+      "bytes": 18450,
+      "sha256": "5d44dd5b6671189d5c064e406777d712c8d4f70101d7d4033fede8699dd79c08"
+    },
+    {
+      "path": "assets/uprising/u036-detail-courtyard.jpg",
+      "bytes": 279884,
+      "sha256": "930c2975774cae0a0b1703260a1bffbc44ab07909e75ca6a0b279c09ac2e4126"
+    },
+    {
+      "path": "assets/uprising/u036-detail-props.jpg",
+      "bytes": 360076,
+      "sha256": "7013922883ce700f4e609eb0361921c38af22f8b8372f7dcf4ec1c2fad382b5f"
+    },
+    {
+      "path": "assets/uprising/u037-atlas.jpg",
+      "bytes": 1609252,
+      "sha256": "69a918d2c1397084263142e242f08488f1301a39afc6d3a18fcf12e8378b4acc"
+    },
+    {
+      "path": "assets/uprising/u037-cover.jpg",
+      "bytes": 16320,
+      "sha256": "37bf8ae5c9fd922e7860e0f954417eb08b391e3458d3f04f17e92fb04d998e64"
+    },
+    {
+      "path": "assets/uprising/u038-atlas.jpg",
+      "bytes": 1613308,
+      "sha256": "cd5b99b7c98e0661b693ccedaa70832b853a8d3b67b72a105a31cec28d3ad315"
+    },
+    {
+      "path": "assets/uprising/u038-cover.jpg",
+      "bytes": 16477,
+      "sha256": "b50fb5e3337785b47ffa6b0d5ec7b0b1634f42642aca15f60a1a54a9db704ea8"
+    },
+    {
+      "path": "assets/uprising/u039-atlas.jpg",
+      "bytes": 1867974,
+      "sha256": "559659538a13c68aba5cffecff61b355e32486f09a47a48f3996a505a33ce144"
+    },
+    {
+      "path": "assets/uprising/u039-cover.jpg",
+      "bytes": 16525,
+      "sha256": "149ef90b87b082a9f5976238bbe504641c3f94e6e22f53049897d726fdd7f1e6"
+    },
+    {
+      "path": "assets/uprising/u040-atlas.jpg",
+      "bytes": 1872763,
+      "sha256": "c90625789e7a6ffa3d7270f0127f341a6efeba50bde7ee884599efc6f088fe67"
+    },
+    {
+      "path": "assets/uprising/u040-cover.jpg",
+      "bytes": 16602,
+      "sha256": "c47a32d611a36706eeed1de38d70be6306ea265e3db33428121a6d6e0be5e131"
+    },
+    {
+      "path": "assets/uprising/u041-atlas.jpg",
+      "bytes": 1694620,
+      "sha256": "170c0b7c1d311700e2f42ab4ce06c1ec4a4b6aae54ca7fc29292d8f73efd13b0"
+    },
+    {
+      "path": "assets/uprising/u041-cover.jpg",
+      "bytes": 16879,
+      "sha256": "01ee9bf953f90d32e14b53ecfbb7c46ad20313923c02e91ad8433c91426e0d8f"
+    },
+    {
+      "path": "assets/uprising/u041-detail-cliff.jpg",
+      "bytes": 234860,
+      "sha256": "3ba34a108ec74afb15f1fca28de58fe78cd0a5d1b0d3abeda2eff726a88012f6"
+    },
+    {
+      "path": "assets/uprising/u041-detail-courtyard.jpg",
+      "bytes": 347737,
+      "sha256": "2e03221e1c7f0131a7ac6088ce21021937f50beb579838759baa85b757788806"
+    },
+    {
+      "path": "assets/uprising/u042-atlas.jpg",
+      "bytes": 1711754,
+      "sha256": "d2df21ba2ee03f77e8bfdffa99aff23c16d354c15affb71f8fc217b3db4f9f77"
+    },
+    {
+      "path": "assets/uprising/u042-cover.jpg",
+      "bytes": 16901,
+      "sha256": "b1e70b89a7de68d2564c09036f83706dd6baed6e59b5255d462f9b50464ba62c"
+    },
+    {
+      "path": "assets/uprising/u043-atlas.jpg",
+      "bytes": 1406072,
+      "sha256": "7d2c0c1d319d1316933d1529498aa306f6398b1406ca201f776cf7ba141de6c3"
+    },
+    {
+      "path": "assets/uprising/u043-cover.jpg",
+      "bytes": 16950,
+      "sha256": "671558e9cd8b747ea8289f16a982e1be987318e5552cb2137989094c888bed00"
+    },
+    {
+      "path": "assets/uprising/u043-detail-cliff.jpg",
+      "bytes": 218290,
+      "sha256": "3384b16694204726811661d495b5e2667471f5556e025bb1ef321ce8e7ccf0cf"
+    },
+    {
+      "path": "assets/uprising/u044-atlas.jpg",
+      "bytes": 1406840,
+      "sha256": "cc859f42f9df8fd8fdbefe334db53d6196e42698c4c82ef788bea6e2809e4db9"
+    },
+    {
+      "path": "assets/uprising/u044-cover.jpg",
+      "bytes": 16950,
+      "sha256": "671558e9cd8b747ea8289f16a982e1be987318e5552cb2137989094c888bed00"
+    },
+    {
+      "path": "assets/uprising/u045-atlas.jpg",
+      "bytes": 1076988,
+      "sha256": "97da0caf0bdde67ecc0ab9f59a622c1a59b1e0f16665c8f2b6072cdc4ea72f27"
+    },
+    {
+      "path": "assets/uprising/u045-cover.jpg",
+      "bytes": 13640,
+      "sha256": "72ac33884f50bfbb0e1cdbcdb568d5cbd938494ab0d5bb4257af7771c33d0124"
+    },
+    {
+      "path": "assets/uprising/u046-atlas.jpg",
+      "bytes": 1169543,
+      "sha256": "5daefa7fba352eb6a2ad6f4e57a7a3586e294b770b89b0443650ae429c2de1cd"
+    },
+    {
+      "path": "assets/uprising/u046-cover.jpg",
+      "bytes": 12799,
+      "sha256": "b1cc0d696694b5437879ae3f6c15e29425a9b0676ecc9bb5c2ed619834518ce4"
+    },
+    {
+      "path": "assets/uprising/u047-atlas.jpg",
+      "bytes": 1263223,
+      "sha256": "028a9e5aba600cef52c469e7b09ba62e6411587fb8a4109a6156cf7e14d7b4ba"
+    },
+    {
+      "path": "assets/uprising/u047-cover.jpg",
+      "bytes": 14589,
+      "sha256": "fe501f6fdd9e5aa161477e7ee8c7fa7dd3f5664414d6b18c8f134516dac3b33a"
+    },
+    {
+      "path": "assets/uprising/u048-atlas.jpg",
+      "bytes": 1786352,
+      "sha256": "b332daccb9495d223cb9e3896248214a1934c6a08f841012d0c679f1cda69289"
+    },
+    {
+      "path": "assets/uprising/u048-cover.jpg",
+      "bytes": 24537,
+      "sha256": "a03e1225a6d37a2e4a4197aa2724d51fa2adf1e73196df1db25ac7c7f5f08dee"
+    },
+    {
+      "path": "assets/uprising/u048-detail-cliff.jpg",
+      "bytes": 369557,
+      "sha256": "9cc1138b85ffad736de5edb3d9e08bae014dd2e22a4fdfa61c1820cede4158f1"
+    },
+    {
+      "path": "assets/uprising/u048-detail-courtyard.jpg",
+      "bytes": 351919,
+      "sha256": "5d7d3549101b98cc18b38e2d8114d37920ef1a39a54aeb655abeabfc9a5b7734"
+    },
+    {
+      "path": "assets/uprising/u049-atlas.jpg",
+      "bytes": 1791987,
+      "sha256": "51bc2a9a173650a179ed05328aa3907b6f9fd57617bd91ae958e1c38d7e687bf"
+    },
+    {
+      "path": "assets/uprising/u049-cover.jpg",
+      "bytes": 24563,
+      "sha256": "7905654b384c744a38c1a9d29a3d1266f96c1ed36f6b3bbd19723f8ebb2d0a63"
+    },
+    {
+      "path": "assets/uprising/u050-atlas.jpg",
+      "bytes": 1792854,
+      "sha256": "ba2925ea7165bdc0260643ed79e3b121ad4a631761cd9c6e9ad43b49f6858aff"
+    },
+    {
+      "path": "assets/uprising/u050-cover.jpg",
+      "bytes": 24563,
+      "sha256": "7905654b384c744a38c1a9d29a3d1266f96c1ed36f6b3bbd19723f8ebb2d0a63"
+    },
+    {
+      "path": "assets/uprising/u051-atlas.jpg",
+      "bytes": 1774870,
+      "sha256": "58ab2f6cfb9ac700ba05a2c274a84277fa04cd4185742bce2dffb85a6deff4be"
+    },
+    {
+      "path": "assets/uprising/u051-cover.jpg",
+      "bytes": 17557,
+      "sha256": "7f68d286388527ce6e1da4c6ec4e4892d17e2394ee9a8d32647d62819b40797b"
+    },
+    {
+      "path": "assets/uprising/u052-atlas.jpg",
+      "bytes": 1224246,
+      "sha256": "14344f6eaad006138304ac2640c16434d263266c84fde08d3c381934af9a8d5a"
+    },
+    {
+      "path": "assets/uprising/u052-cover.jpg",
+      "bytes": 12530,
+      "sha256": "7c054bc411182aaf9528aaca42ec629e6832454aa116ba86783db5a8cf5e0b08"
+    },
+    {
+      "path": "assets/uprising/u053-atlas.jpg",
+      "bytes": 1227735,
+      "sha256": "f766c2c20a40c7672b19b38708147b66d0af35bd3b1409bee643d7fafc3bf914"
+    },
+    {
+      "path": "assets/uprising/u053-cover.jpg",
+      "bytes": 12540,
+      "sha256": "0e06f0d964ce6fd3cb51e52e76685bf259c6944397afb7c4bfa585f1adfd0640"
+    },
+    {
+      "path": "assets/uprising/u054-atlas.jpg",
+      "bytes": 1066387,
+      "sha256": "f0aa1da06d39513614bbc859c73b08814a4927fa2f23623547d0abd890ef8c57"
+    },
+    {
+      "path": "assets/uprising/u054-cover.jpg",
+      "bytes": 10634,
+      "sha256": "e2fc64e938c0c8372f2404ea59a1219f0ad72cf6fc1ff41836c33ea31769c180"
+    },
+    {
+      "path": "assets/uprising/u055-atlas.jpg",
+      "bytes": 1072596,
+      "sha256": "9fa40e9859ed6a1d9a0e1b60d61adf22ea60a1175f0c5c3c5214d0026d7bdf3a"
+    },
+    {
+      "path": "assets/uprising/u055-cover.jpg",
+      "bytes": 10647,
+      "sha256": "750752bf57ae019c458cfe374c6961c3b5c2cfe9fc04198677f2fea8e0c94a08"
+    },
+    {
+      "path": "assets/uprising/u056-atlas.jpg",
+      "bytes": 2063805,
+      "sha256": "f3b4fa55dc813f7dc11d6e7e40e727195e4ceb2ddff14591af06dd456223911d"
+    },
+    {
+      "path": "assets/uprising/u056-cover.jpg",
+      "bytes": 18725,
+      "sha256": "ec359206d5c928f03561e75288e9fbb7a2256ef8b70b0040e5ee9a62248bb615"
+    },
+    {
+      "path": "assets/uprising/u056-detail-cliff.jpg",
+      "bytes": 449412,
+      "sha256": "e45c7bf8ee6d1675f427b675bdf4489e5a3766071ff7eaae190de1f8e13ecfe3"
+    },
+    {
+      "path": "assets/uprising/u056-detail-courtyard.jpg",
+      "bytes": 443785,
+      "sha256": "d4b43e404a0b3a786952517ec528114556ad75dc1d5e078b580452e8edfdda9b"
+    },
+    {
+      "path": "assets/uprising/u057-atlas.jpg",
+      "bytes": 1876642,
+      "sha256": "d066195492d6002e036235b2ffb2132ed49ac4eec801bc26e2af8c5ca33d4434"
+    },
+    {
+      "path": "assets/uprising/u057-cover.jpg",
+      "bytes": 18776,
+      "sha256": "adf932b943a3b86019f405ae4079de60efb289bbd28c78fbc8b51aa9db6bd6e3"
+    },
+    {
+      "path": "assets/uprising/u058-atlas.jpg",
+      "bytes": 1563671,
+      "sha256": "7a23b86647be60e16a74a4e1608584a091d13e43b5bc5467ca7967997a7e71cc"
+    },
+    {
+      "path": "assets/uprising/u058-cover.jpg",
+      "bytes": 17320,
+      "sha256": "d5e93255d498a018b076bc361eeff8f15bd8a2a461f71067190ca0fa61317d2e"
+    },
+    {
+      "path": "assets/uprising/u059-atlas.jpg",
+      "bytes": 2143317,
+      "sha256": "dedd7e819fbb171c72089eeb15410d01651e1085c786f7877c159e8b35991cd7"
+    },
+    {
+      "path": "assets/uprising/u059-cover.jpg",
+      "bytes": 22625,
+      "sha256": "e0aeec08d65cf3c99d3e576f1c896af04acd69163fd781ffa6aa1069303c3115"
+    },
+    {
+      "path": "assets/uprising/u059-detail-cliff.jpg",
+      "bytes": 257440,
+      "sha256": "1c36946111512092f66834c870197156c60f85ced5aa68c363f4e8f84944e934"
+    },
+    {
+      "path": "assets/uprising/u059-detail-courtyard.jpg",
+      "bytes": 389024,
+      "sha256": "a5df7502d7314d0b2ce76218d7047a83d0660f37561d9f6c29b9cad1edc99dc9"
+    },
+    {
+      "path": "assets/uprising/u060-atlas.jpg",
+      "bytes": 2146008,
+      "sha256": "a7c481f1d799f188a933443600549c9ea9a92fd20d5a6c0bf94b3cd503b3ed66"
+    },
+    {
+      "path": "assets/uprising/u060-cover.jpg",
+      "bytes": 22617,
+      "sha256": "3500870c72bc6063fe30bd88edb54216e9ad556c7bf4dce83e655b3877d9de0c"
+    },
+    {
+      "path": "assets/uprising/u061-atlas.jpg",
+      "bytes": 1433504,
+      "sha256": "9eeba7e4b93285f54059886860f90a71e3166f6bca82b0ca51152193c67319db"
+    },
+    {
+      "path": "assets/uprising/u061-cover.jpg",
+      "bytes": 15652,
+      "sha256": "ba795b7eb0866db9fc9d69874d1f75b5123bcb5f97954abc71b68ae5879aba44"
+    },
+    {
+      "path": "assets/uprising/u062-atlas.jpg",
+      "bytes": 1579110,
+      "sha256": "16af91db406c53ecf5747dc1ea047999790287226134e0a797102d4a277e0b6e"
+    },
+    {
+      "path": "assets/uprising/u062-cover.jpg",
+      "bytes": 17109,
+      "sha256": "a639eac0726dd33ba819e2c2fe574301712a59f2564027b88032424dfff24b74"
+    },
+    {
+      "path": "assets/uprising/u063-atlas.jpg",
+      "bytes": 2174555,
+      "sha256": "4880fddd695eacb3a7cabef1ee481cd6e07f36ad219a6822bba3320e6f21bc68"
+    },
+    {
+      "path": "assets/uprising/u063-cover.jpg",
+      "bytes": 22827,
+      "sha256": "6f2e272d95e0da65ddca62a417e9a0b2daa82f534a73df5b3c349568d0b79dea"
+    },
+    {
+      "path": "assets/uprising/u063-detail-courtyard.jpg",
+      "bytes": 379143,
+      "sha256": "f64666cb20532ea2f5893c312de5041c56357e3953061463b6f7c7263be62970"
+    },
+    {
+      "path": "assets/uprising/u063-detail-props.jpg",
+      "bytes": 430543,
+      "sha256": "53009a893467e4f1b6a90f4504a8cd6678c36c4f70888d36cb64798b5b15a945"
+    },
+    {
+      "path": "assets/uprising/u064-atlas.jpg",
+      "bytes": 2078338,
+      "sha256": "4ac7cb656ff5b7ef5227dae3728dfa8a7de502c4de709c1f201f93e204863b21"
+    },
+    {
+      "path": "assets/uprising/u064-cover.jpg",
+      "bytes": 22480,
+      "sha256": "f1cfd01008ee97194085a39181ff2dccaf968707605400486c94365687f8ed9b"
+    },
+    {
+      "path": "assets/uprising/u065-atlas.jpg",
+      "bytes": 2079785,
+      "sha256": "70e001e3236f20d2ac7d33a259f5e8e8023acc6111363d470e1faba5d420515e"
+    },
+    {
+      "path": "assets/uprising/u065-cover.jpg",
+      "bytes": 22533,
+      "sha256": "ebd919e9a877a492c74162566e583febf741097f53082f23b59a4aed8826250d"
+    },
+    {
+      "path": "assets/uprising/u066-atlas.jpg",
+      "bytes": 1503692,
+      "sha256": "b17bcd07a37b4d64aa6154bf25f60138f504031e9f8bddbdb4d162cbf7f649c4"
+    },
+    {
+      "path": "assets/uprising/u066-cover.jpg",
+      "bytes": 15558,
+      "sha256": "cf64e6efef50a14b9fd243f77d82cc9075783573feedbcee917ccf7bf541ea82"
+    },
+    {
+      "path": "assets/uprising/u066-detail-courtyard.jpg",
+      "bytes": 221074,
+      "sha256": "5a85ea5a777421df1de4fec23df64ec252df401c9e6909392042157563cb4b2b"
+    },
+    {
+      "path": "assets/uprising/u066-detail-props.jpg",
+      "bytes": 263812,
+      "sha256": "d23c708cf34a4393824b082b33e318ad883e838a92d7b103d7bc9e9b005148f7"
+    },
+    {
+      "path": "assets/uprising/u067-atlas.jpg",
+      "bytes": 1516268,
+      "sha256": "c5de82a396a3a4b6c7bed8bca95684e91ade92b4103e366e6cca8abb3a705b39"
+    },
+    {
+      "path": "assets/uprising/u067-cover.jpg",
+      "bytes": 15630,
+      "sha256": "dc09fc645083496782339a090636a4b88a2bce148aa9008bd07dbb9b02bcf3b4"
+    },
+    {
+      "path": "assets/uprising/u068-atlas.jpg",
+      "bytes": 1534764,
+      "sha256": "7672b1b004c8f4b8f71406838fefee2a70128a43adc2220827e491a79eef9e61"
+    },
+    {
+      "path": "assets/uprising/u068-cover.jpg",
+      "bytes": 16481,
+      "sha256": "e25c1e407402888348072f8f0011083ceec509f49b016e73300b65136ba3192c"
+    },
+    {
+      "path": "assets/uprising/u068-detail-cliff.jpg",
+      "bytes": 355065,
+      "sha256": "d934bd1d05eec53f203f5f6b6925af6e4ac0d395d958879d60c6f10d3018fbde"
+    },
+    {
+      "path": "assets/uprising/u069-atlas.jpg",
+      "bytes": 1538740,
+      "sha256": "4fef5bf28eaebc7ab2b77200a9ebaf0818ee42d2997fb8e14a2be6ad229528d6"
+    },
+    {
+      "path": "assets/uprising/u069-cover.jpg",
+      "bytes": 16508,
+      "sha256": "bf6f1c7c68f6822dd941233292baf9120c85ff09c5775dc03a640a72de0bde31"
+    },
+    {
+      "path": "assets/uprising/u070-atlas.jpg",
+      "bytes": 1669762,
+      "sha256": "a979c195d91b24151efa20433f643f0a50ae4a8a35557673efd65466441a8737"
+    },
+    {
+      "path": "assets/uprising/u070-cover.jpg",
+      "bytes": 17766,
+      "sha256": "fd7608e5c9c1a713dcfd4d6a63826713e992bba0baa5c30579731489aeb36f83"
+    },
+    {
+      "path": "assets/uprising/u071-atlas.jpg",
+      "bytes": 1571934,
+      "sha256": "900a75311fae08a2c611ab512198d8ef39fbcccec0a1b54ec76e8ff7880589e7"
+    },
+    {
+      "path": "assets/uprising/u071-cover.jpg",
+      "bytes": 18316,
+      "sha256": "d5f7837734e4d6ce9db62d0a03e61580854b449acf618f532ad42ea7699de71e"
+    },
+    {
+      "path": "assets/uprising/u072-atlas.jpg",
+      "bytes": 2002127,
+      "sha256": "021d71eac615713d72c28bc87fc040725a8681d06aec16bff928c187c29991b9"
+    },
+    {
+      "path": "assets/uprising/u072-cover.jpg",
+      "bytes": 21025,
+      "sha256": "99f526e24dc3b76c34f8503da92cf9aa1febd635b2e1cba08b68a6346d353376"
+    },
+    {
+      "path": "assets/uprising/u072-detail-cliff.jpg",
+      "bytes": 262273,
+      "sha256": "89a130f3e6f64a12d3fe045454737f82e43a074429e5a1b911ca23c56c6d848f"
+    },
+    {
+      "path": "assets/uprising/u072-detail-courtyard.jpg",
+      "bytes": 368471,
+      "sha256": "ad8e9b403675c790d06452e40f944265730154cc74234397488be64a526e64c9"
+    },
+    {
+      "path": "assets/uprising/u073-atlas.jpg",
+      "bytes": 1773766,
+      "sha256": "c43acbed3c747493e5289e36df0b820ea73f09643930d9996fb02f434307de6d"
+    },
+    {
+      "path": "assets/uprising/u073-cover.jpg",
+      "bytes": 17947,
+      "sha256": "f340d1cd39b5c353ebf9ca511b37853391903803db45c030556f28dc0aeb0fa4"
+    },
+    {
+      "path": "assets/uprising/u074-atlas.jpg",
+      "bytes": 1778983,
+      "sha256": "994563c1d7a9eeb70fbef3fd60df163110a28ddd025ed06a515fe9a734814645"
+    },
+    {
+      "path": "assets/uprising/u074-cover.jpg",
+      "bytes": 18014,
+      "sha256": "734be28eeebfd7be425ca40d7fb678e76e6880ddb5c5668e9011914b06af7705"
+    },
+    {
+      "path": "assets/winter-civic/asset-palette.jpg",
+      "bytes": 358371,
+      "sha256": "35ce810ac9c6feae75afb9de213e8772ed57c6704a7948b032d9cf5c7b93032c"
+    },
+    {
+      "path": "references/asset-use.md",
+      "bytes": 8463,
+      "sha256": "a7d6b5e7771cccc2d1cc1eae3e25ffb6ad67853552ea689a3271211cc1152f7c"
+    },
+    {
+      "path": "references/beautification-cases.json",
+      "bytes": 605164,
+      "sha256": "e67d2738918b927d18fff6f0337f731e04c8fabaf17ab0e40ef5205ca8931a9b"
+    },
+    {
+      "path": "references/beautification-index.json",
+      "bytes": 162847,
+      "sha256": "c3f9f2557895bfd767f68e87661fe21a6e624175bad57b3412538ccc6be2f625"
+    },
+    {
+      "path": "references/brief-schema.json",
+      "bytes": 23899,
+      "sha256": "a61872f3647568fcffa12e88439b61551614306eaf8c829c701cf1e935d80f1d"
+    },
+    {
+      "path": "references/cases.json",
+      "bytes": 19746,
+      "sha256": "c5f805e2d3dfdd252fdb575f288b373efb2e75ec4c5e5f59be9c5bb5ab94cabc"
+    },
+    {
+      "path": "references/cliff-palette.json",
+      "bytes": 68246,
+      "sha256": "7d41a53ba846f7b998f09c2740ec54b7501430262b33e1af09a786dd369693a2"
+    },
+    {
+      "path": "references/cliffs-and-transitions.md",
+      "bytes": 6562,
+      "sha256": "663de499825f968fa7c9562b9b34cfe85cfa682ec40061d1970dc8ea66f6ca0a"
+    },
+    {
+      "path": "references/creation-workflow.md",
+      "bytes": 19028,
+      "sha256": "c33204c345a1f3e560026227e2026d3c403a8f600d7e47adc70b68c15e3cc5cf"
+    },
+    {
+      "path": "references/decor-and-composition.md",
+      "bytes": 5444,
+      "sha256": "84a2c3770aa44afb81fe22e3be4959f0cd37fcf152fecd28cc3cd58906d185c8"
+    },
+    {
+      "path": "references/evaluation.json",
+      "bytes": 6069,
+      "sha256": "cc8327ecbed871d865f063eeec1d89dcf7a26169d6cb611898acf72b2f3e299d"
+    },
+    {
+      "path": "references/game-compatibility.md",
+      "bytes": 13363,
+      "sha256": "a9257673953fe2ff81da825fc1f85f40732581c4c4eebcd6b6db75e637d0ba0a"
+    },
+    {
+      "path": "references/learning-index.json",
+      "bytes": 145966,
+      "sha256": "1b509dec3ec93043034bad976791aa493289451c8f6aa8c9308bc4fdccf1b78c"
+    },
+    {
+      "path": "references/observed-assets.json",
+      "bytes": 6794226,
+      "sha256": "947251d4b30ada5d99a567f8cbb6fa30f0bfd3b502d8bb8a9941bc868dd76f12"
+    },
+    {
+      "path": "references/operations.md",
+      "bytes": 10159,
+      "sha256": "72cc92a35372b6eb84f3ab3e0073a996386cf5c7308a8c5e22ea220f3a567d09"
+    },
+    {
+      "path": "references/quality.md",
+      "bytes": 4389,
+      "sha256": "c50280644179f9a1ade4658bbcb92b1b872229439fa9454b87a810602dd57e5c"
+    },
+    {
+      "path": "references/recipes.md",
+      "bytes": 6728,
+      "sha256": "53c2021e712798ce14e998c761992dff2d852285c95db383e45667d355bd3e43"
+    },
+    {
+      "path": "references/road-candidates.json",
+      "bytes": 183537,
+      "sha256": "e45706f32786e5588718a5fb81967edc26383e9906b4a2460e309ae94e31bd2a"
+    },
+    {
+      "path": "references/road-construction.md",
+      "bytes": 15642,
+      "sha256": "3faf6a4d98e07a4d65468da512cd7776fc0f9cc353ce83c5d856412d9039cbde"
+    },
+    {
+      "path": "references/road-focus-cases.json",
+      "bytes": 197029,
+      "sha256": "11208fbf07af964180538d06581377fe745310e5c9336508b8ea2299358509f7"
+    },
+    {
+      "path": "references/roads-and-neutrals.md",
+      "bytes": 4543,
+      "sha256": "2a955c80db4df8f4d9287f3260dac09818c35b439a59616843363db4137719e5"
+    },
+    {
+      "path": "references/style-design.md",
+      "bytes": 6242,
+      "sha256": "218c5d62b5e5503db4750179a8717795b744d828ef018132952161202a5f6dec"
+    },
+    {
+      "path": "references/style-index.md",
+      "bytes": 11930,
+      "sha256": "bd65aee06cc3280220a66cf5bceb539fd82adb4816d56ef764b8f189fa8bc17d"
+    },
+    {
+      "path": "references/style-palettes.json",
+      "bytes": 102965,
+      "sha256": "1e2cda21b6478b41396ddfee970285e2ba1059574c2aa633a7a970bb280ab310"
+    },
+    {
+      "path": "references/styles/coastal-city-and-industrial-harbor.md",
+      "bytes": 10741,
+      "sha256": "c180924022778cb6a1f46df4603bb3bc90bf62de39b98db8412888f925cb6807"
+    },
+    {
+      "path": "references/styles/floating-fortress.md",
+      "bytes": 10447,
+      "sha256": "f8978a8d348ed503eb58820c0c2f0cffa9253a5c435f523b05563aea31717cc0"
+    },
+    {
+      "path": "references/styles/japan-gardens-and-snow.md",
+      "bytes": 9160,
+      "sha256": "dc3f06a727d60a6c8e47f12182ec229a2426792db8341ee24b87537232a45d5a"
+    },
+    {
+      "path": "references/styles/japan-port-city.md",
+      "bytes": 11036,
+      "sha256": "5eea3eb9eb0dbc2f06caf7fd0cfc515a9bb472d61ac2f5bf85c25063f6af0bec"
+    },
+    {
+      "path": "references/styles/rocky-castle-settlements.md",
+      "bytes": 5411,
+      "sha256": "08a9545e711ffc07163c17dc95e0f2b1e345b96224b440c71bc35c3899af459e"
+    },
+    {
+      "path": "references/styles/tropical-islands-and-volcanoes.md",
+      "bytes": 9754,
+      "sha256": "8352adc85fdf454b2bafd086da7e29022a761b66049d32570fcee4cc922c6d0c"
+    },
+    {
+      "path": "references/styles/tropical-yucatan-summer.md",
+      "bytes": 10746,
+      "sha256": "d4de0af84b2f28f537bdcf7c77775090fab3e9788c7a4e08ea35aa518b136955"
+    },
+    {
+      "path": "references/styles/western-americas-temperate.md",
+      "bytes": 10109,
+      "sha256": "66de206b7c64e86d1fe96d640363f2b8046b79942ae4c5941b0fc13bb0a857ed"
+    },
+    {
+      "path": "references/styles/western-europe-summer.md",
+      "bytes": 12767,
+      "sha256": "b454f5bc7a8acc940b72baf591b30d8f91d299a61ae573d579a9215640fd2a68"
+    },
+    {
+      "path": "references/styles/western-mediterranean-summer.md",
+      "bytes": 8721,
+      "sha256": "e6ced24f3ebd021af6928c1bf0f67c97323a988896f072b028c6237af4944fbb"
+    },
+    {
+      "path": "references/styles/western-russia-temperate.md",
+      "bytes": 10398,
+      "sha256": "26def7ea74eca781765f00428de74178dc69c752d3f47ffe013707513e43d6db"
+    },
+    {
+      "path": "references/styles/western-russia-winter.md",
+      "bytes": 14191,
+      "sha256": "c5375c44da5f1f3b93b66e28125f55291ec547519db9cf89fb50d003cddd814f"
+    },
+    {
+      "path": "references/terrain-cases.json",
+      "bytes": 36717,
+      "sha256": "5a20cc7a37e157f43aac4c82f90cc6e315fb9c45da7203f3285013af248c35ca"
+    },
+    {
+      "path": "references/terrain-catalog.md",
+      "bytes": 3245,
+      "sha256": "90e451806ee3d6abed8ea20da5699e423ddc5c9cab7d77403165ab60c4c310dd"
+    },
+    {
+      "path": "references/terrain-design.md",
+      "bytes": 6618,
+      "sha256": "fbb0a0848ae3f9148e3cea04900cf2678716d8adcb115fb9cf8e38012553fd67"
+    },
+    {
+      "path": "references/terrain-edge-lab.md",
+      "bytes": 8235,
+      "sha256": "860a1adde8e1282b64f1453135a8a57994770383f7dd5a9f87d51494084c43e9"
+    },
+    {
+      "path": "references/terrain-materials-and-edges.md",
+      "bytes": 9793,
+      "sha256": "a445732018244e62d7b99eed6b41d61a026e1d356d8198370d859d2ee6474c44"
+    },
+    {
+      "path": "references/uprising-beautification.md",
+      "bytes": 11805,
+      "sha256": "d9a9b8622c009b1cf2ffa8fe22264530d972a954cdc465c531d2e0e8b408ab9d"
+    },
+    {
+      "path": "references/uprising-cases.json",
+      "bytes": 3491382,
+      "sha256": "b1f47ed3e1f58608d49349e0ebc33307843fa605fec599d1eafca95c32902479"
+    },
+    {
+      "path": "references/visual-cases.md",
+      "bytes": 5265,
+      "sha256": "abbcf759ae307a9d5f68379cc68bc6bd543f4ca554d596485aa2477763204057"
+    },
+    {
+      "path": "references/visual-review.md",
+      "bytes": 3441,
+      "sha256": "1636fea6c42546b48cf9ce50a78993dddbaddb168c7b7bf286f85067e71b0be0"
+    },
+    {
+      "path": "references/winter-civic-details.md",
+      "bytes": 5043,
+      "sha256": "75a778309c4ccacb6539e8a4315325d62eee72a6b6d7de361cb2bd4bd135a025"
+    },
+    {
+      "path": "references/winter-russia-layouts.md",
+      "bytes": 5394,
+      "sha256": "5b03a2ec589e1055fe3d70993e7a6355b3a1864ccdbbdb7246be2aa5727c1494"
+    },
+    {
+      "path": "scripts/analyze-beautification.cjs",
+      "bytes": 14306,
+      "sha256": "925a4188b2730bd42772abd290c4ec1e7f747088c3086bec920366953e023c5f"
+    },
+    {
+      "path": "scripts/analyze-composition.cjs",
+      "bytes": 8606,
+      "sha256": "f742b02678d5fde1a5c1f3b2e93d113227c87f01ed0bb68842a62b1c027e69db"
+    },
+    {
+      "path": "scripts/analyze-terrain.cjs",
+      "bytes": 9556,
+      "sha256": "cf5f888dcb7ef9e03420fd4027bd141698b9323ac10c00c81185925c425b38b0"
+    },
+    {
+      "path": "scripts/capture-map.cjs",
+      "bytes": 6360,
+      "sha256": "218f2077729d390a64f9e78b370e42a9aefe4b41e4dd699afe9329a499e1c81e"
+    },
+    {
+      "path": "scripts/design.cjs",
+      "bytes": 7266,
+      "sha256": "84ecf61b841faffbc077b53647feca6d9154267181b5d0f9f86e3077e9d93e29"
+    },
+    {
+      "path": "scripts/lookup-assets.cjs",
+      "bytes": 3968,
+      "sha256": "a29abcb6646c5bee125279f82ab30f5b075b8a917507c68027652df45459437a"
+    },
+    {
+      "path": "scripts/make-plan.cjs",
+      "bytes": 1791,
+      "sha256": "1b9449f255ecdbedf53359990ae6e4682ae07f06a8fd783bf60cbc1672468bed"
+    },
+    {
+      "path": "scripts/mcp-client.cjs",
+      "bytes": 2352,
+      "sha256": "f1ddd7c3437289e2a476e3df9c09b14f7513114c0c7c9bc57665a500ee502717"
+    },
+    {
+      "path": "scripts/run-plan.cjs",
+      "bytes": 10250,
+      "sha256": "e3734be17a3f5d6a091170b8f8651071e95a5a7b5bb6e835f3acc148995f1522"
+    },
+    {
+      "path": "scripts/terrain-design.cjs",
+      "bytes": 6886,
+      "sha256": "b495b73892a6744c1801826887f91f8ae7b293ff0c1bbe14efc9afff431d75c1"
+    },
+    {
+      "path": "scripts/validate-map.cjs",
+      "bytes": 9092,
+      "sha256": "0a21a40586ad234d5226756467a94d67e00180d6e28e538d6bbc1fb855c7f9bb"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9624,
+      "sha256": "43b51d21ad8541db413e488facac415f7d14fcf5b9edb4842244ea2502b07615"
+    }
+  ]
+}

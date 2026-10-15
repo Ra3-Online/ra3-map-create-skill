@@ -1,0 +1,21 @@
+# Keep local runs and generated maps out of the public skill history.
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+!.env.example
+artifacts/
+output/
+outputs/
+*.map
+*.big
+*.mix
+*.replay
+*.RA3Replay
+*.exe
+*.dll
+*.pdb
+Thumbs.db
+.DS_Store

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>红警3多模态制图 · 视觉案例</title>
+<style>body{margin:0;background:#f5f7f4;color:#20332a;font:16px/1.7 "Microsoft YaHei",sans-serif}main{max-width:1200px;margin:auto;padding:40px 24px}h1{margin:0;font-size:30px}p{max-width:920px}nav{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}button{border:1px solid #b6c9bd;border-radius:10px;padding:10px 18px;background:white;color:#20332a;cursor:pointer;font:inherit}button[aria-selected=true]{background:#1d654c;color:white}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px}figure{background:white;margin:0;border-radius:14px;overflow:hidden;border:1px solid #dbe3dc}img{width:100%;display:block;aspect-ratio:1.5;object-fit:contain;background:#121417}figcaption{padding:16px 20px}b{display:block;font-size:18px}small{color:#61766a}.notice{background:#e9efe7;padding:15px 20px;border-radius:12px}section[hidden]{display:none}a{color:#1d654c}details{margin:20px 0}summary{cursor:pointer;font-weight:bold}</style>
+<main><h1>红警3多模态制图 · 视觉案例</h1>
+<p>这些图片随 ra3-map-create skill 提供。AI 先看相关样板，再执行地编操作，在同机位比较修改结果。俯视诊断、地编 3D 与游戏实测各自回答不同问题。</p>
+<p class="notice">当前自动生成的是双人制图草稿。数据检查通过，3D 画面已审阅；尚未进行游戏内建造、采矿、寻路和对战测试。源地图/游戏模型/贴图不随 skill 打包。</p>
+<nav><button aria-selected="true" data-panel="generated">生成样图</button><button aria-selected="false" data-panel="reference">原图参考</button><button aria-selected="false" data-panel="iteration">修改与反例</button></nav>
+<section id="generated"><div class="grid">
+<figure><img src="coast-overview.png"><figcaption><b>热带海岸 · 3D 总览</b>320×320，可见六处矿点与两处油井，中央岩脊和两条陆路。观察玩法留白与整体尺度；构图仍较对称。</figcaption></figure>
+<figure><img src="coast-coast-detail.png"><figcaption><b>海岸局部 · 植被与过渡</b>树、草与大小岩石成簇。岸线部分仍有台阶，应按区域检查并平滑，不能单凭全图成功判断好看。</figcaption></figure>
+<figure><img src="coast-player-base.png"><figcaption><b>基地近景 · 留白</b>展开与建造空间先预留，装饰集中在旁侧；不把树撒到基地中心。</figcaption></figure>
+<figure><img src="snow-overview.png"><figcaption><b>雪地版本 · 总览</b>280×340，另一个种子与长宽。材质和植被与主题匹配，布局仍使用同一草稿框架，未代表不同玩法的泛化成绩。</figcaption></figure>
+<figure><img src="snow-coast-detail.png"><figcaption><b>雪地局部 · 明度</b>雪、岩石、树林和裸地的层次；检查白色物件是否与背景混在一起。</figcaption></figure>
+<figure><img src="coast-topdown.png"><figcaption><b>俯视诊断 · 结构</b>先看路线、基地与海面分工。俯视的颜色与模型显示简化，不能代替 3D。</figcaption></figure>
+</div></section>
+<section id="reference" hidden><div class="grid">
+<figure><img src="../maps/m001-overview.png"><figcaption><b>m001 · 自然主岛</b>学习海岸、扩张平台、道路分级与自然地标，不复制整张图。</figcaption></figure>
+<figure><img src="../maps/m001-detail.png"><figcaption><b>m001 · 自然局部</b>观察道路旁的灌木、石头、植被的密度变化与空白。</figcaption></figure>
+<figure><img src="../maps/m005-overview.png"><figcaption><b>m005 · 雪地</b>陆地与海床统计要分开看，不能把全图频率最高的沙纹理当作陆地主材质。</figcaption></figure>
+<figure><img src="../maps/m005-detail.png"><figcaption><b>m005 · 近景</b>雪色层次、林缘、岩壁尺度与通路组织。</figcaption></figure>
+<figure><img src="../maps/m058-overview.png"><figcaption><b>m058 · 运河结构</b>任务图只学空间与美化。没有 OreNode，不能直接当遭遇战模板。</figcaption></figure>
+<figure><img src="../maps/m058-detail.png"><figcaption><b>m058 · 街区参考</b>观察建筑朝向、灯柱与围栏；当前地编预览有路面条带/缺口等瑕疵，不学习这些渲染缺陷。</figcaption></figure>
+<figure><img src="../maps/m067-overview.png"><figcaption><b>m067 · 日式港口</b>码头、工业区与陆水关系；旧名称先查当前 MOD 和模型。</figcaption></figure>
+<figure><img src="../maps/m067-detail.png"><figcaption><b>m067 · 港口局部</b>以出入口、道路连接和建筑组的方向组织场景。当前预览的路面缺口和缺失旧物件不作为目标效果。</figcaption></figure>
+</div><p><small>图片来自用户提供地图的地编预览，原作者未逐一核实。仅作为结构/制图参考，未认证游戏表现。</small></p></section>
+<section id="iteration" hidden><div class="grid">
+<figure><img src="bad-wide-ring.png"><figcaption><b>反例 · 初稿宽几何环路</b>数据检查虽通过，画面像规则印章。需要视觉发现与修正，不能把成功回执当作品完成。</figcaption></figure>
+<figure><img src="coast-topdown.png"><figcaption><b>修正 · 曲线与材质缩窄</b>保留玩法结构，调整曲线、收窄道路材质并增加成簇植被。仍应继续检查岸线与场景地标。</figcaption></figure>
+</div><details open><summary>下一次审阅如何行动</summary><p>记录位置/机位→具体缺陷→影响→最小修正；对 20×30 格等局部进行修改后重拍同机位。缺资源/解析器表现问题与地图设计问题分开记录。</p></details></section>
+<p><a href="../../SKILL.md">Skill 主说明</a> · <a href="../../references/quality.md">验收标准</a> · <a href="../../references/cases.json">案例数据</a></p></main>
+<script>for(const b of document.querySelectorAll('button[data-panel]'))b.onclick=()=>{for(const c of document.querySelectorAll('button[data-panel]'))c.setAttribute('aria-selected',String(c===b));for(const s of document.querySelectorAll('main>section'))s.hidden=s.id!==b.dataset.panel;};</script></html>

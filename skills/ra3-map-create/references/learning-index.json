@@ -1,0 +1,7291 @@
+{
+  "version": 3,
+  "mapCount": 80,
+  "beautificationOnly": 44,
+  "sourceUnchanged": true,
+  "gameTested": false,
+  "calls": 560,
+  "evidence": {
+    "allMapsValidatedReadOnly": true,
+    "originalAndLayoutContactSheetsInspected": 80,
+    "fresh3dCases": [
+      "m049",
+      "m057",
+      "m068",
+      "m070",
+      "m071",
+      "m074",
+      "m075",
+      "m077",
+      "m079",
+      "m080"
+    ],
+    "fresh3dImages": 20
+  },
+  "ore": {
+    "count": 1328,
+    "heading45Plus90": 1328,
+    "observedMapHeightPhaseMatches": 1227,
+    "toleranceWorld": 0.1,
+    "interpretation": "Observed corpus phase; not a universal native grid specification or gameplay certification."
+  },
+  "maps": [
+    {
+      "id": "m001",
+      "name": "map_mp_2_black1b",
+      "group": "1v1",
+      "sha256": "01862d99aa70cbcc61b245a02236861c2757c85d7f7b2fd17c2e4c9999f26de9",
+      "sourceUnchanged": true,
+      "playable": [
+        532,
+        400
+      ],
+      "interiorLand": {
+        "cells": 81040,
+        "min": 202.61,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210.04,
+        "p75": 284.98,
+        "p90": 284.98,
+        "p95": 354.98,
+        "max": 360
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 43360,
+          "percent": 53.5
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 21845,
+          "percent": 26.96
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 4275,
+          "percent": 5.28
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 1716,
+          "percent": 2.12
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 1619,
+          "percent": 2
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 745,
+          "percent": 0.92
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 649,
+          "percent": 0.8
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 526,
+          "percent": 0.65
+        }
+      ],
+      "blockedInteriorPercent": 6.13,
+      "steepInteriorPercent": 3.26,
+      "houses": 22,
+      "roads": 146,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "OilDerrick",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m002",
+      "name": "map_mp_2_feasel1",
+      "group": "1v1",
+      "sha256": "78be53de7f93e61815d4614e91125b108c7baf9db8121ea8127f32309632ae25",
+      "sourceUnchanged": true,
+      "playable": [
+        680,
+        480
+      ],
+      "interiorLand": {
+        "cells": 111241,
+        "min": 203.15,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 284.98
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 77670,
+          "percent": 69.82
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 29485,
+          "percent": 26.51
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 1862,
+          "percent": 1.67
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 390,
+          "percent": 0.35
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 196,
+          "percent": 0.18
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 169,
+          "percent": 0.15
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 166,
+          "percent": 0.15
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 152,
+          "percent": 0.14
+        }
+      ],
+      "blockedInteriorPercent": 7.62,
+      "steepInteriorPercent": 3.22,
+      "houses": 11,
+      "roads": 264,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "ObservationPostTechStructure",
+          5
+        ],
+        [
+          "OilDerrick",
+          2
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m003",
+      "name": "map_mp_2_feasel1_edit",
+      "group": "1v1",
+      "sha256": "aa81f70a7a8ee5bd1dc14d207814e69b436513399c0062ba6195716382387dc7",
+      "sourceUnchanged": true,
+      "playable": [
+        600,
+        400
+      ],
+      "interiorLand": {
+        "cells": 107669,
+        "min": 208.72,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 284.98
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 75304,
+          "percent": 69.94
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 28496,
+          "percent": 26.47
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 1988,
+          "percent": 1.85
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 246,
+          "percent": 0.23
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 211,
+          "percent": 0.2
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 170,
+          "percent": 0.16
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 140,
+          "percent": 0.13
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 138,
+          "percent": 0.13
+        }
+      ],
+      "blockedInteriorPercent": 2.84,
+      "steepInteriorPercent": 3.49,
+      "houses": 13,
+      "roads": 290,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "ObservationPostTechStructure",
+          4
+        ],
+        [
+          "OilDerrick",
+          2
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m004",
+      "name": "map_mp_2_feasel4",
+      "group": "1v1",
+      "sha256": "e8f0693f2bb4dd8f64304aa2a76cc6962db3abaef6f43ac2c696880c2c008cf9",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        560
+      ],
+      "interiorLand": {
+        "cells": 87372,
+        "min": 130,
+        "p05": 280,
+        "p10": 280,
+        "p25": 280,
+        "p50": 280,
+        "p75": 350,
+        "p90": 350,
+        "p95": 350,
+        "max": 351.52
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 51754,
+          "percent": 59.23
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 28384,
+          "percent": 32.49
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 1529,
+          "percent": 1.75
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 1048,
+          "percent": 1.2
+        },
+        {
+          "from": 345,
+          "to": 350,
+          "cells": 760,
+          "percent": 0.87
+        },
+        {
+          "from": 305,
+          "to": 310,
+          "cells": 301,
+          "percent": 0.34
+        },
+        {
+          "from": 335,
+          "to": 340,
+          "cells": 234,
+          "percent": 0.27
+        },
+        {
+          "from": 290,
+          "to": 295,
+          "cells": 233,
+          "percent": 0.27
+        }
+      ],
+      "blockedInteriorPercent": 2.27,
+      "steepInteriorPercent": 2.61,
+      "houses": 12,
+      "roads": 914,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "ObservationPostTechStructure",
+          2
+        ],
+        [
+          "OilDerrick",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m005",
+      "name": "map_mp_2_feasel5",
+      "group": "1v1",
+      "sha256": "52fd3060c157df7628dc8a530b31be175b1d1322eb5cc3c2bb07cbe0ee723614",
+      "sourceUnchanged": true,
+      "playable": [
+        540,
+        540
+      ],
+      "interiorLand": {
+        "cells": 92078,
+        "min": 207.28,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 283.85
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 57294,
+          "percent": 62.22
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 27828,
+          "percent": 30.22
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 1198,
+          "percent": 1.3
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 865,
+          "percent": 0.94
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 679,
+          "percent": 0.74
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 582,
+          "percent": 0.63
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 544,
+          "percent": 0.59
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 534,
+          "percent": 0.58
+        }
+      ],
+      "blockedInteriorPercent": 2.54,
+      "steepInteriorPercent": 2.26,
+      "houses": 0,
+      "roads": 145,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "ObservationPostTechStructure",
+          4
+        ],
+        [
+          "OilDerrick",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m006",
+      "name": "map_mp_2_feasel6",
+      "group": "1v1",
+      "sha256": "b71266c00e3f76d16c951c1c05e3e244ff5c95b5c8bf7c1330cbae93497cd575",
+      "sourceUnchanged": true,
+      "playable": [
+        472,
+        472
+      ],
+      "interiorLand": {
+        "cells": 85594,
+        "min": 208.44,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210.74,
+        "p90": 280,
+        "p95": 280,
+        "max": 293.15
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 64242,
+          "percent": 75.05
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 17917,
+          "percent": 20.93
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 420,
+          "percent": 0.49
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 403,
+          "percent": 0.47
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 386,
+          "percent": 0.45
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 360,
+          "percent": 0.42
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 202,
+          "percent": 0.24
+        },
+        {
+          "from": 265,
+          "to": 270,
+          "cells": 193,
+          "percent": 0.23
+        }
+      ],
+      "blockedInteriorPercent": 8.39,
+      "steepInteriorPercent": 4.6,
+      "houses": 6,
+      "roads": 417,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "ObservationPostTechStructure",
+          2
+        ],
+        [
+          "OilDerrick",
+          2
+        ],
+        [
+          "GarageTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m007",
+      "name": "map_mp_2_feasel7",
+      "group": "1v1",
+      "sha256": "85e0fc05cc1952ad5a283d89951c042d1442c8c877d2d4899f81a6dba4418e9b",
+      "sourceUnchanged": true,
+      "playable": [
+        400,
+        400
+      ],
+      "interiorLand": {
+        "cells": 34241,
+        "min": 206.69,
+        "p05": 209.84,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 210,
+        "p95": 210,
+        "max": 218.29
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 31718,
+          "percent": 92.63
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 2505,
+          "percent": 7.32
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 18,
+          "percent": 0.05
+        }
+      ],
+      "blockedInteriorPercent": 0,
+      "steepInteriorPercent": 0,
+      "houses": 0,
+      "roads": 454,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "ObservationPostTechStructure",
+          2
+        ],
+        [
+          "OilDerrick",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m008",
+      "name": "map_mp_2_feasel8",
+      "group": "1v1",
+      "sha256": "d0b77028699c0d6dabb60e0ff1ecc446b5a9d8d1230dc280a52faf0314326a79",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        500
+      ],
+      "interiorLand": {
+        "cells": 88619,
+        "min": 202.57,
+        "p05": 215.6,
+        "p10": 215.6,
+        "p25": 215.6,
+        "p50": 215.6,
+        "p75": 234.9,
+        "p90": 281.01,
+        "p95": 299.61,
+        "max": 360.82
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 58891,
+          "percent": 66.45
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 2296,
+          "percent": 2.59
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 1843,
+          "percent": 2.08
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 1721,
+          "percent": 1.94
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 1584,
+          "percent": 1.79
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 1537,
+          "percent": 1.73
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 1496,
+          "percent": 1.69
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 1468,
+          "percent": 1.66
+        }
+      ],
+      "blockedInteriorPercent": 29.34,
+      "steepInteriorPercent": 13.43,
+      "houses": 0,
+      "roads": 27,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "ObservationPostTechStructure",
+          2
+        ],
+        [
+          "OilDerrick",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m009",
+      "name": "MAP_MP_PROMO_Feasel1",
+      "group": "1v1",
+      "sha256": "e3739ea5c2c4d31fdf2f6b74029774db0e827ff4f0734781dd567f923b5b48e5",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        500
+      ],
+      "interiorLand": {
+        "cells": 158987,
+        "min": 100.97,
+        "p05": 210,
+        "p10": 210,
+        "p25": 260,
+        "p50": 260,
+        "p75": 260,
+        "p90": 310,
+        "p95": 330,
+        "max": 401.98
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 116030,
+          "percent": 72.98
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 17185,
+          "percent": 10.81
+        },
+        {
+          "from": 310,
+          "to": 315,
+          "cells": 6231,
+          "percent": 3.92
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 5485,
+          "percent": 3.45
+        },
+        {
+          "from": 330,
+          "to": 335,
+          "cells": 5353,
+          "percent": 3.37
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 630,
+          "percent": 0.4
+        },
+        {
+          "from": 380,
+          "to": 385,
+          "cells": 570,
+          "percent": 0.36
+        },
+        {
+          "from": 325,
+          "to": 330,
+          "cells": 554,
+          "percent": 0.35
+        }
+      ],
+      "blockedInteriorPercent": 3.51,
+      "steepInteriorPercent": 1.96,
+      "houses": 53,
+      "roads": 1102,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "OilDerrick",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m010",
+      "name": "map_mp_3_feasel3",
+      "group": "1v2",
+      "sha256": "eebb0d0b0c41a0d29fd8237a028bc855111c7024f3c4556fbf585a678207848e",
+      "sourceUnchanged": true,
+      "playable": [
+        600,
+        600
+      ],
+      "interiorLand": {
+        "cells": 179710,
+        "min": 227.31,
+        "p05": 280,
+        "p10": 280,
+        "p25": 280,
+        "p50": 280,
+        "p75": 350,
+        "p90": 350,
+        "p95": 350,
+        "max": 350.74
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 106819,
+          "percent": 59.44
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 62713,
+          "percent": 34.9
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 2165,
+          "percent": 1.2
+        },
+        {
+          "from": 345,
+          "to": 350,
+          "cells": 972,
+          "percent": 0.54
+        },
+        {
+          "from": 290,
+          "to": 295,
+          "cells": 676,
+          "percent": 0.38
+        },
+        {
+          "from": 305,
+          "to": 310,
+          "cells": 475,
+          "percent": 0.26
+        },
+        {
+          "from": 335,
+          "to": 340,
+          "cells": 466,
+          "percent": 0.26
+        },
+        {
+          "from": 320,
+          "to": 325,
+          "cells": 449,
+          "percent": 0.25
+        }
+      ],
+      "blockedInteriorPercent": 2.69,
+      "steepInteriorPercent": 2.9,
+      "houses": 26,
+      "roads": 835,
+      "oreCount": 16,
+      "neutralTypes": [
+        [
+          "OreNode",
+          16
+        ],
+        [
+          "ObservationPostTechStructure",
+          6
+        ],
+        [
+          "OilDerrick",
+          4
+        ],
+        [
+          "HospitalTechStructure",
+          2
+        ],
+        [
+          "GarageTechStructure",
+          2
+        ],
+        [
+          "AirportTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m011",
+      "name": "map_mp_4_black_xslice",
+      "group": "2v2",
+      "sha256": "ccc88826ad176d17c22e26ebb6773f8e71e099eb5fad1e16ba040061839bcf79",
+      "sourceUnchanged": true,
+      "playable": [
+        482,
+        482
+      ],
+      "interiorLand": {
+        "cells": 88641,
+        "min": 198.36,
+        "p05": 204.98,
+        "p10": 204.98,
+        "p25": 204.98,
+        "p50": 204.98,
+        "p75": 204.98,
+        "p90": 274.98,
+        "p95": 274.98,
+        "max": 276.54
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 200,
+          "to": 205,
+          "cells": 68027,
+          "percent": 76.74
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 17324,
+          "percent": 19.54
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 743,
+          "percent": 0.84
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 726,
+          "percent": 0.82
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 229,
+          "percent": 0.26
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 176,
+          "percent": 0.2
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 173,
+          "percent": 0.2
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 172,
+          "percent": 0.19
+        }
+      ],
+      "blockedInteriorPercent": 3.68,
+      "steepInteriorPercent": 1.27,
+      "houses": 10,
+      "roads": 377,
+      "oreCount": 20,
+      "neutralTypes": [
+        [
+          "OreNode",
+          20
+        ],
+        [
+          "OilDerrick",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m012",
+      "name": "map_mp_4_feasel1",
+      "group": "2v2",
+      "sha256": "f1958605a28365755c17eb71226eaab246805849b6e836f1bca7fd52d51f76ca",
+      "sourceUnchanged": true,
+      "playable": [
+        540,
+        540
+      ],
+      "interiorLand": {
+        "cells": 79309,
+        "min": 201.83,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210.04,
+        "p90": 280,
+        "p95": 280,
+        "max": 291.71
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 56851,
+          "percent": 71.68
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 17041,
+          "percent": 21.49
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 3305,
+          "percent": 4.17
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 287,
+          "percent": 0.36
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 223,
+          "percent": 0.28
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 202,
+          "percent": 0.25
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 191,
+          "percent": 0.24
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 169,
+          "percent": 0.21
+        }
+      ],
+      "blockedInteriorPercent": 1.54,
+      "steepInteriorPercent": 1.74,
+      "houses": 28,
+      "roads": 195,
+      "oreCount": 20,
+      "neutralTypes": [
+        [
+          "OreNode",
+          20
+        ],
+        [
+          "OilDerrick",
+          4
+        ],
+        [
+          "ObservationPostTechStructure",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m013",
+      "name": "map_mp_4_feasel2",
+      "group": "2v2",
+      "sha256": "dbf1e9081e153eabe429d22e239246b6bda95b37dc9358d53273a0342848404f",
+      "sourceUnchanged": true,
+      "playable": [
+        540,
+        540
+      ],
+      "interiorLand": {
+        "cells": 204490,
+        "min": 21.01,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 290,
+        "p75": 290,
+        "p90": 290,
+        "p95": 290,
+        "max": 306.23
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 290,
+          "to": 295,
+          "cells": 131526,
+          "percent": 64.32
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 64555,
+          "percent": 31.57
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 2017,
+          "percent": 0.99
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 1051,
+          "percent": 0.51
+        },
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 877,
+          "percent": 0.43
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 835,
+          "percent": 0.41
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 521,
+          "percent": 0.25
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 380,
+          "percent": 0.19
+        }
+      ],
+      "blockedInteriorPercent": 6.05,
+      "steepInteriorPercent": 2.64,
+      "houses": 44,
+      "roads": 614,
+      "oreCount": 20,
+      "neutralTypes": [
+        [
+          "OreNode",
+          20
+        ],
+        [
+          "ObservationPostTechStructure",
+          4
+        ],
+        [
+          "OilDerrick",
+          4
+        ],
+        [
+          "AirportTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m014",
+      "name": "map_mp_4_feasel3",
+      "group": "2v2",
+      "sha256": "e46bf91c74cca308099724c4ff4b1428a59e4e9e74ef6b44d2e0d541de4e9ae9",
+      "sourceUnchanged": true,
+      "playable": [
+        600,
+        600
+      ],
+      "interiorLand": {
+        "cells": 53158,
+        "min": 206.81,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 280,
+        "p95": 280,
+        "max": 280
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 41205,
+          "percent": 77.51
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 10820,
+          "percent": 20.35
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 727,
+          "percent": 1.37
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 62,
+          "percent": 0.12
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 41,
+          "percent": 0.08
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 38,
+          "percent": 0.07
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 34,
+          "percent": 0.06
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 30,
+          "percent": 0.06
+        }
+      ],
+      "blockedInteriorPercent": 3.05,
+      "steepInteriorPercent": 3.72,
+      "houses": 17,
+      "roads": 139,
+      "oreCount": 20,
+      "neutralTypes": [
+        [
+          "OreNode",
+          20
+        ],
+        [
+          "ObservationPostTechStructure",
+          7
+        ]
+      ]
+    },
+    {
+      "id": "m015",
+      "name": "map_mp_4_feasel5",
+      "group": "2v2",
+      "sha256": "a1a418aa666917a2b2cf31ad8c08b80cec0458da34ae197440fc41663741eae1",
+      "sourceUnchanged": true,
+      "playable": [
+        660,
+        660
+      ],
+      "interiorLand": {
+        "cells": 162423,
+        "min": 227.04,
+        "p05": 280,
+        "p10": 280,
+        "p25": 280,
+        "p50": 280,
+        "p75": 280,
+        "p90": 350,
+        "p95": 350,
+        "max": 350
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 130469,
+          "percent": 80.33
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 24941,
+          "percent": 15.36
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 436,
+          "percent": 0.27
+        },
+        {
+          "from": 265,
+          "to": 270,
+          "cells": 378,
+          "percent": 0.23
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 368,
+          "percent": 0.23
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 367,
+          "percent": 0.23
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 353,
+          "percent": 0.22
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 352,
+          "percent": 0.22
+        }
+      ],
+      "blockedInteriorPercent": 1.61,
+      "steepInteriorPercent": 1.17,
+      "houses": 12,
+      "roads": 1579,
+      "oreCount": 20,
+      "neutralTypes": [
+        [
+          "OreNode",
+          20
+        ],
+        [
+          "ObservationPostTechStructure",
+          8
+        ],
+        [
+          "OilDerrick",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m016",
+      "name": "map_mp_4_feasel6",
+      "group": "2v2",
+      "sha256": "b871315ae0fea4a9fe7460d5afc8ca20e9d2deba84448d024a7b0b1fdc7513e5",
+      "sourceUnchanged": true,
+      "playable": [
+        560,
+        560
+      ],
+      "interiorLand": {
+        "cells": 95392,
+        "min": 205.33,
+        "p05": 209.88,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 210,
+        "p95": 210,
+        "max": 227.35
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 89159,
+          "percent": 93.47
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 6026,
+          "percent": 6.32
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 123,
+          "percent": 0.13
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 60,
+          "percent": 0.06
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 24,
+          "percent": 0.03
+        }
+      ],
+      "blockedInteriorPercent": 0,
+      "steepInteriorPercent": 0,
+      "houses": 20,
+      "roads": 921,
+      "oreCount": 20,
+      "neutralTypes": [
+        [
+          "OreNode",
+          20
+        ],
+        [
+          "OilDerrick",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m017",
+      "name": "map_mp_4_feasel7",
+      "group": "2v2",
+      "sha256": "1a4de2f98d41394e8f8cbc7bb8ee1be9e869a91e858e2f6b0f37260d89475336",
+      "sourceUnchanged": true,
+      "playable": [
+        680,
+        680
+      ],
+      "interiorLand": {
+        "cells": 82704,
+        "min": 200.54,
+        "p05": 208.33,
+        "p10": 209.42,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 210,
+        "p95": 210,
+        "max": 280.82
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 65467,
+          "percent": 79.16
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 13489,
+          "percent": 16.31
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 3430,
+          "percent": 4.15
+        },
+        {
+          "from": 200,
+          "to": 205,
+          "cells": 313,
+          "percent": 0.38
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 5,
+          "percent": 0.01
+        }
+      ],
+      "blockedInteriorPercent": 0.01,
+      "steepInteriorPercent": 0,
+      "houses": 0,
+      "roads": 72,
+      "oreCount": 20,
+      "neutralTypes": [
+        [
+          "OreNode",
+          20
+        ],
+        [
+          "ObservationPostTechStructure",
+          4
+        ],
+        [
+          "OilDerrick",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m018",
+      "name": "map_mp_4_ssmith2-remix",
+      "group": "2v2",
+      "sha256": "36035418624608fc7a2cbe1805690fe23b43b65ba9b813e128ddf2da3a3e0346",
+      "sourceUnchanged": true,
+      "playable": [
+        600,
+        600
+      ],
+      "interiorLand": {
+        "cells": 188956,
+        "min": 204.98,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 284.98,
+        "p90": 284.98,
+        "p95": 284.98,
+        "max": 294.36
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 119121,
+          "percent": 63.04
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 49426,
+          "percent": 26.16
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 2460,
+          "percent": 1.3
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 2219,
+          "percent": 1.17
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 1927,
+          "percent": 1.02
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 1485,
+          "percent": 0.79
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 1386,
+          "percent": 0.73
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 1376,
+          "percent": 0.73
+        }
+      ],
+      "blockedInteriorPercent": 6.59,
+      "steepInteriorPercent": 3.64,
+      "houses": 24,
+      "roads": 358,
+      "oreCount": 20,
+      "neutralTypes": [
+        [
+          "OreNode",
+          20
+        ],
+        [
+          "OilDerrick",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m019",
+      "name": "map_mp_4_stewart_1",
+      "group": "2v2",
+      "sha256": "15f677d1951062d00ef4c20416e063652e00ab37d0919f131466de521b0da9b6",
+      "sourceUnchanged": true,
+      "playable": [
+        450,
+        450
+      ],
+      "interiorLand": {
+        "cells": 151730,
+        "min": 207.35,
+        "p05": 220,
+        "p10": 220,
+        "p25": 266.54,
+        "p50": 280,
+        "p75": 280,
+        "p90": 280,
+        "p95": 284.82,
+        "max": 306.81
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 103439,
+          "percent": 68.17
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 25846,
+          "percent": 17.03
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 4391,
+          "percent": 2.89
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 3378,
+          "percent": 2.23
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 2726,
+          "percent": 1.8
+        },
+        {
+          "from": 290,
+          "to": 295,
+          "cells": 1972,
+          "percent": 1.3
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 1834,
+          "percent": 1.21
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 812,
+          "percent": 0.54
+        }
+      ],
+      "blockedInteriorPercent": 2.44,
+      "steepInteriorPercent": 1.22,
+      "houses": 19,
+      "roads": 161,
+      "oreCount": 20,
+      "neutralTypes": [
+        [
+          "OreNode",
+          20
+        ],
+        [
+          "HospitalTechStructure",
+          4
+        ],
+        [
+          "ObservationPostTechStructure",
+          4
+        ],
+        [
+          "OilDerrick",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m020",
+      "name": "map_mp_6_feasel1",
+      "group": "3v3",
+      "sha256": "a49c370ccb586276a4034fad02f23e3a4cb85985f31ea49561ac0f50ac7a0db0",
+      "sourceUnchanged": true,
+      "playable": [
+        650,
+        650
+      ],
+      "interiorLand": {
+        "cells": 237443,
+        "min": 204.94,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 280,
+        "p95": 280,
+        "max": 350
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 183846,
+          "percent": 77.43
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 49313,
+          "percent": 20.77
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 1517,
+          "percent": 0.64
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 358,
+          "percent": 0.15
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 246,
+          "percent": 0.1
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 243,
+          "percent": 0.1
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 224,
+          "percent": 0.09
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 195,
+          "percent": 0.08
+        }
+      ],
+      "blockedInteriorPercent": 2.43,
+      "steepInteriorPercent": 3.04,
+      "houses": 55,
+      "roads": 935,
+      "oreCount": 30,
+      "neutralTypes": [
+        [
+          "OreNode",
+          30
+        ],
+        [
+          "ObservationPostTechStructure",
+          6
+        ],
+        [
+          "GarageTechStructure",
+          6
+        ],
+        [
+          "OilDerrick",
+          4
+        ],
+        [
+          "OilDerrick_OnWater",
+          2
+        ],
+        [
+          "HospitalTechStructure",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m021",
+      "name": "map_mp_6_feasel3",
+      "group": "3v3",
+      "sha256": "00ddb8024a1b91dc63104e10022ddca4d9da7c7c03be7d846be90354d679ed2d",
+      "sourceUnchanged": true,
+      "playable": [
+        600,
+        560
+      ],
+      "interiorLand": {
+        "cells": 191394,
+        "min": 203.77,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 280,
+        "p95": 280,
+        "max": 300.47
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 147468,
+          "percent": 77.05
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 36008,
+          "percent": 18.81
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 1615,
+          "percent": 0.84
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 652,
+          "percent": 0.34
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 639,
+          "percent": 0.33
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 525,
+          "percent": 0.27
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 482,
+          "percent": 0.25
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 433,
+          "percent": 0.23
+        }
+      ],
+      "blockedInteriorPercent": 5.13,
+      "steepInteriorPercent": 1.97,
+      "houses": 38,
+      "roads": 235,
+      "oreCount": 30,
+      "neutralTypes": [
+        [
+          "OreNode",
+          30
+        ],
+        [
+          "OilDerrick",
+          6
+        ],
+        [
+          "ObservationPostTechStructure",
+          4
+        ],
+        [
+          "HospitalTechStructure",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m022",
+      "name": "map_mp_6_feasel4",
+      "group": "3v3",
+      "sha256": "6a6aa967f595aaee4e415630586c542092bb15d03f69e329344be12da055ef80",
+      "sourceUnchanged": true,
+      "playable": [
+        620,
+        600
+      ],
+      "interiorLand": {
+        "cells": 159259,
+        "min": 200.74,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 243.93,
+        "p95": 269.84,
+        "max": 412.26
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 130508,
+          "percent": 81.95
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 2275,
+          "percent": 1.43
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 1992,
+          "percent": 1.25
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 1956,
+          "percent": 1.23
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 1787,
+          "percent": 1.12
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 1758,
+          "percent": 1.1
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 1694,
+          "percent": 1.06
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 1661,
+          "percent": 1.04
+        }
+      ],
+      "blockedInteriorPercent": 17.56,
+      "steepInteriorPercent": 10.42,
+      "houses": 0,
+      "roads": 394,
+      "oreCount": 30,
+      "neutralTypes": [
+        [
+          "OreNode",
+          30
+        ],
+        [
+          "OilDerrick",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "m023",
+      "name": "map_mp_6_ssmith2",
+      "group": "3v3",
+      "sha256": "49de7ca8c3b7a6fd239501bdca219d36ee41b198bd88e3c689b159d474ea70ed",
+      "sourceUnchanged": true,
+      "playable": [
+        600,
+        600
+      ],
+      "interiorLand": {
+        "cells": 270942,
+        "min": 207.2,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 284.98
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 161183,
+          "percent": 59.49
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 102455,
+          "percent": 37.81
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 1143,
+          "percent": 0.42
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 630,
+          "percent": 0.23
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 535,
+          "percent": 0.2
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 517,
+          "percent": 0.19
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 511,
+          "percent": 0.19
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 506,
+          "percent": 0.19
+        }
+      ],
+      "blockedInteriorPercent": 1.79,
+      "steepInteriorPercent": 1.1,
+      "houses": 52,
+      "roads": 499,
+      "oreCount": 27,
+      "neutralTypes": [
+        [
+          "OreNode",
+          27
+        ],
+        [
+          "OilDerrick",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "m024",
+      "name": "map_mp_3_feasel2",
+      "group": "3人混战",
+      "sha256": "f00c3dc34781caa0153de57f81189743051b09c03a47a0ec3005450df6b17feb",
+      "sourceUnchanged": true,
+      "playable": [
+        540,
+        540
+      ],
+      "interiorLand": {
+        "cells": 129415,
+        "min": 200.86,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 282.14
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 74596,
+          "percent": 57.64
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 46819,
+          "percent": 36.18
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 3227,
+          "percent": 2.49
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 612,
+          "percent": 0.47
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 416,
+          "percent": 0.32
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 398,
+          "percent": 0.31
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 370,
+          "percent": 0.29
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 348,
+          "percent": 0.27
+        }
+      ],
+      "blockedInteriorPercent": 2.05,
+      "steepInteriorPercent": 2.51,
+      "houses": 5,
+      "roads": 121,
+      "oreCount": 15,
+      "neutralTypes": [
+        [
+          "OreNode",
+          15
+        ],
+        [
+          "ObservationPostTechStructure",
+          6
+        ],
+        [
+          "OilDerrick",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "m025",
+      "name": "map_mp_3_feasel4",
+      "group": "3人混战",
+      "sha256": "5151b7a140caa11e9462f0bb675f084c6964567624b3cd98895c97b66c708188",
+      "sourceUnchanged": true,
+      "playable": [
+        540,
+        540
+      ],
+      "interiorLand": {
+        "cells": 84183,
+        "min": 201.01,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 246.34,
+        "p95": 263,
+        "max": 370.12
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 66724,
+          "percent": 79.26
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 2273,
+          "percent": 2.7
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 1360,
+          "percent": 1.62
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 1324,
+          "percent": 1.57
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 1320,
+          "percent": 1.57
+        },
+        {
+          "from": 255,
+          "to": 260,
+          "cells": 1213,
+          "percent": 1.44
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 1182,
+          "percent": 1.4
+        },
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 1115,
+          "percent": 1.32
+        }
+      ],
+      "blockedInteriorPercent": 11.33,
+      "steepInteriorPercent": 10.2,
+      "houses": 0,
+      "roads": 41,
+      "oreCount": 15,
+      "neutralTypes": [
+        [
+          "OreNode",
+          15
+        ],
+        [
+          "OilDerrick",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "m026",
+      "name": "[8P]Battlebase_Sigma_v1",
+      "group": "4v4",
+      "sha256": "6eb68ae844e86f43c3cc9bc3013a7b736259f8a93bc6d8087d924177f4d270b3",
+      "sourceUnchanged": true,
+      "playable": [
+        715,
+        710
+      ],
+      "interiorLand": {
+        "cells": 295680,
+        "min": 228.05,
+        "p05": 280,
+        "p10": 280,
+        "p25": 280,
+        "p50": 280,
+        "p75": 280,
+        "p90": 350,
+        "p95": 350,
+        "max": 350
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 252274,
+          "percent": 85.32
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 41572,
+          "percent": 14.06
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 220,
+          "percent": 0.07
+        },
+        {
+          "from": 265,
+          "to": 270,
+          "cells": 181,
+          "percent": 0.06
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 179,
+          "percent": 0.06
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 176,
+          "percent": 0.06
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 176,
+          "percent": 0.06
+        },
+        {
+          "from": 255,
+          "to": 260,
+          "cells": 176,
+          "percent": 0.06
+        }
+      ],
+      "blockedInteriorPercent": 4.01,
+      "steepInteriorPercent": 2.12,
+      "houses": 0,
+      "roads": 1855,
+      "oreCount": 48,
+      "neutralTypes": [
+        [
+          "OreNode",
+          48
+        ],
+        [
+          "OilDerrick",
+          8
+        ],
+        [
+          "NBOilDerrick_Collapse",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m027",
+      "name": "[8P]Fallout_Fortress_v1",
+      "group": "4v4",
+      "sha256": "e66e7b7ab6c8e7bbf91a2507aa3f5f7534b3b572b2220b16441c0065e572a5e7",
+      "sourceUnchanged": true,
+      "playable": [
+        650,
+        540
+      ],
+      "interiorLand": {
+        "cells": 341544,
+        "min": 200,
+        "p05": 220,
+        "p10": 280,
+        "p25": 280,
+        "p50": 280,
+        "p75": 308.95,
+        "p90": 350,
+        "p95": 350,
+        "max": 420
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 233888,
+          "percent": 68.48
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 81068,
+          "percent": 23.74
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 14989,
+          "percent": 4.39
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 2109,
+          "percent": 0.62
+        },
+        {
+          "from": 345,
+          "to": 350,
+          "cells": 907,
+          "percent": 0.27
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 677,
+          "percent": 0.2
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 600,
+          "percent": 0.18
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 557,
+          "percent": 0.16
+        }
+      ],
+      "blockedInteriorPercent": 6.5,
+      "steepInteriorPercent": 2.43,
+      "houses": 50,
+      "roads": 785,
+      "oreCount": 48,
+      "neutralTypes": [
+        [
+          "OreNode",
+          48
+        ],
+        [
+          "OilDerrick",
+          8
+        ],
+        [
+          "ObservationPostTechStructure",
+          4
+        ],
+        [
+          "NBOilDerrick_Collapse",
+          1
+        ],
+        [
+          "NUObservationPostTechStructure_Collapse",
+          1
+        ],
+        [
+          "NUHospitalTechStructure_Collapse",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m028",
+      "name": "[8P]Freezone_Port_v1",
+      "group": "4v4",
+      "sha256": "84830974a1a3b678b53a8385bac4107537fc41cc14b6b4022159685396871e1b",
+      "sourceUnchanged": true,
+      "playable": [
+        744,
+        500
+      ],
+      "interiorLand": {
+        "cells": 176589,
+        "min": 210,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 280
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 118431,
+          "percent": 67.07
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 55267,
+          "percent": 31.3
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 252,
+          "percent": 0.14
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 251,
+          "percent": 0.14
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 248,
+          "percent": 0.14
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 245,
+          "percent": 0.14
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 236,
+          "percent": 0.13
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 232,
+          "percent": 0.13
+        }
+      ],
+      "blockedInteriorPercent": 1.35,
+      "steepInteriorPercent": 1.37,
+      "houses": 26,
+      "roads": 2266,
+      "oreCount": 42,
+      "neutralTypes": [
+        [
+          "OreNode",
+          42
+        ],
+        [
+          "OilDerrick",
+          8
+        ],
+        [
+          "ObservationPostTechStructure",
+          4
+        ],
+        [
+          "Amb_AirportAnnouncement2",
+          1
+        ],
+        [
+          "Amb_AirportAnnouncement1",
+          1
+        ],
+        [
+          "Amb_AirportPlanesMS",
+          1
+        ],
+        [
+          "NUAirportTechStructure_Collapse",
+          1
+        ],
+        [
+          "NUObservationPostTechStructure_Collapse",
+          1
+        ],
+        [
+          "NBOilDerrick_Collapse",
+          1
+        ],
+        [
+          "AirportTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m029",
+      "name": "[8P]Island_Adventure_v1",
+      "group": "4v4",
+      "sha256": "fb4cbadf90800f184d361c048d49d068e26179b3bf7c340f5130e593e9b13d93",
+      "sourceUnchanged": true,
+      "playable": [
+        650,
+        650
+      ],
+      "interiorLand": {
+        "cells": 224814,
+        "min": 204.98,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 350
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 149312,
+          "percent": 66.42
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 64596,
+          "percent": 28.73
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 4039,
+          "percent": 1.8
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 2229,
+          "percent": 0.99
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 624,
+          "percent": 0.28
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 429,
+          "percent": 0.19
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 396,
+          "percent": 0.18
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 349,
+          "percent": 0.16
+        }
+      ],
+      "blockedInteriorPercent": 3.57,
+      "steepInteriorPercent": 1.98,
+      "houses": 22,
+      "roads": 444,
+      "oreCount": 42,
+      "neutralTypes": [
+        [
+          "OreNode",
+          42
+        ],
+        [
+          "OilDerrick",
+          10
+        ],
+        [
+          "NBOilDerrick_Collapse",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m030",
+      "name": "[8P]Joint_Operations_v1",
+      "group": "4v4",
+      "sha256": "23b28d68d2c53c0b78c7d8d5577e7fb800eb47962a6b63e904f90687a9866711",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 229457,
+        "min": 210,
+        "p05": 280,
+        "p10": 280,
+        "p25": 280,
+        "p50": 280,
+        "p75": 350,
+        "p90": 350,
+        "p95": 350,
+        "max": 350
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 126666,
+          "percent": 55.2
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 92335,
+          "percent": 40.24
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 3122,
+          "percent": 1.36
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 413,
+          "percent": 0.18
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 383,
+          "percent": 0.17
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 368,
+          "percent": 0.16
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 363,
+          "percent": 0.16
+        },
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 356,
+          "percent": 0.16
+        }
+      ],
+      "blockedInteriorPercent": 9.37,
+      "steepInteriorPercent": 2.48,
+      "houses": 8,
+      "roads": 1551,
+      "oreCount": 46,
+      "neutralTypes": [
+        [
+          "OreNode",
+          46
+        ],
+        [
+          "OilDerrick",
+          8
+        ],
+        [
+          "ObservationPostTechStructure",
+          2
+        ],
+        [
+          "NBOilDerrick_Collapse",
+          1
+        ],
+        [
+          "NUObservationPostTechStructure_Collapse",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m031",
+      "name": "[8P]Magmapocalypse_v1",
+      "group": "4v4",
+      "sha256": "49f9eeeceb0bfcf7a2160389ae3432972f7a6977be7fa37cae6953d28fc44dc1",
+      "sourceUnchanged": true,
+      "playable": [
+        620,
+        800
+      ],
+      "interiorLand": {
+        "cells": 235038,
+        "min": 200.74,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 245.14,
+        "p95": 270.66,
+        "max": 412.26
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 191545,
+          "percent": 81.5
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 3487,
+          "percent": 1.48
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 2989,
+          "percent": 1.27
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 2804,
+          "percent": 1.19
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 2722,
+          "percent": 1.16
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 2719,
+          "percent": 1.16
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 2599,
+          "percent": 1.11
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 2508,
+          "percent": 1.07
+        }
+      ],
+      "blockedInteriorPercent": 18.17,
+      "steepInteriorPercent": 10.55,
+      "houses": 0,
+      "roads": 501,
+      "oreCount": 40,
+      "neutralTypes": [
+        [
+          "OreNode",
+          40
+        ],
+        [
+          "OilDerrick",
+          8
+        ],
+        [
+          "NBOilDerrick_Collapse",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m032",
+      "name": "[8P]Silent_Hill_v1",
+      "group": "4v4",
+      "sha256": "70f6c9ea2831da35bac3a75fc57e544749286c3846575dfa097ab021344a8668",
+      "sourceUnchanged": true,
+      "playable": [
+        600,
+        560
+      ],
+      "interiorLand": {
+        "cells": 311818,
+        "min": 203.77,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210.93,
+        "p90": 280,
+        "p95": 280,
+        "max": 377.63
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 235430,
+          "percent": 75.5
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 57577,
+          "percent": 18.46
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 1276,
+          "percent": 0.41
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 1169,
+          "percent": 0.37
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 1041,
+          "percent": 0.33
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 881,
+          "percent": 0.28
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 873,
+          "percent": 0.28
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 830,
+          "percent": 0.27
+        }
+      ],
+      "blockedInteriorPercent": 10.19,
+      "steepInteriorPercent": 4.55,
+      "houses": 0,
+      "roads": 51,
+      "oreCount": 42,
+      "neutralTypes": [
+        [
+          "OreNode",
+          42
+        ],
+        [
+          "OilDerrick",
+          8
+        ],
+        [
+          "ObservationPostTechStructure",
+          2
+        ],
+        [
+          "NUObservationPostTechStructure_Collapse",
+          1
+        ],
+        [
+          "NBOilDerrick_Collapse",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m033",
+      "name": "[8P]Snow_Burial_v1",
+      "group": "4v4",
+      "sha256": "23894b44cf81f81adf1aa5e97b4f8810888f8ea1c28083fda5a446a6a00af5b7",
+      "sourceUnchanged": true,
+      "playable": [
+        640,
+        600
+      ],
+      "interiorLand": {
+        "cells": 295492,
+        "min": 205.95,
+        "p05": 210,
+        "p10": 210,
+        "p25": 280,
+        "p50": 280,
+        "p75": 280,
+        "p90": 350,
+        "p95": 350,
+        "max": 376.58
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 173401,
+          "percent": 58.68
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 64911,
+          "percent": 21.97
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 29224,
+          "percent": 9.89
+        },
+        {
+          "from": 340,
+          "to": 345,
+          "cells": 10056,
+          "percent": 3.4
+        },
+        {
+          "from": 345,
+          "to": 350,
+          "cells": 4199,
+          "percent": 1.42
+        },
+        {
+          "from": 355,
+          "to": 360,
+          "cells": 1262,
+          "percent": 0.43
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 1109,
+          "percent": 0.38
+        },
+        {
+          "from": 360,
+          "to": 365,
+          "cells": 864,
+          "percent": 0.29
+        }
+      ],
+      "blockedInteriorPercent": 4.52,
+      "steepInteriorPercent": 2.29,
+      "houses": 27,
+      "roads": 418,
+      "oreCount": 44,
+      "neutralTypes": [
+        [
+          "OreNode",
+          44
+        ],
+        [
+          "OilDerrick",
+          10
+        ],
+        [
+          "ObservationPostTechStructure",
+          4
+        ],
+        [
+          "NUObservationPostTechStructure_Collapse",
+          1
+        ],
+        [
+          "NBOilDerrick_Collapse",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m034",
+      "name": "[8P]Unreal_City_v1",
+      "group": "4v4",
+      "sha256": "a86ef9ff87a3225d3af801cfcd1628a094a75ebe401ddc813a85a546772db7ba",
+      "sourceUnchanged": true,
+      "playable": [
+        700,
+        700
+      ],
+      "interiorLand": {
+        "cells": 244341,
+        "min": 205.21,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 214.24,
+        "p90": 260,
+        "p95": 260,
+        "max": 262.96
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 183203,
+          "percent": 74.98
+        },
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 57401,
+          "percent": 23.49
+        },
+        {
+          "from": 255,
+          "to": 260,
+          "cells": 652,
+          "percent": 0.27
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 479,
+          "percent": 0.2
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 391,
+          "percent": 0.16
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 389,
+          "percent": 0.16
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 355,
+          "percent": 0.15
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 344,
+          "percent": 0.14
+        }
+      ],
+      "blockedInteriorPercent": 0.56,
+      "steepInteriorPercent": 0.58,
+      "houses": 66,
+      "roads": 2740,
+      "oreCount": 40,
+      "neutralTypes": [
+        [
+          "OreNode",
+          40
+        ],
+        [
+          "OilDerrick",
+          16
+        ],
+        [
+          "ObservationPostTechStructure",
+          3
+        ],
+        [
+          "HospitalTechStructure",
+          2
+        ],
+        [
+          "NBOilDerrick_Collapse",
+          1
+        ],
+        [
+          "NUHospitalTechStructure_Collapse",
+          1
+        ],
+        [
+          "NUObservationPostTechStructure_Collapse",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m035",
+      "name": "map_mp_5_feasel2",
+      "group": "5人混战",
+      "sha256": "7d743ea3bb352b78130b461b926cd071ea7271f3e35cf6fb2d122b60f645b131",
+      "sourceUnchanged": true,
+      "playable": [
+        600,
+        600
+      ],
+      "interiorLand": {
+        "cells": 137533,
+        "min": 205.76,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 280,
+        "p75": 280,
+        "p90": 350,
+        "p95": 350,
+        "max": 420
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 62154,
+          "percent": 45.19
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 44133,
+          "percent": 32.09
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 19026,
+          "percent": 13.83
+        },
+        {
+          "from": 420,
+          "to": 425,
+          "cells": 4534,
+          "percent": 3.3
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 2023,
+          "percent": 1.47
+        },
+        {
+          "from": 345,
+          "to": 350,
+          "cells": 325,
+          "percent": 0.24
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 308,
+          "percent": 0.22
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 287,
+          "percent": 0.21
+        }
+      ],
+      "blockedInteriorPercent": 2.33,
+      "steepInteriorPercent": 2.78,
+      "houses": 40,
+      "roads": 460,
+      "oreCount": 25,
+      "neutralTypes": [
+        [
+          "OreNode",
+          25
+        ],
+        [
+          "ObservationPostTechStructure",
+          5
+        ],
+        [
+          "HospitalTechStructure",
+          5
+        ],
+        [
+          "OilDerrick_OnWater",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "m036",
+      "name": "map_mp_5_feasel3",
+      "group": "5人混战",
+      "sha256": "9a9aa866a5be45b6716251dc3a67f8f39433ac5374cba8e61dc1b4e72a1ad57b",
+      "sourceUnchanged": true,
+      "playable": [
+        600,
+        640
+      ],
+      "interiorLand": {
+        "cells": 146938,
+        "min": 206.73,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 280
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 96772,
+          "percent": 65.86
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 37819,
+          "percent": 25.74
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 2531,
+          "percent": 1.72
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 2471,
+          "percent": 1.68
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 1360,
+          "percent": 0.93
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 738,
+          "percent": 0.5
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 619,
+          "percent": 0.42
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 573,
+          "percent": 0.39
+        }
+      ],
+      "blockedInteriorPercent": 1.82,
+      "steepInteriorPercent": 2.08,
+      "houses": 11,
+      "roads": 737,
+      "oreCount": 30,
+      "neutralTypes": [
+        [
+          "OreNode",
+          30
+        ],
+        [
+          "OilDerrick_OnWater",
+          6
+        ],
+        [
+          "ObservationPostTechStructure",
+          5
+        ],
+        [
+          "GarageTechStructure",
+          1
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m037",
+      "name": "[cor_samsara]ep01A_poland_demo1",
+      "group": "只学美化",
+      "sha256": "cabb38a9a7c6d0f94c425088f2dfd669148c741a52923d91e5477da1919e68e8",
+      "sourceUnchanged": true,
+      "playable": [
+        700,
+        700
+      ],
+      "interiorLand": {
+        "cells": 402515,
+        "min": 170,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 255.21,
+        "p95": 270,
+        "max": 270
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 348249,
+          "percent": 86.52
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 30333,
+          "percent": 7.54
+        },
+        {
+          "from": 265,
+          "to": 270,
+          "cells": 6417,
+          "percent": 1.59
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 2115,
+          "percent": 0.53
+        },
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 2030,
+          "percent": 0.5
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 1720,
+          "percent": 0.43
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 1524,
+          "percent": 0.38
+        },
+        {
+          "from": 255,
+          "to": 260,
+          "cells": 1513,
+          "percent": 0.38
+        }
+      ],
+      "blockedInteriorPercent": 2.66,
+      "steepInteriorPercent": 0.02,
+      "houses": 53,
+      "roads": 1672,
+      "oreCount": 0,
+      "neutralTypes": [
+        [
+          "OilDerrick",
+          20
+        ]
+      ]
+    },
+    {
+      "id": "m038",
+      "name": "[cor_samsara]ep02A_BRIGHTON_demo1",
+      "group": "只学美化",
+      "sha256": "7c6e90b4afc3061a154d93bbe0ef69f09a2d39d705d93f9c6b37be84a9120fa7",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 310940,
+        "min": 206.38,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 210,
+        "p95": 210,
+        "max": 260.82
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 304601,
+          "percent": 97.96
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 968,
+          "percent": 0.31
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 874,
+          "percent": 0.28
+        },
+        {
+          "from": 255,
+          "to": 260,
+          "cells": 792,
+          "percent": 0.25
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 643,
+          "percent": 0.21
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 636,
+          "percent": 0.2
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 635,
+          "percent": 0.2
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 609,
+          "percent": 0.2
+        }
+      ],
+      "blockedInteriorPercent": 0.27,
+      "steepInteriorPercent": 0.04,
+      "houses": 171,
+      "roads": 1592,
+      "oreCount": 5,
+      "neutralTypes": [
+        [
+          "OilDerrick",
+          56
+        ],
+        [
+          "OreNode",
+          5
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m039",
+      "name": "[cor_samsara]ep03A_Calais_demo1",
+      "group": "只学美化",
+      "sha256": "fea7a437aa3907a289fa6547b36091684afd5072b0b368c261893b4611cb3766",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 346895,
+        "min": 207.82,
+        "p05": 210,
+        "p10": 267.9,
+        "p25": 270,
+        "p50": 270,
+        "p75": 290,
+        "p90": 340,
+        "p95": 340.08,
+        "max": 443.07
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 216935,
+          "percent": 62.54
+        },
+        {
+          "from": 340,
+          "to": 345,
+          "cells": 53566,
+          "percent": 15.44
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 25278,
+          "percent": 7.29
+        },
+        {
+          "from": 290,
+          "to": 295,
+          "cells": 9024,
+          "percent": 2.6
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 6869,
+          "percent": 1.98
+        },
+        {
+          "from": 400,
+          "to": 405,
+          "cells": 4824,
+          "percent": 1.39
+        },
+        {
+          "from": 335,
+          "to": 340,
+          "cells": 4606,
+          "percent": 1.33
+        },
+        {
+          "from": 345,
+          "to": 350,
+          "cells": 2229,
+          "percent": 0.64
+        }
+      ],
+      "blockedInteriorPercent": 10.28,
+      "steepInteriorPercent": 7.29,
+      "houses": 49,
+      "roads": 965,
+      "oreCount": 17,
+      "neutralTypes": [
+        [
+          "OreNode",
+          17
+        ],
+        [
+          "OilDerrick",
+          6
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ],
+        [
+          "GarageTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m040",
+      "name": "[cor_samsara]ep04A_HASIENBERG_demo1",
+      "group": "只学美化",
+      "sha256": "625db84536512cd9cc50f4099f4731545261cd5492e9521675134c3c1f0583b4",
+      "sourceUnchanged": true,
+      "playable": [
+        900,
+        900
+      ],
+      "interiorLand": {
+        "cells": 728436,
+        "min": 219.42,
+        "p05": 220,
+        "p10": 270,
+        "p25": 270,
+        "p50": 270,
+        "p75": 274.63,
+        "p90": 552.76,
+        "p95": 801.32,
+        "max": 1634.94
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 476877,
+          "percent": 65.47
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 67288,
+          "percent": 9.24
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 30337,
+          "percent": 4.16
+        },
+        {
+          "from": 320,
+          "to": 325,
+          "cells": 11742,
+          "percent": 1.61
+        },
+        {
+          "from": 500,
+          "to": 505,
+          "cells": 8818,
+          "percent": 1.21
+        },
+        {
+          "from": 300,
+          "to": 305,
+          "cells": 8489,
+          "percent": 1.17
+        },
+        {
+          "from": 400,
+          "to": 405,
+          "cells": 4902,
+          "percent": 0.67
+        },
+        {
+          "from": 450,
+          "to": 455,
+          "cells": 4375,
+          "percent": 0.6
+        }
+      ],
+      "blockedInteriorPercent": 11.18,
+      "steepInteriorPercent": 9.35,
+      "houses": 321,
+      "roads": 1121,
+      "oreCount": 15,
+      "neutralTypes": [
+        [
+          "OilDerrick",
+          68
+        ],
+        [
+          "OreNode",
+          15
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ],
+        [
+          "GarageTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m041",
+      "name": "[cor_samsara]ep05S_island_demo1",
+      "group": "只学美化",
+      "sha256": "748fed09ab91de709b49e2e7d8aff30e5acbb58b8fb6579214006ffdbbab2411",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 235720,
+        "min": 207.51,
+        "p05": 210,
+        "p10": 270,
+        "p25": 270,
+        "p50": 270,
+        "p75": 270,
+        "p90": 270,
+        "p95": 270,
+        "max": 270
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 215640,
+          "percent": 91.48
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 15698,
+          "percent": 6.66
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 958,
+          "percent": 0.41
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 361,
+          "percent": 0.15
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 340,
+          "percent": 0.14
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 328,
+          "percent": 0.14
+        },
+        {
+          "from": 265,
+          "to": 270,
+          "cells": 320,
+          "percent": 0.14
+        },
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 309,
+          "percent": 0.13
+        }
+      ],
+      "blockedInteriorPercent": 0.29,
+      "steepInteriorPercent": 0.29,
+      "houses": 104,
+      "roads": 365,
+      "oreCount": 8,
+      "neutralTypes": [
+        [
+          "OreNode",
+          8
+        ],
+        [
+          "OilDerrick",
+          8
+        ],
+        [
+          "GarageTechStructure",
+          1
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ],
+        [
+          "ObservationPostTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m042",
+      "name": "[cor_samsara]ep06S_Jungle_village_demo1",
+      "group": "只学美化",
+      "sha256": "192114a4881e79766db57e512f2f454edeb8710a843b6ad518a958d5b6036701",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 345022,
+        "min": 203.66,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 235.29,
+        "p75": 270,
+        "p90": 270,
+        "p95": 270,
+        "max": 491.21
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 170294,
+          "percent": 49.36
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 167247,
+          "percent": 48.47
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 2065,
+          "percent": 0.6
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 636,
+          "percent": 0.18
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 446,
+          "percent": 0.13
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 411,
+          "percent": 0.12
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 395,
+          "percent": 0.11
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 391,
+          "percent": 0.11
+        }
+      ],
+      "blockedInteriorPercent": 2.68,
+      "steepInteriorPercent": 1.97,
+      "houses": 0,
+      "roads": 49,
+      "oreCount": 20,
+      "neutralTypes": [
+        [
+          "OreNode",
+          20
+        ],
+        [
+          "OilDerrick",
+          8
+        ]
+      ]
+    },
+    {
+      "id": "m043",
+      "name": "[cor_samsara]ep07S_Dragon_Island_demo1",
+      "group": "只学美化",
+      "sha256": "4a666b6db2b2660fa9794d32f20aa976ebb329869c1ebfc5aaef4161ac8a38fb",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 368483,
+        "min": 199.88,
+        "p05": 209.92,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 270,
+        "p90": 406.96,
+        "p95": 480.62,
+        "max": 863.62
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 189335,
+          "percent": 51.38
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 45117,
+          "percent": 12.24
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 20621,
+          "percent": 5.6
+        },
+        {
+          "from": 265,
+          "to": 270,
+          "cells": 4433,
+          "percent": 1.2
+        },
+        {
+          "from": 495,
+          "to": 500,
+          "cells": 3477,
+          "percent": 0.94
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 3025,
+          "percent": 0.82
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 2997,
+          "percent": 0.81
+        },
+        {
+          "from": 345,
+          "to": 350,
+          "cells": 2664,
+          "percent": 0.72
+        }
+      ],
+      "blockedInteriorPercent": 29.22,
+      "steepInteriorPercent": 14.35,
+      "houses": 58,
+      "roads": 568,
+      "oreCount": 17,
+      "neutralTypes": [
+        [
+          "OilDerrick",
+          54
+        ],
+        [
+          "OreNode",
+          17
+        ]
+      ]
+    },
+    {
+      "id": "m044",
+      "name": "[cor_samsara]ep08S_Monsoon_Strait_demo1",
+      "group": "只学美化",
+      "sha256": "14b3dd4ad3140a9c0ec84ddb5e6715836c9be3a64a34e373e4a74bd4b6c30b88",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 56011,
+        "min": 204.2,
+        "p05": 209.45,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 250.12,
+        "p90": 270,
+        "p95": 320,
+        "max": 474.71
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 34158,
+          "percent": 60.98
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 7783,
+          "percent": 13.9
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 5300,
+          "percent": 9.46
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 629,
+          "percent": 1.12
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 575,
+          "percent": 1.03
+        },
+        {
+          "from": 290,
+          "to": 295,
+          "cells": 508,
+          "percent": 0.91
+        },
+        {
+          "from": 430,
+          "to": 435,
+          "cells": 482,
+          "percent": 0.86
+        },
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 374,
+          "percent": 0.67
+        }
+      ],
+      "blockedInteriorPercent": 12.77,
+      "steepInteriorPercent": 12.92,
+      "houses": 0,
+      "roads": 44,
+      "oreCount": 8,
+      "neutralTypes": [
+        [
+          "OilDerrick",
+          29
+        ],
+        [
+          "OreNode",
+          8
+        ],
+        [
+          "OilDerrick_OnWater",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m045",
+      "name": "[cor_samsara]ep09J_Shinro_Laboratory_demo1",
+      "group": "只学美化",
+      "sha256": "4ccca1b838b39452dda742d44d39150168848208dee99b25278ad1b0eb2d48b7",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        700
+      ],
+      "interiorLand": {
+        "cells": 340464,
+        "min": 0,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 310,
+        "p95": 500,
+        "max": 500
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 293320,
+          "percent": 86.15
+        },
+        {
+          "from": 310,
+          "to": 315,
+          "cells": 28485,
+          "percent": 8.37
+        },
+        {
+          "from": 500,
+          "to": 505,
+          "cells": 17294,
+          "percent": 5.08
+        },
+        {
+          "from": 160,
+          "to": 165,
+          "cells": 1162,
+          "percent": 0.34
+        },
+        {
+          "from": 100,
+          "to": 105,
+          "cells": 200,
+          "percent": 0.06
+        },
+        {
+          "from": 0,
+          "to": 5,
+          "cells": 3,
+          "percent": 0
+        }
+      ],
+      "blockedInteriorPercent": 12.87,
+      "steepInteriorPercent": 0.51,
+      "houses": 7,
+      "roads": 14,
+      "oreCount": 3,
+      "neutralTypes": [
+        [
+          "OreNode",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "m046",
+      "name": "[cor_samsara]ep10J_Akizuki_Dojo_demo1",
+      "group": "只学美化",
+      "sha256": "4a26746c2d7dd9f7d0869558cd7eb1ea1ad92d00015339f20bd8312eb0ad078b",
+      "sourceUnchanged": true,
+      "playable": [
+        520,
+        520
+      ],
+      "interiorLand": {
+        "cells": 217537,
+        "min": 200.23,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 247,
+        "p75": 275.1,
+        "p90": 351.13,
+        "p95": 397.59,
+        "max": 593.38
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 88223,
+          "percent": 40.56
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 43624,
+          "percent": 20.05
+        },
+        {
+          "from": 330,
+          "to": 335,
+          "cells": 17094,
+          "percent": 7.86
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 7279,
+          "percent": 3.35
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 3086,
+          "percent": 1.42
+        },
+        {
+          "from": 390,
+          "to": 395,
+          "cells": 3081,
+          "percent": 1.42
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 2905,
+          "percent": 1.34
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 2830,
+          "percent": 1.3
+        }
+      ],
+      "blockedInteriorPercent": 17.98,
+      "steepInteriorPercent": 11.73,
+      "houses": 154,
+      "roads": 717,
+      "oreCount": 4,
+      "neutralTypes": [
+        [
+          "OilDerrick",
+          29
+        ],
+        [
+          "OreNode",
+          4
+        ],
+        [
+          "GarageTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m047",
+      "name": "[cor_samsara]ep11J_Kamikayama_demo1",
+      "group": "只学美化",
+      "sha256": "3c06e9c4c53f9b98bdb084f45c97a58f39ca4dcd1c5334faa478a4ef57b463c0",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 368950,
+        "min": 100,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 270,
+        "p75": 281.25,
+        "p90": 347.55,
+        "p95": 410,
+        "max": 621.6
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 144216,
+          "percent": 39.09
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 91116,
+          "percent": 24.7
+        },
+        {
+          "from": 340,
+          "to": 345,
+          "cells": 28691,
+          "percent": 7.78
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 10909,
+          "percent": 2.96
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 4298,
+          "percent": 1.16
+        },
+        {
+          "from": 410,
+          "to": 415,
+          "cells": 2947,
+          "percent": 0.8
+        },
+        {
+          "from": 265,
+          "to": 270,
+          "cells": 2626,
+          "percent": 0.71
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 2475,
+          "percent": 0.67
+        }
+      ],
+      "blockedInteriorPercent": 24.28,
+      "steepInteriorPercent": 13.5,
+      "houses": 41,
+      "roads": 939,
+      "oreCount": 14,
+      "neutralTypes": [
+        [
+          "OilDerrick",
+          101
+        ],
+        [
+          "OreNode",
+          14
+        ],
+        [
+          "GarageTechStructure",
+          2
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m048",
+      "name": "[cor_samsara]ep12J_Grand_Canyon_demo1",
+      "group": "只学美化",
+      "sha256": "0612ae2b3851c9284d3327223d8c3042c94798ec12c745edafb7b5d3ca9c5cf2",
+      "sourceUnchanged": true,
+      "playable": [
+        900,
+        900
+      ],
+      "interiorLand": {
+        "cells": 776319,
+        "min": 200.74,
+        "p05": 210,
+        "p10": 210,
+        "p25": 429.84,
+        "p50": 616.96,
+        "p75": 700,
+        "p90": 700,
+        "p95": 700,
+        "max": 762.65
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 700,
+          "to": 705,
+          "cells": 286834,
+          "percent": 36.95
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 91068,
+          "percent": 11.73
+        },
+        {
+          "from": 600,
+          "to": 605,
+          "cells": 54547,
+          "percent": 7.03
+        },
+        {
+          "from": 620,
+          "to": 625,
+          "cells": 39767,
+          "percent": 5.12
+        },
+        {
+          "from": 470,
+          "to": 475,
+          "cells": 30424,
+          "percent": 3.92
+        },
+        {
+          "from": 500,
+          "to": 505,
+          "cells": 22825,
+          "percent": 2.94
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 18853,
+          "percent": 2.43
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 13518,
+          "percent": 1.74
+        }
+      ],
+      "blockedInteriorPercent": 14.44,
+      "steepInteriorPercent": 17.24,
+      "houses": 0,
+      "roads": 1213,
+      "oreCount": 13,
+      "neutralTypes": [
+        [
+          "OilDerrick",
+          30
+        ],
+        [
+          "OreNode",
+          13
+        ]
+      ]
+    },
+    {
+      "id": "m049",
+      "name": "MAP_MP_COOP_j01_russianvillage_white",
+      "group": "只学美化",
+      "sha256": "192a40ac007a367734005be29b040f9ba31b9cb01130732331d69a7be7a0691d",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 322109,
+        "min": 100,
+        "p05": 210,
+        "p10": 274.94,
+        "p25": 280,
+        "p50": 280,
+        "p75": 280.89,
+        "p90": 350,
+        "p95": 360.7,
+        "max": 467.66
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 210775,
+          "percent": 65.44
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 41334,
+          "percent": 12.83
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 24427,
+          "percent": 7.58
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 2389,
+          "percent": 0.74
+        },
+        {
+          "from": 345,
+          "to": 350,
+          "cells": 2209,
+          "percent": 0.69
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 2150,
+          "percent": 0.67
+        },
+        {
+          "from": 290,
+          "to": 295,
+          "cells": 1807,
+          "percent": 0.56
+        },
+        {
+          "from": 130,
+          "to": 135,
+          "cells": 1757,
+          "percent": 0.55
+        }
+      ],
+      "blockedInteriorPercent": 4.43,
+      "steepInteriorPercent": 2.78,
+      "houses": 166,
+      "roads": 1989,
+      "oreCount": 4,
+      "neutralTypes": [
+        [
+          "OreNode",
+          4
+        ],
+        [
+          "HospitalTechStructure",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "m050",
+      "name": "MAP_MP_COOP_j08_kremlin_stewart",
+      "group": "只学美化",
+      "sha256": "9ba244eedc9e145e0532e08b7e7084f670a6a567f2bd412b84e473b7a5eaf277",
+      "sourceUnchanged": true,
+      "playable": [
+        340,
+        640
+      ],
+      "interiorLand": {
+        "cells": 160174,
+        "min": 204.24,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 270,
+        "p75": 270,
+        "p90": 270,
+        "p95": 270,
+        "max": 287.94
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 88453,
+          "percent": 55.22
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 67553,
+          "percent": 42.17
+        },
+        {
+          "from": 265,
+          "to": 270,
+          "cells": 463,
+          "percent": 0.29
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 414,
+          "percent": 0.26
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 389,
+          "percent": 0.24
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 339,
+          "percent": 0.21
+        },
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 337,
+          "percent": 0.21
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 329,
+          "percent": 0.21
+        }
+      ],
+      "blockedInteriorPercent": 2.39,
+      "steepInteriorPercent": 1.16,
+      "houses": 55,
+      "roads": 1439,
+      "oreCount": 11,
+      "neutralTypes": [
+        [
+          "OreNode",
+          11
+        ],
+        [
+          "OilDerrick",
+          2
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ],
+        [
+          "GarageTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m051",
+      "name": "MAP_MP_COOP_s03_vladivostok_davis",
+      "group": "只学美化",
+      "sha256": "f8bf4e96d6e19a2b06670338e6cafb0f0bf013ca9b4544b0c0c5813faa8852d2",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        500
+      ],
+      "interiorLand": {
+        "cells": 59247,
+        "min": 205.41,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 242.22,
+        "p90": 280,
+        "p95": 280,
+        "max": 344.79
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 40988,
+          "percent": 69.18
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 10535,
+          "percent": 17.78
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 1003,
+          "percent": 1.69
+        },
+        {
+          "from": 290,
+          "to": 295,
+          "cells": 962,
+          "percent": 1.62
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 772,
+          "percent": 1.3
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 614,
+          "percent": 1.04
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 502,
+          "percent": 0.85
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 474,
+          "percent": 0.8
+        }
+      ],
+      "blockedInteriorPercent": 6.94,
+      "steepInteriorPercent": 2.71,
+      "houses": 12,
+      "roads": 518,
+      "oreCount": 6,
+      "neutralTypes": [
+        [
+          "OreNode",
+          6
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m052",
+      "name": "[cor]苏俄堡垒2.0_PathXF",
+      "group": "只学美化",
+      "sha256": "5fc39d4a11629a4694b044c14ac2d79d7ccecfd3b9df72fc642be59f658fea3b",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 443192,
+        "min": 212.1,
+        "p05": 290,
+        "p10": 290,
+        "p25": 290,
+        "p50": 290,
+        "p75": 290,
+        "p90": 360,
+        "p95": 360,
+        "max": 360
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 290,
+          "to": 295,
+          "cells": 353700,
+          "percent": 79.81
+        },
+        {
+          "from": 360,
+          "to": 365,
+          "cells": 70338,
+          "percent": 15.87
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 7292,
+          "percent": 1.65
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 2118,
+          "percent": 0.48
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 784,
+          "percent": 0.18
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 596,
+          "percent": 0.13
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 520,
+          "percent": 0.12
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 454,
+          "percent": 0.1
+        }
+      ],
+      "blockedInteriorPercent": 1.78,
+      "steepInteriorPercent": 1.86,
+      "houses": 113,
+      "roads": 497,
+      "oreCount": 40,
+      "neutralTypes": [
+        [
+          "OreNode",
+          40
+        ],
+        [
+          "HospitalTechStructure",
+          7
+        ],
+        [
+          "GarageTechStructure",
+          7
+        ],
+        [
+          "OilDerrick",
+          5
+        ],
+        [
+          "ObservationPostTechStructure",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "m053",
+      "name": "[Zombie_C03]Kharkov",
+      "group": "只学美化",
+      "sha256": "5f98512679b5771d70830cc1286405bb0cbe25ec34c58673c075421b26ddd438",
+      "sourceUnchanged": true,
+      "playable": [
+        650,
+        650
+      ],
+      "interiorLand": {
+        "cells": 412164,
+        "min": 170,
+        "p05": 174.94,
+        "p10": 174.94,
+        "p25": 190,
+        "p50": 230,
+        "p75": 230,
+        "p90": 353.89,
+        "p95": 415.33,
+        "max": 627.66
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 168635,
+          "percent": 40.91
+        },
+        {
+          "from": 190,
+          "to": 195,
+          "cells": 90606,
+          "percent": 21.98
+        },
+        {
+          "from": 170,
+          "to": 175,
+          "cells": 42078,
+          "percent": 10.21
+        },
+        {
+          "from": 185,
+          "to": 190,
+          "cells": 16168,
+          "percent": 3.92
+        },
+        {
+          "from": 180,
+          "to": 185,
+          "cells": 12401,
+          "percent": 3.01
+        },
+        {
+          "from": 175,
+          "to": 180,
+          "cells": 7875,
+          "percent": 1.91
+        },
+        {
+          "from": 200,
+          "to": 205,
+          "cells": 3498,
+          "percent": 0.85
+        },
+        {
+          "from": 195,
+          "to": 200,
+          "cells": 2553,
+          "percent": 0.62
+        }
+      ],
+      "blockedInteriorPercent": 8.77,
+      "steepInteriorPercent": 6.24,
+      "houses": 227,
+      "roads": 1729,
+      "oreCount": 3,
+      "neutralTypes": [
+        [
+          "OreNode",
+          3
+        ],
+        [
+          "ObservationPostTechStructure",
+          2
+        ],
+        [
+          "OilDerrick",
+          2
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ],
+        [
+          "GarageTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m054",
+      "name": "[Zombie_C04_E02]Minsk_Shocking_nuclear_explosion",
+      "group": "只学美化",
+      "sha256": "d5469987db4cabe299f6237f9b35d457175797cd94e1c1c4396cc0d409635e07",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 550564,
+        "min": 3.7,
+        "p05": 80,
+        "p10": 91.63,
+        "p25": 100,
+        "p50": 100,
+        "p75": 100.43,
+        "p90": 141.98,
+        "p95": 156.89,
+        "max": 295.84
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 100,
+          "to": 105,
+          "cells": 346057,
+          "percent": 62.85
+        },
+        {
+          "from": 140,
+          "to": 145,
+          "cells": 41690,
+          "percent": 7.57
+        },
+        {
+          "from": 80,
+          "to": 85,
+          "cells": 38146,
+          "percent": 6.93
+        },
+        {
+          "from": 155,
+          "to": 160,
+          "cells": 25551,
+          "percent": 4.64
+        },
+        {
+          "from": 95,
+          "to": 100,
+          "cells": 18255,
+          "percent": 3.32
+        },
+        {
+          "from": 110,
+          "to": 115,
+          "cells": 16400,
+          "percent": 2.98
+        },
+        {
+          "from": 105,
+          "to": 110,
+          "cells": 9423,
+          "percent": 1.71
+        },
+        {
+          "from": 90,
+          "to": 95,
+          "cells": 8668,
+          "percent": 1.57
+        }
+      ],
+      "blockedInteriorPercent": 2.02,
+      "steepInteriorPercent": 0.91,
+      "houses": 221,
+      "roads": 1702,
+      "oreCount": 26,
+      "neutralTypes": [
+        [
+          "OreNode",
+          26
+        ],
+        [
+          "OilDerrick",
+          6
+        ],
+        [
+          "ObservationPostTechStructure",
+          5
+        ],
+        [
+          "AirportTechStructure",
+          2
+        ],
+        [
+          "Amb_AirportAnnouncement1",
+          2
+        ],
+        [
+          "Amb_AirportAnnouncement2",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m055",
+      "name": "MAP_MP_COOP_a09_leningrad_rao",
+      "group": "只学美化",
+      "sha256": "b54528ac68b7aba1b014a473338773d6e7f27ea03fa7d93d9c2f1d9726aaa63e",
+      "sourceUnchanged": true,
+      "playable": [
+        575,
+        525
+      ],
+      "interiorLand": {
+        "cells": 185821,
+        "min": 209.65,
+        "p05": 210,
+        "p10": 280,
+        "p25": 280,
+        "p50": 280,
+        "p75": 280,
+        "p90": 280.08,
+        "p95": 344.98,
+        "max": 404.12
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 150228,
+          "percent": 80.85
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 17435,
+          "percent": 9.38
+        },
+        {
+          "from": 340,
+          "to": 345,
+          "cells": 7640,
+          "percent": 4.11
+        },
+        {
+          "from": 345,
+          "to": 350,
+          "cells": 1120,
+          "percent": 0.6
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 943,
+          "percent": 0.51
+        },
+        {
+          "from": 335,
+          "to": 340,
+          "cells": 856,
+          "percent": 0.46
+        },
+        {
+          "from": 355,
+          "to": 360,
+          "cells": 790,
+          "percent": 0.43
+        },
+        {
+          "from": 360,
+          "to": 365,
+          "cells": 664,
+          "percent": 0.36
+        }
+      ],
+      "blockedInteriorPercent": 8.41,
+      "steepInteriorPercent": 1.43,
+      "houses": 46,
+      "roads": 1846,
+      "oreCount": 11,
+      "neutralTypes": [
+        [
+          "OreNode",
+          11
+        ],
+        [
+          "OilDerrick",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m056",
+      "name": "MAP_MP_COOP_j02_stalingrad_stewart",
+      "group": "只学美化",
+      "sha256": "df937a4931a19b4e005fff2e84a78fce76d038146411a83877e1671ef1328d42",
+      "sourceUnchanged": true,
+      "playable": [
+        400,
+        500
+      ],
+      "interiorLand": {
+        "cells": 155488,
+        "min": 201.67,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 308.52
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 105327,
+          "percent": 67.74
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 42098,
+          "percent": 27.07
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 1140,
+          "percent": 0.73
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 954,
+          "percent": 0.61
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 694,
+          "percent": 0.45
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 617,
+          "percent": 0.4
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 590,
+          "percent": 0.38
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 530,
+          "percent": 0.34
+        }
+      ],
+      "blockedInteriorPercent": 5.17,
+      "steepInteriorPercent": 1.84,
+      "houses": 30,
+      "roads": 885,
+      "oreCount": 8,
+      "neutralTypes": [
+        [
+          "OreNode",
+          8
+        ],
+        [
+          "OilDerrick",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m057",
+      "name": "MAP_MP_COOP_j03_odessa_stewart",
+      "group": "只学美化",
+      "sha256": "5b7d2465faeeb391bf6231428fcc402915f92133f39e6a62a9dc18e1a2fa2bee",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        600
+      ],
+      "interiorLand": {
+        "cells": 214636,
+        "min": 203.46,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 280,
+        "p75": 280,
+        "p90": 374.98,
+        "p95": 374.98,
+        "max": 380
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 86987,
+          "percent": 40.53
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 79977,
+          "percent": 37.26
+        },
+        {
+          "from": 370,
+          "to": 375,
+          "cells": 33830,
+          "percent": 15.76
+        },
+        {
+          "from": 310,
+          "to": 315,
+          "cells": 6531,
+          "percent": 3.04
+        },
+        {
+          "from": 340,
+          "to": 345,
+          "cells": 3188,
+          "percent": 1.49
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 245,
+          "percent": 0.11
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 234,
+          "percent": 0.11
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 222,
+          "percent": 0.1
+        }
+      ],
+      "blockedInteriorPercent": 2.91,
+      "steepInteriorPercent": 1.48,
+      "houses": 62,
+      "roads": 1339,
+      "oreCount": 7,
+      "neutralTypes": [
+        [
+          "OreNode",
+          7
+        ],
+        [
+          "OilDerrick",
+          2
+        ],
+        [
+          "OilDerrick_OnWater",
+          2
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m058",
+      "name": "MAP_MP_COOP_s01_leningradcanals_rao",
+      "group": "只学美化",
+      "sha256": "32fdaedafe14bf62080b5142576e8a7d0d5ebfd8fadcb3883a30b3dbbb1c96bb",
+      "sourceUnchanged": true,
+      "playable": [
+        350,
+        350
+      ],
+      "interiorLand": {
+        "cells": 58853,
+        "min": 204.79,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 280,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 280
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 42525,
+          "percent": 72.26
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 15981,
+          "percent": 27.15
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 231,
+          "percent": 0.39
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 96,
+          "percent": 0.16
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 17,
+          "percent": 0.03
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 1,
+          "percent": 0
+        },
+        {
+          "from": 200,
+          "to": 205,
+          "cells": 1,
+          "percent": 0
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 1,
+          "percent": 0
+        }
+      ],
+      "blockedInteriorPercent": 3.85,
+      "steepInteriorPercent": 0,
+      "houses": 21,
+      "roads": 1030,
+      "oreCount": 0,
+      "neutralTypes": []
+    },
+    {
+      "id": "m059",
+      "name": "MAP_MP_COOP_s02_krasna45_rao",
+      "group": "只学美化",
+      "sha256": "ad3cad4dc8c77a84923f04cfb86ded9b211d1b907f84fa2d90ebdfa07c76d50b",
+      "sourceUnchanged": true,
+      "playable": [
+        425,
+        300
+      ],
+      "interiorLand": {
+        "cells": 66670,
+        "min": 207.86,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 285.76
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 44283,
+          "percent": 66.42
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 19553,
+          "percent": 29.33
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 498,
+          "percent": 0.75
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 288,
+          "percent": 0.43
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 242,
+          "percent": 0.36
+        },
+        {
+          "from": 255,
+          "to": 260,
+          "cells": 211,
+          "percent": 0.32
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 208,
+          "percent": 0.31
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 192,
+          "percent": 0.29
+        }
+      ],
+      "blockedInteriorPercent": 6.29,
+      "steepInteriorPercent": 2.03,
+      "houses": 5,
+      "roads": 1086,
+      "oreCount": 0,
+      "neutralTypes": [
+        [
+          "Amb_AirportAnnouncement2",
+          1
+        ],
+        [
+          "Amb_AirportAnnouncement1",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m060",
+      "name": "MAP_MP_PROMO_Feasel3a",
+      "group": "只学美化",
+      "sha256": "7592c9c383b84d3c94cd7a4ba3eaa45e510e9fc8ecf192b34ae2f3f63346b7b5",
+      "sourceUnchanged": true,
+      "playable": [
+        525,
+        575
+      ],
+      "interiorLand": {
+        "cells": 134969,
+        "min": 198.72,
+        "p05": 210,
+        "p10": 210,
+        "p25": 240,
+        "p50": 240,
+        "p75": 240,
+        "p90": 240,
+        "p95": 240,
+        "max": 243.38
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 101577,
+          "percent": 75.26
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 27742,
+          "percent": 20.55
+        },
+        {
+          "from": 200,
+          "to": 205,
+          "cells": 2303,
+          "percent": 1.71
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 1518,
+          "percent": 1.12
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 556,
+          "percent": 0.41
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 406,
+          "percent": 0.3
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 313,
+          "percent": 0.23
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 290,
+          "percent": 0.21
+        }
+      ],
+      "blockedInteriorPercent": 0.75,
+      "steepInteriorPercent": 0.65,
+      "houses": 25,
+      "roads": 1715,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "OilDerrick",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m061",
+      "name": "[Zombie_C02_E01]Odeas_Arena",
+      "group": "只学美化",
+      "sha256": "47f02ea6b916538010f5cbd40a9abad94de8ea16dd3f4399cea7b7da5aca4675",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        400
+      ],
+      "interiorLand": {
+        "cells": 164160,
+        "min": 204.28,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 254.75,
+        "p95": 483.7,
+        "max": 758.83
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 139561,
+          "percent": 85.02
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 5587,
+          "percent": 3.4
+        },
+        {
+          "from": 420,
+          "to": 425,
+          "cells": 797,
+          "percent": 0.49
+        },
+        {
+          "from": 415,
+          "to": 420,
+          "cells": 589,
+          "percent": 0.36
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 564,
+          "percent": 0.34
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 499,
+          "percent": 0.3
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 484,
+          "percent": 0.29
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 475,
+          "percent": 0.29
+        }
+      ],
+      "blockedInteriorPercent": 6.67,
+      "steepInteriorPercent": 6.16,
+      "houses": 48,
+      "roads": 805,
+      "oreCount": 8,
+      "neutralTypes": [
+        [
+          "OreNode",
+          8
+        ]
+      ]
+    },
+    {
+      "id": "m062",
+      "name": "map_mp_2_feasel3",
+      "group": "只学美化",
+      "sha256": "789ff0c2d2998c4a557bf566dd36ae7015c1b642d968a113866cd0bcc54716f0",
+      "sourceUnchanged": true,
+      "playable": [
+        540,
+        540
+      ],
+      "interiorLand": {
+        "cells": 162416,
+        "min": 205.91,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 350
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 85057,
+          "percent": 52.37
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 62783,
+          "percent": 38.66
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 6230,
+          "percent": 3.84
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 3063,
+          "percent": 1.89
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 449,
+          "percent": 0.28
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 336,
+          "percent": 0.21
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 335,
+          "percent": 0.21
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 330,
+          "percent": 0.2
+        }
+      ],
+      "blockedInteriorPercent": 6.72,
+      "steepInteriorPercent": 2.81,
+      "houses": 62,
+      "roads": 910,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "OilDerrick",
+          2
+        ],
+        [
+          "ObservationPostTechStructure",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m063",
+      "name": "MAP_MP_COOP_a05_northsea_white",
+      "group": "只学美化",
+      "sha256": "5201525e8ee3e4871fb60cf72811c99c666a0121bda7b877b215b27e1f5393e8",
+      "sourceUnchanged": true,
+      "playable": [
+        750,
+        750
+      ],
+      "interiorLand": {
+        "cells": 282575,
+        "min": 45.45,
+        "p05": 118.64,
+        "p10": 280,
+        "p25": 280,
+        "p50": 280,
+        "p75": 280,
+        "p90": 281.25,
+        "p95": 351.25,
+        "max": 351.25
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 234890,
+          "percent": 83.12
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 22536,
+          "percent": 7.98
+        },
+        {
+          "from": 90,
+          "to": 95,
+          "cells": 6466,
+          "percent": 2.29
+        },
+        {
+          "from": 100,
+          "to": 105,
+          "cells": 3897,
+          "percent": 1.38
+        },
+        {
+          "from": 130,
+          "to": 135,
+          "cells": 2028,
+          "percent": 0.72
+        },
+        {
+          "from": 135,
+          "to": 140,
+          "cells": 1039,
+          "percent": 0.37
+        },
+        {
+          "from": 115,
+          "to": 120,
+          "cells": 765,
+          "percent": 0.27
+        },
+        {
+          "from": 125,
+          "to": 130,
+          "cells": 764,
+          "percent": 0.27
+        }
+      ],
+      "blockedInteriorPercent": 2.29,
+      "steepInteriorPercent": 1.46,
+      "houses": 5,
+      "roads": 1409,
+      "oreCount": 2,
+      "neutralTypes": [
+        [
+          "OreNode",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m064",
+      "name": "MAP_MP_COOP_j05_deepocean_davis",
+      "group": "只学美化",
+      "sha256": "7b31b041cdcdf1acfd8f9c322a09820e3dad06a40e4b8d14a88311651844ded4",
+      "sourceUnchanged": true,
+      "playable": [
+        600,
+        600
+      ],
+      "interiorLand": {
+        "cells": 69315,
+        "min": 227.51,
+        "p05": 281.01,
+        "p10": 281.01,
+        "p25": 281.01,
+        "p50": 281.01,
+        "p75": 350,
+        "p90": 350,
+        "p95": 350,
+        "max": 350
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 44011,
+          "percent": 63.49
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 22304,
+          "percent": 32.18
+        },
+        {
+          "from": 295,
+          "to": 300,
+          "cells": 208,
+          "percent": 0.3
+        },
+        {
+          "from": 315,
+          "to": 320,
+          "cells": 191,
+          "percent": 0.28
+        },
+        {
+          "from": 325,
+          "to": 330,
+          "cells": 191,
+          "percent": 0.28
+        },
+        {
+          "from": 335,
+          "to": 340,
+          "cells": 191,
+          "percent": 0.28
+        },
+        {
+          "from": 285,
+          "to": 290,
+          "cells": 190,
+          "percent": 0.27
+        },
+        {
+          "from": 345,
+          "to": 350,
+          "cells": 174,
+          "percent": 0.25
+        }
+      ],
+      "blockedInteriorPercent": 7.05,
+      "steepInteriorPercent": 2.91,
+      "houses": 3,
+      "roads": 1736,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "m065",
+      "name": "MAP_MP_COOP_a07_tokyoharbor_davis",
+      "group": "只学美化",
+      "sha256": "e124a378ac36f692010521d7c0260382cd98b2e53a54f1d8d5904ad146346e9a",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        450
+      ],
+      "interiorLand": {
+        "cells": 105923,
+        "min": 208.91,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 210.74,
+        "p95": 370.74,
+        "max": 513.58
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 95958,
+          "percent": 90.59
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 1028,
+          "percent": 0.97
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 545,
+          "percent": 0.51
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 457,
+          "percent": 0.43
+        },
+        {
+          "from": 500,
+          "to": 505,
+          "cells": 441,
+          "percent": 0.42
+        },
+        {
+          "from": 505,
+          "to": 510,
+          "cells": 409,
+          "percent": 0.39
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 365,
+          "percent": 0.34
+        },
+        {
+          "from": 495,
+          "to": 500,
+          "cells": 333,
+          "percent": 0.31
+        }
+      ],
+      "blockedInteriorPercent": 5.85,
+      "steepInteriorPercent": 4.44,
+      "houses": 27,
+      "roads": 1941,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ]
+      ]
+    },
+    {
+      "id": "m066",
+      "name": "MAP_MP_COOP_j04_pearlharbor_davis",
+      "group": "只学美化",
+      "sha256": "44151518ad8a8899a11f1a65b691a2752028de833fabd9517764d3d84206ed38",
+      "sourceUnchanged": true,
+      "playable": [
+        550,
+        550
+      ],
+      "interiorLand": {
+        "cells": 101917,
+        "min": 200.62,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 210,
+        "p95": 225.33,
+        "max": 435.14
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 95288,
+          "percent": 93.5
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 782,
+          "percent": 0.77
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 407,
+          "percent": 0.4
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 378,
+          "percent": 0.37
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 320,
+          "percent": 0.31
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 247,
+          "percent": 0.24
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 241,
+          "percent": 0.24
+        },
+        {
+          "from": 265,
+          "to": 270,
+          "cells": 215,
+          "percent": 0.21
+        }
+      ],
+      "blockedInteriorPercent": 5.23,
+      "steepInteriorPercent": 3.04,
+      "houses": 14,
+      "roads": 1696,
+      "oreCount": 6,
+      "neutralTypes": [
+        [
+          "OreNode",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "m067",
+      "name": "MAP_MP_COOP_j07_yokohama_stewart",
+      "group": "只学美化",
+      "sha256": "1b96521f6287dfc720cbedbe86e92e25cf38b126474705c9e4107a102f983db7",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        500
+      ],
+      "interiorLand": {
+        "cells": 82342,
+        "min": 220.04,
+        "p05": 280,
+        "p10": 280,
+        "p25": 280,
+        "p50": 280,
+        "p75": 350,
+        "p90": 350,
+        "p95": 350,
+        "max": 420
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 51937,
+          "percent": 63.07
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 25037,
+          "percent": 30.41
+        },
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 258,
+          "percent": 0.31
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 256,
+          "percent": 0.31
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 251,
+          "percent": 0.3
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 246,
+          "percent": 0.3
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 236,
+          "percent": 0.29
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 235,
+          "percent": 0.29
+        }
+      ],
+      "blockedInteriorPercent": 1.54,
+      "steepInteriorPercent": 0.78,
+      "houses": 26,
+      "roads": 1517,
+      "oreCount": 14,
+      "neutralTypes": [
+        [
+          "OreNode",
+          14
+        ],
+        [
+          "OilDerrick",
+          2
+        ],
+        [
+          "GarageTechStructure",
+          1
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m068",
+      "name": "MAP_MP_COOP_s07_mountfuji_white",
+      "group": "只学美化",
+      "sha256": "7fea6783521e31efd5322f2815f0a3a8cb47160f36807db031d6ce6e66dfa5f4",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        550
+      ],
+      "interiorLand": {
+        "cells": 199448,
+        "min": 202.49,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 270,
+        "p75": 330,
+        "p90": 330,
+        "p95": 390,
+        "max": 395.21
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 86574,
+          "percent": 43.41
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 54552,
+          "percent": 27.35
+        },
+        {
+          "from": 330,
+          "to": 335,
+          "cells": 33548,
+          "percent": 16.82
+        },
+        {
+          "from": 390,
+          "to": 395,
+          "cells": 17687,
+          "percent": 8.87
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 1776,
+          "percent": 0.89
+        },
+        {
+          "from": 265,
+          "to": 270,
+          "cells": 431,
+          "percent": 0.22
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 419,
+          "percent": 0.21
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 350,
+          "percent": 0.18
+        }
+      ],
+      "blockedInteriorPercent": 3.77,
+      "steepInteriorPercent": 1.36,
+      "houses": 18,
+      "roads": 1218,
+      "oreCount": 19,
+      "neutralTypes": [
+        [
+          "OreNode",
+          19
+        ],
+        [
+          "OilDerrick",
+          13
+        ]
+      ]
+    },
+    {
+      "id": "m069",
+      "name": "MAP_MP_COOP_a01_brightonbeach_smith",
+      "group": "只学美化",
+      "sha256": "cb5d8506b447dd58e0f4d3cd202944dac13fa8265f99190b26156821cecd27cf",
+      "sourceUnchanged": true,
+      "playable": [
+        475,
+        475
+      ],
+      "interiorLand": {
+        "cells": 134994,
+        "min": 206.42,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 210,
+        "p90": 210,
+        "p95": 210,
+        "max": 250
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 134383,
+          "percent": 99.55
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 598,
+          "percent": 0.44
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 13,
+          "percent": 0.01
+        }
+      ],
+      "blockedInteriorPercent": 0.61,
+      "steepInteriorPercent": 0.09,
+      "houses": 77,
+      "roads": 1122,
+      "oreCount": 2,
+      "neutralTypes": [
+        [
+          "OreNode",
+          2
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m070",
+      "name": "MAP_MP_COOP_a02_cannes_smith",
+      "group": "只学美化",
+      "sha256": "32c9323f7bf20e1816bc5f93b85393b6b7a49e2f852fa9595769c1d91cd4557f",
+      "sourceUnchanged": true,
+      "playable": [
+        525,
+        575
+      ],
+      "interiorLand": {
+        "cells": 136652,
+        "min": 200,
+        "p05": 210,
+        "p10": 210,
+        "p25": 238.36,
+        "p50": 240,
+        "p75": 240,
+        "p90": 240,
+        "p95": 240,
+        "max": 243.38
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 101469,
+          "percent": 74.25
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 32256,
+          "percent": 23.6
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 1452,
+          "percent": 1.06
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 397,
+          "percent": 0.29
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 380,
+          "percent": 0.28
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 296,
+          "percent": 0.22
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 215,
+          "percent": 0.16
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 157,
+          "percent": 0.11
+        }
+      ],
+      "blockedInteriorPercent": 0.64,
+      "steepInteriorPercent": 0.55,
+      "houses": 26,
+      "roads": 1834,
+      "oreCount": 8,
+      "neutralTypes": [
+        [
+          "OreNode",
+          8
+        ],
+        [
+          "OilDerrick",
+          2
+        ],
+        [
+          "ObservationPostTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m071",
+      "name": "MAP_MP_COOP_a03_heidelberg_smith",
+      "group": "只学美化",
+      "sha256": "f4c5cc1923c3ae8ab67c0d3872c705d34d115dfc6e6b19f7a7286bf83f0dc58e",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        500
+      ],
+      "interiorLand": {
+        "cells": 199597,
+        "min": 124.98,
+        "p05": 210,
+        "p10": 210,
+        "p25": 260,
+        "p50": 260,
+        "p75": 260,
+        "p90": 330,
+        "p95": 354.98,
+        "max": 457.98
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 141824,
+          "percent": 71.06
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 27702,
+          "percent": 13.88
+        },
+        {
+          "from": 330,
+          "to": 335,
+          "cells": 7232,
+          "percent": 3.62
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 6153,
+          "percent": 3.08
+        },
+        {
+          "from": 310,
+          "to": 315,
+          "cells": 1770,
+          "percent": 0.89
+        },
+        {
+          "from": 320,
+          "to": 325,
+          "cells": 1382,
+          "percent": 0.69
+        },
+        {
+          "from": 360,
+          "to": 365,
+          "cells": 972,
+          "percent": 0.49
+        },
+        {
+          "from": 335,
+          "to": 340,
+          "cells": 925,
+          "percent": 0.46
+        }
+      ],
+      "blockedInteriorPercent": 8.87,
+      "steepInteriorPercent": 2.26,
+      "houses": 63,
+      "roads": 1467,
+      "oreCount": 6,
+      "neutralTypes": [
+        [
+          "OreNode",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "m072",
+      "name": "MAP_MP_COOP_a04_gibraltar_hayes",
+      "group": "只学美化",
+      "sha256": "b330e6d868f819354cf24c86242e880ace5640e44eac9bd084bab7b1cd28d981",
+      "sourceUnchanged": true,
+      "playable": [
+        550,
+        550
+      ],
+      "interiorLand": {
+        "cells": 171477,
+        "min": 190,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 212.96,
+        "p90": 427.63,
+        "p95": 529.07,
+        "max": 691.52
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 127609,
+          "percent": 74.42
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 3046,
+          "percent": 1.78
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 2271,
+          "percent": 1.32
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 1704,
+          "percent": 0.99
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 1457,
+          "percent": 0.85
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 1214,
+          "percent": 0.71
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 1071,
+          "percent": 0.62
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 991,
+          "percent": 0.58
+        }
+      ],
+      "blockedInteriorPercent": 13.5,
+      "steepInteriorPercent": 4.9,
+      "houses": 20,
+      "roads": 1128,
+      "oreCount": 9,
+      "neutralTypes": [
+        [
+          "GI_AIRPORTLIGHT",
+          70
+        ],
+        [
+          "OreNode",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "m073",
+      "name": "MAP_MP_COOP_a06_mountrushmore_white",
+      "group": "只学美化",
+      "sha256": "74358a2def3b79c711ad19ded80b8ab1a0c0bbd0d6ea252cc22542ed343969cd",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        500
+      ],
+      "interiorLand": {
+        "cells": 242064,
+        "min": 0,
+        "p05": 60,
+        "p10": 60,
+        "p25": 60,
+        "p50": 94.98,
+        "p75": 130,
+        "p90": 200,
+        "p95": 225.68,
+        "max": 426.5
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 60,
+          "to": 65,
+          "cells": 80371,
+          "percent": 33.2
+        },
+        {
+          "from": 130,
+          "to": 135,
+          "cells": 48732,
+          "percent": 20.13
+        },
+        {
+          "from": 200,
+          "to": 205,
+          "cells": 26951,
+          "percent": 11.13
+        },
+        {
+          "from": 90,
+          "to": 95,
+          "cells": 25435,
+          "percent": 10.51
+        },
+        {
+          "from": 270,
+          "to": 275,
+          "cells": 6012,
+          "percent": 2.48
+        },
+        {
+          "from": 95,
+          "to": 100,
+          "cells": 5492,
+          "percent": 2.27
+        },
+        {
+          "from": 65,
+          "to": 70,
+          "cells": 3074,
+          "percent": 1.27
+        },
+        {
+          "from": 160,
+          "to": 165,
+          "cells": 2849,
+          "percent": 1.18
+        }
+      ],
+      "blockedInteriorPercent": 15.04,
+      "steepInteriorPercent": 9.82,
+      "houses": 13,
+      "roads": 690,
+      "oreCount": 13,
+      "neutralTypes": [
+        [
+          "OreNode",
+          13
+        ],
+        [
+          "OilDerrick",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "m074",
+      "name": "MAP_MP_COOP_a08_havana_rao",
+      "group": "只学美化",
+      "sha256": "b831113d3ed1c392cf0dba9e376c3c0fd44ebfe3d3a36f22fdcd1b51e77e3692",
+      "sourceUnchanged": true,
+      "playable": [
+        600,
+        600
+      ],
+      "interiorLand": {
+        "cells": 100713,
+        "min": 204.98,
+        "p05": 254.98,
+        "p10": 254.98,
+        "p25": 254.98,
+        "p50": 254.98,
+        "p75": 254.98,
+        "p90": 254.98,
+        "p95": 254.98,
+        "max": 254.98
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 97944,
+          "percent": 97.25
+        },
+        {
+          "from": 200,
+          "to": 205,
+          "cells": 1215,
+          "percent": 1.21
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 286,
+          "percent": 0.28
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 259,
+          "percent": 0.26
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 237,
+          "percent": 0.24
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 226,
+          "percent": 0.22
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 226,
+          "percent": 0.22
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 150,
+          "percent": 0.15
+        }
+      ],
+      "blockedInteriorPercent": 4.73,
+      "steepInteriorPercent": 0.79,
+      "houses": 45,
+      "roads": 755,
+      "oreCount": 14,
+      "neutralTypes": [
+        [
+          "OreNode",
+          14
+        ]
+      ]
+    },
+    {
+      "id": "m075",
+      "name": "MAP_MP_COOP_j06_losangeles_white",
+      "group": "只学美化",
+      "sha256": "cf7f5b15afeac6c478b9a9d84ad5961a80e3ab8f4c6adf4da1d78ce7b8862bb1",
+      "sourceUnchanged": true,
+      "playable": [
+        450,
+        550
+      ],
+      "interiorLand": {
+        "cells": 190383,
+        "min": 189.22,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 210,
+        "p75": 280,
+        "p90": 280.23,
+        "p95": 350,
+        "max": 535.76
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 118273,
+          "percent": 62.12
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 49425,
+          "percent": 25.96
+        },
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 8414,
+          "percent": 4.42
+        },
+        {
+          "from": 205,
+          "to": 210,
+          "cells": 1340,
+          "percent": 0.7
+        },
+        {
+          "from": 380,
+          "to": 385,
+          "cells": 496,
+          "percent": 0.26
+        },
+        {
+          "from": 385,
+          "to": 390,
+          "cells": 495,
+          "percent": 0.26
+        },
+        {
+          "from": 355,
+          "to": 360,
+          "cells": 471,
+          "percent": 0.25
+        },
+        {
+          "from": 215,
+          "to": 220,
+          "cells": 445,
+          "percent": 0.23
+        }
+      ],
+      "blockedInteriorPercent": 5.27,
+      "steepInteriorPercent": 2.47,
+      "houses": 98,
+      "roads": 2561,
+      "oreCount": 12,
+      "neutralTypes": [
+        [
+          "OreNode",
+          12
+        ],
+        [
+          "OilDerrick",
+          8
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m076",
+      "name": "MAP_MP_COOP_j09_amsterdam_bass",
+      "group": "只学美化",
+      "sha256": "afa513ff6ebf74c536e7aabf4f268529e150a06ad27485b73d34d05d28703dec",
+      "sourceUnchanged": true,
+      "playable": [
+        500,
+        525
+      ],
+      "interiorLand": {
+        "cells": 142359,
+        "min": 221.6,
+        "p05": 250,
+        "p10": 250,
+        "p25": 250,
+        "p50": 250,
+        "p75": 250,
+        "p90": 250,
+        "p95": 250,
+        "max": 250
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 141674,
+          "percent": 99.52
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 168,
+          "percent": 0.12
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 156,
+          "percent": 0.11
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 131,
+          "percent": 0.09
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 117,
+          "percent": 0.08
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 73,
+          "percent": 0.05
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 40,
+          "percent": 0.03
+        }
+      ],
+      "blockedInteriorPercent": 0.54,
+      "steepInteriorPercent": 0.03,
+      "houses": 112,
+      "roads": 694,
+      "oreCount": 8,
+      "neutralTypes": [
+        [
+          "OreNode",
+          8
+        ],
+        [
+          "OilDerrick_OnWater",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "m077",
+      "name": "MAP_MP_COOP_s04_geneva_bass",
+      "group": "只学美化",
+      "sha256": "727faa426672d640dafe88f300685c2bebb3acc273c57f3a8f51df1a5b251635",
+      "sourceUnchanged": true,
+      "playable": [
+        475,
+        450
+      ],
+      "interiorLand": {
+        "cells": 143862,
+        "min": 210.74,
+        "p05": 224.98,
+        "p10": 224.98,
+        "p25": 224.98,
+        "p50": 224.98,
+        "p75": 324.98,
+        "p90": 324.98,
+        "p95": 324.98,
+        "max": 324.98
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 80214,
+          "percent": 55.76
+        },
+        {
+          "from": 320,
+          "to": 325,
+          "cells": 48012,
+          "percent": 33.37
+        },
+        {
+          "from": 260,
+          "to": 265,
+          "cells": 4584,
+          "percent": 3.19
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 1323,
+          "percent": 0.92
+        },
+        {
+          "from": 255,
+          "to": 260,
+          "cells": 1040,
+          "percent": 0.72
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 983,
+          "percent": 0.68
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 836,
+          "percent": 0.58
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 825,
+          "percent": 0.57
+        }
+      ],
+      "blockedInteriorPercent": 0.23,
+      "steepInteriorPercent": 0.27,
+      "houses": 30,
+      "roads": 1655,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "ObservationPostTechStructure",
+          2
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m078",
+      "name": "MAP_MP_COOP_s09_newyork_rao",
+      "group": "只学美化",
+      "sha256": "99f9cab779189d3ab7e7c13c67c0aaaf061db8dcf26edb57b82e8b836b53a343",
+      "sourceUnchanged": true,
+      "playable": [
+        550,
+        500
+      ],
+      "interiorLand": {
+        "cells": 127558,
+        "min": 210,
+        "p05": 261.28,
+        "p10": 280,
+        "p25": 280,
+        "p50": 280,
+        "p75": 280,
+        "p90": 280,
+        "p95": 280,
+        "max": 290
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 119746,
+          "percent": 93.88
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 4492,
+          "percent": 3.52
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 562,
+          "percent": 0.44
+        },
+        {
+          "from": 290,
+          "to": 295,
+          "cells": 468,
+          "percent": 0.37
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 276,
+          "percent": 0.22
+        },
+        {
+          "from": 265,
+          "to": 270,
+          "cells": 252,
+          "percent": 0.2
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 243,
+          "percent": 0.19
+        },
+        {
+          "from": 255,
+          "to": 260,
+          "cells": 223,
+          "percent": 0.17
+        }
+      ],
+      "blockedInteriorPercent": 1.4,
+      "steepInteriorPercent": 0.59,
+      "houses": 22,
+      "roads": 1867,
+      "oreCount": 12,
+      "neutralTypes": [
+        [
+          "OreNode",
+          12
+        ],
+        [
+          "HospitalTechStructure",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m079",
+      "name": "MAP_MP_COOP_s05_mykonos_smith",
+      "group": "只学美化",
+      "sha256": "636003fb7dfa638cac77aa6db84fa69b4889180628a9108e464a6b5cdbb8aaa2",
+      "sourceUnchanged": true,
+      "playable": [
+        625,
+        550
+      ],
+      "interiorLand": {
+        "cells": 334414,
+        "min": 219.1,
+        "p05": 220,
+        "p10": 220,
+        "p25": 220,
+        "p50": 220,
+        "p75": 220.23,
+        "p90": 234.28,
+        "p95": 265.76,
+        "max": 401.71
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 220,
+          "to": 225,
+          "cells": 293082,
+          "percent": 87.64
+        },
+        {
+          "from": 230,
+          "to": 235,
+          "cells": 4209,
+          "percent": 1.26
+        },
+        {
+          "from": 225,
+          "to": 230,
+          "cells": 4178,
+          "percent": 1.25
+        },
+        {
+          "from": 235,
+          "to": 240,
+          "cells": 3098,
+          "percent": 0.93
+        },
+        {
+          "from": 250,
+          "to": 255,
+          "cells": 2801,
+          "percent": 0.84
+        },
+        {
+          "from": 255,
+          "to": 260,
+          "cells": 2608,
+          "percent": 0.78
+        },
+        {
+          "from": 245,
+          "to": 250,
+          "cells": 2590,
+          "percent": 0.77
+        },
+        {
+          "from": 240,
+          "to": 245,
+          "cells": 2554,
+          "percent": 0.76
+        }
+      ],
+      "blockedInteriorPercent": 1.23,
+      "steepInteriorPercent": 0.48,
+      "houses": 164,
+      "roads": 1279,
+      "oreCount": 15,
+      "neutralTypes": [
+        [
+          "OreNode",
+          15
+        ]
+      ]
+    },
+    {
+      "id": "m080",
+      "name": "MAP_MP_COOP_s08_easterisland_stewart",
+      "group": "只学美化",
+      "sha256": "963bf3daa7a555b5726bc980ebe49d29f170043dfb74b4fcf6292d4fa90483ce",
+      "sourceUnchanged": true,
+      "playable": [
+        550,
+        575
+      ],
+      "interiorLand": {
+        "cells": 174919,
+        "min": 205.37,
+        "p05": 210,
+        "p10": 210,
+        "p25": 210,
+        "p50": 280,
+        "p75": 350,
+        "p90": 490,
+        "p95": 570,
+        "max": 630
+      },
+      "dominantInteriorBands": [
+        {
+          "from": 350,
+          "to": 355,
+          "cells": 53953,
+          "percent": 30.84
+        },
+        {
+          "from": 210,
+          "to": 215,
+          "cells": 52847,
+          "percent": 30.21
+        },
+        {
+          "from": 280,
+          "to": 285,
+          "cells": 33602,
+          "percent": 19.21
+        },
+        {
+          "from": 490,
+          "to": 495,
+          "cells": 8575,
+          "percent": 4.9
+        },
+        {
+          "from": 630,
+          "to": 635,
+          "cells": 8095,
+          "percent": 4.63
+        },
+        {
+          "from": 570,
+          "to": 575,
+          "cells": 4094,
+          "percent": 2.34
+        },
+        {
+          "from": 275,
+          "to": 280,
+          "cells": 1233,
+          "percent": 0.7
+        },
+        {
+          "from": 565,
+          "to": 570,
+          "cells": 778,
+          "percent": 0.44
+        }
+      ],
+      "blockedInteriorPercent": 20.41,
+      "steepInteriorPercent": 3.28,
+      "houses": 0,
+      "roads": 129,
+      "oreCount": 10,
+      "neutralTypes": [
+        [
+          "OilDerrick",
+          10
+        ],
+        [
+          "OreNode",
+          10
+        ],
+        [
+          "GarageTechStructure",
+          1
+        ]
+      ]
+    }
+  ]
+}

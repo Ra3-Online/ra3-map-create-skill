@@ -1,0 +1,9791 @@
+{
+  "version": 1,
+  "date": "2026-10-14",
+  "sourceStatus": "95 official-source scene versions, community-organized; EA original hashes not independently confirmed",
+  "scope": {
+    "caseCount": 95,
+    "campaignCases": 26,
+    "challengeCases": 69,
+    "roadCount": 75202,
+    "bridgeBuilderCount": 34,
+    "streetObjectCount": 11347,
+    "roadRelatedObjectCandidateCount": 12286,
+    "roadRelatedObjectTypeCount": 204,
+    "directSectorImagesInspected": 14,
+    "step1FocusPositions": 9,
+    "realModels": 18
+  },
+  "evidenceLimits": [
+    "Counts include Road trim/marking/sidewalk layers; they are not counts of main carriageways.",
+    "Geometry and endpoint pairs are mathematical candidates, not native/game seam certification.",
+    "Object Z is ground-relative. Missing alignToTerrain is property-absent, not false.",
+    "No Invisible material observed in this collection; not proof of absence in all versions/MODs."
+  ],
+  "families": [
+    {
+      "family": "KR",
+      "count": 3110,
+      "typeCount": 21,
+      "z": {
+        "0": 3018,
+        "1": 2,
+        "0.25": 35,
+        "0.02": 22,
+        "-0.02": 15,
+        "0.27": 8,
+        "0.29000002": 2,
+        "-0.45": 1,
+        "0.05": 4,
+        "-5": 1,
+        "-0.01": 2
+      },
+      "align": {
+        "property-absent": 3106,
+        "false": 4
+      },
+      "scale": {
+        "1": 3108,
+        "0.82": 2
+      },
+      "topObservedMaterials": [
+        [
+          "Snow_Solvang01",
+          1131
+        ],
+        [
+          "Pavement_Kremlin03",
+          373
+        ],
+        [
+          "Pavement_Vlad05",
+          278
+        ],
+        [
+          "Pavement_Vlad06",
+          225
+        ],
+        [
+          "Snow_Solvang09",
+          197
+        ]
+      ],
+      "topCases": [
+        [
+          "m049",
+          632
+        ],
+        [
+          "u036",
+          424
+        ],
+        [
+          "u064",
+          358
+        ],
+        [
+          "u065",
+          358
+        ],
+        [
+          "m050",
+          351
+        ]
+      ]
+    },
+    {
+      "family": "ST",
+      "count": 2292,
+      "typeCount": 45,
+      "z": {
+        "0": 1730,
+        "1": 337,
+        "2": 14,
+        "-0.1": 42,
+        "0.02": 27,
+        "0.25": 25,
+        "0.01": 3,
+        "0.1": 68,
+        "-0.3": 2,
+        "0.03": 3,
+        "-0.049999997": 1,
+        "0.020000003": 2,
+        "-6": 1,
+        "-8": 1,
+        "-0.2": 4,
+        "0.2": 11,
+        "0.100000024": 12,
+        "-0.100000024": 2,
+        "0.5": 1,
+        "-0.03": 1,
+        "-0.05": 1,
+        "0.05": 1,
+        "-0.5": 1,
+        "0.75": 1,
+        "0.04": 1
+      },
+      "align": {
+        "property-absent": 2210,
+        "true": 50,
+        "false": 32
+      },
+      "scale": {
+        "1": 2290,
+        "1.01": 2
+      },
+      "topObservedMaterials": [
+        [
+          "Pavement_Heidel09",
+          304
+        ],
+        [
+          "Grass_CapeCod11",
+          233
+        ],
+        [
+          "Pavement_Yucatan01",
+          222
+        ],
+        [
+          "Grass_Heidelberg02",
+          211
+        ],
+        [
+          "Pavement_Geneva01",
+          156
+        ]
+      ],
+      "topCases": [
+        [
+          "m057",
+          532
+        ],
+        [
+          "m077",
+          341
+        ],
+        [
+          "m056",
+          333
+        ],
+        [
+          "m055",
+          290
+        ],
+        [
+          "m078",
+          289
+        ]
+      ]
+    },
+    {
+      "family": "HV",
+      "count": 1579,
+      "typeCount": 20,
+      "z": {
+        "0": 1550,
+        "-0.1": 9,
+        "0.2": 9,
+        "-0.02": 8,
+        "0.02": 1,
+        "0.25": 1,
+        "-0.01": 1
+      },
+      "align": {
+        "property-absent": 1579
+      },
+      "scale": {
+        "1": 1579
+      },
+      "topObservedMaterials": [
+        [
+          "Pavement_Heidel01",
+          521
+        ],
+        [
+          "Pavement_Heidelberg10",
+          421
+        ],
+        [
+          "Grass_MtRush03",
+          110
+        ],
+        [
+          "Dirt_Yucatan06",
+          94
+        ],
+        [
+          "Dirt_Mykonos05",
+          58
+        ]
+      ],
+      "topCases": [
+        [
+          "m071",
+          332
+        ],
+        [
+          "u019",
+          277
+        ],
+        [
+          "u020",
+          277
+        ],
+        [
+          "u056",
+          236
+        ],
+        [
+          "m074",
+          179
+        ]
+      ]
+    },
+    {
+      "family": "IF",
+      "count": 1492,
+      "typeCount": 13,
+      "z": {
+        "0": 1141,
+        "1": 322,
+        "1.25": 19,
+        "0.5": 10
+      },
+      "align": {
+        "property-absent": 1492
+      },
+      "scale": {
+        "1": 1492
+      },
+      "topObservedMaterials": [
+        [
+          "SteelDeck02",
+          977
+        ],
+        [
+          "Grass_Gibraltar2",
+          123
+        ],
+        [
+          "SteelDeck03",
+          102
+        ],
+        [
+          "SteelDeck04",
+          64
+        ],
+        [
+          "SteelDeck01",
+          59
+        ]
+      ],
+      "topCases": [
+        [
+          "u039",
+          350
+        ],
+        [
+          "u040",
+          350
+        ],
+        [
+          "u024",
+          224
+        ],
+        [
+          "m063",
+          148
+        ],
+        [
+          "u070",
+          144
+        ]
+      ]
+    },
+    {
+      "family": "HB",
+      "count": 1199,
+      "typeCount": 28,
+      "z": {
+        "0": 1155,
+        "0.1": 32,
+        "0.2": 6,
+        "-0.1": 4,
+        "0.02": 1,
+        "0.20000002": 1
+      },
+      "align": {
+        "property-absent": 1199
+      },
+      "scale": {
+        "1": 1191,
+        "0.85": 8
+      },
+      "topObservedMaterials": [
+        [
+          "Pavement_Heidel09",
+          371
+        ],
+        [
+          "Pavement_TokyoHarbor04",
+          153
+        ],
+        [
+          "Pavement_Heidel07",
+          152
+        ],
+        [
+          "Pavement_Gibraltar6",
+          125
+        ],
+        [
+          "Grass_Heidelberg01",
+          100
+        ]
+      ],
+      "topCases": [
+        [
+          "m075",
+          356
+        ],
+        [
+          "m072",
+          217
+        ],
+        [
+          "m065",
+          217
+        ],
+        [
+          "u059",
+          122
+        ],
+        [
+          "u060",
+          122
+        ]
+      ]
+    },
+    {
+      "family": "CA",
+      "count": 1110,
+      "typeCount": 30,
+      "z": {
+        "0": 838,
+        "1": 33,
+        "0.25": 110,
+        "0.3": 16,
+        "0.1": 19,
+        "0.05": 6,
+        "-0.1": 13,
+        "0.4": 6,
+        "0.5": 5,
+        "0.049999952": 1,
+        "-0.2": 14,
+        "-0.4": 1,
+        "0.049999997": 1,
+        "0.55": 1,
+        "-0.100000024": 1,
+        "-0.049999952": 21,
+        "-0.6": 1,
+        "0.26": 2,
+        "0.35000002": 3,
+        "-0.10000038": 2,
+        "-0.19999999": 4,
+        "0.14999962": 4,
+        "0.2": 2,
+        "-0.099999994": 1,
+        "0.100000024": 2,
+        "1.25": 1,
+        "0.35": 1,
+        "0.7": 1
+      },
+      "align": {
+        "property-absent": 1110
+      },
+      "scale": {
+        "1": 1110
+      },
+      "topObservedMaterials": [
+        [
+          "Pave_Golf03",
+          309
+        ],
+        [
+          "BB_Pavement01",
+          197
+        ],
+        [
+          "Pave_Cannes01",
+          181
+        ],
+        [
+          "Grass_Hawaii01",
+          138
+        ],
+        [
+          "Asphalt02",
+          64
+        ]
+      ],
+      "topCases": [
+        [
+          "m069",
+          396
+        ],
+        [
+          "m066",
+          252
+        ],
+        [
+          "u063",
+          244
+        ],
+        [
+          "m070",
+          218
+        ]
+      ]
+    },
+    {
+      "family": "MY",
+      "count": 170,
+      "typeCount": 5,
+      "z": {
+        "1": 170
+      },
+      "align": {
+        "property-absent": 170
+      },
+      "scale": {
+        "1": 170
+      },
+      "topObservedMaterials": [
+        [
+          "Pavement_Mykonos01",
+          59
+        ],
+        [
+          "Dirt_Mykonos01",
+          32
+        ],
+        [
+          "Grass_Heidelberg01",
+          26
+        ],
+        [
+          "Grass_Hawaii03",
+          21
+        ],
+        [
+          "Grass_Hawaii05",
+          10
+        ]
+      ],
+      "topCases": [
+        [
+          "m079",
+          170
+        ]
+      ]
+    },
+    {
+      "family": "AM",
+      "count": 366,
+      "typeCount": 14,
+      "z": {
+        "0": 297,
+        "0.03": 13,
+        "0.05": 34,
+        "-0.06": 3,
+        "-0.08": 1,
+        "0.02": 14,
+        "0.100000024": 3,
+        "0.054": 1
+      },
+      "align": {
+        "property-absent": 366
+      },
+      "scale": {
+        "1": 366
+      },
+      "topObservedMaterials": [
+        [
+          "Pavement_Heidel04",
+          190
+        ],
+        [
+          "Pavement_Amsterdam03",
+          89
+        ],
+        [
+          "Gravel_Yucatan01",
+          66
+        ],
+        [
+          "Pavement_Heidel09",
+          7
+        ],
+        [
+          "Grass_Geneva01",
+          6
+        ]
+      ],
+      "topCases": [
+        [
+          "m076",
+          366
+        ]
+      ]
+    },
+    {
+      "family": "MR",
+      "count": 14,
+      "typeCount": 1,
+      "z": {
+        "0": 13,
+        "0.25": 1
+      },
+      "align": {
+        "property-absent": 14
+      },
+      "scale": {
+        "1": 14
+      },
+      "topObservedMaterials": [
+        [
+          "Dirt_Yucatan06",
+          5
+        ],
+        [
+          "Grass_MtRush10",
+          4
+        ],
+        [
+          "Gravel_Yucatan01",
+          3
+        ],
+        [
+          "Grass_MtRush03",
+          1
+        ],
+        [
+          "Pavement_Heidel07",
+          1
+        ]
+      ],
+      "topCases": [
+        [
+          "m073",
+          12
+        ],
+        [
+          "u017",
+          2
+        ]
+      ]
+    },
+    {
+      "family": "GI",
+      "count": 12,
+      "typeCount": 1,
+      "z": {
+        "0": 12
+      },
+      "align": {
+        "property-absent": 12
+      },
+      "scale": {
+        "1": 12
+      },
+      "topObservedMaterials": [
+        [
+          "Pavement_Gibraltar5",
+          4
+        ],
+        [
+          "Grass_Gibraltar1",
+          2
+        ],
+        [
+          "Pavement_Heidel09",
+          2
+        ],
+        [
+          "Pavement_Havana03",
+          1
+        ],
+        [
+          "Grass_Heidelberg01",
+          1
+        ]
+      ],
+      "topCases": [
+        [
+          "m072",
+          10
+        ],
+        [
+          "m075",
+          2
+        ]
+      ]
+    },
+    {
+      "family": "OD",
+      "count": 3,
+      "typeCount": 1,
+      "z": {
+        "0": 1,
+        "-1": 2
+      },
+      "align": {
+        "property-absent": 3
+      },
+      "scale": {
+        "1": 3
+      },
+      "topObservedMaterials": [
+        [
+          "Grass_Heidelberg02",
+          2
+        ],
+        [
+          "Gravel_Yucatan01",
+          1
+        ]
+      ],
+      "topCases": [
+        [
+          "m056",
+          3
+        ]
+      ]
+    }
+  ],
+  "observedObjectCandidates": [
+    {
+      "typeName": "KR_STREETSEGMENT04",
+      "count": 1452,
+      "cases": [
+        [
+          "m049",
+          352
+        ],
+        [
+          "u036",
+          207
+        ],
+        [
+          "u064",
+          194
+        ],
+        [
+          "u065",
+          194
+        ],
+        [
+          "m050",
+          144
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT06",
+      "count": 882,
+      "cases": [
+        [
+          "m057",
+          311
+        ],
+        [
+          "m056",
+          190
+        ],
+        [
+          "m049",
+          114
+        ],
+        [
+          "m077",
+          107
+        ],
+        [
+          "m067",
+          75
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT09",
+      "count": 658,
+      "cases": [
+        [
+          "m071",
+          162
+        ],
+        [
+          "u019",
+          119
+        ],
+        [
+          "u020",
+          119
+        ],
+        [
+          "u056",
+          101
+        ],
+        [
+          "m073",
+          77
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_StreetSegment01",
+      "count": 488,
+      "cases": [
+        [
+          "u039",
+          100
+        ],
+        [
+          "u040",
+          100
+        ],
+        [
+          "m063",
+          69
+        ],
+        [
+          "u070",
+          60
+        ],
+        [
+          "m068",
+          48
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT06",
+      "count": 479,
+      "cases": [
+        [
+          "m072",
+          140
+        ],
+        [
+          "m065",
+          120
+        ],
+        [
+          "m075",
+          105
+        ],
+        [
+          "u059",
+          57
+        ],
+        [
+          "u060",
+          57
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_StreetSegment01",
+      "count": 411,
+      "cases": [
+        [
+          "u072",
+          89
+        ],
+        [
+          "m050",
+          66
+        ],
+        [
+          "m049",
+          56
+        ],
+        [
+          "u064",
+          48
+        ],
+        [
+          "u065",
+          48
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT03",
+      "count": 391,
+      "cases": [
+        [
+          "m069",
+          123
+        ],
+        [
+          "m066",
+          111
+        ],
+        [
+          "u063",
+          80
+        ],
+        [
+          "m070",
+          77
+        ]
+      ]
+    },
+    {
+      "typeName": "VL_RAIL01",
+      "count": 270,
+      "cases": [
+        [
+          "m057",
+          108
+        ],
+        [
+          "m056",
+          73
+        ],
+        [
+          "m051",
+          43
+        ],
+        [
+          "m049",
+          21
+        ],
+        [
+          "u023",
+          18
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT07",
+      "count": 266,
+      "cases": [
+        [
+          "m077",
+          58
+        ],
+        [
+          "m067",
+          52
+        ],
+        [
+          "m057",
+          43
+        ],
+        [
+          "m055",
+          42
+        ],
+        [
+          "m056",
+          42
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT09",
+      "count": 244,
+      "cases": [
+        [
+          "m049",
+          70
+        ],
+        [
+          "u036",
+          40
+        ],
+        [
+          "u064",
+          30
+        ],
+        [
+          "u065",
+          30
+        ],
+        [
+          "m050",
+          27
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT02",
+      "count": 204,
+      "cases": [
+        [
+          "u039",
+          56
+        ],
+        [
+          "u040",
+          56
+        ],
+        [
+          "u070",
+          24
+        ],
+        [
+          "u024",
+          23
+        ],
+        [
+          "m063",
+          17
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT05",
+      "count": 202,
+      "cases": [
+        [
+          "m049",
+          43
+        ],
+        [
+          "u036",
+          33
+        ],
+        [
+          "u064",
+          24
+        ],
+        [
+          "u065",
+          24
+        ],
+        [
+          "u023",
+          18
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT07",
+      "count": 197,
+      "cases": [
+        [
+          "u039",
+          64
+        ],
+        [
+          "u040",
+          64
+        ],
+        [
+          "u024",
+          28
+        ],
+        [
+          "u070",
+          22
+        ],
+        [
+          "m063",
+          10
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT10",
+      "count": 194,
+      "cases": [
+        [
+          "m071",
+          48
+        ],
+        [
+          "u019",
+          36
+        ],
+        [
+          "u020",
+          36
+        ],
+        [
+          "u056",
+          34
+        ],
+        [
+          "m074",
+          21
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT07",
+      "count": 193,
+      "cases": [
+        [
+          "m075",
+          51
+        ],
+        [
+          "m065",
+          44
+        ],
+        [
+          "m072",
+          38
+        ],
+        [
+          "u059",
+          30
+        ],
+        [
+          "u060",
+          30
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT11",
+      "count": 158,
+      "cases": [
+        [
+          "m067",
+          33
+        ],
+        [
+          "m078",
+          30
+        ],
+        [
+          "m057",
+          29
+        ],
+        [
+          "m077",
+          27
+        ],
+        [
+          "m058",
+          24
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT12",
+      "count": 158,
+      "cases": [
+        [
+          "u024",
+          66
+        ],
+        [
+          "u039",
+          20
+        ],
+        [
+          "u040",
+          20
+        ],
+        [
+          "m064",
+          12
+        ],
+        [
+          "u033",
+          11
+        ]
+      ]
+    },
+    {
+      "typeName": "TH_TRAFFICSIGNAL04",
+      "count": 150,
+      "cases": [
+        [
+          "m067",
+          96
+        ],
+        [
+          "m065",
+          38
+        ],
+        [
+          "u033",
+          16
+        ]
+      ]
+    },
+    {
+      "typeName": "MY_StreetSegment01",
+      "count": 147,
+      "cases": [
+        [
+          "m079",
+          147
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT02",
+      "count": 142,
+      "cases": [
+        [
+          "m057",
+          46
+        ],
+        [
+          "m056",
+          36
+        ],
+        [
+          "m077",
+          23
+        ],
+        [
+          "m055",
+          13
+        ],
+        [
+          "m067",
+          11
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT03",
+      "count": 142,
+      "cases": [
+        [
+          "u039",
+          32
+        ],
+        [
+          "u040",
+          32
+        ],
+        [
+          "u024",
+          26
+        ],
+        [
+          "u070",
+          14
+        ],
+        [
+          "m063",
+          13
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT15",
+      "count": 138,
+      "cases": [
+        [
+          "u017",
+          26
+        ],
+        [
+          "m071",
+          25
+        ],
+        [
+          "u019",
+          24
+        ],
+        [
+          "u020",
+          24
+        ],
+        [
+          "u056",
+          20
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT20",
+      "count": 130,
+      "cases": [
+        [
+          "m069",
+          58
+        ],
+        [
+          "m070",
+          31
+        ],
+        [
+          "u063",
+          23
+        ],
+        [
+          "m066",
+          18
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT04",
+      "count": 126,
+      "cases": [
+        [
+          "m069",
+          58
+        ],
+        [
+          "u063",
+          33
+        ],
+        [
+          "m070",
+          25
+        ],
+        [
+          "m066",
+          10
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT02",
+      "count": 124,
+      "cases": [
+        [
+          "m049",
+          46
+        ],
+        [
+          "u072",
+          18
+        ],
+        [
+          "u030",
+          17
+        ],
+        [
+          "u031",
+          17
+        ],
+        [
+          "m050",
+          12
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT05",
+      "count": 118,
+      "cases": [
+        [
+          "m078",
+          38
+        ],
+        [
+          "m077",
+          28
+        ],
+        [
+          "m055",
+          27
+        ],
+        [
+          "m058",
+          17
+        ],
+        [
+          "m056",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT10",
+      "count": 105,
+      "cases": [
+        [
+          "m078",
+          35
+        ],
+        [
+          "m057",
+          21
+        ],
+        [
+          "m055",
+          17
+        ],
+        [
+          "m058",
+          15
+        ],
+        [
+          "m077",
+          13
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT08",
+      "count": 103,
+      "cases": [
+        [
+          "u039",
+          30
+        ],
+        [
+          "u040",
+          30
+        ],
+        [
+          "u033",
+          21
+        ],
+        [
+          "m064",
+          7
+        ],
+        [
+          "m063",
+          6
+        ]
+      ]
+    },
+    {
+      "typeName": "YP_Trailer",
+      "count": 102,
+      "cases": [
+        [
+          "u017",
+          36
+        ],
+        [
+          "u005",
+          20
+        ],
+        [
+          "u006",
+          20
+        ],
+        [
+          "u007",
+          20
+        ],
+        [
+          "m073",
+          6
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT09",
+      "count": 101,
+      "cases": [
+        [
+          "m077",
+          27
+        ],
+        [
+          "m055",
+          24
+        ],
+        [
+          "m078",
+          13
+        ],
+        [
+          "m058",
+          10
+        ],
+        [
+          "m067",
+          10
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT17",
+      "count": 100,
+      "cases": [
+        [
+          "u019",
+          42
+        ],
+        [
+          "u020",
+          42
+        ],
+        [
+          "m071",
+          6
+        ],
+        [
+          "m073",
+          5
+        ],
+        [
+          "u056",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT09",
+      "count": 96,
+      "cases": [
+        [
+          "u039",
+          28
+        ],
+        [
+          "u040",
+          28
+        ],
+        [
+          "u024",
+          26
+        ],
+        [
+          "m063",
+          12
+        ],
+        [
+          "u070",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT08",
+      "count": 93,
+      "cases": [
+        [
+          "u036",
+          29
+        ],
+        [
+          "u030",
+          16
+        ],
+        [
+          "u031",
+          16
+        ],
+        [
+          "u023",
+          14
+        ],
+        [
+          "m050",
+          12
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT21",
+      "count": 87,
+      "cases": [
+        [
+          "u064",
+          24
+        ],
+        [
+          "u065",
+          24
+        ],
+        [
+          "u036",
+          21
+        ],
+        [
+          "u030",
+          6
+        ],
+        [
+          "u031",
+          6
+        ]
+      ]
+    },
+    {
+      "typeName": "TH_TRAFFICSIGN01",
+      "count": 86,
+      "cases": [
+        [
+          "m067",
+          46
+        ],
+        [
+          "m065",
+          39
+        ],
+        [
+          "u033",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT13",
+      "count": 83,
+      "cases": [
+        [
+          "u072",
+          28
+        ],
+        [
+          "u030",
+          20
+        ],
+        [
+          "u031",
+          20
+        ],
+        [
+          "m050",
+          8
+        ],
+        [
+          "m049",
+          7
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT36",
+      "count": 80,
+      "cases": [
+        [
+          "m066",
+          36
+        ],
+        [
+          "m069",
+          30
+        ],
+        [
+          "u063",
+          14
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT04",
+      "count": 79,
+      "cases": [
+        [
+          "u019",
+          20
+        ],
+        [
+          "u020",
+          20
+        ],
+        [
+          "m074",
+          14
+        ],
+        [
+          "u056",
+          12
+        ],
+        [
+          "m071",
+          12
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT05",
+      "count": 79,
+      "cases": [
+        [
+          "m076",
+          79
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT01",
+      "count": 78,
+      "cases": [
+        [
+          "m057",
+          21
+        ],
+        [
+          "m067",
+          18
+        ],
+        [
+          "m055",
+          12
+        ],
+        [
+          "m056",
+          10
+        ],
+        [
+          "m049",
+          8
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT14",
+      "count": 75,
+      "cases": [
+        [
+          "u017",
+          20
+        ],
+        [
+          "u056",
+          12
+        ],
+        [
+          "u019",
+          12
+        ],
+        [
+          "u020",
+          12
+        ],
+        [
+          "m071",
+          12
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT06",
+      "count": 74,
+      "cases": [
+        [
+          "m076",
+          74
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_StreetSegment01",
+      "count": 70,
+      "cases": [
+        [
+          "m074",
+          26
+        ],
+        [
+          "m071",
+          19
+        ],
+        [
+          "u056",
+          17
+        ],
+        [
+          "u019",
+          4
+        ],
+        [
+          "u020",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT16",
+      "count": 69,
+      "cases": [
+        [
+          "u030",
+          13
+        ],
+        [
+          "u031",
+          13
+        ],
+        [
+          "m049",
+          10
+        ],
+        [
+          "m050",
+          10
+        ],
+        [
+          "u023",
+          10
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT09",
+      "count": 68,
+      "cases": [
+        [
+          "m075",
+          31
+        ],
+        [
+          "m072",
+          16
+        ],
+        [
+          "u059",
+          9
+        ],
+        [
+          "u060",
+          9
+        ],
+        [
+          "m065",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "YU_SunkenPlatform01",
+      "count": 67,
+      "cases": [
+        [
+          "u057",
+          8
+        ],
+        [
+          "u008",
+          5
+        ],
+        [
+          "u009",
+          5
+        ],
+        [
+          "u010",
+          5
+        ],
+        [
+          "u070",
+          5
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT26",
+      "count": 67,
+      "cases": [
+        [
+          "m069",
+          31
+        ],
+        [
+          "u063",
+          24
+        ],
+        [
+          "m066",
+          11
+        ],
+        [
+          "m070",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT07",
+      "count": 67,
+      "cases": [
+        [
+          "m076",
+          67
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT13",
+      "count": 59,
+      "cases": [
+        [
+          "u017",
+          16
+        ],
+        [
+          "m071",
+          14
+        ],
+        [
+          "u056",
+          13
+        ],
+        [
+          "m074",
+          7
+        ],
+        [
+          "u019",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT02",
+      "count": 55,
+      "cases": [
+        [
+          "m075",
+          22
+        ],
+        [
+          "m065",
+          16
+        ],
+        [
+          "m072",
+          11
+        ],
+        [
+          "u059",
+          3
+        ],
+        [
+          "u060",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT18",
+      "count": 54,
+      "cases": [
+        [
+          "m074",
+          36
+        ],
+        [
+          "m071",
+          7
+        ],
+        [
+          "m076",
+          7
+        ],
+        [
+          "u056",
+          2
+        ],
+        [
+          "m073",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT10",
+      "count": 51,
+      "cases": [
+        [
+          "u036",
+          30
+        ],
+        [
+          "m050",
+          8
+        ],
+        [
+          "u072",
+          8
+        ],
+        [
+          "u030",
+          2
+        ],
+        [
+          "u031",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT15",
+      "count": 50,
+      "cases": [
+        [
+          "u072",
+          12
+        ],
+        [
+          "u064",
+          12
+        ],
+        [
+          "u065",
+          12
+        ],
+        [
+          "u030",
+          5
+        ],
+        [
+          "u031",
+          5
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT32",
+      "count": 50,
+      "cases": [
+        [
+          "u017",
+          18
+        ],
+        [
+          "m055",
+          13
+        ],
+        [
+          "m078",
+          13
+        ],
+        [
+          "m056",
+          6
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT01",
+      "count": 49,
+      "cases": [
+        [
+          "m065",
+          15
+        ],
+        [
+          "u059",
+          11
+        ],
+        [
+          "u060",
+          11
+        ],
+        [
+          "m075",
+          8
+        ],
+        [
+          "m072",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT17",
+      "count": 45,
+      "cases": [
+        [
+          "m050",
+          10
+        ],
+        [
+          "u036",
+          9
+        ],
+        [
+          "m049",
+          4
+        ],
+        [
+          "m051",
+          4
+        ],
+        [
+          "u072",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT08",
+      "count": 45,
+      "cases": [
+        [
+          "m066",
+          16
+        ],
+        [
+          "m069",
+          15
+        ],
+        [
+          "u063",
+          8
+        ],
+        [
+          "m070",
+          6
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT10",
+      "count": 45,
+      "cases": [
+        [
+          "m075",
+          41
+        ],
+        [
+          "m072",
+          3
+        ],
+        [
+          "m065",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT03",
+      "count": 43,
+      "cases": [
+        [
+          "u030",
+          12
+        ],
+        [
+          "u031",
+          12
+        ],
+        [
+          "m050",
+          9
+        ],
+        [
+          "u036",
+          4
+        ],
+        [
+          "m049",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT19",
+      "count": 43,
+      "cases": [
+        [
+          "m069",
+          26
+        ],
+        [
+          "m070",
+          17
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT23",
+      "count": 41,
+      "cases": [
+        [
+          "m056",
+          18
+        ],
+        [
+          "m057",
+          10
+        ],
+        [
+          "m055",
+          5
+        ],
+        [
+          "m049",
+          4
+        ],
+        [
+          "m077",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT31",
+      "count": 41,
+      "cases": [
+        [
+          "m075",
+          25
+        ],
+        [
+          "u059",
+          8
+        ],
+        [
+          "u060",
+          8
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT14",
+      "count": 39,
+      "cases": [
+        [
+          "m078",
+          13
+        ],
+        [
+          "m055",
+          9
+        ],
+        [
+          "m077",
+          9
+        ],
+        [
+          "m058",
+          7
+        ],
+        [
+          "m057",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT18",
+      "count": 38,
+      "cases": [
+        [
+          "m050",
+          13
+        ],
+        [
+          "m049",
+          8
+        ],
+        [
+          "u036",
+          6
+        ],
+        [
+          "u072",
+          6
+        ],
+        [
+          "m051",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT03",
+      "count": 36,
+      "cases": [
+        [
+          "m071",
+          9
+        ],
+        [
+          "u056",
+          8
+        ],
+        [
+          "u019",
+          8
+        ],
+        [
+          "u020",
+          8
+        ],
+        [
+          "m074",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT33",
+      "count": 36,
+      "cases": [
+        [
+          "m076",
+          36
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT14",
+      "count": 35,
+      "cases": [
+        [
+          "u064",
+          12
+        ],
+        [
+          "u065",
+          12
+        ],
+        [
+          "u072",
+          4
+        ],
+        [
+          "u030",
+          3
+        ],
+        [
+          "u031",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT13",
+      "count": 35,
+      "cases": [
+        [
+          "u019",
+          12
+        ],
+        [
+          "u020",
+          12
+        ],
+        [
+          "m071",
+          5
+        ],
+        [
+          "u056",
+          4
+        ],
+        [
+          "m073",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT46",
+      "count": 33,
+      "cases": [
+        [
+          "m057",
+          17
+        ],
+        [
+          "m056",
+          10
+        ],
+        [
+          "u017",
+          4
+        ],
+        [
+          "m055",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "TH_TRAFFICSIGN02",
+      "count": 31,
+      "cases": [
+        [
+          "m067",
+          17
+        ],
+        [
+          "m065",
+          14
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT02",
+      "count": 30,
+      "cases": [
+        [
+          "u019",
+          8
+        ],
+        [
+          "u020",
+          8
+        ],
+        [
+          "m071",
+          6
+        ],
+        [
+          "u056",
+          4
+        ],
+        [
+          "m074",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT21",
+      "count": 29,
+      "cases": [
+        [
+          "u063",
+          18
+        ],
+        [
+          "m066",
+          9
+        ],
+        [
+          "m070",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "TH_TRAFFICSIGNAL02",
+      "count": 29,
+      "cases": [
+        [
+          "m065",
+          29
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT31",
+      "count": 29,
+      "cases": [
+        [
+          "m078",
+          29
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT06",
+      "count": 28,
+      "cases": [
+        [
+          "u039",
+          8
+        ],
+        [
+          "u040",
+          8
+        ],
+        [
+          "m063",
+          5
+        ],
+        [
+          "u033",
+          3
+        ],
+        [
+          "u024",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT17",
+      "count": 28,
+      "cases": [
+        [
+          "m069",
+          19
+        ],
+        [
+          "u063",
+          4
+        ],
+        [
+          "m066",
+          3
+        ],
+        [
+          "m070",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT28",
+      "count": 27,
+      "cases": [
+        [
+          "m057",
+          7
+        ],
+        [
+          "m077",
+          7
+        ],
+        [
+          "m078",
+          7
+        ],
+        [
+          "m055",
+          3
+        ],
+        [
+          "m058",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT22",
+      "count": 27,
+      "cases": [
+        [
+          "m071",
+          9
+        ],
+        [
+          "u056",
+          5
+        ],
+        [
+          "m073",
+          5
+        ],
+        [
+          "u019",
+          4
+        ],
+        [
+          "u020",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "TH_TRAFFICSIGN03",
+      "count": 26,
+      "cases": [
+        [
+          "m065",
+          12
+        ],
+        [
+          "m067",
+          12
+        ],
+        [
+          "u033",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "TH_TRAFFICSIGNAL01",
+      "count": 25,
+      "cases": [
+        [
+          "m067",
+          12
+        ],
+        [
+          "m065",
+          10
+        ],
+        [
+          "u033",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT06",
+      "count": 24,
+      "cases": [
+        [
+          "u023",
+          8
+        ],
+        [
+          "m050",
+          6
+        ],
+        [
+          "u036",
+          4
+        ],
+        [
+          "m049",
+          2
+        ],
+        [
+          "u030",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT21",
+      "count": 24,
+      "cases": [
+        [
+          "m078",
+          12
+        ],
+        [
+          "m077",
+          9
+        ],
+        [
+          "m055",
+          2
+        ],
+        [
+          "m058",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT10",
+      "count": 23,
+      "cases": [
+        [
+          "u070",
+          10
+        ],
+        [
+          "u039",
+          4
+        ],
+        [
+          "u040",
+          4
+        ],
+        [
+          "u024",
+          4
+        ],
+        [
+          "m063",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "SS_TRAILER01",
+      "count": 23,
+      "cases": [
+        [
+          "u028",
+          21
+        ],
+        [
+          "u061",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT32",
+      "count": 23,
+      "cases": [
+        [
+          "m075",
+          23
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT05",
+      "count": 22,
+      "cases": [
+        [
+          "u024",
+          7
+        ],
+        [
+          "u039",
+          4
+        ],
+        [
+          "u040",
+          4
+        ],
+        [
+          "u033",
+          3
+        ],
+        [
+          "m068",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT18_GRID",
+      "count": 22,
+      "cases": [
+        [
+          "u066",
+          8
+        ],
+        [
+          "u067",
+          8
+        ],
+        [
+          "u008",
+          2
+        ],
+        [
+          "u009",
+          2
+        ],
+        [
+          "u010",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT15",
+      "count": 22,
+      "cases": [
+        [
+          "u019",
+          8
+        ],
+        [
+          "u020",
+          8
+        ],
+        [
+          "u056",
+          4
+        ],
+        [
+          "m071",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT06",
+      "count": 22,
+      "cases": [
+        [
+          "m071",
+          9
+        ],
+        [
+          "u056",
+          8
+        ],
+        [
+          "m074",
+          5
+        ]
+      ]
+    },
+    {
+      "typeName": "OD_RAILSIGNAL01",
+      "count": 21,
+      "cases": [
+        [
+          "m051",
+          8
+        ],
+        [
+          "m056",
+          4
+        ],
+        [
+          "m057",
+          4
+        ],
+        [
+          "u023",
+          4
+        ],
+        [
+          "m049",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT18",
+      "count": 21,
+      "cases": [
+        [
+          "m069",
+          10
+        ],
+        [
+          "u063",
+          7
+        ],
+        [
+          "m066",
+          2
+        ],
+        [
+          "m070",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT29",
+      "count": 21,
+      "cases": [
+        [
+          "m075",
+          9
+        ],
+        [
+          "u019",
+          4
+        ],
+        [
+          "u020",
+          4
+        ],
+        [
+          "m072",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT30",
+      "count": 21,
+      "cases": [
+        [
+          "m075",
+          21
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT33",
+      "count": 21,
+      "cases": [
+        [
+          "m078",
+          21
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT08",
+      "count": 20,
+      "cases": [
+        [
+          "m057",
+          6
+        ],
+        [
+          "m056",
+          4
+        ],
+        [
+          "m067",
+          4
+        ],
+        [
+          "m055",
+          2
+        ],
+        [
+          "m077",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT29",
+      "count": 20,
+      "cases": [
+        [
+          "m077",
+          10
+        ],
+        [
+          "m055",
+          9
+        ],
+        [
+          "m078",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "VL_RAIL03",
+      "count": 20,
+      "cases": [
+        [
+          "m057",
+          14
+        ],
+        [
+          "m056",
+          6
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT16",
+      "count": 20,
+      "cases": [
+        [
+          "u019",
+          8
+        ],
+        [
+          "u020",
+          8
+        ],
+        [
+          "u056",
+          2
+        ],
+        [
+          "m071",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT10",
+      "count": 20,
+      "cases": [
+        [
+          "m070",
+          12
+        ],
+        [
+          "m066",
+          7
+        ],
+        [
+          "m069",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT11",
+      "count": 19,
+      "cases": [
+        [
+          "u070",
+          8
+        ],
+        [
+          "u039",
+          4
+        ],
+        [
+          "u040",
+          4
+        ],
+        [
+          "m063",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT17",
+      "count": 19,
+      "cases": [
+        [
+          "m071",
+          6
+        ],
+        [
+          "u056",
+          5
+        ],
+        [
+          "u019",
+          4
+        ],
+        [
+          "u020",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT07",
+      "count": 18,
+      "cases": [
+        [
+          "u064",
+          8
+        ],
+        [
+          "u065",
+          8
+        ],
+        [
+          "u036",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT18",
+      "count": 18,
+      "cases": [
+        [
+          "u019",
+          8
+        ],
+        [
+          "u020",
+          8
+        ],
+        [
+          "u056",
+          1
+        ],
+        [
+          "m071",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT02",
+      "count": 18,
+      "cases": [
+        [
+          "m076",
+          18
+        ]
+      ]
+    },
+    {
+      "typeName": "VL_RAIL02",
+      "count": 17,
+      "cases": [
+        [
+          "m051",
+          8
+        ],
+        [
+          "m057",
+          5
+        ],
+        [
+          "u023",
+          2
+        ],
+        [
+          "m049",
+          1
+        ],
+        [
+          "m056",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "VL_RAIL04",
+      "count": 17,
+      "cases": [
+        [
+          "m057",
+          11
+        ],
+        [
+          "m056",
+          5
+        ],
+        [
+          "m051",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT08",
+      "count": 15,
+      "cases": [
+        [
+          "u059",
+          4
+        ],
+        [
+          "u060",
+          4
+        ],
+        [
+          "m065",
+          3
+        ],
+        [
+          "m075",
+          3
+        ],
+        [
+          "m072",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT09",
+      "count": 15,
+      "cases": [
+        [
+          "u063",
+          7
+        ],
+        [
+          "m069",
+          5
+        ],
+        [
+          "m066",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT09",
+      "count": 15,
+      "cases": [
+        [
+          "m076",
+          15
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT29",
+      "count": 15,
+      "cases": [
+        [
+          "m076",
+          15
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT11",
+      "count": 14,
+      "cases": [
+        [
+          "m049",
+          8
+        ],
+        [
+          "m051",
+          2
+        ],
+        [
+          "m050",
+          1
+        ],
+        [
+          "u036",
+          1
+        ],
+        [
+          "u030",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "MR_STREETSEGMENT01",
+      "count": 14,
+      "cases": [
+        [
+          "m073",
+          12
+        ],
+        [
+          "u017",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT19",
+      "count": 14,
+      "cases": [
+        [
+          "m073",
+          14
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT20",
+      "count": 13,
+      "cases": [
+        [
+          "m049",
+          7
+        ],
+        [
+          "m050",
+          6
+        ]
+      ]
+    },
+    {
+      "typeName": "YU_SUNKENPLATFORM02",
+      "count": 13,
+      "cases": [
+        [
+          "u047",
+          3
+        ],
+        [
+          "u008",
+          2
+        ],
+        [
+          "u009",
+          2
+        ],
+        [
+          "u010",
+          2
+        ],
+        [
+          "u073",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT25",
+      "count": 13,
+      "cases": [
+        [
+          "u063",
+          6
+        ],
+        [
+          "m070",
+          4
+        ],
+        [
+          "m069",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT21",
+      "count": 13,
+      "cases": [
+        [
+          "m076",
+          13
+        ]
+      ]
+    },
+    {
+      "typeName": "MY_StreetSegment02",
+      "count": 13,
+      "cases": [
+        [
+          "m079",
+          13
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT12",
+      "count": 12,
+      "cases": [
+        [
+          "m049",
+          5
+        ],
+        [
+          "m050",
+          2
+        ],
+        [
+          "m051",
+          2
+        ],
+        [
+          "u036",
+          1
+        ],
+        [
+          "u030",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT25",
+      "count": 12,
+      "cases": [
+        [
+          "m078",
+          8
+        ],
+        [
+          "m055",
+          2
+        ],
+        [
+          "m058",
+          1
+        ],
+        [
+          "m077",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT04",
+      "count": 12,
+      "cases": [
+        [
+          "m055",
+          4
+        ],
+        [
+          "m058",
+          4
+        ],
+        [
+          "m056",
+          2
+        ],
+        [
+          "m077",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT24",
+      "count": 12,
+      "cases": [
+        [
+          "u063",
+          8
+        ],
+        [
+          "m066",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "SS_TRAILER02B",
+      "count": 12,
+      "cases": [
+        [
+          "u066",
+          6
+        ],
+        [
+          "u067",
+          6
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT11",
+      "count": 12,
+      "cases": [
+        [
+          "m066",
+          9
+        ],
+        [
+          "m070",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "GI_STREETSEGMENT01",
+      "count": 12,
+      "cases": [
+        [
+          "m072",
+          10
+        ],
+        [
+          "m075",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT32",
+      "count": 12,
+      "cases": [
+        [
+          "m076",
+          12
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT30",
+      "count": 11,
+      "cases": [
+        [
+          "m055",
+          7
+        ],
+        [
+          "m078",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT11",
+      "count": 11,
+      "cases": [
+        [
+          "m065",
+          11
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT23",
+      "count": 11,
+      "cases": [
+        [
+          "m076",
+          11
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT22",
+      "count": 10,
+      "cases": [
+        [
+          "m055",
+          4
+        ],
+        [
+          "m058",
+          3
+        ],
+        [
+          "m057",
+          1
+        ],
+        [
+          "m067",
+          1
+        ],
+        [
+          "m078",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT18",
+      "count": 9,
+      "cases": [
+        [
+          "m057",
+          4
+        ],
+        [
+          "m055",
+          2
+        ],
+        [
+          "m067",
+          1
+        ],
+        [
+          "m077",
+          1
+        ],
+        [
+          "m078",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT47",
+      "count": 9,
+      "cases": [
+        [
+          "m057",
+          4
+        ],
+        [
+          "m056",
+          3
+        ],
+        [
+          "u017",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT33",
+      "count": 9,
+      "cases": [
+        [
+          "m069",
+          6
+        ],
+        [
+          "u063",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_StreetSegment01",
+      "count": 9,
+      "cases": [
+        [
+          "u063",
+          5
+        ],
+        [
+          "m066",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT16",
+      "count": 9,
+      "cases": [
+        [
+          "m071",
+          3
+        ],
+        [
+          "m074",
+          3
+        ],
+        [
+          "u056",
+          2
+        ],
+        [
+          "m073",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT08",
+      "count": 9,
+      "cases": [
+        [
+          "m074",
+          9
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT17",
+      "count": 8,
+      "cases": [
+        [
+          "m055",
+          3
+        ],
+        [
+          "m058",
+          3
+        ],
+        [
+          "m067",
+          1
+        ],
+        [
+          "m077",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT04",
+      "count": 8,
+      "cases": [
+        [
+          "u024",
+          4
+        ],
+        [
+          "u033",
+          2
+        ],
+        [
+          "m063",
+          1
+        ],
+        [
+          "m068",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT14",
+      "count": 8,
+      "cases": [
+        [
+          "m071",
+          5
+        ],
+        [
+          "u056",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT22",
+      "count": 8,
+      "cases": [
+        [
+          "m070",
+          8
+        ]
+      ]
+    },
+    {
+      "typeName": "AlliedFighterAircraft_WithTrailSomke",
+      "count": 8,
+      "cases": [
+        [
+          "m071",
+          8
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT01",
+      "count": 8,
+      "cases": [
+        [
+          "m076",
+          8
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT45",
+      "count": 7,
+      "cases": [
+        [
+          "m055",
+          6
+        ],
+        [
+          "m058",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT02",
+      "count": 7,
+      "cases": [
+        [
+          "m066",
+          6
+        ],
+        [
+          "m070",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT28",
+      "count": 7,
+      "cases": [
+        [
+          "m070",
+          7
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT27",
+      "count": 7,
+      "cases": [
+        [
+          "m070",
+          7
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT23",
+      "count": 7,
+      "cases": [
+        [
+          "m070",
+          7
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT30",
+      "count": 7,
+      "cases": [
+        [
+          "m076",
+          7
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT19",
+      "count": 6,
+      "cases": [
+        [
+          "m055",
+          3
+        ],
+        [
+          "m077",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_StreetSegment03",
+      "count": 6,
+      "cases": [
+        [
+          "m055",
+          4
+        ],
+        [
+          "m058",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT13",
+      "count": 6,
+      "cases": [
+        [
+          "m057",
+          4
+        ],
+        [
+          "m078",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT31",
+      "count": 6,
+      "cases": [
+        [
+          "m076",
+          6
+        ]
+      ]
+    },
+    {
+      "typeName": "VL_BustedTrainStation",
+      "count": 5,
+      "cases": [
+        [
+          "u023",
+          2
+        ],
+        [
+          "m049",
+          1
+        ],
+        [
+          "m051",
+          1
+        ],
+        [
+          "m057",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT44",
+      "count": 5,
+      "cases": [
+        [
+          "m055",
+          3
+        ],
+        [
+          "m058",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT35",
+      "count": 5,
+      "cases": [
+        [
+          "m069",
+          5
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT26",
+      "count": 5,
+      "cases": [
+        [
+          "m075",
+          5
+        ]
+      ]
+    },
+    {
+      "typeName": "AM_STREETSEGMENT08",
+      "count": 5,
+      "cases": [
+        [
+          "m076",
+          5
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT39",
+      "count": 5,
+      "cases": [
+        [
+          "m078",
+          5
+        ]
+      ]
+    },
+    {
+      "typeName": "TH_TRAFFICSIGNAL03",
+      "count": 4,
+      "cases": [
+        [
+          "u033",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "IF_STREETSEGMENT13",
+      "count": 4,
+      "cases": [
+        [
+          "u033",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT06",
+      "count": 4,
+      "cases": [
+        [
+          "u063",
+          2
+        ],
+        [
+          "m069",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT19",
+      "count": 4,
+      "cases": [
+        [
+          "m071",
+          3
+        ],
+        [
+          "u056",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT12",
+      "count": 4,
+      "cases": [
+        [
+          "m065",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT24",
+      "count": 4,
+      "cases": [
+        [
+          "m075",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT25",
+      "count": 4,
+      "cases": [
+        [
+          "m075",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT34",
+      "count": 4,
+      "cases": [
+        [
+          "m078",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "MY_STREETSEGMENT04",
+      "count": 4,
+      "cases": [
+        [
+          "m079",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "MY_STREETSEGMENT05",
+      "count": 4,
+      "cases": [
+        [
+          "m079",
+          4
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT24",
+      "count": 3,
+      "cases": [
+        [
+          "m055",
+          2
+        ],
+        [
+          "m078",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT15",
+      "count": 3,
+      "cases": [
+        [
+          "m055",
+          2
+        ],
+        [
+          "m067",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "OD_STREETSEGMENT15",
+      "count": 3,
+      "cases": [
+        [
+          "m056",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT07",
+      "count": 3,
+      "cases": [
+        [
+          "u063",
+          2
+        ],
+        [
+          "m069",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "TH_JapanOldMilitaryTrainingSchool",
+      "count": 3,
+      "cases": [
+        [
+          "m065",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT12",
+      "count": 3,
+      "cases": [
+        [
+          "m066",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT34",
+      "count": 3,
+      "cases": [
+        [
+          "m069",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT31",
+      "count": 3,
+      "cases": [
+        [
+          "m070",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "OK_REDBRIDGE01",
+      "count": 3,
+      "cases": [
+        [
+          "m072",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT12",
+      "count": 3,
+      "cases": [
+        [
+          "m074",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT07",
+      "count": 3,
+      "cases": [
+        [
+          "m074",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT35",
+      "count": 3,
+      "cases": [
+        [
+          "m078",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT37",
+      "count": 3,
+      "cases": [
+        [
+          "m078",
+          3
+        ]
+      ]
+    },
+    {
+      "typeName": "KR_STREETSEGMENT19",
+      "count": 2,
+      "cases": [
+        [
+          "m049",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT43",
+      "count": 2,
+      "cases": [
+        [
+          "m055",
+          1
+        ],
+        [
+          "m078",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT12",
+      "count": 2,
+      "cases": [
+        [
+          "m055",
+          1
+        ],
+        [
+          "m078",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_BustedTrainStation",
+      "count": 2,
+      "cases": [
+        [
+          "m056",
+          1
+        ],
+        [
+          "m076",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "SS_TRAILER02",
+      "count": 2,
+      "cases": [
+        [
+          "u061",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT48",
+      "count": 2,
+      "cases": [
+        [
+          "u017",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_BridgeTower",
+      "count": 2,
+      "cases": [
+        [
+          "u056",
+          1
+        ],
+        [
+          "m071",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT21",
+      "count": 2,
+      "cases": [
+        [
+          "u056",
+          1
+        ],
+        [
+          "m071",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT20",
+      "count": 2,
+      "cases": [
+        [
+          "u056",
+          1
+        ],
+        [
+          "m071",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT14",
+      "count": 2,
+      "cases": [
+        [
+          "m070",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT05",
+      "count": 2,
+      "cases": [
+        [
+          "m074",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HV_STREETSEGMENT11",
+      "count": 2,
+      "cases": [
+        [
+          "m074",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT28",
+      "count": 2,
+      "cases": [
+        [
+          "m075",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "HB_STREETSEGMENT27",
+      "count": 2,
+      "cases": [
+        [
+          "m075",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT27",
+      "count": 2,
+      "cases": [
+        [
+          "m077",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT36",
+      "count": 2,
+      "cases": [
+        [
+          "m078",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT38",
+      "count": 2,
+      "cases": [
+        [
+          "m078",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT16",
+      "count": 2,
+      "cases": [
+        [
+          "m078",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "MY_STREETSEGMENT03",
+      "count": 2,
+      "cases": [
+        [
+          "m079",
+          2
+        ]
+      ]
+    },
+    {
+      "typeName": "VL_RAIL06",
+      "count": 1,
+      "cases": [
+        [
+          "m057",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "CA_STREETSEGMENT32",
+      "count": 1,
+      "cases": [
+        [
+          "m070",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT41",
+      "count": 1,
+      "cases": [
+        [
+          "m078",
+          1
+        ]
+      ]
+    },
+    {
+      "typeName": "ST_STREETSEGMENT40",
+      "count": 1,
+      "cases": [
+        [
+          "m078",
+          1
+        ]
+      ]
+    }
+  ],
+  "observedRoadCandidates": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "observedBridgeBuilderCandidates": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "currentTemplateExamples": {
+    "tool": "ra3map_road_templates",
+    "nameField": "id",
+    "versionCaveat": "Read the target mounted version again before construction; these are observed metadata, not native/game tests.",
+    "roads": [
+      {
+        "id": "HawaiiWood01",
+        "texture": "HA_Wood01",
+        "normalTexture": null,
+        "width": 15,
+        "widthInTexture": 0.95,
+        "priority": 1
+      },
+      {
+        "id": "HawaiiWood02",
+        "texture": "HA_Wood02",
+        "normalTexture": null,
+        "width": 20,
+        "widthInTexture": 0.95,
+        "priority": 1
+      },
+      {
+        "id": "HavanaParkingLines03",
+        "texture": "HV_ParkingLines03",
+        "normalTexture": null,
+        "width": 35,
+        "widthInTexture": 0.95,
+        "priority": 100
+      },
+      {
+        "id": "HavanaWhiteLine01",
+        "texture": "HV_WhiteLine01",
+        "normalTexture": null,
+        "width": 5,
+        "widthInTexture": 0.95,
+        "priority": 100
+      },
+      {
+        "id": "MtRushmoreRoad01",
+        "texture": "YP_Road01",
+        "normalTexture": "YP_Road01_NRM",
+        "width": 55,
+        "widthInTexture": 0.95,
+        "priority": 6
+      },
+      {
+        "id": "KremlinSnowyTracks01",
+        "texture": "KR_SnowyTracks01",
+        "normalTexture": "KR_SnowyTracks01_NRM",
+        "width": 34,
+        "widthInTexture": 0.95,
+        "priority": 100
+      },
+      {
+        "id": "KremlinSidewalk01",
+        "texture": "KR_Sidewalk01",
+        "normalTexture": "KR_Sidewalk01_NRM",
+        "width": 21,
+        "widthInTexture": 0.95,
+        "priority": 5
+      },
+      {
+        "id": "YucatanRoad01",
+        "texture": "YU_Road01",
+        "normalTexture": "YU_Road01_NRM",
+        "width": 57,
+        "widthInTexture": 0.95,
+        "priority": 56
+      },
+      {
+        "id": "YucatanRoad02",
+        "texture": "YU_Road02",
+        "normalTexture": "YU_Road02_NRM",
+        "width": 46,
+        "widthInTexture": 0.95,
+        "priority": 57
+      },
+      {
+        "id": "YucatanDirtRoad01",
+        "texture": "YU_DirtRoad01",
+        "normalTexture": "YU_DirtRoad01_NRM",
+        "width": 65,
+        "widthInTexture": 0.95,
+        "priority": 65
+      },
+      {
+        "id": "YucatanFootpath01",
+        "texture": "YU_Footpath01",
+        "normalTexture": "YU_Footpath01_NRM",
+        "width": 20,
+        "widthInTexture": 0.95,
+        "priority": 15
+      },
+      {
+        "id": "IslandFortressSidewalk01",
+        "texture": "FI_Sidewalk01",
+        "normalTexture": "FI_Sidewalk01_NRM",
+        "width": 15,
+        "widthInTexture": 0.95,
+        "priority": 5
+      },
+      {
+        "id": "IslandFortressSidewalk02",
+        "texture": "FI_Sidewalk02",
+        "normalTexture": "FI_Sidewalk02_NRM",
+        "width": 35,
+        "widthInTexture": 0.95,
+        "priority": 4
+      },
+      {
+        "id": "IslandFortressSidewalk03",
+        "texture": "FI_Sidewalk03",
+        "normalTexture": "FI_Sidewalk03_NRM",
+        "width": 5,
+        "widthInTexture": 0.95,
+        "priority": 5
+      },
+      {
+        "id": "IslandFortressTrim01",
+        "texture": "FI_MetalTrim01",
+        "normalTexture": "FI_MetalTrim01_NRM",
+        "width": 16,
+        "widthInTexture": 0.95,
+        "priority": 6
+      },
+      {
+        "id": "NorthernRussiaSidewalk01",
+        "texture": "SV_Sidewalk01",
+        "normalTexture": null,
+        "width": 12,
+        "widthInTexture": 0.95,
+        "priority": 109
+      }
+    ],
+    "bridges": [
+      {
+        "id": "HB_Bridge_02",
+        "bridge": {
+          "endCap": "HB_Bridge_02_End",
+          "endCap2": "HB_Bridge_02_End2",
+          "endCapLen": 75,
+          "center": "HB_Bridge_02_Center",
+          "centerLen": 150,
+          "centerB": "HB_Bridge_02_Center2",
+          "centerBLen": 150,
+          "gateHouse": "HB_Bridge_02_GateHouse",
+          "width": 190
+        }
+      },
+      {
+        "id": "HV_Bridge_01",
+        "bridge": {
+          "endCap": "HV_Bridge_01_End",
+          "endCap2": "HV_Bridge_01_End2",
+          "endCapLen": 75,
+          "center": "HV_Bridge_01_Center",
+          "centerLen": 100,
+          "centerB": "HV_Bridge_01_Center2",
+          "centerBLen": 100,
+          "gateHouse": "HV_Bridge_01_GateHouse",
+          "width": 180
+        }
+      }
+    ]
+  },
+  "models": [
+    {
+      "typeName": "AM_StreetSegment05",
+      "bounds": {
+        "min": [
+          -33.86659240722656,
+          -50.00000762939453,
+          -1.4908939599990845
+        ],
+        "max": [
+          32.357276916503906,
+          50.000003814697266,
+          0.6634089946746826
+        ]
+      },
+      "dimensions": [
+        66.22386932373047,
+        100.0000114440918,
+        2.154302954673767
+      ],
+      "vertexCount": 152,
+      "triangleCount": 80,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local Y",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 0,
+          "best": []
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 24,
+          "best": [
+            {
+              "case": "m076",
+              "typeName": "AM_StreetSegment05",
+              "axis": "local Y",
+              "meshDimension": 100.0000114440918,
+              "localOffset": [
+                -6.123233995736766e-15,
+                -100
+              ],
+              "endPlaneGapCandidate": -0.000011444091796875,
+              "centerDistance": 100,
+              "angleDelta": 0,
+              "a": {
+                "index": 3721,
+                "x": 1450,
+                "y": 1490,
+                "z": 0,
+                "angle": -90,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 3722,
+                "x": 1350,
+                "y": 1490,
+                "z": 0,
+                "angle": -90,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -33.86659240722656,
+                  -50.00000762939453,
+                  -1.4908939599990845
+                ],
+                "max": [
+                  32.357276916503906,
+                  50.000003814697266,
+                  0.6634089946746826
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "AM_StreetSegment06",
+      "bounds": {
+        "min": [
+          -50.74794387817383,
+          -50.000003814697266,
+          -1.3162180185317993
+        ],
+        "max": [
+          50,
+          50.000003814697266,
+          0.6634089946746826
+        ]
+      },
+      "dimensions": [
+        100.74794387817383,
+        100.00000762939453,
+        1.979627013206482
+      ],
+      "vertexCount": 251,
+      "triangleCount": 144,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local X",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 8,
+          "best": [
+            {
+              "case": "m076",
+              "typeName": "AM_StreetSegment06",
+              "axis": "local X",
+              "meshDimension": 100.74794387817383,
+              "localOffset": [
+                99.64343699514292,
+                0.07940809152740513
+              ],
+              "endPlaneGapCandidate": -1.1045068830309077,
+              "centerDistance": 99.64346863618316,
+              "angleDelta": 0,
+              "a": {
+                "index": 111,
+                "x": 3238.5886,
+                "y": 3620.6365,
+                "z": 0.05,
+                "angle": -45,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 112,
+                "x": 3309.1033,
+                "y": 3550.2341,
+                "z": 0.05,
+                "angle": -45,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -50.74794387817383,
+                  -50.000003814697266,
+                  -1.3162180185317993
+                ],
+                "max": [
+                  50,
+                  50.000003814697266,
+                  0.6634089946746826
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "AM_StreetSegment07",
+      "bounds": {
+        "min": [
+          -50.66543960571289,
+          -50.000003814697266,
+          -1.3162180185317993
+        ],
+        "max": [
+          50,
+          50.000003814697266,
+          0.6634089946746826
+        ]
+      },
+      "dimensions": [
+        100.66543960571289,
+        100.00000762939453,
+        1.979627013206482
+      ],
+      "vertexCount": 234,
+      "triangleCount": 132,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local X",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 0,
+          "best": []
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "AM_StreetSegment32",
+      "bounds": {
+        "min": [
+          -33.8665885925293,
+          -150,
+          -1.4908939599990845
+        ],
+        "max": [
+          32.35728073120117,
+          150,
+          0.6634089946746826
+        ]
+      },
+      "dimensions": [
+        66.22386932373047,
+        300,
+        2.154302954673767
+      ],
+      "vertexCount": 456,
+      "triangleCount": 240,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local Y",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 0,
+          "best": []
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "AM_StreetSegment33",
+      "bounds": {
+        "min": [
+          -150.74795532226562,
+          -50.000003814697266,
+          -1.3162180185317993
+        ],
+        "max": [
+          150,
+          50.000003814697266,
+          0.6634089946746826
+        ]
+      },
+      "dimensions": [
+        300.7479553222656,
+        100.00000762939453,
+        1.979627013206482
+      ],
+      "vertexCount": 753,
+      "triangleCount": 432,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local X",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 3,
+          "best": [
+            {
+              "case": "m076",
+              "typeName": "AM_StreetSegment33",
+              "axis": "local X",
+              "meshDimension": 300.7479553222656,
+              "localOffset": [
+                -300,
+                -3.6739403974420595e-14
+              ],
+              "endPlaneGapCandidate": -0.747955322265625,
+              "centerDistance": 300,
+              "angleDelta": 0,
+              "a": {
+                "index": 3513,
+                "x": 340,
+                "y": 1090,
+                "z": 0,
+                "angle": 180,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 3514,
+                "x": 640,
+                "y": 1090,
+                "z": 0,
+                "angle": 180,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -150.74795532226562,
+                  -50.000003814697266,
+                  -1.3162180185317993
+                ],
+                "max": [
+                  150,
+                  50.000003814697266,
+                  0.6634089946746826
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "ST_StreetSegment01",
+      "bounds": {
+        "min": [
+          -50.000003814697266,
+          -50,
+          -1.4908959865570068
+        ],
+        "max": [
+          49.99999237060547,
+          50.000003814697266,
+          0.6634140014648438
+        ]
+      },
+      "dimensions": [
+        99.99999618530273,
+        100.00000381469727,
+        2.1543099880218506
+      ],
+      "vertexCount": 691,
+      "triangleCount": 554,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local Y",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 0,
+          "best": []
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "ST_StreetSegment06",
+      "bounds": {
+        "min": [
+          -50.74794387817383,
+          -50.000003814697266,
+          -1.3162180185317993
+        ],
+        "max": [
+          50,
+          50.000003814697266,
+          0.6634089946746826
+        ]
+      },
+      "dimensions": [
+        100.74794387817383,
+        100.00000762939453,
+        1.979627013206482
+      ],
+      "vertexCount": 251,
+      "triangleCount": 144,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local X",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 334,
+          "best": [
+            {
+              "case": "m055",
+              "typeName": "ST_StreetSegment06",
+              "axis": "local X",
+              "meshDimension": 100.74794387817383,
+              "localOffset": [
+                -100.38003012910511,
+                -0.18441344853345498
+              ],
+              "endPlaneGapCandidate": -0.36791374906871965,
+              "centerDistance": 100.38019952679934,
+              "angleDelta": 0,
+              "a": {
+                "index": 802,
+                "x": 3392.5461,
+                "y": 5028.835,
+                "z": 0,
+                "angle": -45,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 803,
+                "x": 3321.4363,
+                "y": 5099.684,
+                "z": 0,
+                "angle": -45,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -50.74794387817383,
+                  -50.000003814697266,
+                  -1.3162180185317993
+                ],
+                "max": [
+                  50,
+                  50.000003814697266,
+                  0.6634089946746826
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "ST_StreetSegment11",
+      "bounds": {
+        "min": [
+          -86.35450744628906,
+          -50.00001525878906,
+          -1.3162180185317993
+        ],
+        "max": [
+          86.34110260009766,
+          50.00000762939453,
+          1.3161089420318604
+        ]
+      },
+      "dimensions": [
+        172.69561004638672,
+        100.0000228881836,
+        2.6323269605636597
+      ],
+      "vertexCount": 300,
+      "triangleCount": 152,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local X",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 0,
+          "best": []
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 63,
+          "best": [
+            {
+              "case": "m058",
+              "typeName": "ST_StreetSegment11",
+              "axis": "local Y",
+              "meshDimension": 100.0000228881836,
+              "localOffset": [
+                0.013562308063178818,
+                -100.00906776955878
+              ],
+              "endPlaneGapCandidate": 0.009044881375189107,
+              "centerDistance": 100.00906868915638,
+              "angleDelta": 0,
+              "a": {
+                "index": 4274,
+                "x": 235.0061,
+                "y": 3030.5786,
+                "z": 0,
+                "angle": -135,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 4275,
+                "x": 164.27942,
+                "y": 3101.2861,
+                "z": 0,
+                "angle": -135,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -86.35450744628906,
+                  -50.00001525878906,
+                  -1.3162180185317993
+                ],
+                "max": [
+                  86.34110260009766,
+                  50.00000762939453,
+                  1.3161089420318604
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "ST_StreetSegment36",
+      "bounds": {
+        "min": [
+          -49.999996185302734,
+          -49.99998474121094,
+          -1.4908939599990845
+        ],
+        "max": [
+          50.03144073486328,
+          50.00002670288086,
+          0.6634089946746826
+        ]
+      },
+      "dimensions": [
+        100.03143692016602,
+        100.0000114440918,
+        2.154302954673767
+      ],
+      "vertexCount": 263,
+      "triangleCount": 192,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local X",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 0,
+          "best": []
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "KR_StreetSegment04",
+      "bounds": {
+        "min": [
+          -44.999996185302734,
+          -42.74666976928711,
+          -1.3162180185317993
+        ],
+        "max": [
+          45.00000762939453,
+          42.73270797729492,
+          0.6634089946746826
+        ]
+      },
+      "dimensions": [
+        90.00000381469727,
+        85.47937774658203,
+        1.979627013206482
+      ],
+      "vertexCount": 180,
+      "triangleCount": 96,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local X",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 783,
+          "best": [
+            {
+              "case": "u023",
+              "typeName": "KR_StreetSegment04",
+              "axis": "local X",
+              "meshDimension": 90.00000381469727,
+              "localOffset": [
+                90.00000663720203,
+                -0.00012020815263014129
+              ],
+              "endPlaneGapCandidate": 0.000002822504768573708,
+              "centerDistance": 90.00000663728233,
+              "angleDelta": 0,
+              "a": {
+                "index": 334,
+                "x": 3506.316,
+                "y": 460.55307,
+                "z": 0,
+                "angle": -135,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 335,
+                "x": 3442.6763,
+                "y": 396.91354,
+                "z": 0,
+                "angle": -135,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -44.999996185302734,
+                  -42.74666976928711,
+                  -1.3162180185317993
+                ],
+                "max": [
+                  45.00000762939453,
+                  42.73270797729492,
+                  0.6634089946746826
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 23,
+          "best": [
+            {
+              "case": "u064",
+              "typeName": "KR_StreetSegment04",
+              "axis": "local Y",
+              "meshDimension": 85.47937774658203,
+              "localOffset": [
+                0.6620936617906352,
+                84.74780815427053
+              ],
+              "endPlaneGapCandidate": -0.7315695923115015,
+              "centerDistance": 84.7503944236841,
+              "angleDelta": 0,
+              "a": {
+                "index": 3167,
+                "x": 2717.5054,
+                "y": 2785.4119,
+                "z": 0,
+                "angle": -134.99998,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 3168,
+                "x": 2776.963,
+                "y": 2725.018,
+                "z": 0,
+                "angle": -134.99998,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -44.999996185302734,
+                  -42.74666976928711,
+                  -1.3162180185317993
+                ],
+                "max": [
+                  45.00000762939453,
+                  42.73270797729492,
+                  0.6634089946746826
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "IF_StreetSegment01",
+      "bounds": {
+        "min": [
+          -59.999996185302734,
+          -46.22185516357422,
+          -1.3162180185317993
+        ],
+        "max": [
+          60,
+          46.22185134887695,
+          0.6634089946746826
+        ]
+      },
+      "dimensions": [
+        119.99999618530273,
+        92.44370651245117,
+        1.979627013206482
+      ],
+      "vertexCount": 136,
+      "triangleCount": 80,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local X",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 201,
+          "best": [
+            {
+              "case": "u024",
+              "typeName": "IF_StreetSegment01",
+              "axis": "local X",
+              "meshDimension": 119.99999618530273,
+              "localOffset": [
+                -119.99998056542333,
+                -0.0002409548171442566
+              ],
+              "endPlaneGapCandidate": -0.000015619879405903703,
+              "centerDistance": 119.99998056566527,
+              "angleDelta": 0,
+              "a": {
+                "index": 1629,
+                "x": 3495.792,
+                "y": 2063.9297,
+                "z": 1,
+                "angle": 135.00002,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 1630,
+                "x": 3580.645,
+                "y": 1979.0771,
+                "z": 1,
+                "angle": 135.00002,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -59.999996185302734,
+                  -46.22185516357422,
+                  -1.3162180185317993
+                ],
+                "max": [
+                  60,
+                  46.22185134887695,
+                  0.6634089946746826
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "IF_StreetSegment07",
+      "bounds": {
+        "min": [
+          -15.000000953674316,
+          -46.22185134887695,
+          -1.3162180185317993
+        ],
+        "max": [
+          15.000000953674316,
+          46.22185134887695,
+          0.6634089946746826
+        ]
+      },
+      "dimensions": [
+        30.000001907348633,
+        92.4437026977539,
+        1.979627013206482
+      ],
+      "vertexCount": 68,
+      "triangleCount": 40,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local Y",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 10,
+          "best": [
+            {
+              "case": "u024",
+              "typeName": "IF_StreetSegment07",
+              "axis": "local X",
+              "meshDimension": 30.000001907348633,
+              "localOffset": [
+                30.000065852011403,
+                0.00021213203413950055
+              ],
+              "endPlaneGapCandidate": 0.00006394466277015454,
+              "centerDistance": 30.0000658527614,
+              "angleDelta": 0,
+              "a": {
+                "index": 6138,
+                "x": 3632.1416,
+                "y": 3665.2004,
+                "z": 1,
+                "angle": -45,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 6139,
+                "x": 3653.355,
+                "y": 3643.9873,
+                "z": 1,
+                "angle": -45,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -15.000000953674316,
+                  -46.22185134887695,
+                  -1.3162180185317993
+                ],
+                "max": [
+                  15.000000953674316,
+                  46.22185134887695,
+                  0.6634089946746826
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "IF_StreetSegment12",
+      "bounds": {
+        "min": [
+          -16.469152450561523,
+          -50.0626220703125,
+          -1.7049109935760498
+        ],
+        "max": [
+          33.279380798339844,
+          49.98728942871094,
+          1.56808602809906
+        ]
+      },
+      "dimensions": [
+        49.74853324890137,
+        100.04991149902344,
+        3.27299702167511
+      ],
+      "vertexCount": 280,
+      "triangleCount": 225,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local Y",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 0,
+          "best": []
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "VL_Rail01",
+      "bounds": {
+        "min": [
+          -45,
+          -10.322029113769531,
+          -0.3265039920806885
+        ],
+        "max": [
+          45,
+          12.055400848388672,
+          3.793658971786499
+        ]
+      },
+      "dimensions": [
+        90,
+        22.377429962158203,
+        4.1201629638671875
+      ],
+      "vertexCount": 120,
+      "triangleCount": 66,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local X",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 119,
+          "best": [
+            {
+              "case": "u023",
+              "typeName": "VL_Rail01",
+              "axis": "local X",
+              "meshDimension": 90,
+              "localOffset": [
+                89.99998542399894,
+                0.00014142135603378847
+              ],
+              "endPlaneGapCandidate": -0.0000145760010639151,
+              "centerDistance": 89.99998542411005,
+              "angleDelta": 0,
+              "a": {
+                "index": 1597,
+                "x": 4948.8135,
+                "y": 1478.7869,
+                "z": 0,
+                "angle": -135,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 1598,
+                "x": 4885.174,
+                "y": 1415.1472,
+                "z": 0,
+                "angle": -135,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -45,
+                  -10.322029113769531,
+                  -0.3265039920806885
+                ],
+                "max": [
+                  45,
+                  12.055400848388672,
+                  3.793658971786499
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "HB_StreetSegment06",
+      "bounds": {
+        "min": [
+          -50.74794387817383,
+          -50.000003814697266,
+          -1.3162180185317993
+        ],
+        "max": [
+          50,
+          50.000003814697266,
+          0.663409948348999
+        ]
+      },
+      "dimensions": [
+        100.74794387817383,
+        100.00000762939453,
+        1.9796279668807983
+      ],
+      "vertexCount": 251,
+      "triangleCount": 144,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local X",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 232,
+          "best": [
+            {
+              "case": "m065",
+              "typeName": "HB_StreetSegment06",
+              "axis": "local X",
+              "meshDimension": 100.74794387817383,
+              "localOffset": [
+                -100.05731366523915,
+                -0.22560241853755514
+              ],
+              "endPlaneGapCandidate": -0.6906302129346784,
+              "centerDistance": 100.05756800140259,
+              "angleDelta": 0,
+              "a": {
+                "index": 6758,
+                "x": 112.36395,
+                "y": 263.84592,
+                "z": 0,
+                "angle": -135,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 6759,
+                "x": 182.95563,
+                "y": 334.75665,
+                "z": 0,
+                "angle": -135,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -50.74794387817383,
+                  -50.000003814697266,
+                  -1.3162180185317993
+                ],
+                "max": [
+                  50,
+                  50.000003814697266,
+                  0.663409948348999
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "HB_StreetSegment31",
+      "bounds": {
+        "min": [
+          -12.188809394836426,
+          -30.706043243408203,
+          -1.3162180185317993
+        ],
+        "max": [
+          8.998169898986816,
+          33.96409606933594,
+          1.2159539461135864
+        ]
+      },
+      "dimensions": [
+        21.186979293823242,
+        64.67013931274414,
+        2.5321719646453857
+      ],
+      "vertexCount": 118,
+      "triangleCount": 97,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local Y",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 0,
+          "best": []
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "HV_StreetSegment09",
+      "bounds": {
+        "min": [
+          -50,
+          -42.74666976928711,
+          -1.3162180185317993
+        ],
+        "max": [
+          50.0000114440918,
+          42.73270797729492,
+          0.6634089946746826
+        ]
+      },
+      "dimensions": [
+        100.0000114440918,
+        85.47937774658203,
+        1.979627013206482
+      ],
+      "vertexCount": 180,
+      "triangleCount": 96,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local X",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 249,
+          "best": [
+            {
+              "case": "m071",
+              "typeName": "HV_StreetSegment09",
+              "axis": "local X",
+              "meshDimension": 100.0000114440918,
+              "localOffset": [
+                100.00000973169175,
+                -0.000021213203510228595
+              ],
+              "endPlaneGapCandidate": -0.0000017124000493140557,
+              "centerDistance": 100.000009731694,
+              "angleDelta": 0,
+              "a": {
+                "index": 6072,
+                "x": 581.9486,
+                "y": 814.0499,
+                "z": 0,
+                "angle": -135,
+                "alignToTerrain": null
+              },
+              "b": {
+                "index": 6088,
+                "x": 511.2379,
+                "y": 743.33923,
+                "z": 0,
+                "angle": -135,
+                "alignToTerrain": null
+              },
+              "bounds": {
+                "min": [
+                  -50,
+                  -42.74666976928711,
+                  -1.3162180185317993
+                ],
+                "max": [
+                  50.0000114440918,
+                  42.73270797729492,
+                  0.6634089946746826
+                ]
+              },
+              "scope": "Mesh AABB plane fit candidate in existing source scene. Texture front, nonrectangular end face, terrain tilt and actual native/game seam still need visual confirmation."
+            }
+          ]
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    },
+    {
+      "typeName": "YU_SunkenPlatform01",
+      "bounds": {
+        "min": [
+          -103.87418365478516,
+          -110.03199768066406,
+          -39.76456069946289
+        ],
+        "max": [
+          103.87419128417969,
+          110.03199005126953,
+          72.55684661865234
+        ]
+      },
+      "dimensions": [
+        207.74837493896484,
+        220.0639877319336,
+        112.32140731811523
+      ],
+      "vertexCount": 3134,
+      "triangleCount": 2550,
+      "skippedSkinned": 0,
+      "longestBoundsAxis": "local Y",
+      "axisCaveat": "Longest bounds axis is not a certified road advance axis; see local-offset pairs and actual scene.",
+      "endpointCandidates": [
+        {
+          "axis": "local X",
+          "candidateCount": 0,
+          "best": []
+        },
+        {
+          "axis": "local Y",
+          "candidateCount": 0,
+          "best": []
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "m049",
+      "name": "MAP_MP_COOP_j01_russianvillage_white",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1989,
+      "bridgeBuilderCount": 0,
+      "streetCount": 772,
+      "streetFamilies": [
+        [
+          "KR",
+          632
+        ],
+        [
+          "ST",
+          140
+        ]
+      ],
+      "railObjectCount": 22,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "StPetersburgSidewalk01",
+          264
+        ],
+        [
+          "KremlinSidewalk02",
+          239
+        ],
+        [
+          "KremlinSnowyTracks01",
+          238
+        ],
+        [
+          "HavanaWhiteLine01",
+          174
+        ],
+        [
+          "NorthernRussiaSidewalk01",
+          157
+        ]
+      ],
+      "topStreet": [
+        [
+          "KR_STREETSEGMENT04",
+          352
+        ],
+        [
+          "ST_STREETSEGMENT06",
+          114
+        ],
+        [
+          "KR_STREETSEGMENT09",
+          70
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/campaign/m049-atlas.jpg"
+    },
+    {
+      "id": "m050",
+      "name": "MAP_MP_COOP_j08_kremlin_stewart",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1439,
+      "bridgeBuilderCount": 0,
+      "streetCount": 351,
+      "streetFamilies": [
+        [
+          "KR",
+          351
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "KremlinSidewalk02",
+          562
+        ],
+        [
+          "KremlinSidewalk01",
+          282
+        ],
+        [
+          "KremlinBrickTrim01",
+          262
+        ],
+        [
+          "HavanaWhiteLine01",
+          152
+        ],
+        [
+          "KremlinDirtRoad01",
+          80
+        ]
+      ],
+      "topStreet": [
+        [
+          "KR_STREETSEGMENT04",
+          144
+        ],
+        [
+          "KR_StreetSegment01",
+          66
+        ],
+        [
+          "KR_STREETSEGMENT09",
+          27
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/campaign/m050-atlas.jpg"
+    },
+    {
+      "id": "m051",
+      "name": "MAP_MP_COOP_s03_vladivostok_davis",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 518,
+      "bridgeBuilderCount": 0,
+      "streetCount": 123,
+      "streetFamilies": [
+        [
+          "KR",
+          123
+        ]
+      ],
+      "railObjectCount": 52,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "StPetersburgSidewalk04",
+          88
+        ],
+        [
+          "HavanaWhiteLine01",
+          88
+        ],
+        [
+          "KremlinSnowyTracks01",
+          57
+        ],
+        [
+          "MtFujiStoneBorder02",
+          41
+        ],
+        [
+          "MtFujiStoneBorder03",
+          34
+        ]
+      ],
+      "topStreet": [
+        [
+          "KR_STREETSEGMENT04",
+          67
+        ],
+        [
+          "KR_STREETSEGMENT05",
+          16
+        ],
+        [
+          "KR_StreetSegment01",
+          12
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/campaign/m051-atlas.jpg"
+    },
+    {
+      "id": "m055",
+      "name": "MAP_MP_COOP_a09_leningrad_rao",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1842,
+      "bridgeBuilderCount": 4,
+      "streetCount": 290,
+      "streetFamilies": [
+        [
+          "ST",
+          290
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "StPetersburgSidewalk01",
+          563
+        ],
+        [
+          "HavanaSidewalk04",
+          503
+        ],
+        [
+          "StPetersburgSidewalk02",
+          425
+        ],
+        [
+          "CannesSidewalk02",
+          94
+        ],
+        [
+          "StPetersburgSidewalk05",
+          84
+        ]
+      ],
+      "topStreet": [
+        [
+          "ST_STREETSEGMENT06",
+          51
+        ],
+        [
+          "ST_STREETSEGMENT07",
+          42
+        ],
+        [
+          "ST_STREETSEGMENT05",
+          27
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/campaign/m055-atlas.jpg"
+    },
+    {
+      "id": "m056",
+      "name": "MAP_MP_COOP_j02_stalingrad_stewart",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 885,
+      "bridgeBuilderCount": 0,
+      "streetCount": 336,
+      "streetFamilies": [
+        [
+          "ST",
+          333
+        ],
+        [
+          "OD",
+          3
+        ]
+      ],
+      "railObjectCount": 85,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "StPetersburgSidewalk01",
+          265
+        ],
+        [
+          "StPetersburgSidewalk04",
+          204
+        ],
+        [
+          "SantaMonicaSidewalk02",
+          133
+        ],
+        [
+          "StalingradBricksTrim01",
+          75
+        ],
+        [
+          "StPetersburgSidewalk02",
+          54
+        ]
+      ],
+      "topStreet": [
+        [
+          "ST_STREETSEGMENT06",
+          190
+        ],
+        [
+          "ST_STREETSEGMENT07",
+          42
+        ],
+        [
+          "ST_STREETSEGMENT02",
+          36
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/campaign/m056-atlas.jpg"
+    },
+    {
+      "id": "m057",
+      "name": "MAP_MP_COOP_j03_odessa_stewart",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1339,
+      "bridgeBuilderCount": 0,
+      "streetCount": 532,
+      "streetFamilies": [
+        [
+          "ST",
+          532
+        ]
+      ],
+      "railObjectCount": 139,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "SantaMonicaSidewalk02",
+          346
+        ],
+        [
+          "StPetersburgSidewalk01",
+          229
+        ],
+        [
+          "HavanaWhiteLine01",
+          106
+        ],
+        [
+          "GenevaRoadMarkings01",
+          106
+        ],
+        [
+          "StPetersburgSidewalk02",
+          89
+        ]
+      ],
+      "topStreet": [
+        [
+          "ST_STREETSEGMENT06",
+          311
+        ],
+        [
+          "ST_STREETSEGMENT02",
+          46
+        ],
+        [
+          "ST_STREETSEGMENT07",
+          43
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m057-atlas.jpg"
+    },
+    {
+      "id": "m058",
+      "name": "MAP_MP_COOP_s01_leningradcanals_rao",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1030,
+      "bridgeBuilderCount": 0,
+      "streetCount": 130,
+      "streetFamilies": [
+        [
+          "ST",
+          130
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaSidewalk04",
+          439
+        ],
+        [
+          "StPetersburgSidewalk02",
+          172
+        ],
+        [
+          "StPetersburgSidewalk01",
+          163
+        ],
+        [
+          "HavanaSidewalk03",
+          146
+        ],
+        [
+          "StPetersburgSidewalk05",
+          27
+        ]
+      ],
+      "topStreet": [
+        [
+          "ST_STREETSEGMENT11",
+          24
+        ],
+        [
+          "ST_STREETSEGMENT06",
+          18
+        ],
+        [
+          "ST_STREETSEGMENT05",
+          17
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m058-atlas.jpg"
+    },
+    {
+      "id": "m059",
+      "name": "MAP_MP_COOP_s02_krasna45_rao",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1086,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "GypsyDirtPath02",
+          257
+        ],
+        [
+          "HavanaWhiteLine01",
+          230
+        ],
+        [
+          "SantaMonicaSidewalk02",
+          163
+        ],
+        [
+          "MykonosRoadTrim01",
+          139
+        ],
+        [
+          "HawaiiRoadMarking03",
+          77
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m059-atlas.jpg"
+    },
+    {
+      "id": "m063",
+      "name": "MAP_MP_COOP_a05_northsea_white",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1409,
+      "bridgeBuilderCount": 0,
+      "streetCount": 148,
+      "streetFamilies": [
+        [
+          "IF",
+          148
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "IslandFortressSidewalk03",
+          568
+        ],
+        [
+          "IslandFortressTrim01",
+          427
+        ],
+        [
+          "IslandFortressSidewalk01",
+          284
+        ],
+        [
+          "IslandFortressSidewalk02",
+          94
+        ],
+        [
+          "HavanaWhiteLine01",
+          36
+        ]
+      ],
+      "topStreet": [
+        [
+          "IF_StreetSegment01",
+          69
+        ],
+        [
+          "IF_STREETSEGMENT02",
+          17
+        ],
+        [
+          "IF_STREETSEGMENT03",
+          13
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m063-atlas.jpg"
+    },
+    {
+      "id": "m064",
+      "name": "MAP_MP_COOP_j05_deepocean_davis",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1736,
+      "bridgeBuilderCount": 0,
+      "streetCount": 69,
+      "streetFamilies": [
+        [
+          "IF",
+          69
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "IslandFortressSidewalk03",
+          865
+        ],
+        [
+          "IslandFortressSidewalk01",
+          336
+        ],
+        [
+          "HavanaWhiteLine01",
+          254
+        ],
+        [
+          "IslandFortressSidewalk02",
+          131
+        ],
+        [
+          "IslandFortressTrim01",
+          128
+        ]
+      ],
+      "topStreet": [
+        [
+          "IF_StreetSegment01",
+          26
+        ],
+        [
+          "IF_STREETSEGMENT02",
+          15
+        ],
+        [
+          "IF_STREETSEGMENT12",
+          12
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/campaign/m064-atlas.jpg"
+    },
+    {
+      "id": "u058",
+      "name": "起义挑战-万兽之王",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 121,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "YucatanDirtRoad01",
+          120
+        ],
+        [
+          "HavanaParkingLines03",
+          1
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u058-atlas.jpg"
+    },
+    {
+      "id": "u008",
+      "name": "起义挑战-不敌守护者",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1044,
+      "bridgeBuilderCount": 0,
+      "streetCount": 2,
+      "streetFamilies": [
+        [
+          "HV",
+          2
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaWhiteLine01",
+          365
+        ],
+        [
+          "StalingradBricksTrim01",
+          201
+        ],
+        [
+          "HavanaSidewalk03",
+          154
+        ],
+        [
+          "StPetersburgSidewalk04",
+          88
+        ],
+        [
+          "HeidelbergBricksTrim01",
+          65
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT18_GRID",
+          2
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u008-atlas.jpg"
+    },
+    {
+      "id": "u009",
+      "name": "起义挑战-不敌守护者1.4",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1044,
+      "bridgeBuilderCount": 0,
+      "streetCount": 2,
+      "streetFamilies": [
+        [
+          "HV",
+          2
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaWhiteLine01",
+          365
+        ],
+        [
+          "StalingradBricksTrim01",
+          201
+        ],
+        [
+          "HavanaSidewalk03",
+          154
+        ],
+        [
+          "StPetersburgSidewalk04",
+          88
+        ],
+        [
+          "HeidelbergBricksTrim01",
+          65
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT18_GRID",
+          2
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u009-atlas.jpg"
+    },
+    {
+      "id": "u010",
+      "name": "起义挑战-不敌守护者重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1044,
+      "bridgeBuilderCount": 0,
+      "streetCount": 2,
+      "streetFamilies": [
+        [
+          "HV",
+          2
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaWhiteLine01",
+          365
+        ],
+        [
+          "StalingradBricksTrim01",
+          201
+        ],
+        [
+          "HavanaSidewalk03",
+          154
+        ],
+        [
+          "StPetersburgSidewalk04",
+          88
+        ],
+        [
+          "HeidelbergBricksTrim01",
+          65
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT18_GRID",
+          2
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u010-atlas.jpg"
+    },
+    {
+      "id": "u036",
+      "name": "起义挑战-你够格吗？",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1200,
+      "bridgeBuilderCount": 0,
+      "streetCount": 424,
+      "streetFamilies": [
+        [
+          "KR",
+          424
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "KremlinSidewalk02",
+          411
+        ],
+        [
+          "KremlinSidewalk01",
+          321
+        ],
+        [
+          "KremlinBrickTrim01",
+          320
+        ],
+        [
+          "KremlinSnowyTracks01",
+          130
+        ],
+        [
+          "HavanaParkingLines03",
+          8
+        ]
+      ],
+      "topStreet": [
+        [
+          "KR_STREETSEGMENT04",
+          207
+        ],
+        [
+          "KR_STREETSEGMENT09",
+          40
+        ],
+        [
+          "KR_STREETSEGMENT05",
+          33
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u036-atlas.jpg"
+    },
+    {
+      "id": "u035",
+      "name": "起义挑战-你的金矿坍塌了",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 145,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "KremlinDirtRoad01",
+          145
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u035-atlas.jpg"
+    },
+    {
+      "id": "u032",
+      "name": "起义挑战-军备竞赛",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 417,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HawaiiDirtRoad01",
+          81
+        ],
+        [
+          "HavanaWhiteLine01",
+          71
+        ],
+        [
+          "SantaMonicaSidewalk02",
+          60
+        ],
+        [
+          "HawaiiRoadMarking03",
+          54
+        ],
+        [
+          "HawaiiTireMarks01",
+          52
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u032-atlas.jpg"
+    },
+    {
+      "id": "u071",
+      "name": "起义挑战-准备出击",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 209,
+      "bridgeBuilderCount": 4,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MtFujiStoneBorder01",
+          120
+        ],
+        [
+          "HawaiiTrim01",
+          33
+        ],
+        [
+          "MtFujiStoneStaircase01",
+          16
+        ],
+        [
+          "MtFujiSidewalk01",
+          16
+        ],
+        [
+          "HawaiiSidewalk02",
+          14
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u071-atlas.jpg"
+    },
+    {
+      "id": "u061",
+      "name": "起义挑战-卫星终结站",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 70,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HeidelbergRoadMarkings03",
+          18
+        ],
+        [
+          "NewYorkSidewalk04",
+          14
+        ],
+        [
+          "HawaiiTrim01",
+          12
+        ],
+        [
+          "HawaiiTireMarks01",
+          12
+        ],
+        [
+          "HavanaWhiteLine01",
+          10
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u061-atlas.jpg"
+    },
+    {
+      "id": "u059",
+      "name": "起义挑战-危险的天空",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 746,
+      "bridgeBuilderCount": 0,
+      "streetCount": 122,
+      "streetFamilies": [
+        [
+          "HB",
+          122
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "SantaMonicaSidewalk01",
+          235
+        ],
+        [
+          "EasterIslandRoad01",
+          190
+        ],
+        [
+          "StPetersburgSidewalk01",
+          78
+        ],
+        [
+          "MtFujiStoneBorder02",
+          34
+        ],
+        [
+          "HeidelbergBricks02",
+          33
+        ]
+      ],
+      "topStreet": [
+        [
+          "HB_STREETSEGMENT06",
+          57
+        ],
+        [
+          "HB_STREETSEGMENT07",
+          30
+        ],
+        [
+          "HB_STREETSEGMENT01",
+          11
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u059-atlas.jpg"
+    },
+    {
+      "id": "u060",
+      "name": "起义挑战-危险的天空重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 746,
+      "bridgeBuilderCount": 0,
+      "streetCount": 122,
+      "streetFamilies": [
+        [
+          "HB",
+          122
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "SantaMonicaSidewalk01",
+          235
+        ],
+        [
+          "EasterIslandRoad01",
+          190
+        ],
+        [
+          "StPetersburgSidewalk01",
+          78
+        ],
+        [
+          "MtFujiStoneBorder02",
+          34
+        ],
+        [
+          "HeidelbergBricks02",
+          33
+        ]
+      ],
+      "topStreet": [
+        [
+          "HB_STREETSEGMENT06",
+          57
+        ],
+        [
+          "HB_STREETSEGMENT07",
+          30
+        ],
+        [
+          "HB_STREETSEGMENT01",
+          11
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u060-atlas.jpg"
+    },
+    {
+      "id": "u030",
+      "name": "起义挑战-卷入战火",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 709,
+      "bridgeBuilderCount": 0,
+      "streetCount": 223,
+      "streetFamilies": [
+        [
+          "KR",
+          223
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "KremlinSidewalk02",
+          319
+        ],
+        [
+          "KremlinSidewalk01",
+          172
+        ],
+        [
+          "KremlinSnowyTracks01",
+          78
+        ],
+        [
+          "KremlinBrickTrim01",
+          78
+        ],
+        [
+          "KremlinDirtRoad01",
+          48
+        ]
+      ],
+      "topStreet": [
+        [
+          "KR_STREETSEGMENT04",
+          66
+        ],
+        [
+          "KR_StreetSegment01",
+          34
+        ],
+        [
+          "KR_STREETSEGMENT13",
+          20
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u030-atlas.jpg"
+    },
+    {
+      "id": "u031",
+      "name": "起义挑战-卷入战火重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 709,
+      "bridgeBuilderCount": 0,
+      "streetCount": 223,
+      "streetFamilies": [
+        [
+          "KR",
+          223
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "KremlinSidewalk02",
+          319
+        ],
+        [
+          "KremlinSidewalk01",
+          172
+        ],
+        [
+          "KremlinSnowyTracks01",
+          78
+        ],
+        [
+          "KremlinBrickTrim01",
+          78
+        ],
+        [
+          "KremlinDirtRoad01",
+          48
+        ]
+      ],
+      "topStreet": [
+        [
+          "KR_STREETSEGMENT04",
+          66
+        ],
+        [
+          "KR_StreetSegment01",
+          34
+        ],
+        [
+          "KR_STREETSEGMENT13",
+          20
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u031-atlas.jpg"
+    },
+    {
+      "id": "u048",
+      "name": "起义挑战-双管齐下",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 679,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MykonosSidewalk01",
+          239
+        ],
+        [
+          "HawaiiDirtRoad01",
+          180
+        ],
+        [
+          "MykonosSidewalk02",
+          108
+        ],
+        [
+          "MykonosRoadTrim01",
+          100
+        ],
+        [
+          "AMTireMarks01",
+          42
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u048-atlas.jpg"
+    },
+    {
+      "id": "u049",
+      "name": "起义挑战-双管齐下重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 679,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MykonosSidewalk01",
+          239
+        ],
+        [
+          "HawaiiDirtRoad01",
+          180
+        ],
+        [
+          "MykonosSidewalk02",
+          108
+        ],
+        [
+          "MykonosRoadTrim01",
+          100
+        ],
+        [
+          "AMTireMarks01",
+          42
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u049-atlas.jpg"
+    },
+    {
+      "id": "u050",
+      "name": "起义挑战-双管齐下重置版1.1",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 679,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MykonosSidewalk01",
+          239
+        ],
+        [
+          "HawaiiDirtRoad01",
+          180
+        ],
+        [
+          "MykonosSidewalk02",
+          108
+        ],
+        [
+          "MykonosRoadTrim01",
+          100
+        ],
+        [
+          "AMTireMarks01",
+          42
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u050-atlas.jpg"
+    },
+    {
+      "id": "u051",
+      "name": "起义挑战-双面刃",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 921,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MtFujiStoneBorder01",
+          249
+        ],
+        [
+          "MtFujiStoneBorder03",
+          183
+        ],
+        [
+          "HawaiiTrim03",
+          143
+        ],
+        [
+          "HawaiiDirtRoad01",
+          119
+        ],
+        [
+          "MtFujiSidewalk01",
+          100
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u051-atlas.jpg"
+    },
+    {
+      "id": "u033",
+      "name": "起义挑战-可恶蒙古人",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 871,
+      "bridgeBuilderCount": 5,
+      "streetCount": 90,
+      "streetFamilies": [
+        [
+          "IF",
+          90
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "IslandFortressSidewalk03",
+          140
+        ],
+        [
+          "TokyoHarborTrim04",
+          130
+        ],
+        [
+          "TokyoHarborSidewalk01",
+          74
+        ],
+        [
+          "HavanaWhiteLine01",
+          71
+        ],
+        [
+          "MtFujiStoneBorder03",
+          69
+        ]
+      ],
+      "topStreet": [
+        [
+          "IF_StreetSegment01",
+          35
+        ],
+        [
+          "IF_STREETSEGMENT08",
+          21
+        ],
+        [
+          "IF_STREETSEGMENT12",
+          11
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u033-atlas.jpg"
+    },
+    {
+      "id": "u015",
+      "name": "起义挑战-大逃杀",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 377,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "YucatanDirtRoad01",
+          114
+        ],
+        [
+          "HavanaSidewalk03",
+          90
+        ],
+        [
+          "HavanaSidewalk04",
+          70
+        ],
+        [
+          "YucatanSidewalk01",
+          40
+        ],
+        [
+          "YucatanRoad01",
+          32
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/uprising/u015-atlas.jpg"
+    },
+    {
+      "id": "u037",
+      "name": "起义挑战-女人争斗",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 381,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HawaiiTrim01",
+          124
+        ],
+        [
+          "HawaiiBricks02",
+          82
+        ],
+        [
+          "HawaiiBricks04",
+          49
+        ],
+        [
+          "HawaiiWood01",
+          36
+        ],
+        [
+          "MtFujiStoneBorder03",
+          20
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u037-atlas.jpg"
+    },
+    {
+      "id": "u038",
+      "name": "起义挑战-女人争斗重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 381,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HawaiiTrim01",
+          124
+        ],
+        [
+          "HawaiiBricks02",
+          82
+        ],
+        [
+          "HawaiiBricks04",
+          49
+        ],
+        [
+          "HawaiiWood01",
+          36
+        ],
+        [
+          "MtFujiStoneBorder03",
+          20
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u038-atlas.jpg"
+    },
+    {
+      "id": "u029",
+      "name": "起义挑战-尽情收割",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 228,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "YucatanDirtRoad01",
+          102
+        ],
+        [
+          "YucatanFootpath01",
+          54
+        ],
+        [
+          "HavanaSidewalk04",
+          32
+        ],
+        [
+          "HavanaWhiteLine01",
+          27
+        ],
+        [
+          "HawaiiRoadMarking03",
+          6
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u029-atlas.jpg"
+    },
+    {
+      "id": "u028",
+      "name": "起义挑战-尽情杀戮",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1150,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HeidelbergBricksTrim01",
+          295
+        ],
+        [
+          "CannesSidewalk02",
+          252
+        ],
+        [
+          "StPetersburgSidewalk01",
+          209
+        ],
+        [
+          "SantaMonicaSidewalk02",
+          193
+        ],
+        [
+          "MtFujiStoneBorder01",
+          81
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u028-atlas.jpg"
+    },
+    {
+      "id": "u068",
+      "name": "起义挑战-展现武力",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 222,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "EasterIslandRoad01",
+          140
+        ],
+        [
+          "EasterIslandRoad02",
+          40
+        ],
+        [
+          "NewYorkSidewalk04",
+          34
+        ],
+        [
+          "MykonosSidewalk01",
+          6
+        ],
+        [
+          "HavanaParkingLines03",
+          2
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u068-atlas.jpg"
+    },
+    {
+      "id": "u069",
+      "name": "起义挑战-展现武力重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 222,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "EasterIslandRoad01",
+          140
+        ],
+        [
+          "EasterIslandRoad02",
+          40
+        ],
+        [
+          "NewYorkSidewalk04",
+          34
+        ],
+        [
+          "MykonosSidewalk01",
+          6
+        ],
+        [
+          "HavanaParkingLines03",
+          2
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u069-atlas.jpg"
+    },
+    {
+      "id": "u070",
+      "name": "起义挑战-战斗室",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1553,
+      "bridgeBuilderCount": 0,
+      "streetCount": 144,
+      "streetFamilies": [
+        [
+          "IF",
+          144
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "IslandFortressSidewalk03",
+          675
+        ],
+        [
+          "IslandFortressSidewalk01",
+          283
+        ],
+        [
+          "CannesRoadMarking02",
+          178
+        ],
+        [
+          "IslandFortressSidewalk02",
+          142
+        ],
+        [
+          "IslandFortressSidewalk04",
+          130
+        ]
+      ],
+      "topStreet": [
+        [
+          "IF_StreetSegment01",
+          60
+        ],
+        [
+          "IF_STREETSEGMENT02",
+          24
+        ],
+        [
+          "IF_STREETSEGMENT07",
+          22
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u070-atlas.jpg"
+    },
+    {
+      "id": "u005",
+      "name": "起义挑战-拨云见日",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 265,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MtRushmoreRoad01",
+          146
+        ],
+        [
+          "SantaMonicaSidewalk01",
+          119
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/uprising/u005-atlas.jpg"
+    },
+    {
+      "id": "u006",
+      "name": "起义挑战-拨云见日重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 265,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MtRushmoreRoad01",
+          146
+        ],
+        [
+          "SantaMonicaSidewalk01",
+          119
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u006-atlas.jpg"
+    },
+    {
+      "id": "u007",
+      "name": "起义挑战-拨云见日重置版1.1",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 265,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MtRushmoreRoad01",
+          146
+        ],
+        [
+          "SantaMonicaSidewalk01",
+          119
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u007-atlas.jpg"
+    },
+    {
+      "id": "u047",
+      "name": "起义挑战-拾荒者",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 30,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "EasterIslandRoad01",
+          30
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u047-atlas.jpg"
+    },
+    {
+      "id": "u017",
+      "name": "起义挑战-放马过来",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 772,
+      "bridgeBuilderCount": 1,
+      "streetCount": 152,
+      "streetFamilies": [
+        [
+          "HV",
+          124
+        ],
+        [
+          "ST",
+          26
+        ],
+        [
+          "MR",
+          2
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "YucatanFootpath01",
+          334
+        ],
+        [
+          "MtRushmoreRoad01",
+          331
+        ],
+        [
+          "NewYorkSidewalk04",
+          81
+        ],
+        [
+          "HavanaSidewalk04",
+          16
+        ],
+        [
+          "HavanaWhiteLine01",
+          8
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT09",
+          50
+        ],
+        [
+          "HV_STREETSEGMENT15",
+          26
+        ],
+        [
+          "HV_STREETSEGMENT14",
+          20
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u017-atlas.jpg"
+    },
+    {
+      "id": "u063",
+      "name": "起义挑战-无处可躲",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1663,
+      "bridgeBuilderCount": 0,
+      "streetCount": 244,
+      "streetFamilies": [
+        [
+          "CA",
+          244
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaSidewalk03",
+          859
+        ],
+        [
+          "SantaMonicaSidewalk01",
+          244
+        ],
+        [
+          "HavanaWhiteLine01",
+          106
+        ],
+        [
+          "StPetersburgSidewalk06",
+          73
+        ],
+        [
+          "HawaiiSidewalk01",
+          70
+        ]
+      ],
+      "topStreet": [
+        [
+          "CA_STREETSEGMENT03",
+          80
+        ],
+        [
+          "CA_STREETSEGMENT04",
+          33
+        ],
+        [
+          "CA_STREETSEGMENT26",
+          24
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u063-atlas.jpg"
+    },
+    {
+      "id": "u073",
+      "name": "起义挑战-最后倒数",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 72,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "EasterIslandRoad01",
+          55
+        ],
+        [
+          "HawaiiTireMarks01",
+          17
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u073-atlas.jpg"
+    },
+    {
+      "id": "u074",
+      "name": "起义挑战-最后倒数重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 72,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "EasterIslandRoad01",
+          55
+        ],
+        [
+          "HawaiiTireMarks01",
+          17
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u074-atlas.jpg"
+    },
+    {
+      "id": "u062",
+      "name": "起义挑战-未来战争",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1571,
+      "bridgeBuilderCount": 4,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HeidelbergBricksTrim02",
+          377
+        ],
+        [
+          "StPetersburgSidewalk05",
+          291
+        ],
+        [
+          "StPetersburgSidewalk01",
+          277
+        ],
+        [
+          "CannesSidewalk02",
+          226
+        ],
+        [
+          "SantaMonicaSidewalk02",
+          128
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u062-atlas.jpg"
+    },
+    {
+      "id": "u025",
+      "name": "起义挑战-机器人与忍者",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 139,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HawaiiTrim01",
+          33
+        ],
+        [
+          "HawaiiWood01",
+          26
+        ],
+        [
+          "HawaiiBricks04",
+          14
+        ],
+        [
+          "HawaiiTrim04",
+          12
+        ],
+        [
+          "HawaiiWood02",
+          12
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u025-atlas.jpg"
+    },
+    {
+      "id": "u039",
+      "name": "起义挑战-欧米伽计划",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1579,
+      "bridgeBuilderCount": 0,
+      "streetCount": 350,
+      "streetFamilies": [
+        [
+          "IF",
+          350
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "IslandFortressSidewalk03",
+          793
+        ],
+        [
+          "IslandFortressSidewalk01",
+          527
+        ],
+        [
+          "IslandFortressSidewalk02",
+          135
+        ],
+        [
+          "HavanaWhiteLine01",
+          112
+        ],
+        [
+          "HawaiiCrosswalk01",
+          12
+        ]
+      ],
+      "topStreet": [
+        [
+          "IF_StreetSegment01",
+          100
+        ],
+        [
+          "IF_STREETSEGMENT07",
+          64
+        ],
+        [
+          "IF_STREETSEGMENT02",
+          56
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u039-atlas.jpg"
+    },
+    {
+      "id": "u040",
+      "name": "起义挑战-欧米伽计划重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1579,
+      "bridgeBuilderCount": 0,
+      "streetCount": 350,
+      "streetFamilies": [
+        [
+          "IF",
+          350
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "IslandFortressSidewalk03",
+          793
+        ],
+        [
+          "IslandFortressSidewalk01",
+          527
+        ],
+        [
+          "IslandFortressSidewalk02",
+          135
+        ],
+        [
+          "HavanaWhiteLine01",
+          112
+        ],
+        [
+          "HawaiiCrosswalk01",
+          12
+        ]
+      ],
+      "topStreet": [
+        [
+          "IF_StreetSegment01",
+          100
+        ],
+        [
+          "IF_STREETSEGMENT07",
+          64
+        ],
+        [
+          "IF_STREETSEGMENT02",
+          56
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u040-atlas.jpg"
+    },
+    {
+      "id": "u054",
+      "name": "起义挑战-死亡迫近",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 33,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "YucatanDirtRoad01",
+          33
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u054-atlas.jpg"
+    },
+    {
+      "id": "u055",
+      "name": "起义挑战-死亡迫近重置版1.1",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 33,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "YucatanDirtRoad01",
+          33
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u055-atlas.jpg"
+    },
+    {
+      "id": "u052",
+      "name": "起义挑战-死期",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 429,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "YucatanDirtRoad01",
+          168
+        ],
+        [
+          "HeidelbergBricksTrim01",
+          135
+        ],
+        [
+          "GypsyDirtPath03",
+          64
+        ],
+        [
+          "SantaMonicaSidewalk04",
+          55
+        ],
+        [
+          "HavanaSidewalk04",
+          7
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u052-atlas.jpg"
+    },
+    {
+      "id": "u053",
+      "name": "起义挑战-死期重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 429,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "YucatanDirtRoad01",
+          168
+        ],
+        [
+          "HeidelbergBricksTrim01",
+          135
+        ],
+        [
+          "GypsyDirtPath03",
+          64
+        ],
+        [
+          "SantaMonicaSidewalk04",
+          55
+        ],
+        [
+          "HavanaSidewalk04",
+          7
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u053-atlas.jpg"
+    },
+    {
+      "id": "u021",
+      "name": "起义挑战-海上对决",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 0,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u021-atlas.jpg"
+    },
+    {
+      "id": "u022",
+      "name": "起义挑战-海上对决重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 0,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u022-atlas.jpg"
+    },
+    {
+      "id": "u045",
+      "name": "起义挑战-深海杀戮",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 0,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u045-atlas.jpg"
+    },
+    {
+      "id": "u004",
+      "name": "起义挑战-滨海杀戮重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 0,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u004-atlas.jpg"
+    },
+    {
+      "id": "u024",
+      "name": "起义挑战-火炮四射",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1693,
+      "bridgeBuilderCount": 0,
+      "streetCount": 224,
+      "streetFamilies": [
+        [
+          "IF",
+          224
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "IslandFortressSidewalk01",
+          1314
+        ],
+        [
+          "IslandFortressSidewalk03",
+          285
+        ],
+        [
+          "IslandFortressSidewalk02",
+          34
+        ],
+        [
+          "HawaiiTireMarks01",
+          24
+        ],
+        [
+          "IslandFortressTrim01",
+          16
+        ]
+      ],
+      "topStreet": [
+        [
+          "IF_STREETSEGMENT12",
+          66
+        ],
+        [
+          "IF_StreetSegment01",
+          33
+        ],
+        [
+          "IF_STREETSEGMENT07",
+          28
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u024-atlas.jpg"
+    },
+    {
+      "id": "u046",
+      "name": "起义挑战-生死之战",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 253,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "AMTireMarks01",
+          101
+        ],
+        [
+          "EasterIslandRoad02",
+          76
+        ],
+        [
+          "HavanaSidewalk04",
+          32
+        ],
+        [
+          "HawaiiSidewalk01",
+          23
+        ],
+        [
+          "HawaiiDirtRoad01",
+          11
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u046-atlas.jpg"
+    },
+    {
+      "id": "u041",
+      "name": "起义挑战-破冰之战",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 801,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "KremlinBrickTrim01",
+          267
+        ],
+        [
+          "StalingradBricksTrim01",
+          173
+        ],
+        [
+          "KremlinSidewalk01",
+          98
+        ],
+        [
+          "MtFujiSidewalk01",
+          71
+        ],
+        [
+          "MtFujiStoneBorder03",
+          69
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u041-atlas.jpg"
+    },
+    {
+      "id": "u042",
+      "name": "起义挑战-破冰之战重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 801,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "KremlinBrickTrim01",
+          267
+        ],
+        [
+          "StalingradBricksTrim01",
+          173
+        ],
+        [
+          "KremlinSidewalk01",
+          98
+        ],
+        [
+          "MtFujiSidewalk01",
+          71
+        ],
+        [
+          "MtFujiStoneBorder03",
+          69
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u042-atlas.jpg"
+    },
+    {
+      "id": "u014",
+      "name": "起义挑战-磁暴城堡",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1090,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "SantaMonicaSidewalk02",
+          553
+        ],
+        [
+          "StPetersburgSidewalk01",
+          331
+        ],
+        [
+          "HeidelbergBricksTrim01",
+          84
+        ],
+        [
+          "HawaiiTireMarks01",
+          40
+        ],
+        [
+          "SantaMonicaSidewalk04",
+          32
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u014-atlas.jpg"
+    },
+    {
+      "id": "u072",
+      "name": "起义挑战-祖国",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 235,
+      "bridgeBuilderCount": 0,
+      "streetCount": 252,
+      "streetFamilies": [
+        [
+          "KR",
+          252
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "KremlinDirtRoad01",
+          89
+        ],
+        [
+          "NorthernRussiaSidewalk01",
+          58
+        ],
+        [
+          "NorthernRussiaRoad02",
+          39
+        ],
+        [
+          "KremlinSidewalk01",
+          30
+        ],
+        [
+          "NorthernRussiaSidewalk02",
+          19
+        ]
+      ],
+      "topStreet": [
+        [
+          "KR_StreetSegment01",
+          89
+        ],
+        [
+          "KR_STREETSEGMENT04",
+          60
+        ],
+        [
+          "KR_STREETSEGMENT13",
+          28
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u072-atlas.jpg"
+    },
+    {
+      "id": "u064",
+      "name": "起义挑战-箱子与红桶",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 161,
+      "bridgeBuilderCount": 0,
+      "streetCount": 358,
+      "streetFamilies": [
+        [
+          "KR",
+          358
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaSidewalk03",
+          58
+        ],
+        [
+          "SantaMonicaSidewalk02",
+          32
+        ],
+        [
+          "KremlinDirtRoad01",
+          18
+        ],
+        [
+          "MykonosSidewalk02",
+          17
+        ],
+        [
+          "StPetersburgSidewalk04",
+          16
+        ]
+      ],
+      "topStreet": [
+        [
+          "KR_STREETSEGMENT04",
+          194
+        ],
+        [
+          "KR_StreetSegment01",
+          48
+        ],
+        [
+          "KR_STREETSEGMENT09",
+          30
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/uprising/u064-atlas.jpg"
+    },
+    {
+      "id": "u065",
+      "name": "起义挑战-箱子与红桶重制版1.1",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 161,
+      "bridgeBuilderCount": 4,
+      "streetCount": 358,
+      "streetFamilies": [
+        [
+          "KR",
+          358
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaSidewalk03",
+          58
+        ],
+        [
+          "SantaMonicaSidewalk02",
+          32
+        ],
+        [
+          "KremlinDirtRoad01",
+          18
+        ],
+        [
+          "MykonosSidewalk02",
+          17
+        ],
+        [
+          "StPetersburgSidewalk04",
+          16
+        ]
+      ],
+      "topStreet": [
+        [
+          "KR_STREETSEGMENT04",
+          194
+        ],
+        [
+          "KR_StreetSegment01",
+          48
+        ],
+        [
+          "KR_STREETSEGMENT09",
+          30
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u065-atlas.jpg"
+    },
+    {
+      "id": "u023",
+      "name": "起义挑战-红色突袭",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 719,
+      "bridgeBuilderCount": 0,
+      "streetCount": 166,
+      "streetFamilies": [
+        [
+          "KR",
+          166
+        ]
+      ],
+      "railObjectCount": 20,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "KremlinSidewalk01",
+          230
+        ],
+        [
+          "KremlinSidewalk02",
+          171
+        ],
+        [
+          "KremlinBrickTrim01",
+          126
+        ],
+        [
+          "KremlinSnowyTracks01",
+          121
+        ],
+        [
+          "KremlinDirtRoad01",
+          45
+        ]
+      ],
+      "topStreet": [
+        [
+          "KR_STREETSEGMENT04",
+          102
+        ],
+        [
+          "KR_STREETSEGMENT05",
+          18
+        ],
+        [
+          "KR_STREETSEGMENT08",
+          14
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u023-atlas.jpg"
+    },
+    {
+      "id": "u056",
+      "name": "起义挑战-缩小地区",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1102,
+      "bridgeBuilderCount": 0,
+      "streetCount": 263,
+      "streetFamilies": [
+        [
+          "HV",
+          236
+        ],
+        [
+          "HB",
+          27
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 1,
+      "topRoad": [
+        [
+          "HeidelbergBricksTrim01",
+          558
+        ],
+        [
+          "StPetersburgSidewalk05",
+          383
+        ],
+        [
+          "HeidelbergBricks02",
+          105
+        ],
+        [
+          "YucatanFootpath01",
+          29
+        ],
+        [
+          "HawaiiDirtRoad01",
+          21
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT09",
+          101
+        ],
+        [
+          "HV_STREETSEGMENT10",
+          34
+        ],
+        [
+          "HV_STREETSEGMENT15",
+          20
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u056-atlas.jpg"
+    },
+    {
+      "id": "u034",
+      "name": "起义挑战-美国头号威胁",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 340,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HawaiiDirtRoad01",
+          118
+        ],
+        [
+          "HawaiiTrim02",
+          70
+        ],
+        [
+          "HawaiiFootPath01",
+          51
+        ],
+        [
+          "HawaiiSidewalk02",
+          51
+        ],
+        [
+          "NewYorkSidewalk03",
+          24
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u034-atlas.jpg"
+    },
+    {
+      "id": "u043",
+      "name": "起义挑战-群岛防御",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 5,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "NorthernRussiaRoad02",
+          5
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u043-atlas.jpg"
+    },
+    {
+      "id": "u044",
+      "name": "起义挑战-群岛防御1.1",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 5,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "NorthernRussiaRoad02",
+          5
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u044-atlas.jpg"
+    },
+    {
+      "id": "u026",
+      "name": "起义挑战-贱招",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 27,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HawaiiTireMarks01",
+          27
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u026-atlas.jpg"
+    },
+    {
+      "id": "u027",
+      "name": "起义挑战-贱招重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 27,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HawaiiTireMarks01",
+          27
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u027-atlas.jpg"
+    },
+    {
+      "id": "u012",
+      "name": "起义挑战-超时空",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 523,
+      "bridgeBuilderCount": 1,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "KremlinBrickTrim01",
+          147
+        ],
+        [
+          "KremlinDirtRoad01",
+          133
+        ],
+        [
+          "KremlinSidewalk02",
+          107
+        ],
+        [
+          "HavanaSidewalk04",
+          48
+        ],
+        [
+          "IcelandDirtRoad01",
+          30
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u012-atlas.jpg"
+    },
+    {
+      "id": "u013",
+      "name": "起义挑战-超时空重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 523,
+      "bridgeBuilderCount": 1,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "KremlinBrickTrim01",
+          147
+        ],
+        [
+          "KremlinDirtRoad01",
+          133
+        ],
+        [
+          "KremlinSidewalk02",
+          107
+        ],
+        [
+          "HavanaSidewalk04",
+          48
+        ],
+        [
+          "IcelandDirtRoad01",
+          30
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u013-atlas.jpg"
+    },
+    {
+      "id": "u011",
+      "name": "起义挑战-超级指挥官",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 389,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MtRushmoreRoad01",
+          302
+        ],
+        [
+          "EasterIslandRoad01",
+          63
+        ],
+        [
+          "NewYorkSidewalk04",
+          14
+        ],
+        [
+          "MykonosSidewalk01",
+          8
+        ],
+        [
+          "HavanaParkingLines03",
+          2
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u011-atlas.jpg"
+    },
+    {
+      "id": "u057",
+      "name": "起义挑战-铁幕之后",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 358,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "YucatanDirtRoad01",
+          182
+        ],
+        [
+          "YucatanFootpath01",
+          165
+        ],
+        [
+          "HavanaWhiteLine01",
+          11
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u057-atlas.jpg"
+    },
+    {
+      "id": "u066",
+      "name": "起义挑战-雅典娜之怒",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1075,
+      "bridgeBuilderCount": 4,
+      "streetCount": 8,
+      "streetFamilies": [
+        [
+          "HV",
+          8
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MykonosRoadTrim01",
+          403
+        ],
+        [
+          "HawaiiRoadMarking03",
+          140
+        ],
+        [
+          "HawaiiDirtRoad01",
+          111
+        ],
+        [
+          "HavanaSidewalk03",
+          109
+        ],
+        [
+          "HavanaWhiteLine01",
+          60
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT18_GRID",
+          8
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u066-atlas.jpg"
+    },
+    {
+      "id": "u067",
+      "name": "起义挑战-雅典娜之怒重置版",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1075,
+      "bridgeBuilderCount": 4,
+      "streetCount": 8,
+      "streetFamilies": [
+        [
+          "HV",
+          8
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MykonosRoadTrim01",
+          403
+        ],
+        [
+          "HawaiiRoadMarking03",
+          140
+        ],
+        [
+          "HawaiiDirtRoad01",
+          111
+        ],
+        [
+          "HavanaSidewalk03",
+          109
+        ],
+        [
+          "HavanaWhiteLine01",
+          60
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT18_GRID",
+          8
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u067-atlas.jpg"
+    },
+    {
+      "id": "u019",
+      "name": "起义挑战-高水位线",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1636,
+      "bridgeBuilderCount": 0,
+      "streetCount": 325,
+      "streetFamilies": [
+        [
+          "HV",
+          277
+        ],
+        [
+          "HB",
+          48
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HeidelbergBricksTrim01",
+          1252
+        ],
+        [
+          "StPetersburgSidewalk05",
+          232
+        ],
+        [
+          "HeidelbergBricks02",
+          128
+        ],
+        [
+          "HawaiiDirtRoad01",
+          12
+        ],
+        [
+          "HavanaParkingLines03",
+          8
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT09",
+          119
+        ],
+        [
+          "HV_STREETSEGMENT17",
+          42
+        ],
+        [
+          "HV_STREETSEGMENT10",
+          36
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u019-atlas.jpg"
+    },
+    {
+      "id": "u020",
+      "name": "起义挑战-高水位线1.1",
+      "sourceClass": "challenge-collection-example",
+      "roadCount": 1636,
+      "bridgeBuilderCount": 0,
+      "streetCount": 325,
+      "streetFamilies": [
+        [
+          "HV",
+          277
+        ],
+        [
+          "HB",
+          48
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HeidelbergBricksTrim01",
+          1252
+        ],
+        [
+          "StPetersburgSidewalk05",
+          232
+        ],
+        [
+          "HeidelbergBricks02",
+          128
+        ],
+        [
+          "HawaiiDirtRoad01",
+          12
+        ],
+        [
+          "HavanaParkingLines03",
+          8
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT09",
+          119
+        ],
+        [
+          "HV_STREETSEGMENT17",
+          42
+        ],
+        [
+          "HV_STREETSEGMENT10",
+          36
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/uprising/u020-atlas.jpg"
+    },
+    {
+      "id": "m065",
+      "name": "MAP_MP_COOP_a07_tokyoharbor_davis",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1941,
+      "bridgeBuilderCount": 0,
+      "streetCount": 243,
+      "streetFamilies": [
+        [
+          "HB",
+          217
+        ],
+        [
+          "IF",
+          26
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "IslandFortressSidewalk03",
+          242
+        ],
+        [
+          "MtFujiStoneBorder01",
+          210
+        ],
+        [
+          "IslandFortressSidewalk01",
+          199
+        ],
+        [
+          "MykonosRoadTrim01",
+          181
+        ],
+        [
+          "HavanaWhiteLine01",
+          181
+        ]
+      ],
+      "topStreet": [
+        [
+          "HB_STREETSEGMENT06",
+          120
+        ],
+        [
+          "HB_STREETSEGMENT07",
+          44
+        ],
+        [
+          "IF_StreetSegment01",
+          17
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m065-atlas.jpg"
+    },
+    {
+      "id": "m066",
+      "name": "MAP_MP_COOP_j04_pearlharbor_davis",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1696,
+      "bridgeBuilderCount": 0,
+      "streetCount": 252,
+      "streetFamilies": [
+        [
+          "CA",
+          252
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaSidewalk04",
+          428
+        ],
+        [
+          "MykonosRoadTrim01",
+          204
+        ],
+        [
+          "HawaiiTrim04",
+          131
+        ],
+        [
+          "MtFujiStoneBorder03",
+          82
+        ],
+        [
+          "HawaiiTrim01",
+          81
+        ]
+      ],
+      "topStreet": [
+        [
+          "CA_STREETSEGMENT03",
+          111
+        ],
+        [
+          "CA_STREETSEGMENT36",
+          36
+        ],
+        [
+          "CA_STREETSEGMENT20",
+          18
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/campaign/m066-atlas.jpg"
+    },
+    {
+      "id": "m067",
+      "name": "MAP_MP_COOP_j07_yokohama_stewart",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1517,
+      "bridgeBuilderCount": 0,
+      "streetCount": 211,
+      "streetFamilies": [
+        [
+          "ST",
+          211
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaSidewalk04",
+          694
+        ],
+        [
+          "HavanaWhiteLine01",
+          183
+        ],
+        [
+          "TokyoHarborTrim04",
+          123
+        ],
+        [
+          "MykonosRoadTrim01",
+          123
+        ],
+        [
+          "IslandFortressSidewalk01",
+          112
+        ]
+      ],
+      "topStreet": [
+        [
+          "ST_STREETSEGMENT06",
+          75
+        ],
+        [
+          "ST_STREETSEGMENT07",
+          52
+        ],
+        [
+          "ST_STREETSEGMENT11",
+          33
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m067-atlas.jpg"
+    },
+    {
+      "id": "m068",
+      "name": "MAP_MP_COOP_s07_mountfuji_white",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1218,
+      "bridgeBuilderCount": 0,
+      "streetCount": 91,
+      "streetFamilies": [
+        [
+          "IF",
+          91
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "MtFujiStoneBorder01",
+          502
+        ],
+        [
+          "MtFujiStoneBorder03",
+          148
+        ],
+        [
+          "MtFujiBuildingTrim01",
+          102
+        ],
+        [
+          "HawaiiDirtRoad01",
+          94
+        ],
+        [
+          "MtFujiStoneBorder02",
+          82
+        ]
+      ],
+      "topStreet": [
+        [
+          "IF_StreetSegment01",
+          48
+        ],
+        [
+          "IF_STREETSEGMENT03",
+          13
+        ],
+        [
+          "IF_STREETSEGMENT12",
+          9
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m068-atlas.jpg"
+    },
+    {
+      "id": "m069",
+      "name": "MAP_MP_COOP_a01_brightonbeach_smith",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1122,
+      "bridgeBuilderCount": 0,
+      "streetCount": 396,
+      "streetFamilies": [
+        [
+          "CA",
+          396
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "SantaMonicaSidewalk01",
+          149
+        ],
+        [
+          "HavanaSidewalk04",
+          129
+        ],
+        [
+          "HavanaWhiteLine01",
+          124
+        ],
+        [
+          "HavanaSidewalk03",
+          119
+        ],
+        [
+          "StPetersburgSidewalk01",
+          104
+        ]
+      ],
+      "topStreet": [
+        [
+          "CA_STREETSEGMENT03",
+          123
+        ],
+        [
+          "CA_STREETSEGMENT20",
+          58
+        ],
+        [
+          "CA_STREETSEGMENT04",
+          58
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m069-atlas.jpg"
+    },
+    {
+      "id": "m070",
+      "name": "MAP_MP_COOP_a02_cannes_smith",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1834,
+      "bridgeBuilderCount": 0,
+      "streetCount": 218,
+      "streetFamilies": [
+        [
+          "CA",
+          218
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "CannesSidewalk02",
+          987
+        ],
+        [
+          "CannesSidewalk01",
+          327
+        ],
+        [
+          "HavanaSidewalk03",
+          168
+        ],
+        [
+          "HavanaWhiteLine01",
+          99
+        ],
+        [
+          "MtRushmoreRoad01",
+          74
+        ]
+      ],
+      "topStreet": [
+        [
+          "CA_STREETSEGMENT03",
+          77
+        ],
+        [
+          "CA_STREETSEGMENT20",
+          31
+        ],
+        [
+          "CA_STREETSEGMENT04",
+          25
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m070-atlas.jpg"
+    },
+    {
+      "id": "m071",
+      "name": "MAP_MP_COOP_a03_heidelberg_smith",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1466,
+      "bridgeBuilderCount": 1,
+      "streetCount": 367,
+      "streetFamilies": [
+        [
+          "HV",
+          332
+        ],
+        [
+          "HB",
+          35
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 1,
+      "topRoad": [
+        [
+          "StPetersburgSidewalk05",
+          583
+        ],
+        [
+          "HeidelbergBricksTrim01",
+          570
+        ],
+        [
+          "YucatanFootpath01",
+          135
+        ],
+        [
+          "HeidelbergBricks02",
+          110
+        ],
+        [
+          "HawaiiDirtRoad01",
+          61
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT09",
+          162
+        ],
+        [
+          "HV_STREETSEGMENT10",
+          48
+        ],
+        [
+          "HV_STREETSEGMENT15",
+          25
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/campaign/m071-atlas.jpg"
+    },
+    {
+      "id": "m072",
+      "name": "MAP_MP_COOP_a04_gibraltar_hayes",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1128,
+      "bridgeBuilderCount": 0,
+      "streetCount": 227,
+      "streetFamilies": [
+        [
+          "HB",
+          217
+        ],
+        [
+          "GI",
+          10
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 3,
+      "topRoad": [
+        [
+          "HavanaSidewalk03",
+          234
+        ],
+        [
+          "HeidelbergRoadMarkings04",
+          133
+        ],
+        [
+          "SantaMonicaSidewalk01",
+          128
+        ],
+        [
+          "HavanaWhiteLine01",
+          121
+        ],
+        [
+          "StPetersburgSidewalk01",
+          73
+        ]
+      ],
+      "topStreet": [
+        [
+          "HB_STREETSEGMENT06",
+          140
+        ],
+        [
+          "HB_STREETSEGMENT07",
+          38
+        ],
+        [
+          "HB_STREETSEGMENT09",
+          16
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m072-atlas.jpg"
+    },
+    {
+      "id": "m073",
+      "name": "MAP_MP_COOP_a06_mountrushmore_white",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 689,
+      "bridgeBuilderCount": 1,
+      "streetCount": 144,
+      "streetFamilies": [
+        [
+          "HV",
+          125
+        ],
+        [
+          "MR",
+          12
+        ],
+        [
+          "HB",
+          7
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HawaiiTireMarks01",
+          350
+        ],
+        [
+          "YucatanFootpath01",
+          101
+        ],
+        [
+          "MtFujiStoneBorder01",
+          64
+        ],
+        [
+          "YucatanDirtRoad01",
+          50
+        ],
+        [
+          "HavanaWhiteLine01",
+          34
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT09",
+          77
+        ],
+        [
+          "HV_STREETSEGMENT19",
+          14
+        ],
+        [
+          "MR_STREETSEGMENT01",
+          12
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m073-atlas.jpg"
+    },
+    {
+      "id": "m074",
+      "name": "MAP_MP_COOP_a08_havana_rao",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 755,
+      "bridgeBuilderCount": 0,
+      "streetCount": 179,
+      "streetFamilies": [
+        [
+          "HV",
+          179
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaSidewalk03",
+          526
+        ],
+        [
+          "YucatanDirtRoad01",
+          57
+        ],
+        [
+          "HavanaParkingLines03",
+          56
+        ],
+        [
+          "YucatanFootpath01",
+          53
+        ],
+        [
+          "HavanaSidewalk01",
+          29
+        ]
+      ],
+      "topStreet": [
+        [
+          "HV_STREETSEGMENT18",
+          36
+        ],
+        [
+          "HV_STREETSEGMENT09",
+          30
+        ],
+        [
+          "HV_StreetSegment01",
+          26
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m074-atlas.jpg"
+    },
+    {
+      "id": "m075",
+      "name": "MAP_MP_COOP_j06_losangeles_white",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 2561,
+      "bridgeBuilderCount": 0,
+      "streetCount": 358,
+      "streetFamilies": [
+        [
+          "HB",
+          356
+        ],
+        [
+          "GI",
+          2
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaWhiteLine01",
+          506
+        ],
+        [
+          "StalingradBricksTrim01",
+          408
+        ],
+        [
+          "HavanaSidewalk04",
+          347
+        ],
+        [
+          "HawaiiGrassStrip02",
+          236
+        ],
+        [
+          "HavanaSidewalk03",
+          177
+        ]
+      ],
+      "topStreet": [
+        [
+          "HB_STREETSEGMENT06",
+          105
+        ],
+        [
+          "HB_STREETSEGMENT07",
+          51
+        ],
+        [
+          "HB_STREETSEGMENT10",
+          41
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/campaign/m075-atlas.jpg"
+    },
+    {
+      "id": "m076",
+      "name": "MAP_MP_COOP_j09_amsterdam_bass",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 694,
+      "bridgeBuilderCount": 0,
+      "streetCount": 373,
+      "streetFamilies": [
+        [
+          "AM",
+          366
+        ],
+        [
+          "HV",
+          7
+        ]
+      ],
+      "railObjectCount": 7,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "IslandFortressSidewalk03",
+          125
+        ],
+        [
+          "HavanaParkingLines03",
+          73
+        ],
+        [
+          "StPetersburgSidewalk01",
+          70
+        ],
+        [
+          "AmsterdamBricks02",
+          60
+        ],
+        [
+          "HavanaWhiteLine01",
+          58
+        ]
+      ],
+      "topStreet": [
+        [
+          "AM_STREETSEGMENT05",
+          79
+        ],
+        [
+          "AM_STREETSEGMENT06",
+          74
+        ],
+        [
+          "AM_STREETSEGMENT07",
+          67
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/campaign/m076-atlas.jpg"
+    },
+    {
+      "id": "m077",
+      "name": "MAP_MP_COOP_s04_geneva_bass",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1655,
+      "bridgeBuilderCount": 0,
+      "streetCount": 341,
+      "streetFamilies": [
+        [
+          "ST",
+          341
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaSidewalk04",
+          408
+        ],
+        [
+          "HavanaWhiteLine01",
+          272
+        ],
+        [
+          "GenevaBricks01",
+          254
+        ],
+        [
+          "StPetersburgSidewalk01",
+          192
+        ],
+        [
+          "HavanaSidewalk03",
+          96
+        ]
+      ],
+      "topStreet": [
+        [
+          "ST_STREETSEGMENT06",
+          107
+        ],
+        [
+          "ST_STREETSEGMENT07",
+          58
+        ],
+        [
+          "ST_STREETSEGMENT05",
+          28
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m077-atlas.jpg"
+    },
+    {
+      "id": "m078",
+      "name": "MAP_MP_COOP_s09_newyork_rao",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1867,
+      "bridgeBuilderCount": 0,
+      "streetCount": 289,
+      "streetFamilies": [
+        [
+          "ST",
+          289
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "StalingradBricksTrim01",
+          510
+        ],
+        [
+          "HavanaWhiteLine01",
+          369
+        ],
+        [
+          "HawaiiSidewalk01",
+          337
+        ],
+        [
+          "HavanaSidewalk04",
+          237
+        ],
+        [
+          "HavanaParkingLines03",
+          85
+        ]
+      ],
+      "topStreet": [
+        [
+          "ST_STREETSEGMENT05",
+          38
+        ],
+        [
+          "ST_STREETSEGMENT10",
+          35
+        ],
+        [
+          "ST_STREETSEGMENT11",
+          30
+        ]
+      ],
+      "directImageInspectedThisTurn": true,
+      "atlas": "../assets/campaign/m078-atlas.jpg"
+    },
+    {
+      "id": "m079",
+      "name": "MAP_MP_COOP_s05_mykonos_smith",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 1279,
+      "bridgeBuilderCount": 0,
+      "streetCount": 170,
+      "streetFamilies": [
+        [
+          "MY",
+          170
+        ]
+      ],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "HavanaWhiteLine01",
+          327
+        ],
+        [
+          "MykonosSidewalk02",
+          237
+        ],
+        [
+          "MykonosSidewalk01",
+          235
+        ],
+        [
+          "HawaiiDirtRoad01",
+          210
+        ],
+        [
+          "MykonosRoadTrim01",
+          137
+        ]
+      ],
+      "topStreet": [
+        [
+          "MY_StreetSegment01",
+          147
+        ],
+        [
+          "MY_StreetSegment02",
+          13
+        ],
+        [
+          "MY_STREETSEGMENT04",
+          4
+        ]
+      ],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m079-atlas.jpg"
+    },
+    {
+      "id": "m080",
+      "name": "MAP_MP_COOP_s08_easterisland_stewart",
+      "sourceClass": "campaign-source-example",
+      "roadCount": 129,
+      "bridgeBuilderCount": 0,
+      "streetCount": 0,
+      "streetFamilies": [],
+      "railObjectCount": 0,
+      "bridgeObjectNameCandidateCount": 0,
+      "topRoad": [
+        [
+          "EasterIslandRoad01",
+          96
+        ],
+        [
+          "EasterIslandRoad02",
+          32
+        ],
+        [
+          "AmsterdamBricks01",
+          1
+        ]
+      ],
+      "topStreet": [],
+      "directImageInspectedThisTurn": false,
+      "atlas": "../assets/campaign/m080-atlas.jpg"
+    }
+  ]
+}

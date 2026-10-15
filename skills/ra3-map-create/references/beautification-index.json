@@ -1,0 +1,8314 @@
+{
+  "version": 4,
+  "date": "2026-10-06",
+  "maps": 80,
+  "beautyOnlyMaps": 44,
+  "cliffInstances": 10981,
+  "distinctCliffModels": 135,
+  "civilianBuildings": 3531,
+  "allSourcesUnchanged": true,
+  "methods": [
+    "Common validated MCP map service; exact objects; height/material sample step=2; every model bound via ra3map_model_geometry.",
+    "Dry palette excludes terrain at or below waterHeight+0.5; wet bed, hidden foundations and mission set dressing must not become automatic land-use prescriptions.",
+    "Three winter diagnostic scenes temporarily disable distance fog in an unsaved shadow session and bloom in the renderer. These are editor diagnostic views, not game verification."
+  ],
+  "cases": [
+    {
+      "id": "m001",
+      "name": "map_mp_2_black1b",
+      "group": "1v1",
+      "sha256": "01862d99aa70cbcc61b245a02236861c2757c85d7f7b2fd17c2e4c9999f26de9",
+      "sourceUnchanged": true,
+      "cliffs": 207,
+      "cliffTypes": [
+        {
+          "type": "YU_CliffWall04",
+          "count": 44
+        },
+        {
+          "type": "YU_SeaCliffWall04",
+          "count": 25
+        },
+        {
+          "type": "YU_CliffWall01",
+          "count": 24
+        },
+        {
+          "type": "YU_CliffWall03",
+          "count": 20
+        },
+        {
+          "type": "YU_CliffWall02",
+          "count": 16
+        },
+        {
+          "type": "YU_CliffWall06",
+          "count": 11
+        },
+        {
+          "type": "YU_SeaCliffWall01",
+          "count": 10
+        },
+        {
+          "type": "YU_SeaCliffWall02",
+          "count": 9
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 21.72
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 8.87
+        },
+        {
+          "name": "Grass_Yucatan09",
+          "dryPercent": 8.13
+        },
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 7.82
+        },
+        {
+          "name": "Grass_Yucatan08",
+          "dryPercent": 7.4
+        },
+        {
+          "name": "Grass_Yucatan07",
+          "dryPercent": 6.49
+        },
+        {
+          "name": "Grass_Yucatan04",
+          "dryPercent": 6.42
+        },
+        {
+          "name": "Dirt_Yucatan05",
+          "dryPercent": 5.67
+        }
+      ],
+      "civilianBuildings": 22,
+      "houseCandidates": [
+        [
+          "YU_TikiHut01",
+          22
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "CS_Chair02",
+          5
+        ],
+        [
+          "YU_STREETLIGHT01",
+          4
+        ],
+        [
+          "YU_BeachUmbrella01",
+          3
+        ],
+        [
+          "YU_WHITEBENCH01",
+          3
+        ],
+        [
+          "YU_BeachUmbrella02",
+          2
+        ],
+        [
+          "HB_TABLE03",
+          1
+        ],
+        [
+          "SA_UMBRELLA07",
+          1
+        ],
+        [
+          "SA_UMBRELLA10",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m002",
+      "name": "map_mp_2_feasel1",
+      "group": "1v1",
+      "sha256": "78be53de7f93e61815d4614e91125b108c7baf9db8121ea8127f32309632ae25",
+      "sourceUnchanged": true,
+      "cliffs": 334,
+      "cliffTypes": [
+        {
+          "type": "YU_CliffWall12",
+          "count": 59
+        },
+        {
+          "type": "YU_CliffWall09",
+          "count": 39
+        },
+        {
+          "type": "YU_CliffWall11",
+          "count": 32
+        },
+        {
+          "type": "YU_SeaCliffWall09",
+          "count": 30
+        },
+        {
+          "type": "YU_SeaCliffWall12",
+          "count": 27
+        },
+        {
+          "type": "YU_CliffWall10",
+          "count": 27
+        },
+        {
+          "type": "YU_CliffWall14",
+          "count": 25
+        },
+        {
+          "type": "YU_CliffWall13",
+          "count": 23
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 33.03
+        },
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 14.35
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 7.7
+        },
+        {
+          "name": "Grass_Yucatan07",
+          "dryPercent": 6.98
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 4.98
+        },
+        {
+          "name": "Grass_Yucatan09",
+          "dryPercent": 4.53
+        },
+        {
+          "name": "Grass_Yucatan06",
+          "dryPercent": 3.82
+        },
+        {
+          "name": "Pavement_Yucatan01",
+          "dryPercent": 3.76
+        }
+      ],
+      "civilianBuildings": 11,
+      "houseCandidates": [
+        [
+          "YU_TikiHut01",
+          6
+        ],
+        [
+          "HV_HOTEL06",
+          1
+        ],
+        [
+          "HV_HOTEL07",
+          1
+        ],
+        [
+          "HV_HOTEL05",
+          1
+        ],
+        [
+          "HV_HOTEL02",
+          1
+        ],
+        [
+          "HV_Hotel10",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "YU_STREETLIGHT01",
+          20
+        ],
+        [
+          "HV_LAMPPOST01",
+          16
+        ],
+        [
+          "YU_BeachUmbrella02",
+          15
+        ],
+        [
+          "YU_BeachUmbrella01",
+          8
+        ],
+        [
+          "HV_FOUNTAIN01",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m003",
+      "name": "map_mp_2_feasel1_edit",
+      "group": "1v1",
+      "sha256": "aa81f70a7a8ee5bd1dc14d207814e69b436513399c0062ba6195716382387dc7",
+      "sourceUnchanged": true,
+      "cliffs": 247,
+      "cliffTypes": [
+        {
+          "type": "YU_CliffWall04",
+          "count": 47
+        },
+        {
+          "type": "YU_CliffWall02",
+          "count": 35
+        },
+        {
+          "type": "YU_SeaCliffWall04",
+          "count": 26
+        },
+        {
+          "type": "YU_CliffWall06",
+          "count": 23
+        },
+        {
+          "type": "YU_CliffWall03",
+          "count": 20
+        },
+        {
+          "type": "YU_CliffWall05",
+          "count": 20
+        },
+        {
+          "type": "YU_SeaCliffWall02",
+          "count": 20
+        },
+        {
+          "type": "YU_CliffWall01",
+          "count": 19
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 35.33
+        },
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 14.14
+        },
+        {
+          "name": "Grass_Yucatan07",
+          "dryPercent": 11.29
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 6.74
+        },
+        {
+          "name": "Grass_Yucatan06",
+          "dryPercent": 4.38
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 3.8
+        },
+        {
+          "name": "Grass_Yucatan08",
+          "dryPercent": 3.08
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 3.03
+        }
+      ],
+      "civilianBuildings": 13,
+      "houseCandidates": [
+        [
+          "YU_TikiHut01",
+          4
+        ],
+        [
+          "HV_Shop03",
+          1
+        ],
+        [
+          "HV_Apartment01",
+          1
+        ],
+        [
+          "HV_HOTEL06",
+          1
+        ],
+        [
+          "HV_HOTEL07",
+          1
+        ],
+        [
+          "HV_HOTEL08",
+          1
+        ],
+        [
+          "HV_HOTEL05",
+          1
+        ],
+        [
+          "HV_HOTEL02",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "YU_STREETLIGHT01",
+          20
+        ],
+        [
+          "YU_BeachUmbrella02",
+          15
+        ],
+        [
+          "HV_LAMPPOST01",
+          11
+        ],
+        [
+          "YU_BeachUmbrella01",
+          8
+        ],
+        [
+          "HV_FOUNTAIN01",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m004",
+      "name": "map_mp_2_feasel4",
+      "group": "1v1",
+      "sha256": "e8f0693f2bb4dd8f64304aa2a76cc6962db3abaef6f43ac2c696880c2c008cf9",
+      "sourceUnchanged": true,
+      "cliffs": 32,
+      "cliffTypes": [
+        {
+          "type": "BB_CliffWall01",
+          "count": 14
+        },
+        {
+          "type": "BB_CliffWall02",
+          "count": 8
+        },
+        {
+          "type": "BB_CliffWall06",
+          "count": 2
+        },
+        {
+          "type": "BB_CliffWall09",
+          "count": 2
+        },
+        {
+          "type": "BB_CliffWall08",
+          "count": 2
+        },
+        {
+          "type": "BB_CliffWall04",
+          "count": 2
+        },
+        {
+          "type": "BB_CliffWall03",
+          "count": 2
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "SteelDeck01",
+          "dryPercent": 38.35
+        },
+        {
+          "name": "SteelDeck02",
+          "dryPercent": 37.49
+        },
+        {
+          "name": "Asphalt01",
+          "dryPercent": 13.86
+        },
+        {
+          "name": "Grass_CapeCod19",
+          "dryPercent": 2.36
+        },
+        {
+          "name": "Cliff_CapeCod05",
+          "dryPercent": 2.15
+        },
+        {
+          "name": "SteelDeck03",
+          "dryPercent": 1.93
+        },
+        {
+          "name": "Asphalt04",
+          "dryPercent": 1.42
+        },
+        {
+          "name": "SteelDeck04",
+          "dryPercent": 1.02
+        }
+      ],
+      "civilianBuildings": 12,
+      "houseCandidates": [
+        [
+          "FI_Building01",
+          6
+        ],
+        [
+          "FI_Building02",
+          6
+        ]
+      ],
+      "streetCandidates": []
+    },
+    {
+      "id": "m005",
+      "name": "map_mp_2_feasel5",
+      "group": "1v1",
+      "sha256": "52fd3060c157df7628dc8a530b31be175b1d1322eb5cc3c2bb07cbe0ee723614",
+      "sourceUnchanged": true,
+      "cliffs": 271,
+      "cliffTypes": [
+        {
+          "type": "IL_SeaCliffWall03",
+          "count": 108
+        },
+        {
+          "type": "IL_SeaCliffWall01",
+          "count": 52
+        },
+        {
+          "type": "IL_SeaCliffWall02",
+          "count": 50
+        },
+        {
+          "type": "IL_SeaCliffWall04",
+          "count": 34
+        },
+        {
+          "type": "IL_SeaCliffWall05",
+          "count": 27
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Snow_Solvang01",
+          "dryPercent": 23.48
+        },
+        {
+          "name": "Snow_Iceland04",
+          "dryPercent": 18.31
+        },
+        {
+          "name": "Snow_Solvang04",
+          "dryPercent": 12.19
+        },
+        {
+          "name": "Snow_Solvang07",
+          "dryPercent": 8.46
+        },
+        {
+          "name": "Snow_Solvang03",
+          "dryPercent": 7.84
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 5.2
+        },
+        {
+          "name": "Snow_Iceland02",
+          "dryPercent": 4.9
+        },
+        {
+          "name": "Snow_Iceland03",
+          "dryPercent": 4.8
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": [
+        [
+          "SV_StreetLamp01",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m006",
+      "name": "map_mp_2_feasel6",
+      "group": "1v1",
+      "sha256": "b71266c00e3f76d16c951c1c05e3e244ff5c95b5c8bf7c1330cbae93497cd575",
+      "sourceUnchanged": true,
+      "cliffs": 233,
+      "cliffTypes": [
+        {
+          "type": "MY_CliffWall03",
+          "count": 58
+        },
+        {
+          "type": "MY_CliffWall01",
+          "count": 50
+        },
+        {
+          "type": "MY_CliffWall02",
+          "count": 36
+        },
+        {
+          "type": "GV_CliffWall03",
+          "count": 19
+        },
+        {
+          "type": "GV_CliffWall01",
+          "count": 18
+        },
+        {
+          "type": "MY_CliffWall04",
+          "count": 18
+        },
+        {
+          "type": "GV_CliffWall02",
+          "count": 13
+        },
+        {
+          "type": "MY_CliffWall05",
+          "count": 10
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Dirt_Mykonos01",
+          "dryPercent": 16.51
+        },
+        {
+          "name": "Grass_Gypsy02",
+          "dryPercent": 12.8
+        },
+        {
+          "name": "Dirt_Mykonos02",
+          "dryPercent": 10.48
+        },
+        {
+          "name": "Dirt_Mykonos03",
+          "dryPercent": 9.64
+        },
+        {
+          "name": "Dirt_Mykonos07",
+          "dryPercent": 8.55
+        },
+        {
+          "name": "Pavement_Havana03",
+          "dryPercent": 8.12
+        },
+        {
+          "name": "Grass_Gypsy01",
+          "dryPercent": 4.63
+        },
+        {
+          "name": "Pave_Golf02",
+          "dryPercent": 4.31
+        }
+      ],
+      "civilianBuildings": 6,
+      "houseCandidates": [
+        [
+          "ST_Building03",
+          4
+        ],
+        [
+          "OD_Warehouse01",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04B",
+          55
+        ]
+      ]
+    },
+    {
+      "id": "m007",
+      "name": "map_mp_2_feasel7",
+      "group": "1v1",
+      "sha256": "85e0fc05cc1952ad5a283d89951c042d1442c8c877d2d4899f81a6dba4418e9b",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_CapeCod05",
+          "dryPercent": 22.97
+        },
+        {
+          "name": "Sand_Cannes01",
+          "dryPercent": 22.47
+        },
+        {
+          "name": "Dirt_CapeCod02",
+          "dryPercent": 9.76
+        },
+        {
+          "name": "Pavement_CapeCod01",
+          "dryPercent": 7.17
+        },
+        {
+          "name": "Dirt_CapeCod03",
+          "dryPercent": 6.26
+        },
+        {
+          "name": "Dirt_Yucatan06",
+          "dryPercent": 5.23
+        },
+        {
+          "name": "Grass_CapeCod11",
+          "dryPercent": 4.87
+        },
+        {
+          "name": "Grass_CapeCod13",
+          "dryPercent": 3.56
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST02",
+          59
+        ],
+        [
+          "TH_LAMPPOST04",
+          14
+        ],
+        [
+          "OK_LANTERN01",
+          9
+        ],
+        [
+          "OK_LANTERN02",
+          8
+        ],
+        [
+          "OK_LANTERN03",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "m008",
+      "name": "map_mp_2_feasel8",
+      "group": "1v1",
+      "sha256": "d0b77028699c0d6dabb60e0ff1ecc446b5a9d8d1230dc280a52faf0314326a79",
+      "sourceUnchanged": true,
+      "cliffs": 64,
+      "cliffTypes": [
+        {
+          "type": "EI_CliffWall03",
+          "count": 18
+        },
+        {
+          "type": "EI_CliffWall04",
+          "count": 10
+        },
+        {
+          "type": "EI_CliffWall08",
+          "count": 8
+        },
+        {
+          "type": "EI_CliffWall05",
+          "count": 8
+        },
+        {
+          "type": "EI_CliffWall02",
+          "count": 6
+        },
+        {
+          "type": "EI_CliffWall09",
+          "count": 4
+        },
+        {
+          "type": "EI_CliffWall06",
+          "count": 4
+        },
+        {
+          "type": "EI_CliffWall01",
+          "count": 4
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_CapeCod05",
+          "dryPercent": 14.67
+        },
+        {
+          "name": "Grass_Easter01",
+          "dryPercent": 11.55
+        },
+        {
+          "name": "Dirt_Easter06",
+          "dryPercent": 11.04
+        },
+        {
+          "name": "Cliff_Easter01",
+          "dryPercent": 10.12
+        },
+        {
+          "name": "Dirt_Easter05",
+          "dryPercent": 9.16
+        },
+        {
+          "name": "Dirt_Easter09",
+          "dryPercent": 6.33
+        },
+        {
+          "name": "Dirt_CapeCod02",
+          "dryPercent": 4.76
+        },
+        {
+          "name": "Grass_CapeCod15",
+          "dryPercent": 4.26
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": [
+        [
+          "EI_STATUE01",
+          20
+        ]
+      ]
+    },
+    {
+      "id": "m009",
+      "name": "MAP_MP_PROMO_Feasel1",
+      "group": "1v1",
+      "sha256": "e3739ea5c2c4d31fdf2f6b74029774db0e827ff4f0734781dd567f923b5b48e5",
+      "sourceUnchanged": true,
+      "cliffs": 65,
+      "cliffTypes": [
+        {
+          "type": "HB_CliffWall03",
+          "count": 17
+        },
+        {
+          "type": "HB_CliffWall04",
+          "count": 15
+        },
+        {
+          "type": "HB_CliffWall01",
+          "count": 14
+        },
+        {
+          "type": "HB_CliffWall06",
+          "count": 10
+        },
+        {
+          "type": "HB_CliffWall05",
+          "count": 6
+        },
+        {
+          "type": "HB_CliffWall02",
+          "count": 3
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 31.88
+        },
+        {
+          "name": "Pavement_Heidelberg10",
+          "dryPercent": 24.34
+        },
+        {
+          "name": "Pavement_Heidel01",
+          "dryPercent": 8.22
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 7.27
+        },
+        {
+          "name": "Gravel_Heidelberg01",
+          "dryPercent": 4.85
+        },
+        {
+          "name": "Grass_CapeCod12",
+          "dryPercent": 3.23
+        },
+        {
+          "name": "Dirt_Heidelberg01",
+          "dryPercent": 2.76
+        },
+        {
+          "name": "Grass_Heidelberg09",
+          "dryPercent": 2.47
+        }
+      ],
+      "civilianBuildings": 53,
+      "houseCandidates": [
+        [
+          "HB_House03",
+          11
+        ],
+        [
+          "HB_House02",
+          9
+        ],
+        [
+          "HB_Restaurant_03",
+          8
+        ],
+        [
+          "HB_Rowhouse01",
+          7
+        ],
+        [
+          "HB_HOUSE04",
+          7
+        ],
+        [
+          "HB_Restaurant01",
+          6
+        ],
+        [
+          "HB_Restaurant_04",
+          3
+        ],
+        [
+          "HB_Church",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "HB_BENCH01",
+          68
+        ],
+        [
+          "HB_LIGHT01",
+          68
+        ],
+        [
+          "HB_TRASH",
+          37
+        ],
+        [
+          "HB_TABLE01",
+          20
+        ],
+        [
+          "HB_TABLE03",
+          14
+        ],
+        [
+          "HB_TABLE02",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "m010",
+      "name": "map_mp_3_feasel3",
+      "group": "1v2",
+      "sha256": "eebb0d0b0c41a0d29fd8237a028bc855111c7024f3c4556fbf585a678207848e",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "SteelDeck02",
+          "dryPercent": 50.77
+        },
+        {
+          "name": "SteelDeck03",
+          "dryPercent": 25.31
+        },
+        {
+          "name": "Asphalt01",
+          "dryPercent": 17.3
+        },
+        {
+          "name": "SteelDeck01",
+          "dryPercent": 2.83
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 2.45
+        },
+        {
+          "name": "Asphalt02",
+          "dryPercent": 0.76
+        },
+        {
+          "name": "Asphalt03",
+          "dryPercent": 0.16
+        },
+        {
+          "name": "Rock_Yucatan03",
+          "dryPercent": 0.16
+        }
+      ],
+      "civilianBuildings": 26,
+      "houseCandidates": [
+        [
+          "FI_Building01",
+          17
+        ],
+        [
+          "FI_Building02",
+          9
+        ]
+      ],
+      "streetCandidates": []
+    },
+    {
+      "id": "m011",
+      "name": "map_mp_4_black_xslice",
+      "group": "2v2",
+      "sha256": "ccc88826ad176d17c22e26ebb6773f8e71e099eb5fad1e16ba040061839bcf79",
+      "sourceUnchanged": true,
+      "cliffs": 221,
+      "cliffTypes": [
+        {
+          "type": "YU_SeaCliffWall04",
+          "count": 51
+        },
+        {
+          "type": "YU_SeaCliffWall02",
+          "count": 27
+        },
+        {
+          "type": "YU_SeaCliffWall03",
+          "count": 26
+        },
+        {
+          "type": "YU_SeaCliffWall01",
+          "count": 26
+        },
+        {
+          "type": "YU_CliffWall04",
+          "count": 21
+        },
+        {
+          "type": "YU_SeaCliffWall06",
+          "count": 17
+        },
+        {
+          "type": "YU_SeaCliffWall05",
+          "count": 12
+        },
+        {
+          "type": "YU_CliffWall03",
+          "count": 9
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 45.8
+        },
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 8.25
+        },
+        {
+          "name": "Grass_Yucatan07",
+          "dryPercent": 7.33
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 6.96
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 5.69
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 4.78
+        },
+        {
+          "name": "Dirt_Yucatan06",
+          "dryPercent": 3.23
+        },
+        {
+          "name": "Grass_Yucatan09",
+          "dryPercent": 2.83
+        }
+      ],
+      "civilianBuildings": 10,
+      "houseCandidates": [
+        [
+          "YU_TikiHut01",
+          4
+        ],
+        [
+          "YU_HOTEL03",
+          4
+        ],
+        [
+          "YU_HOTEL02",
+          1
+        ],
+        [
+          "YU_HOTEL01",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "YU_WHITEBENCH01",
+          21
+        ],
+        [
+          "YU_STREETLIGHT01",
+          18
+        ],
+        [
+          "YU_BeachUmbrella01",
+          3
+        ],
+        [
+          "YU_BeachUmbrella02",
+          3
+        ],
+        [
+          "HV_FOUNTAIN01",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m012",
+      "name": "map_mp_4_feasel1",
+      "group": "2v2",
+      "sha256": "f1958605a28365755c17eb71226eaab246805849b6e836f1bca7fd52d51f76ca",
+      "sourceUnchanged": true,
+      "cliffs": 69,
+      "cliffTypes": [
+        {
+          "type": "YU_CliffWall04",
+          "count": 16
+        },
+        {
+          "type": "YU_CliffWall02",
+          "count": 16
+        },
+        {
+          "type": "YU_CliffWall03",
+          "count": 9
+        },
+        {
+          "type": "YU_CliffWall01",
+          "count": 8
+        },
+        {
+          "type": "YU_CliffWall06",
+          "count": 7
+        },
+        {
+          "type": "YU_CliffWall05",
+          "count": 5
+        },
+        {
+          "type": "YU_CliffWall08",
+          "count": 4
+        },
+        {
+          "type": "YU_CliffWall07",
+          "count": 4
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 32.11
+        },
+        {
+          "name": "Grass_Yucatan09",
+          "dryPercent": 12.38
+        },
+        {
+          "name": "Grass_Yucatan07",
+          "dryPercent": 6.61
+        },
+        {
+          "name": "Dirt_Yucatan05",
+          "dryPercent": 5.29
+        },
+        {
+          "name": "Grass_Yucatan04",
+          "dryPercent": 5.18
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 4.84
+        },
+        {
+          "name": "Grass_Yucatan08",
+          "dryPercent": 4.29
+        },
+        {
+          "name": "Grass_CapeCod19",
+          "dryPercent": 4.24
+        }
+      ],
+      "civilianBuildings": 28,
+      "houseCandidates": [
+        [
+          "YU_TikiHut01",
+          28
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "CS_UMBRELLA04",
+          5
+        ],
+        [
+          "CS_UMBRELLA02",
+          1
+        ],
+        [
+          "YU_BeachUmbrella02",
+          1
+        ],
+        [
+          "YU_MayanStatue01",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m013",
+      "name": "map_mp_4_feasel2",
+      "group": "2v2",
+      "sha256": "dbf1e9081e153eabe429d22e239246b6bda95b37dc9358d53273a0342848404f",
+      "sourceUnchanged": true,
+      "cliffs": 497,
+      "cliffTypes": [
+        {
+          "type": "MY_CliffWall03",
+          "count": 145
+        },
+        {
+          "type": "MY_CliffWall02",
+          "count": 124
+        },
+        {
+          "type": "MY_CliffWall01",
+          "count": 79
+        },
+        {
+          "type": "MY_CliffWall04",
+          "count": 56
+        },
+        {
+          "type": "MY_CliffWall05",
+          "count": 42
+        },
+        {
+          "type": "MY_CliffWall06",
+          "count": 27
+        },
+        {
+          "type": "MY_CliffWall07",
+          "count": 24
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Dirt_Mykonos01",
+          "dryPercent": 21.89
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 11.45
+        },
+        {
+          "name": "Grass_Mykonos02",
+          "dryPercent": 10.56
+        },
+        {
+          "name": "Dirt_Mykonos03",
+          "dryPercent": 9.89
+        },
+        {
+          "name": "Grass_CapeCod17",
+          "dryPercent": 9.4
+        },
+        {
+          "name": "Dirt_Mykonos07",
+          "dryPercent": 7.13
+        },
+        {
+          "name": "Dirt_Mykonos02",
+          "dryPercent": 5.37
+        },
+        {
+          "name": "Grass_CapeCod18",
+          "dryPercent": 4.92
+        }
+      ],
+      "civilianBuildings": 44,
+      "houseCandidates": [
+        [
+          "MY_Apartment01",
+          8
+        ],
+        [
+          "MY_Restaurant_01",
+          7
+        ],
+        [
+          "MY_House_04",
+          7
+        ],
+        [
+          "MY_Hotel_01",
+          7
+        ],
+        [
+          "MY_House_01",
+          6
+        ],
+        [
+          "MY_House_03",
+          5
+        ],
+        [
+          "MY_Church_02",
+          2
+        ],
+        [
+          "MY_Church_01",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "MY_LIGHT01",
+          48
+        ],
+        [
+          "MY_TABLE01",
+          18
+        ],
+        [
+          "MY_TABLE02",
+          16
+        ],
+        [
+          "MY_Umbrella_01",
+          7
+        ],
+        [
+          "MY_BENCH",
+          4
+        ],
+        [
+          "MY_STATUE01",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m014",
+      "name": "map_mp_4_feasel3",
+      "group": "2v2",
+      "sha256": "e46bf91c74cca308099724c4ff4b1428a59e4e9e74ef6b44d2e0d541de4e9ae9",
+      "sourceUnchanged": true,
+      "cliffs": 258,
+      "cliffTypes": [
+        {
+          "type": "HA_SeaCliffWall04",
+          "count": 36
+        },
+        {
+          "type": "EI_CliffWall03",
+          "count": 32
+        },
+        {
+          "type": "EI_CliffWall08",
+          "count": 25
+        },
+        {
+          "type": "EI_CliffWall02",
+          "count": 19
+        },
+        {
+          "type": "HA_SeaCliffWall03",
+          "count": 16
+        },
+        {
+          "type": "HA_SeaCliffWall06",
+          "count": 16
+        },
+        {
+          "type": "EI_CliffWall01",
+          "count": 15
+        },
+        {
+          "type": "EI_CliffWall05",
+          "count": 15
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Hawaii02",
+          "dryPercent": 30.45
+        },
+        {
+          "name": "Sand_Cannes01",
+          "dryPercent": 16.33
+        },
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 8.92
+        },
+        {
+          "name": "Grass_Easter01",
+          "dryPercent": 7.39
+        },
+        {
+          "name": "Grass_Hawaii01",
+          "dryPercent": 6.21
+        },
+        {
+          "name": "Grass_Hawaii04",
+          "dryPercent": 5.06
+        },
+        {
+          "name": "Dirt_Easter05",
+          "dryPercent": 4.35
+        },
+        {
+          "name": "Dirt_Yucatan02",
+          "dryPercent": 4.26
+        }
+      ],
+      "civilianBuildings": 17,
+      "houseCandidates": [
+        [
+          "HA_Building16_03",
+          6
+        ],
+        [
+          "HA_Building16_02",
+          6
+        ],
+        [
+          "HA_BUILDING16",
+          4
+        ],
+        [
+          "YU_TikiHut01",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "SA_Umbrella01",
+          11
+        ],
+        [
+          "SA_UMBRELLA09",
+          9
+        ],
+        [
+          "SA_UMBRELLA04",
+          8
+        ],
+        [
+          "SA_UMBRELLA07",
+          7
+        ],
+        [
+          "YU_BeachUmbrella01",
+          7
+        ],
+        [
+          "YU_WHITEBENCH01",
+          2
+        ],
+        [
+          "OK_LANTERN04",
+          1
+        ],
+        [
+          "SA_UMBRELLA12",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m015",
+      "name": "map_mp_4_feasel5",
+      "group": "2v2",
+      "sha256": "a1a418aa666917a2b2cf31ad8c08b80cec0458da34ae197440fc41663741eae1",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "SteelDeck02",
+          "dryPercent": 67.38
+        },
+        {
+          "name": "Asphalt01",
+          "dryPercent": 12.27
+        },
+        {
+          "name": "SteelDeck03",
+          "dryPercent": 12.18
+        },
+        {
+          "name": "Asphalt05",
+          "dryPercent": 2.93
+        },
+        {
+          "name": "SteelDeck01",
+          "dryPercent": 1.95
+        },
+        {
+          "name": "Asphalt04",
+          "dryPercent": 1.03
+        },
+        {
+          "name": "Asphalt03",
+          "dryPercent": 0.93
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 0.67
+        }
+      ],
+      "civilianBuildings": 12,
+      "houseCandidates": [
+        [
+          "FI_Building01",
+          8
+        ],
+        [
+          "FI_Building02",
+          4
+        ]
+      ],
+      "streetCandidates": []
+    },
+    {
+      "id": "m016",
+      "name": "map_mp_4_feasel6",
+      "group": "2v2",
+      "sha256": "b871315ae0fea4a9fe7460d5afc8ca20e9d2deba84448d024a7b0b1fdc7513e5",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_CapeCod05",
+          "dryPercent": 33.22
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 19.08
+        },
+        {
+          "name": "Dirt_Heidelberg01",
+          "dryPercent": 8.13
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 7.8
+        },
+        {
+          "name": "Grass_Hawaii03",
+          "dryPercent": 6.94
+        },
+        {
+          "name": "Pavement_CapeCod02",
+          "dryPercent": 6.47
+        },
+        {
+          "name": "Grass_Heidelberg05",
+          "dryPercent": 5.38
+        },
+        {
+          "name": "Grass_CapeCod09",
+          "dryPercent": 5.11
+        }
+      ],
+      "civilianBuildings": 20,
+      "houseCandidates": [
+        [
+          "HA_Building16_03",
+          14
+        ],
+        [
+          "HA_Building16_02",
+          6
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "OK_LANTERN05",
+          113
+        ],
+        [
+          "OK_LANTERN02",
+          53
+        ],
+        [
+          "TH_LAMPPOST04B",
+          48
+        ],
+        [
+          "OK_LANTERN01",
+          45
+        ],
+        [
+          "OK_LANTERN03",
+          36
+        ],
+        [
+          "OK_LANTERN04",
+          27
+        ],
+        [
+          "TH_LAMPPOST02",
+          15
+        ]
+      ]
+    },
+    {
+      "id": "m017",
+      "name": "map_mp_4_feasel7",
+      "group": "2v2",
+      "sha256": "1a4de2f98d41394e8f8cbc7bb8ee1be9e869a91e858e2f6b0f37260d89475336",
+      "sourceUnchanged": true,
+      "cliffs": 107,
+      "cliffTypes": [
+        {
+          "type": "EI_CliffWall08",
+          "count": 34
+        },
+        {
+          "type": "EI_CliffWall06",
+          "count": 29
+        },
+        {
+          "type": "EI_CliffWall07",
+          "count": 18
+        },
+        {
+          "type": "EI_CliffWall09",
+          "count": 14
+        },
+        {
+          "type": "EI_CliffWall010",
+          "count": 10
+        },
+        {
+          "type": "EI_CliffWall12",
+          "count": 2
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_CapeCod05",
+          "dryPercent": 24.93
+        },
+        {
+          "name": "Dirt_CapeCod02",
+          "dryPercent": 19.42
+        },
+        {
+          "name": "Grass_Easter01",
+          "dryPercent": 8.71
+        },
+        {
+          "name": "Dirt_Easter01",
+          "dryPercent": 6.34
+        },
+        {
+          "name": "Grass_CapeCod11",
+          "dryPercent": 5.92
+        },
+        {
+          "name": "Dirt_Easter06",
+          "dryPercent": 5.56
+        },
+        {
+          "name": "Grass_CapeCod12",
+          "dryPercent": 4.31
+        },
+        {
+          "name": "Grass_CapeCod15",
+          "dryPercent": 3.15
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": [
+        [
+          "YU_WHITEBENCH01",
+          40
+        ],
+        [
+          "EI_STATUE01",
+          32
+        ],
+        [
+          "YU_BeachUmbrella02",
+          21
+        ],
+        [
+          "YU_BeachUmbrella01",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m018",
+      "name": "map_mp_4_ssmith2-remix",
+      "group": "2v2",
+      "sha256": "36035418624608fc7a2cbe1805690fe23b43b65ba9b813e128ddf2da3a3e0346",
+      "sourceUnchanged": true,
+      "cliffs": 612,
+      "cliffTypes": [
+        {
+          "type": "YU_SeaCliffWall04",
+          "count": 98
+        },
+        {
+          "type": "YU_CliffWall02",
+          "count": 97
+        },
+        {
+          "type": "YU_CliffWall04",
+          "count": 96
+        },
+        {
+          "type": "YU_SeaCliffWall02",
+          "count": 67
+        },
+        {
+          "type": "YU_SeaCliffWall01",
+          "count": 48
+        },
+        {
+          "type": "YU_CliffWall03",
+          "count": 36
+        },
+        {
+          "type": "YU_SeaCliffWall06",
+          "count": 32
+        },
+        {
+          "type": "YU_SeaCliffWall03",
+          "count": 24
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 24.77
+        },
+        {
+          "name": "Grass_Yucatan09",
+          "dryPercent": 13.93
+        },
+        {
+          "name": "Grass_Yucatan07",
+          "dryPercent": 11.35
+        },
+        {
+          "name": "Grass_Yucatan06",
+          "dryPercent": 7.22
+        },
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 6.91
+        },
+        {
+          "name": "Grass_Yucatan08",
+          "dryPercent": 6.78
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 5.87
+        },
+        {
+          "name": "Grass_Yucatan04",
+          "dryPercent": 5.87
+        }
+      ],
+      "civilianBuildings": 24,
+      "houseCandidates": [
+        [
+          "YU_TikiHut01",
+          24
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "CS_UMBRELLA01",
+          1
+        ],
+        [
+          "CS_UMBRELLA04",
+          1
+        ],
+        [
+          "MY_Umbrella_01",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m019",
+      "name": "map_mp_4_stewart_1",
+      "group": "2v2",
+      "sha256": "15f677d1951062d00ef4c20416e063652e00ab37d0919f131466de521b0da9b6",
+      "sourceUnchanged": true,
+      "cliffs": 37,
+      "cliffTypes": [
+        {
+          "type": "IL_SeaCliffWall01",
+          "count": 19
+        },
+        {
+          "type": "IL_SeaCliffWall03",
+          "count": 8
+        },
+        {
+          "type": "IL_SeaCliffWall05",
+          "count": 6
+        },
+        {
+          "type": "IL_SeaCliffWall04",
+          "count": 4
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Snow_Solvang01",
+          "dryPercent": 44.73
+        },
+        {
+          "name": "Pavement_Vlad03",
+          "dryPercent": 10.99
+        },
+        {
+          "name": "Pavement_Vlad02",
+          "dryPercent": 7.51
+        },
+        {
+          "name": "Pavement_Vlad04",
+          "dryPercent": 7.4
+        },
+        {
+          "name": "Pavement_Vlad05",
+          "dryPercent": 6.87
+        },
+        {
+          "name": "Pavement_Vlad07",
+          "dryPercent": 6.72
+        },
+        {
+          "name": "Snow_Iceland04",
+          "dryPercent": 5.89
+        },
+        {
+          "name": "Snow_Iceland03",
+          "dryPercent": 3.39
+        }
+      ],
+      "civilianBuildings": 19,
+      "houseCandidates": [
+        [
+          "VL_Building03",
+          6
+        ],
+        [
+          "VL_Building02",
+          4
+        ],
+        [
+          "VL_building04",
+          4
+        ],
+        [
+          "VL_Building05",
+          3
+        ],
+        [
+          "VL_Building01",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04B",
+          183
+        ],
+        [
+          "SV_StreetLamp01",
+          35
+        ],
+        [
+          "SV_Bench01",
+          22
+        ]
+      ]
+    },
+    {
+      "id": "m020",
+      "name": "map_mp_6_feasel1",
+      "group": "3v3",
+      "sha256": "a49c370ccb586276a4034fad02f23e3a4cb85985f31ea49561ac0f50ac7a0db0",
+      "sourceUnchanged": true,
+      "cliffs": 483,
+      "cliffTypes": [
+        {
+          "type": "YU_CliffWall04",
+          "count": 116
+        },
+        {
+          "type": "YU_CliffWall02",
+          "count": 70
+        },
+        {
+          "type": "YU_SeaCliffWall05",
+          "count": 44
+        },
+        {
+          "type": "YU_SeaCliffWall04",
+          "count": 42
+        },
+        {
+          "type": "YU_CliffWall01",
+          "count": 41
+        },
+        {
+          "type": "YU_CliffWall06",
+          "count": 40
+        },
+        {
+          "type": "YU_CliffWall05",
+          "count": 38
+        },
+        {
+          "type": "YU_CliffWall03",
+          "count": 28
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 39.18
+        },
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 13.57
+        },
+        {
+          "name": "Pavement_Yucatan01",
+          "dryPercent": 8.32
+        },
+        {
+          "name": "Grass_CapeCod15",
+          "dryPercent": 5.22
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 4.69
+        },
+        {
+          "name": "Dirt_Yucatan06",
+          "dryPercent": 4.39
+        },
+        {
+          "name": "Grass_Yucatan07",
+          "dryPercent": 4.22
+        },
+        {
+          "name": "Asphalt01",
+          "dryPercent": 4.16
+        }
+      ],
+      "civilianBuildings": 55,
+      "houseCandidates": [
+        [
+          "YU_TikiHut01",
+          12
+        ],
+        [
+          "SA_HOUSE02",
+          8
+        ],
+        [
+          "SA_HOUSE01",
+          8
+        ],
+        [
+          "SA_STORE03",
+          6
+        ],
+        [
+          "SA_House03_02",
+          5
+        ],
+        [
+          "SA_CAFE01",
+          5
+        ],
+        [
+          "SA_CHURCH01",
+          4
+        ],
+        [
+          "SA_STORE02",
+          3
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "GC_LIGHT01",
+          86
+        ],
+        [
+          "YU_WHITEBENCH01",
+          46
+        ],
+        [
+          "CS_TRASHCAN",
+          33
+        ],
+        [
+          "SA_TABLE01",
+          25
+        ],
+        [
+          "ST_TABLE01",
+          24
+        ],
+        [
+          "CS_STREETLIGHT",
+          22
+        ],
+        [
+          "CS_UMBRELLA01",
+          8
+        ],
+        [
+          "CS_UMBRELLA02",
+          8
+        ]
+      ]
+    },
+    {
+      "id": "m021",
+      "name": "map_mp_6_feasel3",
+      "group": "3v3",
+      "sha256": "00ddb8024a1b91dc63104e10022ddca4d9da7c7c03be7d846be90354d679ed2d",
+      "sourceUnchanged": true,
+      "cliffs": 367,
+      "cliffTypes": [
+        {
+          "type": "IL_SeaCliffWall03",
+          "count": 123
+        },
+        {
+          "type": "IL_SeaCliffWall02",
+          "count": 72
+        },
+        {
+          "type": "IL_SeaCliffWall04",
+          "count": 69
+        },
+        {
+          "type": "IL_SeaCliffWall05",
+          "count": 57
+        },
+        {
+          "type": "IL_SeaCliffWall01",
+          "count": 46
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Snow_Solvang01",
+          "dryPercent": 52.58
+        },
+        {
+          "name": "Snow_Solvang08",
+          "dryPercent": 17.96
+        },
+        {
+          "name": "Snow_Iceland04",
+          "dryPercent": 4.45
+        },
+        {
+          "name": "Snow_Solvang04",
+          "dryPercent": 4.43
+        },
+        {
+          "name": "Snow_Iceland05",
+          "dryPercent": 4.35
+        },
+        {
+          "name": "Snow_Solvang10",
+          "dryPercent": 3.58
+        },
+        {
+          "name": "Rock_Iceland03",
+          "dryPercent": 3.42
+        },
+        {
+          "name": "Snow_Iceland03",
+          "dryPercent": 3.2
+        }
+      ],
+      "civilianBuildings": 38,
+      "houseCandidates": [
+        [
+          "SV_Building05",
+          9
+        ],
+        [
+          "SV_Building06",
+          8
+        ],
+        [
+          "SV_Building08",
+          7
+        ],
+        [
+          "SV_Building07",
+          6
+        ],
+        [
+          "SV_Building01",
+          6
+        ],
+        [
+          "SV_Building04",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "SV_StreetLamp01",
+          79
+        ],
+        [
+          "SV_Bench01",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m022",
+      "name": "map_mp_6_feasel4",
+      "group": "3v3",
+      "sha256": "6a6aa967f595aaee4e415630586c542092bb15d03f69e329344be12da055ef80",
+      "sourceUnchanged": true,
+      "cliffs": 45,
+      "cliffTypes": [
+        {
+          "type": "EI_CliffWall03",
+          "count": 19
+        },
+        {
+          "type": "EI_CliffWall04",
+          "count": 11
+        },
+        {
+          "type": "EI_CliffWall05",
+          "count": 10
+        },
+        {
+          "type": "EI_CliffWall02",
+          "count": 4
+        },
+        {
+          "type": "EI_CliffWall01",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_CapeCod05",
+          "dryPercent": 26.15
+        },
+        {
+          "name": "Dirt_Easter05",
+          "dryPercent": 9.48
+        },
+        {
+          "name": "Cliff_Easter01",
+          "dryPercent": 9.25
+        },
+        {
+          "name": "Dirt_Easter09",
+          "dryPercent": 8.64
+        },
+        {
+          "name": "Grass_Easter01",
+          "dryPercent": 6.28
+        },
+        {
+          "name": "Dirt_Easter06",
+          "dryPercent": 6.23
+        },
+        {
+          "name": "Cliff_Easter04",
+          "dryPercent": 4.68
+        },
+        {
+          "name": "Dirt_Easter02",
+          "dryPercent": 4.2
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": [
+        [
+          "EI_STATUE01",
+          37
+        ]
+      ]
+    },
+    {
+      "id": "m023",
+      "name": "map_mp_6_ssmith2",
+      "group": "3v3",
+      "sha256": "49de7ca8c3b7a6fd239501bdca219d36ee41b198bd88e3c689b159d474ea70ed",
+      "sourceUnchanged": true,
+      "cliffs": 471,
+      "cliffTypes": [
+        {
+          "type": "YU_SeaCliffWall04",
+          "count": 80
+        },
+        {
+          "type": "YU_SeaCliffWall02",
+          "count": 74
+        },
+        {
+          "type": "YU_CliffWall04",
+          "count": 62
+        },
+        {
+          "type": "YU_CliffWall02",
+          "count": 36
+        },
+        {
+          "type": "YU_SeaCliffWall03",
+          "count": 30
+        },
+        {
+          "type": "YU_SeaCliffWall05",
+          "count": 30
+        },
+        {
+          "type": "YU_SeaCliffWall06",
+          "count": 30
+        },
+        {
+          "type": "YU_CliffWall01",
+          "count": 26
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_CapeCod05",
+          "dryPercent": 33.28
+        },
+        {
+          "name": "Dirt_CapeCod06",
+          "dryPercent": 10.1
+        },
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 7.83
+        },
+        {
+          "name": "Grass_CapeCod09",
+          "dryPercent": 5.95
+        },
+        {
+          "name": "Dirt_CapeCod02",
+          "dryPercent": 5.1
+        },
+        {
+          "name": "Grass_CapeCod17",
+          "dryPercent": 4.85
+        },
+        {
+          "name": "Grass_CapeCod13",
+          "dryPercent": 4.44
+        },
+        {
+          "name": "Dirt_CapeCod01",
+          "dryPercent": 4.41
+        }
+      ],
+      "civilianBuildings": 52,
+      "houseCandidates": [
+        [
+          "CAPECOD_HOUSE01D",
+          12
+        ],
+        [
+          "CAPECOD_HOUSE01C",
+          12
+        ],
+        [
+          "CAPECOD_HOUSE01B",
+          12
+        ],
+        [
+          "Cape_Cod_Light_House_02",
+          12
+        ],
+        [
+          "CC_Lighthouse01",
+          4
+        ]
+      ],
+      "streetCandidates": []
+    },
+    {
+      "id": "m024",
+      "name": "map_mp_3_feasel2",
+      "group": "3人混战",
+      "sha256": "f00c3dc34781caa0153de57f81189743051b09c03a47a0ec3005450df6b17feb",
+      "sourceUnchanged": true,
+      "cliffs": 337,
+      "cliffTypes": [
+        {
+          "type": "YU_CliffWall04",
+          "count": 49
+        },
+        {
+          "type": "YU_CliffWall06",
+          "count": 44
+        },
+        {
+          "type": "YU_CliffWall05",
+          "count": 41
+        },
+        {
+          "type": "YU_SeaCliffWall06",
+          "count": 27
+        },
+        {
+          "type": "YU_SeaCliffWall01",
+          "count": 27
+        },
+        {
+          "type": "YU_SeaCliffWall05",
+          "count": 25
+        },
+        {
+          "type": "YU_CliffWall01",
+          "count": 24
+        },
+        {
+          "type": "YU_SeaCliffWall04",
+          "count": 23
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 22.91
+        },
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 21.53
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 10.47
+        },
+        {
+          "name": "Grass_Yucatan09",
+          "dryPercent": 7.85
+        },
+        {
+          "name": "Grass_Yucatan07",
+          "dryPercent": 6.18
+        },
+        {
+          "name": "Grass_Yucatan06",
+          "dryPercent": 6.1
+        },
+        {
+          "name": "Grass_Yucatan03",
+          "dryPercent": 4.33
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 4.22
+        }
+      ],
+      "civilianBuildings": 5,
+      "houseCandidates": [
+        [
+          "YU_TikiHut01",
+          5
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "YU_BeachUmbrella02",
+          3
+        ],
+        [
+          "YU_BeachUmbrella01",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m025",
+      "name": "map_mp_3_feasel4",
+      "group": "3人混战",
+      "sha256": "5151b7a140caa11e9462f0bb675f084c6964567624b3cd98895c97b66c708188",
+      "sourceUnchanged": true,
+      "cliffs": 15,
+      "cliffTypes": [
+        {
+          "type": "EI_VolcCliffWall03",
+          "count": 1
+        },
+        {
+          "type": "EI_VolcCliffWall02",
+          "count": 1
+        },
+        {
+          "type": "EI_VolcCliffWall01",
+          "count": 1
+        },
+        {
+          "type": "EI_CliffWall12",
+          "count": 1
+        },
+        {
+          "type": "EI_CliffWall011",
+          "count": 1
+        },
+        {
+          "type": "EI_CliffWall010",
+          "count": 1
+        },
+        {
+          "type": "EI_CliffWall09",
+          "count": 1
+        },
+        {
+          "type": "EI_CliffWall08",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Cliff_Easter01",
+          "dryPercent": 23.14
+        },
+        {
+          "name": "Grass_CapeCod05",
+          "dryPercent": 10.97
+        },
+        {
+          "name": "Dirt_Easter05",
+          "dryPercent": 10.28
+        },
+        {
+          "name": "Dirt_Easter02",
+          "dryPercent": 7.35
+        },
+        {
+          "name": "Dirt_CapeCod04",
+          "dryPercent": 7.32
+        },
+        {
+          "name": "Dirt_Easter01",
+          "dryPercent": 5.79
+        },
+        {
+          "name": "Grass_Easter01",
+          "dryPercent": 5.62
+        },
+        {
+          "name": "Dirt_Easter09",
+          "dryPercent": 5.56
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": [
+        [
+          "EI_STATUE01",
+          14
+        ]
+      ]
+    },
+    {
+      "id": "m026",
+      "name": "[8P]Battlebase_Sigma_v1",
+      "group": "4v4",
+      "sha256": "6eb68ae844e86f43c3cc9bc3013a7b736259f8a93bc6d8087d924177f4d270b3",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "SteelDeck05",
+          "dryPercent": 32.22
+        },
+        {
+          "name": "SteelDeck04",
+          "dryPercent": 29.7
+        },
+        {
+          "name": "SteelDeck02",
+          "dryPercent": 26.31
+        },
+        {
+          "name": "Asphalt01",
+          "dryPercent": 8.49
+        },
+        {
+          "name": "Asphalt03",
+          "dryPercent": 1.49
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 0.85
+        },
+        {
+          "name": "SteelDeck03",
+          "dryPercent": 0.34
+        },
+        {
+          "name": "SteelDeck06",
+          "dryPercent": 0.33
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "m027",
+      "name": "[8P]Fallout_Fortress_v1",
+      "group": "4v4",
+      "sha256": "e66e7b7ab6c8e7bbf91a2507aa3f5f7534b3b572b2220b16441c0065e572a5e7",
+      "sourceUnchanged": true,
+      "cliffs": 352,
+      "cliffTypes": [
+        {
+          "type": "RM_CliffWall06_GRID",
+          "count": 59
+        },
+        {
+          "type": "RM_DesolatorCliffWall06_GRID",
+          "count": 52
+        },
+        {
+          "type": "RM_DesolatorCliffWall08_GRID",
+          "count": 52
+        },
+        {
+          "type": "RM_CliffWall09_GRID",
+          "count": 45
+        },
+        {
+          "type": "RM_DesolatorCliffWall09_GRID",
+          "count": 40
+        },
+        {
+          "type": "RM_CliffWall010_GRID",
+          "count": 32
+        },
+        {
+          "type": "RM_CliffWall08_GRID",
+          "count": 29
+        },
+        {
+          "type": "RM_DesolatorCliffWall010_GRID",
+          "count": 18
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Dirt_Iceland03",
+          "dryPercent": 19.79
+        },
+        {
+          "name": "Dirt_Gypsy01",
+          "dryPercent": 16.6
+        },
+        {
+          "name": "Dirt_Mykonos01",
+          "dryPercent": 9.78
+        },
+        {
+          "name": "Gravel_Heidelberg01",
+          "dryPercent": 8.63
+        },
+        {
+          "name": "Dirt_Gypsy03",
+          "dryPercent": 7.92
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 5.68
+        },
+        {
+          "name": "Cliff_MtRush02",
+          "dryPercent": 4.99
+        },
+        {
+          "name": "Pavement_Heidelberg10",
+          "dryPercent": 4.66
+        }
+      ],
+      "civilianBuildings": 50,
+      "houseCandidates": [
+        [
+          "RM_BuildingCoastal03",
+          16
+        ],
+        [
+          "HB_HOUSE04",
+          12
+        ],
+        [
+          "HB_Rowhouse01",
+          12
+        ],
+        [
+          "HB_Restaurant_04",
+          8
+        ],
+        [
+          "RM_BuildingCityHall",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "HB_TABLE03",
+          18
+        ],
+        [
+          "AM_BENCH",
+          8
+        ],
+        [
+          "NY_STATUE02",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m028",
+      "name": "[8P]Freezone_Port_v1",
+      "group": "4v4",
+      "sha256": "84830974a1a3b678b53a8385bac4107537fc41cc14b6b4022159685396871e1b",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pavement_Havana03",
+          "dryPercent": 32.97
+        },
+        {
+          "name": "Pave_Golf05",
+          "dryPercent": 30.42
+        },
+        {
+          "name": "Pave_Golf02",
+          "dryPercent": 20.1
+        },
+        {
+          "name": "Pave_Golf03",
+          "dryPercent": 6.24
+        },
+        {
+          "name": "Asphalt05",
+          "dryPercent": 4.73
+        },
+        {
+          "name": "Pave_Golf04",
+          "dryPercent": 1.84
+        },
+        {
+          "name": "Pave_Golf07",
+          "dryPercent": 1.77
+        },
+        {
+          "name": "Pavement_SaintPetersburg02",
+          "dryPercent": 1.23
+        }
+      ],
+      "civilianBuildings": 26,
+      "houseCandidates": [
+        [
+          "ST_Building03",
+          14
+        ],
+        [
+          "HV_hotel06_01",
+          4
+        ],
+        [
+          "GI_Warehouse_01",
+          4
+        ],
+        [
+          "ST_building05",
+          2
+        ],
+        [
+          "OD_Warehouse01",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04B",
+          79
+        ]
+      ]
+    },
+    {
+      "id": "m029",
+      "name": "[8P]Island_Adventure_v1",
+      "group": "4v4",
+      "sha256": "fb4cbadf90800f184d361c048d49d068e26179b3bf7c340f5130e593e9b13d93",
+      "sourceUnchanged": true,
+      "cliffs": 276,
+      "cliffTypes": [
+        {
+          "type": "YU_SeaCliffWall03",
+          "count": 60
+        },
+        {
+          "type": "YU_CliffWall05",
+          "count": 34
+        },
+        {
+          "type": "YU_CliffWall06",
+          "count": 24
+        },
+        {
+          "type": "YU_CliffWall01",
+          "count": 22
+        },
+        {
+          "type": "HB_CliffWall01",
+          "count": 19
+        },
+        {
+          "type": "YU_CliffWall03",
+          "count": 18
+        },
+        {
+          "type": "HB_CliffWall04",
+          "count": 16
+        },
+        {
+          "type": "HB_CliffWall06",
+          "count": 15
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 31.73
+        },
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 13.83
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 8.59
+        },
+        {
+          "name": "Grass_Yucatan07",
+          "dryPercent": 7.26
+        },
+        {
+          "name": "Grass_Yucatan09",
+          "dryPercent": 7.16
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 5.19
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 3.82
+        },
+        {
+          "name": "Grass_Yucatan06",
+          "dryPercent": 3.78
+        }
+      ],
+      "civilianBuildings": 22,
+      "houseCandidates": [
+        [
+          "YU_TikiHut01",
+          10
+        ],
+        [
+          "YU_HOTEL03",
+          8
+        ],
+        [
+          "YU_HOTEL02",
+          2
+        ],
+        [
+          "YU_HOTEL01",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "YU_WHITEBENCH01",
+          26
+        ],
+        [
+          "YU_STREETLIGHT01",
+          8
+        ],
+        [
+          "HV_FOUNTAIN01",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m030",
+      "name": "[8P]Joint_Operations_v1",
+      "group": "4v4",
+      "sha256": "23b28d68d2c53c0b78c7d8d5577e7fb800eb47962a6b63e904f90687a9866711",
+      "sourceUnchanged": true,
+      "cliffs": 64,
+      "cliffTypes": [
+        {
+          "type": "BB_CliffWall01",
+          "count": 28
+        },
+        {
+          "type": "BB_CliffWall02",
+          "count": 16
+        },
+        {
+          "type": "BB_CliffWall06",
+          "count": 4
+        },
+        {
+          "type": "BB_CliffWall09",
+          "count": 4
+        },
+        {
+          "type": "BB_CliffWall08",
+          "count": 4
+        },
+        {
+          "type": "BB_CliffWall03",
+          "count": 4
+        },
+        {
+          "type": "BB_CliffWall05",
+          "count": 2
+        },
+        {
+          "type": "BB_CliffWall04",
+          "count": 2
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "SteelDeck02",
+          "dryPercent": 33.22
+        },
+        {
+          "name": "SteelDeck01",
+          "dryPercent": 29.82
+        },
+        {
+          "name": "Asphalt01",
+          "dryPercent": 14.37
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 11.33
+        },
+        {
+          "name": "SteelDeck04",
+          "dryPercent": 5.99
+        },
+        {
+          "name": "Asphalt03",
+          "dryPercent": 1.97
+        },
+        {
+          "name": "Grass_CapeCod19",
+          "dryPercent": 1.24
+        },
+        {
+          "name": "Grass_CapeCod18",
+          "dryPercent": 0.77
+        }
+      ],
+      "civilianBuildings": 8,
+      "houseCandidates": [
+        [
+          "FI_Building01",
+          6
+        ],
+        [
+          "FI_Building02",
+          2
+        ]
+      ],
+      "streetCandidates": []
+    },
+    {
+      "id": "m031",
+      "name": "[8P]Magmapocalypse_v1",
+      "group": "4v4",
+      "sha256": "49f9eeeceb0bfcf7a2160389ae3432972f7a6977be7fa37cae6953d28fc44dc1",
+      "sourceUnchanged": true,
+      "cliffs": 67,
+      "cliffTypes": [
+        {
+          "type": "EI_CliffWall03",
+          "count": 26
+        },
+        {
+          "type": "EI_CliffWall04",
+          "count": 17
+        },
+        {
+          "type": "EI_CliffWall05",
+          "count": 14
+        },
+        {
+          "type": "EI_CliffWall02",
+          "count": 8
+        },
+        {
+          "type": "EI_CliffWall01",
+          "count": 2
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_CapeCod05",
+          "dryPercent": 26.06
+        },
+        {
+          "name": "Dirt_Easter05",
+          "dryPercent": 9.78
+        },
+        {
+          "name": "Cliff_Easter01",
+          "dryPercent": 9.47
+        },
+        {
+          "name": "Dirt_Easter09",
+          "dryPercent": 8.7
+        },
+        {
+          "name": "Dirt_Easter06",
+          "dryPercent": 6.56
+        },
+        {
+          "name": "Grass_Easter01",
+          "dryPercent": 6.23
+        },
+        {
+          "name": "Dirt_Easter02",
+          "dryPercent": 4.62
+        },
+        {
+          "name": "Cliff_Easter04",
+          "dryPercent": 4.48
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": [
+        [
+          "EI_STATUE01",
+          53
+        ]
+      ]
+    },
+    {
+      "id": "m032",
+      "name": "[8P]Silent_Hill_v1",
+      "group": "4v4",
+      "sha256": "70f6c9ea2831da35bac3a75fc57e544749286c3846575dfa097ab021344a8668",
+      "sourceUnchanged": true,
+      "cliffs": 368,
+      "cliffTypes": [
+        {
+          "type": "EI_CliffWall03",
+          "count": 114
+        },
+        {
+          "type": "EI_CliffWall02",
+          "count": 83
+        },
+        {
+          "type": "EI_CliffWall04",
+          "count": 74
+        },
+        {
+          "type": "EI_CliffWall01",
+          "count": 50
+        },
+        {
+          "type": "EI_CliffWall05",
+          "count": 47
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Easter01",
+          "dryPercent": 27.2
+        },
+        {
+          "name": "Grass_CapeCod09",
+          "dryPercent": 12.34
+        },
+        {
+          "name": "Grass_CapeCod16",
+          "dryPercent": 11.67
+        },
+        {
+          "name": "Dirt_Easter02",
+          "dryPercent": 9.42
+        },
+        {
+          "name": "Dirt_Easter08",
+          "dryPercent": 7.88
+        },
+        {
+          "name": "Grass_CapeCod12",
+          "dryPercent": 7.68
+        },
+        {
+          "name": "Dirt_Easter07",
+          "dryPercent": 5.72
+        },
+        {
+          "name": "Dirt_Easter05",
+          "dryPercent": 4.5
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": [
+        [
+          "EI_STATUE01",
+          43
+        ],
+        [
+          "YU_MayanStatue01",
+          12
+        ]
+      ]
+    },
+    {
+      "id": "m033",
+      "name": "[8P]Snow_Burial_v1",
+      "group": "4v4",
+      "sha256": "23894b44cf81f81adf1aa5e97b4f8810888f8ea1c28083fda5a446a6a00af5b7",
+      "sourceUnchanged": true,
+      "cliffs": 458,
+      "cliffTypes": [
+        {
+          "type": "IL_SeaCliffWall03",
+          "count": 158
+        },
+        {
+          "type": "IL_SeaCliffWall01",
+          "count": 99
+        },
+        {
+          "type": "IL_SeaCliffWall04",
+          "count": 94
+        },
+        {
+          "type": "IL_SeaCliffWall05",
+          "count": 71
+        },
+        {
+          "type": "IL_SeaCliffWall02",
+          "count": 36
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Snow_Solvang01",
+          "dryPercent": 45.54
+        },
+        {
+          "name": "Snow_Iceland03",
+          "dryPercent": 19.75
+        },
+        {
+          "name": "Snow_Iceland05",
+          "dryPercent": 6.33
+        },
+        {
+          "name": "Snow_Iceland04",
+          "dryPercent": 6.31
+        },
+        {
+          "name": "Rock_Iceland03",
+          "dryPercent": 4.84
+        },
+        {
+          "name": "Snow_Solvang09",
+          "dryPercent": 4.52
+        },
+        {
+          "name": "Snow_Solvang04",
+          "dryPercent": 3.9
+        },
+        {
+          "name": "Snow_Iceland02",
+          "dryPercent": 2.35
+        }
+      ],
+      "civilianBuildings": 27,
+      "houseCandidates": [
+        [
+          "SV_Building08",
+          8
+        ],
+        [
+          "SV_Building05",
+          6
+        ],
+        [
+          "SV_Building06",
+          4
+        ],
+        [
+          "SV_Building01",
+          4
+        ],
+        [
+          "GI_Lighthouse_01",
+          2
+        ],
+        [
+          "SV_BuildingPCampTower01",
+          2
+        ],
+        [
+          "SV_Building03",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "SV_StreetLamp01",
+          13
+        ]
+      ]
+    },
+    {
+      "id": "m034",
+      "name": "[8P]Unreal_City_v1",
+      "group": "4v4",
+      "sha256": "a86ef9ff87a3225d3af801cfcd1628a094a75ebe401ddc813a85a546772db7ba",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pavement_Heidel01",
+          "dryPercent": 41.44
+        },
+        {
+          "name": "Pavement_Heidelberg10",
+          "dryPercent": 25.84
+        },
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 17.53
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 2.91
+        },
+        {
+          "name": "Grass_Heidelberg09",
+          "dryPercent": 2.8
+        },
+        {
+          "name": "Pavement_Heidelberg11",
+          "dryPercent": 2.16
+        },
+        {
+          "name": "Grass_Heidelberg07",
+          "dryPercent": 0.95
+        },
+        {
+          "name": "Pavement_SaintPetersburg05",
+          "dryPercent": 0.95
+        }
+      ],
+      "civilianBuildings": 66,
+      "houseCandidates": [
+        [
+          "HB_HOUSE04",
+          16
+        ],
+        [
+          "HB_House03",
+          14
+        ],
+        [
+          "HB_Restaurant_03",
+          10
+        ],
+        [
+          "HB_Rowhouse01",
+          8
+        ],
+        [
+          "HB_House02",
+          8
+        ],
+        [
+          "HB_House01",
+          4
+        ],
+        [
+          "HB_Restaurant01",
+          4
+        ],
+        [
+          "HB_Restaurant_04",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "HB_BENCH01",
+          320
+        ],
+        [
+          "HB_LIGHT01",
+          155
+        ],
+        [
+          "HB_TABLE01",
+          40
+        ],
+        [
+          "HB_TABLE02",
+          32
+        ],
+        [
+          "HB_TABLE03",
+          28
+        ],
+        [
+          "HB_TRASH",
+          27
+        ],
+        [
+          "HB_Statue02",
+          2
+        ],
+        [
+          "HB_Statue01_Collapse",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m035",
+      "name": "map_mp_5_feasel2",
+      "group": "5人混战",
+      "sha256": "7d743ea3bb352b78130b461b926cd071ea7271f3e35cf6fb2d122b60f645b131",
+      "sourceUnchanged": true,
+      "cliffs": 219,
+      "cliffTypes": [
+        {
+          "type": "MY_CliffWall03",
+          "count": 29
+        },
+        {
+          "type": "MY_CliffWall05",
+          "count": 22
+        },
+        {
+          "type": "YU_CliffWall04",
+          "count": 21
+        },
+        {
+          "type": "YU_CliffWall06",
+          "count": 21
+        },
+        {
+          "type": "MY_CliffWall01",
+          "count": 21
+        },
+        {
+          "type": "YU_CliffWall05",
+          "count": 16
+        },
+        {
+          "type": "MY_CliffWall04",
+          "count": 16
+        },
+        {
+          "type": "YU_CliffWall01",
+          "count": 15
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 13.9
+        },
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 13.21
+        },
+        {
+          "name": "Sand_Cannes01",
+          "dryPercent": 12.79
+        },
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 11.11
+        },
+        {
+          "name": "Dirt_Mykonos01",
+          "dryPercent": 9.62
+        },
+        {
+          "name": "Grass_Yucatan09",
+          "dryPercent": 8.68
+        },
+        {
+          "name": "Grass_Mykonos01",
+          "dryPercent": 4.36
+        },
+        {
+          "name": "Grass_Yucatan08",
+          "dryPercent": 4.24
+        }
+      ],
+      "civilianBuildings": 40,
+      "houseCandidates": [
+        [
+          "YU_TikiHut01",
+          15
+        ],
+        [
+          "MY_Restaurant_03",
+          6
+        ],
+        [
+          "MY_House_04",
+          6
+        ],
+        [
+          "MY_House_03",
+          4
+        ],
+        [
+          "MY_Apartment01",
+          4
+        ],
+        [
+          "MY_Restaurant_01",
+          4
+        ],
+        [
+          "MY_Restaurant_04",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "MY_TABLE01",
+          35
+        ],
+        [
+          "MY_LIGHT01",
+          34
+        ],
+        [
+          "MY_BENCH",
+          30
+        ],
+        [
+          "MY_Umbrella_01",
+          13
+        ],
+        [
+          "YU_WHITEBENCH01",
+          6
+        ],
+        [
+          "SA_Umbrella01",
+          5
+        ],
+        [
+          "SA_UMBRELLA04",
+          5
+        ],
+        [
+          "SA_UMBRELLA07",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "m036",
+      "name": "map_mp_5_feasel3",
+      "group": "5人混战",
+      "sha256": "9a9aa866a5be45b6716251dc3a67f8f39433ac5374cba8e61dc1b4e72a1ad57b",
+      "sourceUnchanged": true,
+      "cliffs": 230,
+      "cliffTypes": [
+        {
+          "type": "MY_CliffWall03",
+          "count": 63
+        },
+        {
+          "type": "MY_CliffWall02",
+          "count": 29
+        },
+        {
+          "type": "MY_CliffWall01",
+          "count": 24
+        },
+        {
+          "type": "MY_CliffWall05",
+          "count": 22
+        },
+        {
+          "type": "MY_CliffWall04",
+          "count": 20
+        },
+        {
+          "type": "GV_CliffWall03",
+          "count": 19
+        },
+        {
+          "type": "GV_CliffWall02",
+          "count": 15
+        },
+        {
+          "type": "GV_CliffWall01",
+          "count": 14
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Gypsy02",
+          "dryPercent": 22.49
+        },
+        {
+          "name": "Dirt_Mykonos02",
+          "dryPercent": 17.89
+        },
+        {
+          "name": "Dirt_Mykonos03",
+          "dryPercent": 13.08
+        },
+        {
+          "name": "Dirt_Mykonos01",
+          "dryPercent": 11.51
+        },
+        {
+          "name": "Dirt_Gypsy02",
+          "dryPercent": 6.29
+        },
+        {
+          "name": "Grass_Golf08",
+          "dryPercent": 5.24
+        },
+        {
+          "name": "Pave_Golf05",
+          "dryPercent": 4.07
+        },
+        {
+          "name": "Dirt_CapeCod03",
+          "dryPercent": 2.82
+        }
+      ],
+      "civilianBuildings": 11,
+      "houseCandidates": [
+        [
+          "GV_Restaurant_01",
+          11
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "GV_BENCH01",
+          20
+        ],
+        [
+          "TH_LAMPPOST04",
+          19
+        ]
+      ]
+    },
+    {
+      "id": "m037",
+      "name": "[cor_samsara]ep01A_poland_demo1",
+      "group": "只学美化",
+      "sha256": "cabb38a9a7c6d0f94c425088f2dfd669148c741a52923d91e5477da1919e68e8",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 54.22
+        },
+        {
+          "name": "Grass_Gibraltar1",
+          "dryPercent": 28.78
+        },
+        {
+          "name": "Pavement_Kremlin03",
+          "dryPercent": 7.05
+        },
+        {
+          "name": "Dirt_Gypsy03",
+          "dryPercent": 2.96
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 2.38
+        },
+        {
+          "name": "BB_Dirt01",
+          "dryPercent": 0.95
+        },
+        {
+          "name": "Cliff_Gibraltar2",
+          "dryPercent": 0.72
+        },
+        {
+          "name": "Grass_Yucatan06",
+          "dryPercent": 0.63
+        }
+      ],
+      "civilianBuildings": 53,
+      "houseCandidates": [
+        [
+          "CCHOUSE03",
+          12
+        ],
+        [
+          "HB_Restaurant_04",
+          11
+        ],
+        [
+          "HB_Restaurant_03",
+          7
+        ],
+        [
+          "SA_HOUSE04",
+          5
+        ],
+        [
+          "HB_HOUSE04",
+          5
+        ],
+        [
+          "SA_HOUSE02",
+          5
+        ],
+        [
+          "SA_HOUSE01",
+          4
+        ],
+        [
+          "CapeCod_House01",
+          3
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "SA_TABLE01",
+          32
+        ],
+        [
+          "OK_LANTERN02",
+          12
+        ],
+        [
+          "SV_StreetLamp01",
+          12
+        ],
+        [
+          "HV_FOUNTAIN01",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m038",
+      "name": "[cor_samsara]ep02A_BRIGHTON_demo1",
+      "group": "只学美化",
+      "sha256": "7c6e90b4afc3061a154d93bbe0ef69f09a2d39d705d93f9c6b37be84a9120fa7",
+      "sourceUnchanged": true,
+      "cliffs": 9,
+      "cliffTypes": [
+        {
+          "type": "BB_CliffWall02",
+          "count": 3
+        },
+        {
+          "type": "BB_CliffWall01",
+          "count": 3
+        },
+        {
+          "type": "BB_CliffWall11",
+          "count": 1
+        },
+        {
+          "type": "BB_CliffWall09",
+          "count": 1
+        },
+        {
+          "type": "BB_CliffWall05",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_NewYork01",
+          "dryPercent": 16.05
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 15.3
+        },
+        {
+          "name": "Pave_Golf03",
+          "dryPercent": 8.67
+        },
+        {
+          "name": "Grass_Hawaii01",
+          "dryPercent": 8.61
+        },
+        {
+          "name": "Pavement_SaintPetersburg02",
+          "dryPercent": 8.43
+        },
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 7.24
+        },
+        {
+          "name": "Pavement_Yucatan01",
+          "dryPercent": 6.03
+        },
+        {
+          "name": "Grass_Hawaii02",
+          "dryPercent": 4.74
+        }
+      ],
+      "civilianBuildings": 171,
+      "houseCandidates": [
+        [
+          "GE_TOWNHOUSE01",
+          18
+        ],
+        [
+          "CapeCod_House01b",
+          16
+        ],
+        [
+          "SA_STORE02",
+          16
+        ],
+        [
+          "BB_Hotel_01_02",
+          15
+        ],
+        [
+          "GI_Hotel_01",
+          11
+        ],
+        [
+          "CCHouse03d",
+          10
+        ],
+        [
+          "YU_HOTEL03",
+          8
+        ],
+        [
+          "BB_hotel_02",
+          8
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "BB_BENCH",
+          118
+        ],
+        [
+          "HB_TRASH",
+          79
+        ],
+        [
+          "GI_LIGHTPLANT02",
+          59
+        ],
+        [
+          "SA_TABLE01",
+          43
+        ],
+        [
+          "CS_CHAIR03",
+          28
+        ],
+        [
+          "ST_LIGHT01",
+          26
+        ],
+        [
+          "HB_TABLE01",
+          19
+        ],
+        [
+          "HB_TABLE02",
+          19
+        ]
+      ]
+    },
+    {
+      "id": "m039",
+      "name": "[cor_samsara]ep03A_Calais_demo1",
+      "group": "只学美化",
+      "sha256": "fea7a437aa3907a289fa6547b36091684afd5072b0b368c261893b4611cb3766",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Dirt_Mykonos01",
+          "dryPercent": 24.02
+        },
+        {
+          "name": "Asphalt01",
+          "dryPercent": 14.19
+        },
+        {
+          "name": "Dirt_Mykonos05",
+          "dryPercent": 13.22
+        },
+        {
+          "name": "Pavement_SaintPetersburg07",
+          "dryPercent": 12.97
+        },
+        {
+          "name": "Rock_Yucatan03",
+          "dryPercent": 9.04
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 8.29
+        },
+        {
+          "name": "Dirt_Gypsy01",
+          "dryPercent": 5.16
+        },
+        {
+          "name": "Grass_Mykonos01",
+          "dryPercent": 2.62
+        }
+      ],
+      "civilianBuildings": 49,
+      "houseCandidates": [
+        [
+          "RM_Building01",
+          23
+        ],
+        [
+          "RM_BuildingStone",
+          7
+        ],
+        [
+          "RM_BuildingCoastal02",
+          6
+        ],
+        [
+          "HB_Restaurant_03",
+          6
+        ],
+        [
+          "AM_Lighthouse_01",
+          2
+        ],
+        [
+          "RM_BuildingCityHall",
+          2
+        ],
+        [
+          "CA_PortAuthorityBuilding",
+          1
+        ],
+        [
+          "HB_Church",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "GE_BENCH",
+          38
+        ],
+        [
+          "GE_LIGHT01",
+          23
+        ],
+        [
+          "GE_STATUE01",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "m040",
+      "name": "[cor_samsara]ep04A_HASIENBERG_demo1",
+      "group": "只学美化",
+      "sha256": "625db84536512cd9cc50f4099f4731545261cd5492e9521675134c3c1f0583b4",
+      "sourceUnchanged": true,
+      "cliffs": 55,
+      "cliffTypes": [
+        {
+          "type": "MR_Cliff05",
+          "count": 39
+        },
+        {
+          "type": "MR_Cliff07",
+          "count": 8
+        },
+        {
+          "type": "MR_Cliff08",
+          "count": 5
+        },
+        {
+          "type": "MR_Cliff06",
+          "count": 2
+        },
+        {
+          "type": "MR_Cliff11",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 31.67
+        },
+        {
+          "name": "Pavement_Heidelberg10",
+          "dryPercent": 16.38
+        },
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 11.77
+        },
+        {
+          "name": "Pavement_Heidel01",
+          "dryPercent": 6.93
+        },
+        {
+          "name": "Pavement_NewYork03",
+          "dryPercent": 4.78
+        },
+        {
+          "name": "Grass_Yucatan04",
+          "dryPercent": 4.09
+        },
+        {
+          "name": "Dirt_Yucatan04",
+          "dryPercent": 3.71
+        },
+        {
+          "name": "Transition_Yucatan21",
+          "dryPercent": 3.66
+        }
+      ],
+      "civilianBuildings": 321,
+      "houseCandidates": [
+        [
+          "GI_Apartment_02",
+          65
+        ],
+        [
+          "HB_Rowhouse01",
+          61
+        ],
+        [
+          "HB_Restaurant01",
+          61
+        ],
+        [
+          "HB_Restaurant_03",
+          51
+        ],
+        [
+          "HB_Restaurant_04",
+          28
+        ],
+        [
+          "HB_HOUSE04",
+          12
+        ],
+        [
+          "HV_hotel06_02",
+          9
+        ],
+        [
+          "GI_Apartment_01",
+          8
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "SV_StreetLamp01",
+          149
+        ],
+        [
+          "HB_BENCH01",
+          50
+        ],
+        [
+          "SA_TABLE01",
+          33
+        ],
+        [
+          "HB_LIGHT01",
+          24
+        ],
+        [
+          "ST_LIGHT01",
+          6
+        ],
+        [
+          "HB_Statue02",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m041",
+      "name": "[cor_samsara]ep05S_island_demo1",
+      "group": "只学美化",
+      "sha256": "748fed09ab91de709b49e2e7d8aff30e5acbb58b8fb6579214006ffdbbab2411",
+      "sourceUnchanged": true,
+      "cliffs": 88,
+      "cliffTypes": [
+        {
+          "type": "YU_SeaCliffWall04",
+          "count": 29
+        },
+        {
+          "type": "YU_SeaCliffWall03",
+          "count": 23
+        },
+        {
+          "type": "YU_SeaCliffWall09",
+          "count": 21
+        },
+        {
+          "type": "YU_SeaCliffWall05",
+          "count": 9
+        },
+        {
+          "type": "YU_SeaCliffWall06",
+          "count": 5
+        },
+        {
+          "type": "YU_SeaCliffWall02",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 43.93
+        },
+        {
+          "name": "Asphalt05",
+          "dryPercent": 22.17
+        },
+        {
+          "name": "Pavement_Heidel03",
+          "dryPercent": 15.58
+        },
+        {
+          "name": "Grass_Gibraltar1",
+          "dryPercent": 6.12
+        },
+        {
+          "name": "Pavement_SaintPetersburg02",
+          "dryPercent": 3.04
+        },
+        {
+          "name": "Grass_Yucatan07",
+          "dryPercent": 2.09
+        },
+        {
+          "name": "Pavement_Havana03",
+          "dryPercent": 1.75
+        },
+        {
+          "name": "Dirt_Heidelberg01",
+          "dryPercent": 1.54
+        }
+      ],
+      "civilianBuildings": 104,
+      "houseCandidates": [
+        [
+          "HB_Restaurant_03",
+          34
+        ],
+        [
+          "HB_Restaurant_04",
+          28
+        ],
+        [
+          "HB_HOUSE04",
+          23
+        ],
+        [
+          "SA_HOUSE04",
+          10
+        ],
+        [
+          "NY_Building01",
+          5
+        ],
+        [
+          "CCHOUSE03",
+          4
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "HV_LAMPPOST01",
+          231
+        ]
+      ]
+    },
+    {
+      "id": "m042",
+      "name": "[cor_samsara]ep06S_Jungle_village_demo1",
+      "group": "只学美化",
+      "sha256": "192114a4881e79766db57e512f2f454edeb8710a843b6ad518a958d5b6036701",
+      "sourceUnchanged": true,
+      "cliffs": 529,
+      "cliffTypes": [
+        {
+          "type": "RM_DesolatorCliffWall06_GRID",
+          "count": 177
+        },
+        {
+          "type": "RM_DesolatorCliffWall08_GRID",
+          "count": 142
+        },
+        {
+          "type": "RM_DesolatorCliffWall07_GRID",
+          "count": 65
+        },
+        {
+          "type": "RM_DesolatorCliffWall010_GRID",
+          "count": 65
+        },
+        {
+          "type": "RM_DesolatorCliffWall09_GRID",
+          "count": 62
+        },
+        {
+          "type": "RM_DesolatorCliffWall011_GRID",
+          "count": 9
+        },
+        {
+          "type": "RM_DesolatorCliffWall12_GRID",
+          "count": 9
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_MtRush03",
+          "dryPercent": 42.4
+        },
+        {
+          "name": "Dirt_CapeCod05",
+          "dryPercent": 17.35
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 8.61
+        },
+        {
+          "name": "Grass_Yucatan04",
+          "dryPercent": 6.24
+        },
+        {
+          "name": "Grass_Hawaii03",
+          "dryPercent": 5.42
+        },
+        {
+          "name": "Pavement_Heidelberg12",
+          "dryPercent": 5.2
+        },
+        {
+          "name": "Grass_Hawaii02",
+          "dryPercent": 4.13
+        },
+        {
+          "name": "Grass_MtRush07",
+          "dryPercent": 3.54
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": []
+    },
+    {
+      "id": "m043",
+      "name": "[cor_samsara]ep07S_Dragon_Island_demo1",
+      "group": "只学美化",
+      "sha256": "4a666b6db2b2660fa9794d32f20aa976ebb329869c1ebfc5aaef4161ac8a38fb",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_NewYork01",
+          "dryPercent": 27.32
+        },
+        {
+          "name": "Grass_SaintPetersburg01",
+          "dryPercent": 20.91
+        },
+        {
+          "name": "Cliff_CapeCod01",
+          "dryPercent": 15.33
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 10.76
+        },
+        {
+          "name": "Dirt_Yucatan04",
+          "dryPercent": 4.93
+        },
+        {
+          "name": "Grass_MtRush07",
+          "dryPercent": 4.92
+        },
+        {
+          "name": "Dirt_Yucatan02",
+          "dryPercent": 4.28
+        },
+        {
+          "name": "SteelDeck02",
+          "dryPercent": 2.63
+        }
+      ],
+      "civilianBuildings": 58,
+      "houseCandidates": [
+        [
+          "ST_ShuttleDisguiseBuilding",
+          52
+        ],
+        [
+          "FI_Building01",
+          6
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "OK_LANTERN01",
+          14
+        ],
+        [
+          "MJ_FISHSTATUE01",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m044",
+      "name": "[cor_samsara]ep08S_Monsoon_Strait_demo1",
+      "group": "只学美化",
+      "sha256": "14b3dd4ad3140a9c0ec84ddb5e6715836c9be3a64a34e373e4a74bd4b6c30b88",
+      "sourceUnchanged": true,
+      "cliffs": 55,
+      "cliffTypes": [
+        {
+          "type": "EI_CliffWall08_GRID",
+          "count": 28
+        },
+        {
+          "type": "EI_CliffWall09_GRID",
+          "count": 18
+        },
+        {
+          "type": "EI_CliffWall010_GRID",
+          "count": 5
+        },
+        {
+          "type": "EI_CliffWall06_GRID",
+          "count": 2
+        },
+        {
+          "type": "EI_CliffWall07_GRID",
+          "count": 2
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Gypsy01",
+          "dryPercent": 37.97
+        },
+        {
+          "name": "Dirt_Gypsy02",
+          "dryPercent": 22.85
+        },
+        {
+          "name": "Dirt_Easter09",
+          "dryPercent": 14.09
+        },
+        {
+          "name": "Grass_Gypsy04",
+          "dryPercent": 8
+        },
+        {
+          "name": "BB_Gravel02",
+          "dryPercent": 5.31
+        },
+        {
+          "name": "Grass_Gypsy02",
+          "dryPercent": 3.52
+        },
+        {
+          "name": "BB_Gravel01",
+          "dryPercent": 2.67
+        },
+        {
+          "name": "Dirt_Easter10",
+          "dryPercent": 1.31
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": [
+        [
+          "SA_UMBRELLA04",
+          4
+        ],
+        [
+          "SA_UMBRELLA08",
+          4
+        ],
+        [
+          "SA_UMBRELLA11",
+          3
+        ],
+        [
+          "ST_TABLE06",
+          3
+        ],
+        [
+          "SA_UMBRELLA03",
+          2
+        ],
+        [
+          "SA_UMBRELLA06",
+          2
+        ],
+        [
+          "SA_UMBRELLA07",
+          2
+        ],
+        [
+          "SA_UMBRELLA09",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m045",
+      "name": "[cor_samsara]ep09J_Shinro_Laboratory_demo1",
+      "group": "只学美化",
+      "sha256": "4ccca1b838b39452dda742d44d39150168848208dee99b25278ad1b0eb2d48b7",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "FortressBlackEdge",
+          "dryPercent": 98.26
+        },
+        {
+          "name": "Pavement_SaintPetersburg02",
+          "dryPercent": 0.97
+        },
+        {
+          "name": "Grass_NewYork01",
+          "dryPercent": 0.46
+        },
+        {
+          "name": "Dirt_HotSprings03",
+          "dryPercent": 0.32
+        }
+      ],
+      "civilianBuildings": 7,
+      "houseCandidates": [
+        [
+          "NY_Building02",
+          6
+        ],
+        [
+          "ST_ShuttleDisguiseBuilding",
+          1
+        ]
+      ],
+      "streetCandidates": []
+    },
+    {
+      "id": "m046",
+      "name": "[cor_samsara]ep10J_Akizuki_Dojo_demo1",
+      "group": "只学美化",
+      "sha256": "4a26746c2d7dd9f7d0869558cd7eb1ea1ad92d00015339f20bd8312eb0ad078b",
+      "sourceUnchanged": true,
+      "cliffs": 63,
+      "cliffTypes": [
+        {
+          "type": "MJ_CliffWall02",
+          "count": 23
+        },
+        {
+          "type": "MJ_CliffWall01",
+          "count": 19
+        },
+        {
+          "type": "MJ_CliffWall05",
+          "count": 8
+        },
+        {
+          "type": "MJ_CliffWall04",
+          "count": 6
+        },
+        {
+          "type": "MJ_CliffWall03",
+          "count": 3
+        },
+        {
+          "type": "MJ_CliffWall10",
+          "count": 3
+        },
+        {
+          "type": "MJ_CliffWall07",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Hawaii06",
+          "dryPercent": 29.47
+        },
+        {
+          "name": "Pavement_CapeCod02",
+          "dryPercent": 15.28
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 12.4
+        },
+        {
+          "name": "Cliff_MtRush01",
+          "dryPercent": 10.54
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 8.35
+        },
+        {
+          "name": "Grass_Gibraltar2",
+          "dryPercent": 6.4
+        },
+        {
+          "name": "Grass_Heidelberg05",
+          "dryPercent": 3.96
+        },
+        {
+          "name": "Grass_Hawaii01",
+          "dryPercent": 2.73
+        }
+      ],
+      "civilianBuildings": 154,
+      "houseCandidates": [
+        [
+          "TH_ImperialMilitaryAdminBuilding",
+          71
+        ],
+        [
+          "MJ_BuildingWoods01",
+          19
+        ],
+        [
+          "MJ_BuildingHillside01",
+          16
+        ],
+        [
+          "MJ_BuildingWoods02",
+          15
+        ],
+        [
+          "MJ_BuildingWaterWheelSmall01",
+          9
+        ],
+        [
+          "MJ_GUARDHOUSE01",
+          8
+        ],
+        [
+          "MJ_BuildingStilts01",
+          5
+        ],
+        [
+          "TH_ShinzoHouse",
+          4
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "OK_LANTERN02",
+          122
+        ],
+        [
+          "OK_LANTERN05",
+          90
+        ],
+        [
+          "OK_LANTERN01",
+          75
+        ],
+        [
+          "MJ_WOODLANTERN01",
+          18
+        ],
+        [
+          "OK_LANTERN03",
+          8
+        ],
+        [
+          "MJ_BuddhaStatue01",
+          4
+        ],
+        [
+          "MJ_FISHSTATUE01",
+          3
+        ],
+        [
+          "HA_LANTERNPOST01",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m047",
+      "name": "[cor_samsara]ep11J_Kamikayama_demo1",
+      "group": "只学美化",
+      "sha256": "3c06e9c4c53f9b98bdb084f45c97a58f39ca4dcd1c5334faa478a4ef57b463c0",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Hawaii06",
+          "dryPercent": 18.24
+        },
+        {
+          "name": "Pavement_CapeCod02",
+          "dryPercent": 16.7
+        },
+        {
+          "name": "Cliff_MtRush01",
+          "dryPercent": 12.71
+        },
+        {
+          "name": "Asphalt05",
+          "dryPercent": 11.79
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 8.91
+        },
+        {
+          "name": "Grass_Heidelberg05",
+          "dryPercent": 7.9
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 6.43
+        },
+        {
+          "name": "Pavement_SaintPetersburg03",
+          "dryPercent": 4.15
+        }
+      ],
+      "civilianBuildings": 41,
+      "houseCandidates": [
+        [
+          "MJ_GUARDHOUSE01",
+          18
+        ],
+        [
+          "FI_Building01",
+          9
+        ],
+        [
+          "TH_Building_06",
+          2
+        ],
+        [
+          "TH_office_building04",
+          2
+        ],
+        [
+          "TH_ImperialMilitaryAdminBuilding",
+          1
+        ],
+        [
+          "TH_office_building03",
+          1
+        ],
+        [
+          "TH_Fishstore_Mackerel",
+          1
+        ],
+        [
+          "TH_Fishstore_Shrimp",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "OK_LANTERN05",
+          81
+        ],
+        [
+          "TH_LAMPPOST01",
+          58
+        ],
+        [
+          "OK_LANTERN01",
+          42
+        ],
+        [
+          "TH_LAMPPOST04",
+          41
+        ],
+        [
+          "TH_LAMPPOST05",
+          28
+        ],
+        [
+          "OK_LANTERN04",
+          10
+        ],
+        [
+          "OK_LANTERN03",
+          8
+        ],
+        [
+          "MJ_BuddhaStatue01",
+          7
+        ]
+      ]
+    },
+    {
+      "id": "m048",
+      "name": "[cor_samsara]ep12J_Grand_Canyon_demo1",
+      "group": "只学美化",
+      "sha256": "0612ae2b3851c9284d3327223d8c3042c94798ec12c745edafb7b5d3ca9c5cf2",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "FortressBlackEdge",
+          "dryPercent": 56.57
+        },
+        {
+          "name": "Dirt_Yucatan02",
+          "dryPercent": 11.27
+        },
+        {
+          "name": "Dirt_Yucatan04",
+          "dryPercent": 8.3
+        },
+        {
+          "name": "Rock_Yucatan03",
+          "dryPercent": 4.05
+        },
+        {
+          "name": "Sand_Cannes04",
+          "dryPercent": 3.05
+        },
+        {
+          "name": "Sand_Cannes08",
+          "dryPercent": 3.04
+        },
+        {
+          "name": "Pavement_Havana03",
+          "dryPercent": 2.51
+        },
+        {
+          "name": "Grass_Hawaii05",
+          "dryPercent": 2.3
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": []
+    },
+    {
+      "id": "m049",
+      "name": "MAP_MP_COOP_j01_russianvillage_white",
+      "group": "只学美化",
+      "sha256": "192a40ac007a367734005be29b040f9ba31b9cb01130732331d69a7be7a0691d",
+      "sourceUnchanged": true,
+      "cliffs": 245,
+      "cliffTypes": [
+        {
+          "type": "IL_SeaCliffWall04",
+          "count": 84
+        },
+        {
+          "type": "IL_SeaCliffWall01",
+          "count": 57
+        },
+        {
+          "type": "IL_SeaCliffWall03",
+          "count": 54
+        },
+        {
+          "type": "VL_CliffWall02",
+          "count": 39
+        },
+        {
+          "type": "IL_SeaCliffWall05",
+          "count": 7
+        },
+        {
+          "type": "IL_SeaCliffWall02",
+          "count": 4
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Snow_Solvang01",
+          "dryPercent": 49.23
+        },
+        {
+          "name": "Pavement_Solvang01",
+          "dryPercent": 8.79
+        },
+        {
+          "name": "Pavement_Vlad04",
+          "dryPercent": 7.1
+        },
+        {
+          "name": "Pavement_Kremlin05",
+          "dryPercent": 6.35
+        },
+        {
+          "name": "Pavement_Vlad07",
+          "dryPercent": 6.16
+        },
+        {
+          "name": "Pavement_Kremlin04",
+          "dryPercent": 3.51
+        },
+        {
+          "name": "Snow_Solvang10",
+          "dryPercent": 3.24
+        },
+        {
+          "name": "Snow_Iceland04",
+          "dryPercent": 3.11
+        }
+      ],
+      "civilianBuildings": 166,
+      "houseCandidates": [
+        [
+          "VL_Building02",
+          44
+        ],
+        [
+          "VL_Building03",
+          41
+        ],
+        [
+          "VL_Building05",
+          18
+        ],
+        [
+          "VL_Building01",
+          12
+        ],
+        [
+          "VL_building04",
+          12
+        ],
+        [
+          "OD_APARTMENTS01",
+          10
+        ],
+        [
+          "SV_Building07",
+          7
+        ],
+        [
+          "SV_Building08",
+          7
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04",
+          225
+        ],
+        [
+          "SV_StreetLamp01",
+          122
+        ],
+        [
+          "SV_Bench01",
+          56
+        ],
+        [
+          "KR_LIGHTPOLE01",
+          46
+        ],
+        [
+          "ST_TABLE03",
+          4
+        ],
+        [
+          "KR_STATUE01",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m050",
+      "name": "MAP_MP_COOP_j08_kremlin_stewart",
+      "group": "只学美化",
+      "sha256": "9ba244eedc9e145e0532e08b7e7084f670a6a567f2bd412b84e473b7a5eaf277",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pavement_Kremlin01",
+          "dryPercent": 19
+        },
+        {
+          "name": "Snow_Solvang09",
+          "dryPercent": 15.97
+        },
+        {
+          "name": "Pavement_Kremlin03",
+          "dryPercent": 11.22
+        },
+        {
+          "name": "Snow_Iceland02",
+          "dryPercent": 7.63
+        },
+        {
+          "name": "Pavement_Vlad04",
+          "dryPercent": 7.36
+        },
+        {
+          "name": "Snow_Iceland03",
+          "dryPercent": 6.09
+        },
+        {
+          "name": "Pavement_Vlad05",
+          "dryPercent": 5.76
+        },
+        {
+          "name": "Pavement_Vlad11",
+          "dryPercent": 4.69
+        }
+      ],
+      "civilianBuildings": 55,
+      "houseCandidates": [
+        [
+          "VL_Building03",
+          15
+        ],
+        [
+          "VL_Building02",
+          10
+        ],
+        [
+          "VL_Building05",
+          9
+        ],
+        [
+          "VL_Building01",
+          8
+        ],
+        [
+          "VL_building04",
+          7
+        ],
+        [
+          "KR_GreatKremlinPalace_B",
+          4
+        ],
+        [
+          "KR_HeartBuilding",
+          1
+        ],
+        [
+          "KR_GreatKremlinPalace",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "KR_LIGHTPOLE01",
+          169
+        ],
+        [
+          "KR_STATUE01",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "m051",
+      "name": "MAP_MP_COOP_s03_vladivostok_davis",
+      "group": "只学美化",
+      "sha256": "f8bf4e96d6e19a2b06670338e6cafb0f0bf013ca9b4544b0c0c5813faa8852d2",
+      "sourceUnchanged": true,
+      "cliffs": 65,
+      "cliffTypes": [
+        {
+          "type": "IL_SeaCliffWall03",
+          "count": 20
+        },
+        {
+          "type": "IL_SeaCliffWall02",
+          "count": 18
+        },
+        {
+          "type": "IL_SeaCliffWall05",
+          "count": 10
+        },
+        {
+          "type": "IL_SeaCliffWall01",
+          "count": 10
+        },
+        {
+          "type": "IL_SeaCliffWall04",
+          "count": 7
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pavement_Vlad07",
+          "dryPercent": 18.35
+        },
+        {
+          "name": "Pavement_Vlad06",
+          "dryPercent": 17.14
+        },
+        {
+          "name": "Pavement_Vlad03",
+          "dryPercent": 14.59
+        },
+        {
+          "name": "Pavement_Vlad05",
+          "dryPercent": 14.55
+        },
+        {
+          "name": "Pavement_Vlad04",
+          "dryPercent": 11.54
+        },
+        {
+          "name": "Pavement_Vlad10",
+          "dryPercent": 3.6
+        },
+        {
+          "name": "Snow_Solvang01",
+          "dryPercent": 3.28
+        },
+        {
+          "name": "Dirt_Yucatan02",
+          "dryPercent": 3.19
+        }
+      ],
+      "civilianBuildings": 12,
+      "houseCandidates": [
+        [
+          "VL_Building02",
+          3
+        ],
+        [
+          "VL_Building03",
+          2
+        ],
+        [
+          "VL_RussianPortBuilding",
+          1
+        ],
+        [
+          "VL_ImperialMilitaryAdminBuilding_02",
+          1
+        ],
+        [
+          "VL_ImperialMilitaryAdminBuilding_03",
+          1
+        ],
+        [
+          "VL_Building05",
+          1
+        ],
+        [
+          "VL_building04",
+          1
+        ],
+        [
+          "VL_Building01",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04",
+          54
+        ],
+        [
+          "OK_LANTERN05",
+          11
+        ],
+        [
+          "SV_Bench01",
+          10
+        ],
+        [
+          "SV_StreetLamp01",
+          9
+        ],
+        [
+          "OK_LANTERN02",
+          8
+        ],
+        [
+          "OK_LANTERN03",
+          8
+        ],
+        [
+          "OK_LANTERN04",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m052",
+      "name": "[cor]苏俄堡垒2.0_PathXF",
+      "group": "只学美化",
+      "sha256": "5fc39d4a11629a4694b044c14ac2d79d7ccecfd3b9df72fc642be59f658fea3b",
+      "sourceUnchanged": true,
+      "cliffs": 596,
+      "cliffTypes": [
+        {
+          "type": "IL_SeaCliffWall03",
+          "count": 175
+        },
+        {
+          "type": "IL_SeaCliffWall04",
+          "count": 146
+        },
+        {
+          "type": "IL_SeaCliffWall01",
+          "count": 109
+        },
+        {
+          "type": "IL_SeaCliffWall02",
+          "count": 88
+        },
+        {
+          "type": "IL_SeaCliffWall05",
+          "count": 78
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Snow_Solvang01",
+          "dryPercent": 67.35
+        },
+        {
+          "name": "Snow_Solvang10",
+          "dryPercent": 18.63
+        },
+        {
+          "name": "Snow_Iceland05",
+          "dryPercent": 7.96
+        },
+        {
+          "name": "Snow_Iceland03",
+          "dryPercent": 2.56
+        },
+        {
+          "name": "Snow_Iceland04",
+          "dryPercent": 2.19
+        },
+        {
+          "name": "Cliff_Solvang04",
+          "dryPercent": 0.81
+        },
+        {
+          "name": "Asphalt05",
+          "dryPercent": 0.2
+        },
+        {
+          "name": "Cliff_Iceland07",
+          "dryPercent": 0.17
+        }
+      ],
+      "civilianBuildings": 113,
+      "houseCandidates": [
+        [
+          "SV_Building01",
+          27
+        ],
+        [
+          "SV_Building05",
+          26
+        ],
+        [
+          "SV_Building08",
+          25
+        ],
+        [
+          "SV_Building04",
+          15
+        ],
+        [
+          "SV_Building07",
+          13
+        ],
+        [
+          "SV_Building06",
+          7
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "SV_StreetLamp01",
+          72
+        ],
+        [
+          "SV_Bench01",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "m053",
+      "name": "[Zombie_C03]Kharkov",
+      "group": "只学美化",
+      "sha256": "5f98512679b5771d70830cc1286405bb0cbe25ec34c58673c075421b26ddd438",
+      "sourceUnchanged": true,
+      "cliffs": 92,
+      "cliffTypes": [
+        {
+          "type": "IL_SeaCliffWall01",
+          "count": 43
+        },
+        {
+          "type": "IL_SeaCliffWall03",
+          "count": 17
+        },
+        {
+          "type": "IL_SeaCliffWall07",
+          "count": 13
+        },
+        {
+          "type": "IL_SeaCliffWall06",
+          "count": 12
+        },
+        {
+          "type": "IL_SeaCliffWall04",
+          "count": 5
+        },
+        {
+          "type": "IL_SeaCliffWall02",
+          "count": 1
+        },
+        {
+          "type": "IL_SeaCliffWall05",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Snow_Solvang01",
+          "dryPercent": 43.87
+        },
+        {
+          "name": "Snow_Iceland04",
+          "dryPercent": 18.56
+        },
+        {
+          "name": "Pavement_Vlad02",
+          "dryPercent": 11.33
+        },
+        {
+          "name": "Pavement_Heidel09",
+          "dryPercent": 7.51
+        },
+        {
+          "name": "Pavement_Vlad04",
+          "dryPercent": 3.2
+        },
+        {
+          "name": "Snow_Solvang04",
+          "dryPercent": 3.1
+        },
+        {
+          "name": "Dirt_Iceland03",
+          "dryPercent": 2.2
+        },
+        {
+          "name": "Cliff_MtRush02",
+          "dryPercent": 1.51
+        }
+      ],
+      "civilianBuildings": 227,
+      "houseCandidates": [
+        [
+          "VL_building04",
+          53
+        ],
+        [
+          "VL_Building03",
+          40
+        ],
+        [
+          "VL_Building05",
+          36
+        ],
+        [
+          "VL_Building02",
+          32
+        ],
+        [
+          "VL_Building01",
+          11
+        ],
+        [
+          "SV_Building05",
+          10
+        ],
+        [
+          "SV_Building04",
+          9
+        ],
+        [
+          "SV_Building03",
+          8
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "GC_LIGHT01",
+          204
+        ],
+        [
+          "KR_LIGHTPOLE01",
+          177
+        ],
+        [
+          "SV_StreetLamp01",
+          28
+        ],
+        [
+          "KR_STATUE01",
+          9
+        ],
+        [
+          "SV_Bench01",
+          8
+        ],
+        [
+          "TH_LAMPPOST04",
+          7
+        ],
+        [
+          "GI_LightPlant01",
+          6
+        ],
+        [
+          "AM_LIGHT02",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "m054",
+      "name": "[Zombie_C04_E02]Minsk_Shocking_nuclear_explosion",
+      "group": "只学美化",
+      "sha256": "d5469987db4cabe299f6237f9b35d457175797cd94e1c1c4396cc0d409635e07",
+      "sourceUnchanged": true,
+      "cliffs": 86,
+      "cliffTypes": [
+        {
+          "type": "IL_SeaCliffWall01",
+          "count": 41
+        },
+        {
+          "type": "IL_SeaCliffWall05",
+          "count": 20
+        },
+        {
+          "type": "IL_SeaCliffWall03",
+          "count": 18
+        },
+        {
+          "type": "IL_SeaCliffWall04",
+          "count": 7
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Snow_Solvang01",
+          "dryPercent": 56.56
+        },
+        {
+          "name": "Pavement_Vlad05",
+          "dryPercent": 6.78
+        },
+        {
+          "name": "Dirt_Iceland03",
+          "dryPercent": 6
+        },
+        {
+          "name": "Pavement_Vlad06",
+          "dryPercent": 4.98
+        },
+        {
+          "name": "Pavement_Vlad02",
+          "dryPercent": 3.48
+        },
+        {
+          "name": "Dirt_Iceland05",
+          "dryPercent": 3.35
+        },
+        {
+          "name": "Pavement_Vlad04",
+          "dryPercent": 3.34
+        },
+        {
+          "name": "Pavement_Geneva01",
+          "dryPercent": 2.58
+        }
+      ],
+      "civilianBuildings": 221,
+      "houseCandidates": [
+        [
+          "SV_Building03",
+          33
+        ],
+        [
+          "SV_Building01",
+          32
+        ],
+        [
+          "SV_Building08",
+          32
+        ],
+        [
+          "SV_Building07",
+          28
+        ],
+        [
+          "SV_Building05",
+          22
+        ],
+        [
+          "SV_Building04",
+          18
+        ],
+        [
+          "VL_Building03",
+          12
+        ],
+        [
+          "VL_Building01",
+          7
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "AM_LIGHT02",
+          83
+        ],
+        [
+          "KR_LIGHTPOLE01",
+          55
+        ],
+        [
+          "GI_LightPlant01",
+          17
+        ],
+        [
+          "SV_Bench01",
+          10
+        ],
+        [
+          "GC_LIGHT01",
+          9
+        ],
+        [
+          "ST_LIGHT01",
+          8
+        ],
+        [
+          "ST_TABLE02",
+          6
+        ],
+        [
+          "SA_TABLE05",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "m055",
+      "name": "MAP_MP_COOP_a09_leningrad_rao",
+      "group": "只学美化",
+      "sha256": "b54528ac68b7aba1b014a473338773d6e7f27ea03fa7d93d9c2f1d9726aaa63e",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 26.47
+        },
+        {
+          "name": "Pavement_SaintPetersburg02",
+          "dryPercent": 19.64
+        },
+        {
+          "name": "Pavement_Heidel09",
+          "dryPercent": 11.4
+        },
+        {
+          "name": "Grass_Heidelberg09",
+          "dryPercent": 5.64
+        },
+        {
+          "name": "Grass_Heidelberg07",
+          "dryPercent": 4.96
+        },
+        {
+          "name": "Pavement_Geneva01",
+          "dryPercent": 3.3
+        },
+        {
+          "name": "Gravel_Heidelberg01",
+          "dryPercent": 3.29
+        },
+        {
+          "name": "Pave_Cannes02",
+          "dryPercent": 3.25
+        }
+      ],
+      "civilianBuildings": 46,
+      "houseCandidates": [
+        [
+          "ST_building05",
+          17
+        ],
+        [
+          "ST_Building02",
+          8
+        ],
+        [
+          "ST_building04",
+          6
+        ],
+        [
+          "ST_Building03",
+          5
+        ],
+        [
+          "ST_Building01",
+          5
+        ],
+        [
+          "OD_APARTMENTS01",
+          3
+        ],
+        [
+          "ST_Church_01",
+          1
+        ],
+        [
+          "ST_ShuttleDisguiseBuilding",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "ST_LIGHT01",
+          51
+        ],
+        [
+          "ST_LIGHT02",
+          17
+        ],
+        [
+          "ST_TABLE04",
+          14
+        ],
+        [
+          "ST_TABLE05",
+          7
+        ],
+        [
+          "ST_TABLE06",
+          6
+        ],
+        [
+          "HB_Statue02",
+          3
+        ],
+        [
+          "HV_FOUNTAIN01",
+          2
+        ],
+        [
+          "ST_Statue01",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m056",
+      "name": "MAP_MP_COOP_j02_stalingrad_stewart",
+      "group": "只学美化",
+      "sha256": "df937a4931a19b4e005fff2e84a78fce76d038146411a83877e1671ef1328d42",
+      "sourceUnchanged": true,
+      "cliffs": 108,
+      "cliffTypes": [
+        {
+          "type": "HB_CliffWall03",
+          "count": 23
+        },
+        {
+          "type": "HB_CliffWall05",
+          "count": 21
+        },
+        {
+          "type": "HB_CliffWall01",
+          "count": 21
+        },
+        {
+          "type": "HB_CliffWall06",
+          "count": 20
+        },
+        {
+          "type": "HB_CliffWall04",
+          "count": 19
+        },
+        {
+          "type": "HB_CliffWall02",
+          "count": 4
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 25.33
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 10.12
+        },
+        {
+          "name": "Pavement_SaintPetersburg02",
+          "dryPercent": 9.59
+        },
+        {
+          "name": "Grass_Heidelberg07",
+          "dryPercent": 6.15
+        },
+        {
+          "name": "Gravel_Heidelberg01",
+          "dryPercent": 5.2
+        },
+        {
+          "name": "Pavement_SaintPetersburg07",
+          "dryPercent": 4.46
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 4.15
+        },
+        {
+          "name": "Grass_Heidelberg06",
+          "dryPercent": 3.6
+        }
+      ],
+      "civilianBuildings": 30,
+      "houseCandidates": [
+        [
+          "ST_Building02",
+          5
+        ],
+        [
+          "ST_building05",
+          5
+        ],
+        [
+          "ST_Apartment_01",
+          4
+        ],
+        [
+          "ST_building04",
+          4
+        ],
+        [
+          "ST_Building03",
+          3
+        ],
+        [
+          "ST_Building01",
+          2
+        ],
+        [
+          "ST_Hotel_01",
+          2
+        ],
+        [
+          "ST_Building06",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "ST_LIGHT01",
+          77
+        ],
+        [
+          "CS_Bench01",
+          41
+        ],
+        [
+          "ST_TABLE05",
+          29
+        ],
+        [
+          "ST_TABLE03",
+          23
+        ],
+        [
+          "ST_TABLE06",
+          21
+        ],
+        [
+          "HB_BENCH01",
+          17
+        ],
+        [
+          "ST_TRASHCAN",
+          17
+        ],
+        [
+          "CS_STREETLIGHT",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m057",
+      "name": "MAP_MP_COOP_j03_odessa_stewart",
+      "group": "只学美化",
+      "sha256": "5b7d2465faeeb391bf6231428fcc402915f92133f39e6a62a9dc18e1a2fa2bee",
+      "sourceUnchanged": true,
+      "cliffs": 8,
+      "cliffTypes": [
+        {
+          "type": "YU_CliffWall09",
+          "count": 3
+        },
+        {
+          "type": "YU_CliffWall14",
+          "count": 2
+        },
+        {
+          "type": "YU_CliffWall12",
+          "count": 2
+        },
+        {
+          "type": "YU_CliffWall13",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_CapeCod11",
+          "dryPercent": 13.13
+        },
+        {
+          "name": "Asphalt02",
+          "dryPercent": 10.13
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 10.13
+        },
+        {
+          "name": "Pavement_Gibraltar1",
+          "dryPercent": 9.12
+        },
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 7.58
+        },
+        {
+          "name": "Grass_Heidelberg09",
+          "dryPercent": 6.11
+        },
+        {
+          "name": "Gravel_Heidelberg01",
+          "dryPercent": 5.85
+        },
+        {
+          "name": "Grass_Heidelberg10",
+          "dryPercent": 4.68
+        }
+      ],
+      "civilianBuildings": 62,
+      "houseCandidates": [
+        [
+          "OD_APARTMENTS01",
+          10
+        ],
+        [
+          "ST_Building01",
+          10
+        ],
+        [
+          "ST_building05",
+          9
+        ],
+        [
+          "ST_Building02",
+          8
+        ],
+        [
+          "OD_APARTMENTS02",
+          7
+        ],
+        [
+          "OD_Warehouse01",
+          7
+        ],
+        [
+          "ST_building04",
+          4
+        ],
+        [
+          "OD_Warehouse_KingOni",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "ST_TABLE03",
+          32
+        ],
+        [
+          "ST_LIGHT01",
+          31
+        ],
+        [
+          "ST_TABLE06",
+          23
+        ],
+        [
+          "CS_Bench01",
+          16
+        ],
+        [
+          "ST_TABLE05",
+          14
+        ],
+        [
+          "HB_Statue02",
+          9
+        ],
+        [
+          "CS_TRASHCAN",
+          4
+        ],
+        [
+          "OD_GardenFountain01",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m058",
+      "name": "MAP_MP_COOP_s01_leningradcanals_rao",
+      "group": "只学美化",
+      "sha256": "32fdaedafe14bf62080b5142576e8a7d0d5ebfd8fadcb3883a30b3dbbb1c96bb",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pavement_SaintPetersburg02",
+          "dryPercent": 20.21
+        },
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 16
+        },
+        {
+          "name": "Pavement_Heidel09",
+          "dryPercent": 14.58
+        },
+        {
+          "name": "Grass_SaintPetersburg01",
+          "dryPercent": 11.67
+        },
+        {
+          "name": "Pavement_Heidelberg10",
+          "dryPercent": 10.26
+        },
+        {
+          "name": "Pave_Cannes02",
+          "dryPercent": 6.74
+        },
+        {
+          "name": "Pavement_Geneva01",
+          "dryPercent": 4.02
+        },
+        {
+          "name": "Grass_Heidelberg09",
+          "dryPercent": 3.3
+        }
+      ],
+      "civilianBuildings": 21,
+      "houseCandidates": [
+        [
+          "ST_building05_01",
+          4
+        ],
+        [
+          "ST_building05_02",
+          3
+        ],
+        [
+          "OD_APARTMENTS01",
+          3
+        ],
+        [
+          "ST_building04",
+          3
+        ],
+        [
+          "ST_Building01",
+          2
+        ],
+        [
+          "ST_building05",
+          2
+        ],
+        [
+          "ST_Building02",
+          2
+        ],
+        [
+          "ST_SHUTTLEBUILDING",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "ST_LIGHT01",
+          27
+        ],
+        [
+          "ST_TRASHCAN",
+          9
+        ],
+        [
+          "HB_TABLE01",
+          5
+        ],
+        [
+          "HB_TABLE02",
+          3
+        ],
+        [
+          "HB_Statue02",
+          2
+        ],
+        [
+          "HV_FOUNTAIN01",
+          1
+        ],
+        [
+          "OD_GardenFountain01",
+          1
+        ],
+        [
+          "ST_Statue01",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m059",
+      "name": "MAP_MP_COOP_s02_krasna45_rao",
+      "group": "只学美化",
+      "sha256": "ad3cad4dc8c77a84923f04cfb86ded9b211d1b907f84fa2d90ebdfa07c76d50b",
+      "sourceUnchanged": true,
+      "cliffs": 193,
+      "cliffTypes": [
+        {
+          "type": "GV_CliffWall03",
+          "count": 37
+        },
+        {
+          "type": "MY_CliffWall01",
+          "count": 32
+        },
+        {
+          "type": "GV_CliffWall01",
+          "count": 30
+        },
+        {
+          "type": "MY_CliffWall03",
+          "count": 19
+        },
+        {
+          "type": "GV_CliffWall04",
+          "count": 17
+        },
+        {
+          "type": "GV_CliffWall05",
+          "count": 15
+        },
+        {
+          "type": "MY_CliffWall05",
+          "count": 14
+        },
+        {
+          "type": "MY_CliffWall04",
+          "count": 12
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pave_Golf07",
+          "dryPercent": 17.75
+        },
+        {
+          "name": "Grass_Gypsy02",
+          "dryPercent": 13.57
+        },
+        {
+          "name": "Dirt_Mykonos01",
+          "dryPercent": 13.1
+        },
+        {
+          "name": "Dirt_Mykonos03",
+          "dryPercent": 12
+        },
+        {
+          "name": "Dirt_Mykonos02",
+          "dryPercent": 7.56
+        },
+        {
+          "name": "Grass_Golf08",
+          "dryPercent": 4.61
+        },
+        {
+          "name": "Dirt_Gypsy02",
+          "dryPercent": 3.47
+        },
+        {
+          "name": "Pave_Golf05",
+          "dryPercent": 3.46
+        }
+      ],
+      "civilianBuildings": 5,
+      "houseCandidates": [
+        [
+          "OD_WAREHOUSE02",
+          3
+        ],
+        [
+          "TH_office_building01",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04B",
+          61
+        ],
+        [
+          "GV_BENCH01",
+          23
+        ]
+      ]
+    },
+    {
+      "id": "m060",
+      "name": "MAP_MP_PROMO_Feasel3a",
+      "group": "只学美化",
+      "sha256": "7592c9c383b84d3c94cd7a4ba3eaa45e510e9fc8ecf192b34ae2f3f63346b7b5",
+      "sourceUnchanged": true,
+      "cliffs": 75,
+      "cliffTypes": [
+        {
+          "type": "YU_SeaCliffWall04",
+          "count": 25
+        },
+        {
+          "type": "YU_SeaCliffWall01",
+          "count": 12
+        },
+        {
+          "type": "YU_SeaCliffWall03",
+          "count": 11
+        },
+        {
+          "type": "YU_SeaCliffWall05",
+          "count": 10
+        },
+        {
+          "type": "YU_SeaCliffWall06",
+          "count": 8
+        },
+        {
+          "type": "YU_SeaCliffWall02",
+          "count": 7
+        },
+        {
+          "type": "YU_SeaCliffWall07",
+          "count": 1
+        },
+        {
+          "type": "YU_SeaCliffWall08",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pave_Cannes01",
+          "dryPercent": 27.05
+        },
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 13.88
+        },
+        {
+          "name": "Pavement_SaintPetersburg02",
+          "dryPercent": 8.65
+        },
+        {
+          "name": "Grass_Hawaii01",
+          "dryPercent": 8.45
+        },
+        {
+          "name": "Pavement_Amsterdam03",
+          "dryPercent": 7.44
+        },
+        {
+          "name": "Sand_Cannes01",
+          "dryPercent": 5.73
+        },
+        {
+          "name": "Pavement_Havana03",
+          "dryPercent": 5.73
+        },
+        {
+          "name": "Dirt_Yucatan02",
+          "dryPercent": 4
+        }
+      ],
+      "civilianBuildings": 25,
+      "houseCandidates": [
+        [
+          "CA_Hotel_01",
+          6
+        ],
+        [
+          "GI_Hotel_01",
+          4
+        ],
+        [
+          "CA_Hotel_04",
+          4
+        ],
+        [
+          "ST_Building01",
+          3
+        ],
+        [
+          "CA_Hotel_02",
+          2
+        ],
+        [
+          "CA_Hotel_03",
+          1
+        ],
+        [
+          "SA_IceCreamShop",
+          1
+        ],
+        [
+          "SA_TireShop",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "CS_CHAIR01",
+          115
+        ],
+        [
+          "CS_STREETLIGHT",
+          49
+        ],
+        [
+          "CS_TRASHCAN",
+          41
+        ],
+        [
+          "CS_Bench01",
+          28
+        ],
+        [
+          "GC_LIGHT01",
+          11
+        ],
+        [
+          "SA_TABLE01",
+          10
+        ],
+        [
+          "CS_CHAIR03",
+          5
+        ],
+        [
+          "ST_TABLE02",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m061",
+      "name": "[Zombie_C02_E01]Odeas_Arena",
+      "group": "只学美化",
+      "sha256": "47f02ea6b916538010f5cbd40a9abad94de8ea16dd3f4399cea7b7da5aca4675",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Asphalt05",
+          "dryPercent": 25.89
+        },
+        {
+          "name": "Pavement_Havana03",
+          "dryPercent": 19.57
+        },
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 12.69
+        },
+        {
+          "name": "Cliff_CapeCod01",
+          "dryPercent": 12.14
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 5.77
+        },
+        {
+          "name": "Dirt_CapeCod05",
+          "dryPercent": 3.82
+        },
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 3.19
+        },
+        {
+          "name": "Cliff_CapeCod03",
+          "dryPercent": 3.02
+        }
+      ],
+      "civilianBuildings": 48,
+      "houseCandidates": [
+        [
+          "ST_building05",
+          12
+        ],
+        [
+          "OD_APARTMENTS02",
+          8
+        ],
+        [
+          "OD_Warehouse01",
+          7
+        ],
+        [
+          "ST_Building02",
+          4
+        ],
+        [
+          "ST_Building01",
+          3
+        ],
+        [
+          "OD_APARTMENTS01",
+          3
+        ],
+        [
+          "ST_building04",
+          2
+        ],
+        [
+          "OD_Church01",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "ST_LIGHT01",
+          30
+        ],
+        [
+          "ST_TABLE03",
+          24
+        ],
+        [
+          "CS_Bench01",
+          17
+        ],
+        [
+          "ST_TABLE06",
+          16
+        ],
+        [
+          "GE_BENCH",
+          13
+        ],
+        [
+          "ST_TABLE05",
+          7
+        ],
+        [
+          "GE_LIGHT02",
+          3
+        ],
+        [
+          "HB_Statue02",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "m062",
+      "name": "map_mp_2_feasel3",
+      "group": "只学美化",
+      "sha256": "789ff0c2d2998c4a557bf566dd36ae7015c1b642d968a113866cd0bcc54716f0",
+      "sourceUnchanged": true,
+      "cliffs": 469,
+      "cliffTypes": [
+        {
+          "type": "YU_CliffWall04",
+          "count": 82
+        },
+        {
+          "type": "YU_CliffWall02",
+          "count": 58
+        },
+        {
+          "type": "YU_CliffWall01",
+          "count": 54
+        },
+        {
+          "type": "YU_CliffWall05",
+          "count": 47
+        },
+        {
+          "type": "YU_SeaCliffWall06",
+          "count": 43
+        },
+        {
+          "type": "YU_SeaCliffWall04",
+          "count": 39
+        },
+        {
+          "type": "YU_CliffWall06",
+          "count": 38
+        },
+        {
+          "type": "YU_SeaCliffWall01",
+          "count": 29
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 20.39
+        },
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 20.33
+        },
+        {
+          "name": "Pavement_TokyoHarbor03",
+          "dryPercent": 7.02
+        },
+        {
+          "name": "Asphalt01",
+          "dryPercent": 5.8
+        },
+        {
+          "name": "Grass_Yucatan06",
+          "dryPercent": 5.72
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 4.78
+        },
+        {
+          "name": "Grass_Yucatan09",
+          "dryPercent": 4.61
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 4.23
+        }
+      ],
+      "civilianBuildings": 62,
+      "houseCandidates": [
+        [
+          "TH_office_building01",
+          16
+        ],
+        [
+          "TH_office_building04",
+          16
+        ],
+        [
+          "TH_office_building02",
+          15
+        ],
+        [
+          "TH_office_building03",
+          13
+        ],
+        [
+          "YU_TikiHut01",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST02",
+          65
+        ],
+        [
+          "TH_LAMPPOST04",
+          40
+        ],
+        [
+          "TH_LAMPPOST03",
+          28
+        ],
+        [
+          "TH_LAMPPOST05",
+          15
+        ],
+        [
+          "GE_BENCH",
+          10
+        ],
+        [
+          "OK_LANTERN01",
+          8
+        ],
+        [
+          "TH_BENCH01",
+          8
+        ],
+        [
+          "OK_LANTERN03",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "m063",
+      "name": "MAP_MP_COOP_a05_northsea_white",
+      "group": "只学美化",
+      "sha256": "5201525e8ee3e4871fb60cf72811c99c666a0121bda7b877b215b27e1f5393e8",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Asphalt03",
+          "dryPercent": 61.77
+        },
+        {
+          "name": "SteelDeck02",
+          "dryPercent": 11.73
+        },
+        {
+          "name": "SteelDeck01",
+          "dryPercent": 10.45
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 4.87
+        },
+        {
+          "name": "Dirt_Yucatan04",
+          "dryPercent": 4.05
+        },
+        {
+          "name": "Asphalt01",
+          "dryPercent": 2.23
+        },
+        {
+          "name": "Asphalt04",
+          "dryPercent": 1.45
+        },
+        {
+          "name": "SteelDeck04",
+          "dryPercent": 0.86
+        }
+      ],
+      "civilianBuildings": 5,
+      "houseCandidates": [
+        [
+          "FI_Building02",
+          3
+        ],
+        [
+          "FI_Building01",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04",
+          60
+        ]
+      ]
+    },
+    {
+      "id": "m064",
+      "name": "MAP_MP_COOP_j05_deepocean_davis",
+      "group": "只学美化",
+      "sha256": "7b31b041cdcdf1acfd8f9c322a09820e3dad06a40e4b8d14a88311651844ded4",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "SteelDeck01",
+          "dryPercent": 31.02
+        },
+        {
+          "name": "SteelDeck02",
+          "dryPercent": 26.27
+        },
+        {
+          "name": "Asphalt01",
+          "dryPercent": 19.84
+        },
+        {
+          "name": "SteelDeck04",
+          "dryPercent": 8.81
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "dryPercent": 4.68
+        },
+        {
+          "name": "Asphalt05",
+          "dryPercent": 4.6
+        },
+        {
+          "name": "SteelDeck03",
+          "dryPercent": 3
+        },
+        {
+          "name": "Asphalt04",
+          "dryPercent": 1.76
+        }
+      ],
+      "civilianBuildings": 3,
+      "houseCandidates": [
+        [
+          "FI_Building01",
+          2
+        ],
+        [
+          "FI_Building02",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "m065",
+      "name": "MAP_MP_COOP_a07_tokyoharbor_davis",
+      "group": "只学美化",
+      "sha256": "e124a378ac36f692010521d7c0260382cd98b2e53a54f1d8d5904ad146346e9a",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_CapeCod05",
+          "dryPercent": 20.46
+        },
+        {
+          "name": "Pavement_TokyoHarbor04",
+          "dryPercent": 12.95
+        },
+        {
+          "name": "Pavement_Heidel09",
+          "dryPercent": 9.02
+        },
+        {
+          "name": "Pavement_CapeCod01",
+          "dryPercent": 8.79
+        },
+        {
+          "name": "Asphalt01",
+          "dryPercent": 8.65
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 4.9
+        },
+        {
+          "name": "SteelDeck01",
+          "dryPercent": 4.24
+        },
+        {
+          "name": "Sand_Cannes01",
+          "dryPercent": 3.21
+        }
+      ],
+      "civilianBuildings": 27,
+      "houseCandidates": [
+        [
+          "TH_Building_07",
+          7
+        ],
+        [
+          "TH_BUILDING_01",
+          4
+        ],
+        [
+          "TH_BUILDING_02",
+          3
+        ],
+        [
+          "TH_JapanOldMilitaryTrainingSchool",
+          3
+        ],
+        [
+          "TH_Building_04",
+          2
+        ],
+        [
+          "TH_Building_08",
+          2
+        ],
+        [
+          "TH_Building_03",
+          2
+        ],
+        [
+          "TH_JapanHarborBuilding",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04",
+          80
+        ],
+        [
+          "GE_BENCH",
+          45
+        ],
+        [
+          "TH_LAMPPOST02",
+          31
+        ],
+        [
+          "TH_LAMPPOST05",
+          28
+        ],
+        [
+          "TH_LAMPPOST01",
+          19
+        ],
+        [
+          "TH_LAMPPOST06",
+          13
+        ],
+        [
+          "OK_LANTERN01",
+          11
+        ],
+        [
+          "TH_BENCH01",
+          9
+        ]
+      ]
+    },
+    {
+      "id": "m066",
+      "name": "MAP_MP_COOP_j04_pearlharbor_davis",
+      "group": "只学美化",
+      "sha256": "44151518ad8a8899a11f1a65b691a2752028de833fabd9517764d3d84206ed38",
+      "sourceUnchanged": true,
+      "cliffs": 79,
+      "cliffTypes": [
+        {
+          "type": "HA_SeaCliffWall01",
+          "count": 18
+        },
+        {
+          "type": "HA_SeaCliffWall04",
+          "count": 16
+        },
+        {
+          "type": "HA_SeaCliffWall05",
+          "count": 13
+        },
+        {
+          "type": "HA_SeaCliffWall06",
+          "count": 13
+        },
+        {
+          "type": "HA_SeaCliffWall03",
+          "count": 11
+        },
+        {
+          "type": "HA_SeaCliffWall02",
+          "count": 5
+        },
+        {
+          "type": "HA_SeaCliffWall07",
+          "count": 2
+        },
+        {
+          "type": "HA_SeaCliffWall08",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Hawaii01",
+          "dryPercent": 28.06
+        },
+        {
+          "name": "Asphalt02",
+          "dryPercent": 15.95
+        },
+        {
+          "name": "Pavement_Amsterdam03",
+          "dryPercent": 9.64
+        },
+        {
+          "name": "Pavement_CapeCod01",
+          "dryPercent": 7.59
+        },
+        {
+          "name": "Grass_Hawaii02",
+          "dryPercent": 6.95
+        },
+        {
+          "name": "Grass_Hawaii03",
+          "dryPercent": 4.12
+        },
+        {
+          "name": "Grass_Hawaii05",
+          "dryPercent": 3.73
+        },
+        {
+          "name": "Sand_Cannes01",
+          "dryPercent": 3.49
+        }
+      ],
+      "civilianBuildings": 14,
+      "houseCandidates": [
+        [
+          "HA_Building16_02",
+          4
+        ],
+        [
+          "TH_Building_04",
+          4
+        ],
+        [
+          "HA_Building16_03",
+          2
+        ],
+        [
+          "CA_Hotel_01",
+          2
+        ],
+        [
+          "TH_ImperialHarborBuilding",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "YU_STREETLIGHT01",
+          74
+        ],
+        [
+          "HA_LANTERNPOST01",
+          18
+        ],
+        [
+          "OK_LANTERN01",
+          13
+        ],
+        [
+          "CC_PICNIC01",
+          12
+        ],
+        [
+          "CS_TRASHCAN",
+          10
+        ],
+        [
+          "YU_WHITEBENCH01",
+          10
+        ],
+        [
+          "OK_LANTERN03",
+          5
+        ],
+        [
+          "HA_FISHSTATUE01",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m067",
+      "name": "MAP_MP_COOP_j07_yokohama_stewart",
+      "group": "只学美化",
+      "sha256": "1b96521f6287dfc720cbedbe86e92e25cf38b126474705c9e4107a102f983db7",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Asphalt01",
+          "dryPercent": 23.86
+        },
+        {
+          "name": "Asphalt05",
+          "dryPercent": 15.4
+        },
+        {
+          "name": "Pavement_TokyoHarbor09",
+          "dryPercent": 14.86
+        },
+        {
+          "name": "SteelDeck01",
+          "dryPercent": 10.21
+        },
+        {
+          "name": "Pavement_TokyoHarbor04",
+          "dryPercent": 6.88
+        },
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 6.43
+        },
+        {
+          "name": "Pavement_TokyoHarbor01",
+          "dryPercent": 4.97
+        },
+        {
+          "name": "Grass_Heidelberg06",
+          "dryPercent": 3.61
+        }
+      ],
+      "civilianBuildings": 26,
+      "houseCandidates": [
+        [
+          "TH_office_building01",
+          11
+        ],
+        [
+          "TH_office_building04",
+          5
+        ],
+        [
+          "TH_office_building02",
+          4
+        ],
+        [
+          "TH_office_building03",
+          3
+        ],
+        [
+          "SA_IceCreamShop",
+          1
+        ],
+        [
+          "TH_CurvHotel_01",
+          1
+        ],
+        [
+          "OD_APARTMENTS01",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04B",
+          138
+        ],
+        [
+          "GE_BENCH",
+          55
+        ],
+        [
+          "TH_LAMPPOST02",
+          23
+        ],
+        [
+          "TH_LAMPPOST06",
+          14
+        ],
+        [
+          "TH_LAMPPOST01",
+          10
+        ],
+        [
+          "OK_LANTERN03",
+          9
+        ],
+        [
+          "TH_LAMPPOST05",
+          5
+        ],
+        [
+          "GE_TABLE02",
+          3
+        ]
+      ]
+    },
+    {
+      "id": "m068",
+      "name": "MAP_MP_COOP_s07_mountfuji_white",
+      "group": "只学美化",
+      "sha256": "7fea6783521e31efd5322f2815f0a3a8cb47160f36807db031d6ce6e66dfa5f4",
+      "sourceUnchanged": true,
+      "cliffs": 99,
+      "cliffTypes": [
+        {
+          "type": "MJ_CliffWall01",
+          "count": 24
+        },
+        {
+          "type": "MJ_CliffWall02",
+          "count": 20
+        },
+        {
+          "type": "MJ_CliffWall10",
+          "count": 14
+        },
+        {
+          "type": "MJ_CliffWall03",
+          "count": 13
+        },
+        {
+          "type": "MJ_CliffWall09",
+          "count": 7
+        },
+        {
+          "type": "YU_CliffWall03",
+          "count": 3
+        },
+        {
+          "type": "MJ_CliffWall08",
+          "count": 3
+        },
+        {
+          "type": "MJ_CliffWall05",
+          "count": 3
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Gibraltar2",
+          "dryPercent": 21.47
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 12.95
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 11.6
+        },
+        {
+          "name": "Dirt_Yucatan06",
+          "dryPercent": 10.34
+        },
+        {
+          "name": "Pavement_CapeCod02",
+          "dryPercent": 10.26
+        },
+        {
+          "name": "Grass_CapeCod11",
+          "dryPercent": 7.4
+        },
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 3.63
+        },
+        {
+          "name": "Grass_Hawaii03",
+          "dryPercent": 3.51
+        }
+      ],
+      "civilianBuildings": 18,
+      "houseCandidates": [
+        [
+          "MJ_GUARDHOUSE01",
+          6
+        ],
+        [
+          "HA_Building16_03",
+          6
+        ],
+        [
+          "HA_Building16_02",
+          4
+        ],
+        [
+          "HA_BUILDING16",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "TH_LAMPPOST04",
+          26
+        ],
+        [
+          "OK_LANTERN05",
+          17
+        ],
+        [
+          "OK_LANTERN02",
+          14
+        ],
+        [
+          "MJ_WOODLANTERN01",
+          12
+        ],
+        [
+          "OK_LANTERN01",
+          11
+        ],
+        [
+          "OK_LANTERN03",
+          11
+        ],
+        [
+          "OK_LANTERN04",
+          10
+        ],
+        [
+          "MJ_FISHSTATUE01",
+          6
+        ]
+      ]
+    },
+    {
+      "id": "m069",
+      "name": "MAP_MP_COOP_a01_brightonbeach_smith",
+      "group": "只学美化",
+      "sha256": "cb5d8506b447dd58e0f4d3cd202944dac13fa8265f99190b26156821cecd27cf",
+      "sourceUnchanged": true,
+      "cliffs": 9,
+      "cliffTypes": [
+        {
+          "type": "BB_CliffWall02",
+          "count": 3
+        },
+        {
+          "type": "BB_CliffWall01",
+          "count": 3
+        },
+        {
+          "type": "BB_CliffWall11",
+          "count": 1
+        },
+        {
+          "type": "BB_CliffWall09",
+          "count": 1
+        },
+        {
+          "type": "BB_CliffWall05",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pave_Golf03",
+          "dryPercent": 25.17
+        },
+        {
+          "name": "Grass_Hawaii01",
+          "dryPercent": 10.91
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 10.55
+        },
+        {
+          "name": "Grass_Hawaii02",
+          "dryPercent": 9
+        },
+        {
+          "name": "BB_Pavement01",
+          "dryPercent": 6.64
+        },
+        {
+          "name": "Asphalt05",
+          "dryPercent": 5.04
+        },
+        {
+          "name": "BB_Gravel02",
+          "dryPercent": 4.25
+        },
+        {
+          "name": "Pavement_SaintPetersburg02",
+          "dryPercent": 3.13
+        }
+      ],
+      "civilianBuildings": 77,
+      "houseCandidates": [
+        [
+          "GE_TOWNHOUSE01",
+          8
+        ],
+        [
+          "CAPECOD_HOUSE01B",
+          7
+        ],
+        [
+          "GI_Hotel",
+          6
+        ],
+        [
+          "BB_HOTEL_02",
+          6
+        ],
+        [
+          "GI_Hotel_01",
+          6
+        ],
+        [
+          "YU_HOTEL03",
+          5
+        ],
+        [
+          "BB_hotel_02_02",
+          4
+        ],
+        [
+          "BB_hotel_02_01",
+          4
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "BB_BENCH",
+          92
+        ],
+        [
+          "HB_TRASH",
+          61
+        ],
+        [
+          "GI_LIGHTPLANT02",
+          40
+        ],
+        [
+          "SA_TABLE01",
+          33
+        ],
+        [
+          "CS_CHAIR03",
+          25
+        ],
+        [
+          "HB_TABLE01",
+          19
+        ],
+        [
+          "ST_LIGHT01",
+          15
+        ],
+        [
+          "HB_TABLE02",
+          13
+        ]
+      ]
+    },
+    {
+      "id": "m070",
+      "name": "MAP_MP_COOP_a02_cannes_smith",
+      "group": "只学美化",
+      "sha256": "32c9323f7bf20e1816bc5f93b85393b6b7a49e2f852fa9595769c1d91cd4557f",
+      "sourceUnchanged": true,
+      "cliffs": 109,
+      "cliffTypes": [
+        {
+          "type": "YU_SeaCliffWall04",
+          "count": 36
+        },
+        {
+          "type": "YU_SeaCliffWall01",
+          "count": 18
+        },
+        {
+          "type": "YU_SeaCliffWall06",
+          "count": 15
+        },
+        {
+          "type": "YU_SeaCliffWall03",
+          "count": 14
+        },
+        {
+          "type": "YU_SeaCliffWall05",
+          "count": 13
+        },
+        {
+          "type": "YU_SeaCliffWall02",
+          "count": 11
+        },
+        {
+          "type": "YU_SeaCliffWall07",
+          "count": 1
+        },
+        {
+          "type": "YU_SeaCliffWall08",
+          "count": 1
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pave_Cannes01",
+          "dryPercent": 26.35
+        },
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 15.65
+        },
+        {
+          "name": "Pavement_SaintPetersburg02",
+          "dryPercent": 8.56
+        },
+        {
+          "name": "Grass_Hawaii01",
+          "dryPercent": 8.44
+        },
+        {
+          "name": "Pavement_Amsterdam03",
+          "dryPercent": 7.27
+        },
+        {
+          "name": "Pavement_Havana03",
+          "dryPercent": 6.02
+        },
+        {
+          "name": "Sand_Cannes01",
+          "dryPercent": 5.41
+        },
+        {
+          "name": "Dirt_Yucatan02",
+          "dryPercent": 4.11
+        }
+      ],
+      "civilianBuildings": 26,
+      "houseCandidates": [
+        [
+          "CA_Hotel_01",
+          6
+        ],
+        [
+          "GI_Hotel_01",
+          4
+        ],
+        [
+          "CA_Hotel_04",
+          4
+        ],
+        [
+          "ST_Building01",
+          3
+        ],
+        [
+          "CA_Hotel_02",
+          2
+        ],
+        [
+          "SA_IceCreamShop",
+          1
+        ],
+        [
+          "SA_TireShop",
+          1
+        ],
+        [
+          "GI_Apartment_03",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "CS_CHAIR01",
+          115
+        ],
+        [
+          "CS_STREETLIGHT",
+          49
+        ],
+        [
+          "CS_TRASHCAN",
+          41
+        ],
+        [
+          "CS_Bench01",
+          28
+        ],
+        [
+          "SA_TABLE01",
+          15
+        ],
+        [
+          "GC_LIGHT01",
+          13
+        ],
+        [
+          "CS_CHAIR03",
+          5
+        ],
+        [
+          "ST_TABLE02",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m071",
+      "name": "MAP_MP_COOP_a03_heidelberg_smith",
+      "group": "只学美化",
+      "sha256": "f4c5cc1923c3ae8ab67c0d3872c705d34d115dfc6e6b19f7a7286bf83f0dc58e",
+      "sourceUnchanged": true,
+      "cliffs": 86,
+      "cliffTypes": [
+        {
+          "type": "HB_CliffWall03",
+          "count": 21
+        },
+        {
+          "type": "HB_CliffWall01",
+          "count": 19
+        },
+        {
+          "type": "HB_CliffWall04",
+          "count": 17
+        },
+        {
+          "type": "HB_CliffWall06",
+          "count": 15
+        },
+        {
+          "type": "HB_CliffWall05",
+          "count": 8
+        },
+        {
+          "type": "HB_CliffWall02",
+          "count": 6
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 21.08
+        },
+        {
+          "name": "Pavement_Heidelberg10",
+          "dryPercent": 19.21
+        },
+        {
+          "name": "Pavement_Heidel01",
+          "dryPercent": 11.37
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 8.68
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 7.45
+        },
+        {
+          "name": "Dirt_Mykonos05",
+          "dryPercent": 6.33
+        },
+        {
+          "name": "Grass_Heidelberg07",
+          "dryPercent": 4.48
+        },
+        {
+          "name": "Grass_Heidelberg06",
+          "dryPercent": 2.98
+        }
+      ],
+      "civilianBuildings": 63,
+      "houseCandidates": [
+        [
+          "HB_House03",
+          14
+        ],
+        [
+          "HB_House02",
+          12
+        ],
+        [
+          "HB_HOUSE04",
+          10
+        ],
+        [
+          "HB_Restaurant_03",
+          8
+        ],
+        [
+          "HB_Rowhouse01",
+          8
+        ],
+        [
+          "HB_Restaurant01",
+          7
+        ],
+        [
+          "HB_Restaurant_04",
+          2
+        ],
+        [
+          "HB_House01",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "HB_LIGHT01",
+          77
+        ],
+        [
+          "HB_BENCH01",
+          58
+        ],
+        [
+          "HB_TABLE01",
+          22
+        ],
+        [
+          "HB_TABLE03",
+          20
+        ],
+        [
+          "HB_TABLE02",
+          11
+        ],
+        [
+          "HB_Statue02",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m072",
+      "name": "MAP_MP_COOP_a04_gibraltar_hayes",
+      "group": "只学美化",
+      "sha256": "b330e6d868f819354cf24c86242e880ace5640e44eac9bd084bab7b1cd28d981",
+      "sourceUnchanged": true,
+      "cliffs": 8,
+      "cliffTypes": [
+        {
+          "type": "MR_Cliff02",
+          "count": 8
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Gibraltar1",
+          "dryPercent": 9.75
+        },
+        {
+          "name": "Grass_Heidelberg02",
+          "dryPercent": 8.86
+        },
+        {
+          "name": "Pavement_Yucatan01",
+          "dryPercent": 7.33
+        },
+        {
+          "name": "Pavement_Heidel07",
+          "dryPercent": 6.29
+        },
+        {
+          "name": "Pavement_Gibraltar1",
+          "dryPercent": 5.68
+        },
+        {
+          "name": "Pavement_Havana03",
+          "dryPercent": 5.26
+        },
+        {
+          "name": "Pavement_Gibraltar5",
+          "dryPercent": 4.63
+        },
+        {
+          "name": "Pavement_Gibraltar6",
+          "dryPercent": 4.21
+        }
+      ],
+      "civilianBuildings": 20,
+      "houseCandidates": [
+        [
+          "GI_Hotel_01",
+          4
+        ],
+        [
+          "YU_HOTEL01",
+          3
+        ],
+        [
+          "YU_HOTEL03",
+          3
+        ],
+        [
+          "GI_Apartment_04",
+          2
+        ],
+        [
+          "GI_Warehouse_01",
+          2
+        ],
+        [
+          "GI_Apartment_01",
+          2
+        ],
+        [
+          "GI_Hotel_02",
+          1
+        ],
+        [
+          "GI_Apartment_03",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "CS_CHAIR03",
+          35
+        ],
+        [
+          "GE_BENCH",
+          32
+        ],
+        [
+          "YU_WHITEBENCH01",
+          27
+        ],
+        [
+          "MY_TABLE02",
+          18
+        ],
+        [
+          "GI_LightPlant01",
+          17
+        ],
+        [
+          "GI_LIGHTPLANT02",
+          16
+        ],
+        [
+          "SA_TABLE01",
+          13
+        ],
+        [
+          "HB_TABLE02",
+          11
+        ]
+      ]
+    },
+    {
+      "id": "m073",
+      "name": "MAP_MP_COOP_a06_mountrushmore_white",
+      "group": "只学美化",
+      "sha256": "74358a2def3b79c711ad19ded80b8ab1a0c0bbd0d6ea252cc22542ed343969cd",
+      "sourceUnchanged": true,
+      "cliffs": 475,
+      "cliffTypes": [
+        {
+          "type": "MR_Cliff16",
+          "count": 66
+        },
+        {
+          "type": "MR_Cliff07",
+          "count": 59
+        },
+        {
+          "type": "MR_Cliff06",
+          "count": 57
+        },
+        {
+          "type": "MR_Cliff17",
+          "count": 52
+        },
+        {
+          "type": "MR_Cliff08",
+          "count": 43
+        },
+        {
+          "type": "MR_Cliff18",
+          "count": 43
+        },
+        {
+          "type": "MR_Cliff05",
+          "count": 41
+        },
+        {
+          "type": "MR_Cliff11",
+          "count": 38
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Dirt_Yucatan06",
+          "dryPercent": 19.55
+        },
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 18.45
+        },
+        {
+          "name": "Grass_Yucatan04",
+          "dryPercent": 16.11
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "dryPercent": 13.32
+        },
+        {
+          "name": "Grass_MtRush10",
+          "dryPercent": 10.33
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 6.71
+        },
+        {
+          "name": "Grass_MtRush07",
+          "dryPercent": 2.95
+        },
+        {
+          "name": "Grass_MtRush08",
+          "dryPercent": 2.94
+        }
+      ],
+      "civilianBuildings": 13,
+      "houseCandidates": [
+        [
+          "YP_Cabin",
+          11
+        ],
+        [
+          "CCHOUSE02D",
+          1
+        ],
+        [
+          "HV_Shop01",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "YP_PICNIC01",
+          32
+        ],
+        [
+          "TH_LAMPPOST04",
+          29
+        ],
+        [
+          "SV_Bench01",
+          8
+        ],
+        [
+          "CS_TRASHCAN",
+          5
+        ],
+        [
+          "HB_TRASH",
+          4
+        ]
+      ]
+    },
+    {
+      "id": "m074",
+      "name": "MAP_MP_COOP_a08_havana_rao",
+      "group": "只学美化",
+      "sha256": "b831113d3ed1c392cf0dba9e376c3c0fd44ebfe3d3a36f22fdcd1b51e77e3692",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 24.1
+        },
+        {
+          "name": "Pavement_Heidel09",
+          "dryPercent": 11.35
+        },
+        {
+          "name": "Dirt_Yucatan06",
+          "dryPercent": 10.96
+        },
+        {
+          "name": "Pavement_Havana01",
+          "dryPercent": 10.6
+        },
+        {
+          "name": "Pavement_Havana03",
+          "dryPercent": 8.98
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 5.45
+        },
+        {
+          "name": "Grass_Yucatan04",
+          "dryPercent": 5.36
+        },
+        {
+          "name": "Mud_Havana01",
+          "dryPercent": 5.05
+        }
+      ],
+      "civilianBuildings": 45,
+      "houseCandidates": [
+        [
+          "HV_Apartment01",
+          6
+        ],
+        [
+          "HV_HOTEL08",
+          5
+        ],
+        [
+          "HV_Shop03",
+          4
+        ],
+        [
+          "HV_HOTEL01",
+          3
+        ],
+        [
+          "HV_HOTEL02",
+          3
+        ],
+        [
+          "HV_HOTEL06",
+          3
+        ],
+        [
+          "HV_cigfactory",
+          3
+        ],
+        [
+          "HV_Hotel04_02",
+          2
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "HV_LAMPPOST02",
+          69
+        ],
+        [
+          "HV_LAMPPOST01",
+          59
+        ],
+        [
+          "CS_Bench01",
+          37
+        ],
+        [
+          "HB_TABLE01",
+          3
+        ],
+        [
+          "HV_FOUNTAIN01",
+          1
+        ],
+        [
+          "KR_STATUE01",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m075",
+      "name": "MAP_MP_COOP_j06_losangeles_white",
+      "group": "只学美化",
+      "sha256": "cf7f5b15afeac6c478b9a9d84ad5961a80e3ab8f4c6adf4da1d78ce7b8862bb1",
+      "sourceUnchanged": true,
+      "cliffs": 144,
+      "cliffTypes": [
+        {
+          "type": "YU_CliffWall01",
+          "count": 17
+        },
+        {
+          "type": "YU_CliffWall05",
+          "count": 14
+        },
+        {
+          "type": "HB_CliffWall03",
+          "count": 12
+        },
+        {
+          "type": "HB_CliffWall04",
+          "count": 12
+        },
+        {
+          "type": "HB_CliffWall01",
+          "count": 12
+        },
+        {
+          "type": "YU_CliffWall06",
+          "count": 11
+        },
+        {
+          "type": "YU_CliffWall03",
+          "count": 10
+        },
+        {
+          "type": "HB_CliffWall06",
+          "count": 10
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pavement_Heidel09",
+          "dryPercent": 16.38
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 11.55
+        },
+        {
+          "name": "Pavement_Geneva01",
+          "dryPercent": 8.69
+        },
+        {
+          "name": "Grass_Yucatan05",
+          "dryPercent": 8.41
+        },
+        {
+          "name": "Pavement_CapeCod01",
+          "dryPercent": 8.13
+        },
+        {
+          "name": "Grass_Yucatan02",
+          "dryPercent": 7.71
+        },
+        {
+          "name": "Grass_NewYork01",
+          "dryPercent": 6.12
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 4.02
+        }
+      ],
+      "civilianBuildings": 98,
+      "houseCandidates": [
+        [
+          "SA_STORE02",
+          11
+        ],
+        [
+          "SA_STORE03",
+          8
+        ],
+        [
+          "SA_House03_02",
+          7
+        ],
+        [
+          "SA_Cafe01_04",
+          6
+        ],
+        [
+          "SA_House03_03",
+          6
+        ],
+        [
+          "SA_House03_04",
+          6
+        ],
+        [
+          "OD_Warehouse01",
+          6
+        ],
+        [
+          "SA_HOUSE03",
+          5
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "SA_TRASH01",
+          19
+        ],
+        [
+          "SA_BENCH01",
+          18
+        ],
+        [
+          "ST_LIGHT02",
+          11
+        ],
+        [
+          "SA_TABLE01",
+          6
+        ],
+        [
+          "SA_TABLE03",
+          5
+        ],
+        [
+          "SA_TABLE06",
+          5
+        ],
+        [
+          "SA_TABLE02",
+          4
+        ],
+        [
+          "HV_FOUNTAIN01",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "m076",
+      "name": "MAP_MP_COOP_j09_amsterdam_bass",
+      "group": "只学美化",
+      "sha256": "afa513ff6ebf74c536e7aabf4f268529e150a06ad27485b73d34d05d28703dec",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pavement_Amsterdam03",
+          "dryPercent": 21.82
+        },
+        {
+          "name": "Pavement_Heidel04",
+          "dryPercent": 20.6
+        },
+        {
+          "name": "Grass_Geneva01",
+          "dryPercent": 7.04
+        },
+        {
+          "name": "Pavement_Gibraltar3",
+          "dryPercent": 7.04
+        },
+        {
+          "name": "Grass_Geneva05",
+          "dryPercent": 6
+        },
+        {
+          "name": "Grass_Heidelberg06",
+          "dryPercent": 5.97
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "dryPercent": 4.89
+        },
+        {
+          "name": "Pavement_Geneva04",
+          "dryPercent": 4.34
+        }
+      ],
+      "civilianBuildings": 112,
+      "houseCandidates": [
+        [
+          "AM_Apartments_01",
+          51
+        ],
+        [
+          "AM_Cafe_01",
+          15
+        ],
+        [
+          "AM_RowHouse01",
+          13
+        ],
+        [
+          "HB_Restaurant01",
+          9
+        ],
+        [
+          "HB_Restaurant_04",
+          6
+        ],
+        [
+          "SA_STORE01",
+          3
+        ],
+        [
+          "OD_Warehouse01",
+          3
+        ],
+        [
+          "OD_APARTMENTS02",
+          3
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "AM_LIGHT01",
+          147
+        ],
+        [
+          "AM_LIGHT02",
+          70
+        ],
+        [
+          "HB_TABLE01",
+          45
+        ],
+        [
+          "HB_BENCH01",
+          40
+        ],
+        [
+          "HB_TABLE02",
+          24
+        ],
+        [
+          "AM_BENCH",
+          12
+        ],
+        [
+          "AM_TABLE01",
+          5
+        ],
+        [
+          "AM_LIGHT03",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m077",
+      "name": "MAP_MP_COOP_s04_geneva_bass",
+      "group": "只学美化",
+      "sha256": "727faa426672d640dafe88f300685c2bebb3acc273c57f3a8f51df1a5b251635",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pavement_Geneva02",
+          "dryPercent": 19.16
+        },
+        {
+          "name": "Grass_Geneva01",
+          "dryPercent": 17.15
+        },
+        {
+          "name": "Pavement_Geneva04",
+          "dryPercent": 16.15
+        },
+        {
+          "name": "Pavement_Geneva01",
+          "dryPercent": 9.29
+        },
+        {
+          "name": "Pavement_Heidel09",
+          "dryPercent": 9.03
+        },
+        {
+          "name": "Grass_Geneva03",
+          "dryPercent": 5.48
+        },
+        {
+          "name": "Grass_Geneva05",
+          "dryPercent": 5.46
+        },
+        {
+          "name": "Pave_Golf05",
+          "dryPercent": 4.81
+        }
+      ],
+      "civilianBuildings": 30,
+      "houseCandidates": [
+        [
+          "ST_Building02",
+          12
+        ],
+        [
+          "GE_TOWNHOUSE01",
+          8
+        ],
+        [
+          "ST_building05_01",
+          3
+        ],
+        [
+          "ST_building04",
+          2
+        ],
+        [
+          "ST_building05_02",
+          1
+        ],
+        [
+          "OD_APARTMENTS02",
+          1
+        ],
+        [
+          "ST_Building03",
+          1
+        ],
+        [
+          "ST_building05",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "GE_LIGHT01",
+          146
+        ],
+        [
+          "GE_BENCH",
+          130
+        ],
+        [
+          "GE_LIGHT03",
+          93
+        ],
+        [
+          "GE_LIGHT02",
+          57
+        ],
+        [
+          "GE_TABLE01",
+          15
+        ],
+        [
+          "GE_TABLE02",
+          12
+        ],
+        [
+          "GE_STATUE01",
+          10
+        ],
+        [
+          "GE_GLOBESTATUE01",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m078",
+      "name": "MAP_MP_COOP_s09_newyork_rao",
+      "group": "只学美化",
+      "sha256": "99f9cab779189d3ab7e7c13c67c0aaaf061db8dcf26edb57b82e8b836b53a343",
+      "sourceUnchanged": true,
+      "cliffs": 0,
+      "cliffTypes": [],
+      "dryMaterialCandidates": [
+        {
+          "name": "Pavement_CapeCod01",
+          "dryPercent": 26.02
+        },
+        {
+          "name": "Pavement_Yucatan01",
+          "dryPercent": 24.1
+        },
+        {
+          "name": "Pavement_NewYork01",
+          "dryPercent": 11.14
+        },
+        {
+          "name": "Grass_NewYork01",
+          "dryPercent": 9.72
+        },
+        {
+          "name": "Pavement_NewYork03",
+          "dryPercent": 9.62
+        },
+        {
+          "name": "Pavement_Geneva01",
+          "dryPercent": 2.38
+        },
+        {
+          "name": "Dirt_Heidelberg01",
+          "dryPercent": 1.99
+        },
+        {
+          "name": "Pavement_CapeCod02",
+          "dryPercent": 1.88
+        }
+      ],
+      "civilianBuildings": 22,
+      "houseCandidates": [
+        [
+          "ST_Building02",
+          13
+        ],
+        [
+          "ST_building04",
+          5
+        ],
+        [
+          "ST_Building01",
+          3
+        ],
+        [
+          "SA_TireShop",
+          1
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "HB_BENCH01",
+          51
+        ],
+        [
+          "SA_TRASH01",
+          31
+        ],
+        [
+          "SA_TABLE01",
+          16
+        ],
+        [
+          "SA_TABLE03",
+          16
+        ],
+        [
+          "SA_TABLE02",
+          13
+        ],
+        [
+          "SA_TABLE05",
+          8
+        ],
+        [
+          "SA_TABLE04",
+          7
+        ],
+        [
+          "HB_Statue02",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "m079",
+      "name": "MAP_MP_COOP_s05_mykonos_smith",
+      "group": "只学美化",
+      "sha256": "636003fb7dfa638cac77aa6db84fa69b4889180628a9108e464a6b5cdbb8aaa2",
+      "sourceUnchanged": true,
+      "cliffs": 24,
+      "cliffTypes": [
+        {
+          "type": "MY_CliffWall02",
+          "count": 24
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Dirt_Mykonos01",
+          "dryPercent": 33.34
+        },
+        {
+          "name": "Dirt_Mykonos03",
+          "dryPercent": 21.2
+        },
+        {
+          "name": "Dirt_Mykonos05",
+          "dryPercent": 9.15
+        },
+        {
+          "name": "Dirt_Mykonos04",
+          "dryPercent": 4.99
+        },
+        {
+          "name": "Pavement_Mykonos01",
+          "dryPercent": 4.65
+        },
+        {
+          "name": "Grass_Heidelberg01",
+          "dryPercent": 4.22
+        },
+        {
+          "name": "Dirt_Mykonos02",
+          "dryPercent": 3.81
+        },
+        {
+          "name": "Pave_Golf02",
+          "dryPercent": 3.57
+        }
+      ],
+      "civilianBuildings": 164,
+      "houseCandidates": [
+        [
+          "MY_Restaurant_04",
+          34
+        ],
+        [
+          "MY_Apartment01",
+          33
+        ],
+        [
+          "MY_House_01",
+          31
+        ],
+        [
+          "MY_Restaurant_03",
+          28
+        ],
+        [
+          "MY_Restaurant_02",
+          16
+        ],
+        [
+          "MY_House_03",
+          7
+        ],
+        [
+          "MY_Restaurant_01",
+          6
+        ],
+        [
+          "MY_Hotel_01",
+          3
+        ]
+      ],
+      "streetCandidates": [
+        [
+          "MY_BENCH",
+          177
+        ],
+        [
+          "MY_LIGHT01",
+          126
+        ],
+        [
+          "MY_TABLE01",
+          44
+        ],
+        [
+          "MY_Umbrella_01",
+          33
+        ],
+        [
+          "MY_STATUE01",
+          13
+        ],
+        [
+          "MY_TABLE02",
+          11
+        ]
+      ]
+    },
+    {
+      "id": "m080",
+      "name": "MAP_MP_COOP_s08_easterisland_stewart",
+      "group": "只学美化",
+      "sha256": "963bf3daa7a555b5726bc980ebe49d29f170043dfb74b4fcf6292d4fa90483ce",
+      "sourceUnchanged": true,
+      "cliffs": 206,
+      "cliffTypes": [
+        {
+          "type": "EI_CliffWall03",
+          "count": 28
+        },
+        {
+          "type": "EI_CliffWall01",
+          "count": 24
+        },
+        {
+          "type": "EI_CliffWall04",
+          "count": 21
+        },
+        {
+          "type": "EI_CliffWall08",
+          "count": 20
+        },
+        {
+          "type": "EI_VolcCliffWall02",
+          "count": 17
+        },
+        {
+          "type": "EI_CliffWall05",
+          "count": 16
+        },
+        {
+          "type": "EI_CliffWall07",
+          "count": 14
+        },
+        {
+          "type": "EI_VolcCliffWall03",
+          "count": 13
+        }
+      ],
+      "dryMaterialCandidates": [
+        {
+          "name": "Grass_CapeCod05",
+          "dryPercent": 16.89
+        },
+        {
+          "name": "Cliff_Easter01",
+          "dryPercent": 9.82
+        },
+        {
+          "name": "Dirt_Easter05",
+          "dryPercent": 8.47
+        },
+        {
+          "name": "Dirt_Easter07",
+          "dryPercent": 7.22
+        },
+        {
+          "name": "Dirt_Easter09",
+          "dryPercent": 7.16
+        },
+        {
+          "name": "Dirt_Easter02",
+          "dryPercent": 6.49
+        },
+        {
+          "name": "Dirt_Easter01",
+          "dryPercent": 5.55
+        },
+        {
+          "name": "Grass_Easter01",
+          "dryPercent": 4.53
+        }
+      ],
+      "civilianBuildings": 0,
+      "houseCandidates": [],
+      "streetCandidates": []
+    }
+  ]
+}

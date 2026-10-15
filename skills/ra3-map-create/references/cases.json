@@ -1,0 +1,840 @@
+{
+  "auditedMaps": 80,
+  "cases": [
+    {
+      "id": "m001",
+      "source": "1v1\\map_mp_2_black1b\\map_mp_2_black1b.map",
+      "group": "1v1",
+      "sha256": "01862d99aa70cbcc61b245a02236861c2757c85d7f7b2fd17c2e4c9999f26de9",
+      "learn": "学习自然岛岸、主岛与海路的分工、灌木/小石/棕榈的簇状层次。",
+      "playable": [
+        532,
+        400
+      ],
+      "border": 30,
+      "objectCount": 3369,
+      "topTextureNames": [
+        {
+          "name": "Dirt_Yucatan01",
+          "count": 50415
+        },
+        {
+          "name": "Dirt_Yucatan02",
+          "count": 27086
+        },
+        {
+          "name": "Grass_Yucatan02",
+          "count": 19269
+        },
+        {
+          "name": "Rock_Yucatan03",
+          "count": 16788
+        },
+        {
+          "name": "Rock_Yucatan01",
+          "count": 11345
+        },
+        {
+          "name": "Reef_Yucatan01",
+          "count": 10480
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "count": 7619
+        },
+        {
+          "name": "Grass_Yucatan09",
+          "count": 7240
+        }
+      ],
+      "topObjectNames": [
+        {
+          "name": "CC_GRASS06",
+          "count": 515
+        },
+        {
+          "name": "YU_CORAL02",
+          "count": 264
+        },
+        {
+          "name": "YU_Coral01",
+          "count": 240
+        },
+        {
+          "name": "YU_CORAL03",
+          "count": 230
+        },
+        {
+          "name": "YU_CORAL04",
+          "count": 167
+        },
+        {
+          "name": "YucatanDirtRoad01",
+          "count": 164
+        },
+        {
+          "name": "YU_Bush03",
+          "count": 158
+        },
+        {
+          "name": "CC_Grass01",
+          "count": 156
+        },
+        {
+          "name": "YU_SMALLROCKS02",
+          "count": 152
+        },
+        {
+          "name": "YU_SMALLROCKS01",
+          "count": 138
+        },
+        {
+          "name": "YU_Bush01",
+          "count": 113
+        },
+        {
+          "name": "CS_Palm03",
+          "count": 105
+        }
+      ],
+      "missingInCurrentResourceIndex": [],
+      "layoutImage": "../assets/maps/m001-layout.png",
+      "images": [
+        "../assets/maps/m001-overview.png",
+        "../assets/maps/m001-detail.png"
+      ],
+      "gameTested": false,
+      "note": "布局图是数据诊断视图；纹理计数包括海床；直线距离不代表寻路距离。"
+    },
+    {
+      "id": "m005",
+      "source": "1v1\\map_mp_2_feasel5\\map_mp_2_feasel5.map",
+      "group": "1v1",
+      "sha256": "52fd3060c157df7628dc8a530b31be175b1d1322eb5cc3c2bb07cbe0ee723614",
+      "learn": "学习雪地、裸地、岩壁的明度层次；全图最高频沙纹理包括海床，不能直接当陆地主材质。",
+      "playable": [
+        540,
+        540
+      ],
+      "border": 20,
+      "objectCount": 2102,
+      "topTextureNames": [
+        {
+          "name": "Sand_Cannes02",
+          "count": 99918
+        },
+        {
+          "name": "Dirt_Yucatan04",
+          "count": 32950
+        },
+        {
+          "name": "Snow_Solvang01",
+          "count": 24934
+        },
+        {
+          "name": "Snow_Iceland04",
+          "count": 19534
+        },
+        {
+          "name": "Sand_Cannes03",
+          "count": 19414
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "count": 17820
+        },
+        {
+          "name": "Cliff_Iceland03",
+          "count": 15293
+        },
+        {
+          "name": "Snow_Solvang04",
+          "count": 13058
+        }
+      ],
+      "topObjectNames": [
+        {
+          "name": "IL_BUSH01",
+          "count": 534
+        },
+        {
+          "name": "KremlinDirtRoad01",
+          "count": 290
+        },
+        {
+          "name": "IL_BUSH05",
+          "count": 224
+        },
+        {
+          "name": "IL_Tree01",
+          "count": 143
+        },
+        {
+          "name": "IL_BUSH03",
+          "count": 130
+        },
+        {
+          "name": "IL_SEACLIFFWALL03",
+          "count": 108
+        },
+        {
+          "name": "IL_TREE02",
+          "count": 88
+        },
+        {
+          "name": "SV_ROCKS07",
+          "count": 58
+        },
+        {
+          "name": "IL_BUSH04",
+          "count": 53
+        },
+        {
+          "name": "IL_SEACLIFFWALL01",
+          "count": 52
+        },
+        {
+          "name": "SV_Rocks01",
+          "count": 51
+        },
+        {
+          "name": "IL_SEACLIFFWALL02",
+          "count": 50
+        }
+      ],
+      "missingInCurrentResourceIndex": [],
+      "layoutImage": "../assets/maps/m005-layout.png",
+      "images": [
+        "../assets/maps/m005-overview.png",
+        "../assets/maps/m005-detail.png"
+      ],
+      "gameTested": false,
+      "note": "布局图是数据诊断视图；纹理计数包括海床；直线距离不代表寻路距离。"
+    },
+    {
+      "id": "m006",
+      "source": "1v1\\map_mp_2_feasel6\\map_mp_2_feasel6.map",
+      "group": "1v1",
+      "sha256": "b71266c00e3f76d16c951c1c05e3e244ff5c95b5c8bf7c1330cbae93497cd575",
+      "learn": "学习不规则海岸、沿坡生长的植被、不同尺度岩石组合。",
+      "playable": [
+        472,
+        472
+      ],
+      "border": 20,
+      "objectCount": 3239,
+      "topTextureNames": [
+        {
+          "name": "Sand_Cannes02",
+          "count": 37314
+        },
+        {
+          "name": "Dirt_CapeCod03",
+          "count": 36608
+        },
+        {
+          "name": "Sand_Cannes03",
+          "count": 17609
+        },
+        {
+          "name": "Dirt_Mykonos01",
+          "count": 15180
+        },
+        {
+          "name": "Sand_Cannes01",
+          "count": 13483
+        },
+        {
+          "name": "Grass_Gypsy02",
+          "count": 12034
+        },
+        {
+          "name": "Dirt_CapeCod06",
+          "count": 10718
+        },
+        {
+          "name": "Dirt_Mykonos02",
+          "count": 9682
+        }
+      ],
+      "topObjectNames": [
+        {
+          "name": "CC_GRASS06",
+          "count": 297
+        },
+        {
+          "name": "CC_GRASS07",
+          "count": 234
+        },
+        {
+          "name": "CC_Grass08",
+          "count": 191
+        },
+        {
+          "name": "HawaiiDirtRoad01",
+          "count": 162
+        },
+        {
+          "name": "HB_GRASS03",
+          "count": 151
+        },
+        {
+          "name": "IL_BUSH05",
+          "count": 149
+        },
+        {
+          "name": "HavanaWhiteLine01",
+          "count": 142
+        },
+        {
+          "name": "CC_Grass02",
+          "count": 135
+        },
+        {
+          "name": "SantaMonicaSidewalk02",
+          "count": 120
+        },
+        {
+          "name": "HawaiiRoadMarking03",
+          "count": 108
+        },
+        {
+          "name": "HawaiiTireMarks01",
+          "count": 104
+        },
+        {
+          "name": "HB_Tree07",
+          "count": 88
+        }
+      ],
+      "missingInCurrentResourceIndex": [],
+      "layoutImage": "../assets/maps/m006-layout.png",
+      "images": [],
+      "gameTested": false,
+      "note": "布局图是数据诊断视图；纹理计数包括海床；直线距离不代表寻路距离。"
+    },
+    {
+      "id": "m012",
+      "source": "2v2\\map_mp_4_feasel1\\map_mp_4_feasel1.map",
+      "group": "2v2",
+      "sha256": "f1958605a28365755c17eb71226eaab246805849b6e836f1bca7fd52d51f76ca",
+      "learn": "学习双人分队空间与外岛扩张；4 人图尺寸和资源不能机械缩成 2 人。",
+      "playable": [
+        540,
+        540
+      ],
+      "border": 20,
+      "objectCount": 3549,
+      "topTextureNames": [
+        {
+          "name": "Dirt_Yucatan01",
+          "count": 69798
+        },
+        {
+          "name": "Dirt_Yucatan02",
+          "count": 36790
+        },
+        {
+          "name": "Grass_Yucatan02",
+          "count": 33400
+        },
+        {
+          "name": "Dirt_Yucatan04",
+          "count": 27247
+        },
+        {
+          "name": "Dirt_Yucatan03",
+          "count": 17703
+        },
+        {
+          "name": "Dirt_Yucatan05",
+          "count": 13222
+        },
+        {
+          "name": "Grass_Yucatan09",
+          "count": 12820
+        },
+        {
+          "name": "Reef_Yucatan01",
+          "count": 11412
+        }
+      ],
+      "topObjectNames": [
+        {
+          "name": "CC_GRASS06",
+          "count": 714
+        },
+        {
+          "name": "YucatanFootpath01",
+          "count": 236
+        },
+        {
+          "name": "CC_Grass01",
+          "count": 232
+        },
+        {
+          "name": "YucatanDirtRoad01",
+          "count": 154
+        },
+        {
+          "name": "YU_SMALLROCKS01",
+          "count": 142
+        },
+        {
+          "name": "YU_CORAL03",
+          "count": 133
+        },
+        {
+          "name": "YU_CORAL02",
+          "count": 131
+        },
+        {
+          "name": "YU_CORAL04",
+          "count": 131
+        },
+        {
+          "name": "YU_Coral01",
+          "count": 113
+        },
+        {
+          "name": "Amb_WoodCreakTree1",
+          "count": 107
+        },
+        {
+          "name": "HV_Tree01",
+          "count": 107
+        },
+        {
+          "name": "MY_ROCKS03",
+          "count": 94
+        }
+      ],
+      "missingInCurrentResourceIndex": [],
+      "layoutImage": "../assets/maps/m012-layout.png",
+      "images": [],
+      "gameTested": false,
+      "note": "布局图是数据诊断视图；纹理计数包括海床；直线距离不代表寻路距离。"
+    },
+    {
+      "id": "m049",
+      "source": "只学美化\\俄国冬季\\MAP_MP_COOP_j01_russianvillage_white\\MAP_MP_COOP_j01_russianvillage_white.map",
+      "group": "只学美化",
+      "sha256": "192a40ac007a367734005be29b040f9ba31b9cb01130732331d69a7be7a0691d",
+      "learn": "只学习冬季街道/围栏/灯柱的节奏，不照搬任务脚本或大量道具。",
+      "playable": [
+        750,
+        750
+      ],
+      "border": 30,
+      "objectCount": 11730,
+      "topTextureNames": [
+        {
+          "name": "Sand_Cannes10",
+          "count": 191500
+        },
+        {
+          "name": "Snow_Solvang01",
+          "count": 170075
+        },
+        {
+          "name": "Pavement_Solvang01",
+          "count": 30170
+        },
+        {
+          "name": "Pavement_Vlad04",
+          "count": 24396
+        },
+        {
+          "name": "Pavement_Kremlin05",
+          "count": 21631
+        },
+        {
+          "name": "Pavement_Vlad07",
+          "count": 21190
+        },
+        {
+          "name": "Sand_Cannes08",
+          "count": 14857
+        },
+        {
+          "name": "Pavement_Kremlin04",
+          "count": 11967
+        }
+      ],
+      "topObjectNames": [
+        {
+          "name": "StPetersburgSidewalk01",
+          "count": 528
+        },
+        {
+          "name": "AP_FENCE01",
+          "count": 481
+        },
+        {
+          "name": "KremlinSidewalk02",
+          "count": 478
+        },
+        {
+          "name": "KremlinSnowyTracks01",
+          "count": 476
+        },
+        {
+          "name": "KR_STREETSEGMENT04",
+          "count": 352
+        },
+        {
+          "name": "HavanaWhiteLine01",
+          "count": 348
+        },
+        {
+          "name": "NorthernRussiaSidewalk01",
+          "count": 314
+        },
+        {
+          "name": "SV_Fence01",
+          "count": 313
+        },
+        {
+          "name": "SV_TREE16",
+          "count": 308
+        },
+        {
+          "name": "IL_Tree01",
+          "count": 307
+        },
+        {
+          "name": "KremlinSidewalk01",
+          "count": 248
+        },
+        {
+          "name": "SV_Tree03",
+          "count": 242
+        }
+      ],
+      "missingInCurrentResourceIndex": [
+        ""
+      ],
+      "layoutImage": "../assets/maps/m049-layout.png",
+      "images": [],
+      "gameTested": false,
+      "note": "布局图是数据诊断视图；纹理计数包括海床；直线距离不代表寻路距离。"
+    },
+    {
+      "id": "m058",
+      "source": "只学美化\\俄国夏季\\MAP_MP_COOP_s01_leningradcanals_rao\\MAP_MP_COOP_s01_leningradcanals_rao.map",
+      "group": "只学美化",
+      "sha256": "32fdaedafe14bf62080b5142576e8a7d0d5ebfd8fadcb3883a30b3dbbb1c96bb",
+      "learn": "只学习运河街区的结构与留白；没有 OreNode，不能把这张任务图直接当遭遇战布局。",
+      "playable": [
+        350,
+        350
+      ],
+      "border": 30,
+      "objectCount": 4605,
+      "topTextureNames": [
+        {
+          "name": "Pavement_Geneva01",
+          "count": 18522
+        },
+        {
+          "name": "Pavement_SaintPetersburg02",
+          "count": 14344
+        },
+        {
+          "name": "Sand_Cannes03",
+          "count": 14247
+        },
+        {
+          "name": "Grass_Heidelberg02",
+          "count": 11619
+        },
+        {
+          "name": "Pavement_Heidel09",
+          "count": 9688
+        },
+        {
+          "name": "Pavement_Heidelberg10",
+          "count": 8431
+        },
+        {
+          "name": "Grass_SaintPetersburg01",
+          "count": 8388
+        },
+        {
+          "name": "Sand_Cannes09",
+          "count": 7401
+        }
+      ],
+      "topObjectNames": [
+        {
+          "name": "HavanaSidewalk04",
+          "count": 878
+        },
+        {
+          "name": "StPetersburgSidewalk02",
+          "count": 344
+        },
+        {
+          "name": "StPetersburgSidewalk01",
+          "count": 326
+        },
+        {
+          "name": "HavanaSidewalk03",
+          "count": 292
+        },
+        {
+          "name": "ST_PLANT09",
+          "count": 228
+        },
+        {
+          "name": "CC_BUSH02",
+          "count": 164
+        },
+        {
+          "name": "CS_BUSH01",
+          "count": 159
+        },
+        {
+          "name": "HB_Tree05",
+          "count": 98
+        },
+        {
+          "name": "CC_Bush01",
+          "count": 79
+        },
+        {
+          "name": "ST_TREEGRATE",
+          "count": 72
+        },
+        {
+          "name": "ST_PLANT05",
+          "count": 67
+        },
+        {
+          "name": "KR_CHAINBARRIER01",
+          "count": 64
+        }
+      ],
+      "missingInCurrentResourceIndex": [],
+      "layoutImage": "../assets/maps/m058-layout.png",
+      "images": [
+        "../assets/maps/m058-overview.png",
+        "../assets/maps/m058-detail.png"
+      ],
+      "gameTested": false,
+      "note": "布局图是数据诊断视图；纹理计数包括海床；直线距离不代表寻路距离。"
+    },
+    {
+      "id": "m067",
+      "source": "只学美化\\日本\\MAP_MP_COOP_j07_yokohama_stewart\\MAP_MP_COOP_j07_yokohama_stewart.map",
+      "group": "只学美化",
+      "sha256": "1b96521f6287dfc720cbedbe86e92e25cf38b126474705c9e4107a102f983db7",
+      "learn": "只学习港口、工业区、码头和建筑朝向；部分旧资源名缺失，应先查当前 MOD。",
+      "playable": [
+        500,
+        500
+      ],
+      "border": 30,
+      "objectCount": 6061,
+      "topTextureNames": [
+        {
+          "name": "Sand_Cannes02",
+          "count": 69771
+        },
+        {
+          "name": "Asphalt01",
+          "count": 25200
+        },
+        {
+          "name": "Dirt_Yucatan02",
+          "count": 24385
+        },
+        {
+          "name": "Dirt_Yucatan04",
+          "count": 23075
+        },
+        {
+          "name": "Pavement_TokyoHarbor09",
+          "count": 18745
+        },
+        {
+          "name": "Asphalt05",
+          "count": 16065
+        },
+        {
+          "name": "Sand_Cannes06",
+          "count": 14222
+        },
+        {
+          "name": "Gravel_Yucatan01",
+          "count": 11702
+        }
+      ],
+      "topObjectNames": [
+        {
+          "name": "HavanaSidewalk04",
+          "count": 1388
+        },
+        {
+          "name": "HavanaWhiteLine01",
+          "count": 366
+        },
+        {
+          "name": "CC_BUSH02",
+          "count": 362
+        },
+        {
+          "name": "TokyoHarborTrim04",
+          "count": 246
+        },
+        {
+          "name": "MykonosRoadTrim01",
+          "count": 246
+        },
+        {
+          "name": "IslandFortressSidewalk01",
+          "count": 224
+        },
+        {
+          "name": "HavanaSidewalk03",
+          "count": 208
+        },
+        {
+          "name": "TH_SEAWALL07",
+          "count": 153
+        },
+        {
+          "name": "TH_LAMPPOST04B",
+          "count": 138
+        },
+        {
+          "name": "OK_Shrub01",
+          "count": 131
+        },
+        {
+          "name": "MY_ALLYBORDER01",
+          "count": 130
+        },
+        {
+          "name": "HavanaParkingLines03",
+          "count": 116
+        }
+      ],
+      "missingInCurrentResourceIndex": [
+        "JapanRadarDish"
+      ],
+      "layoutImage": "../assets/maps/m067-layout.png",
+      "images": [
+        "../assets/maps/m067-overview.png",
+        "../assets/maps/m067-detail.png"
+      ],
+      "gameTested": false,
+      "note": "布局图是数据诊断视图；纹理计数包括海床；直线距离不代表寻路距离。"
+    },
+    {
+      "id": "m080",
+      "source": "只学美化\\海岛\\MAP_MP_COOP_s08_easterisland_stewart\\MAP_MP_COOP_s08_easterisland_stewart.map",
+      "group": "只学美化",
+      "sha256": "963bf3daa7a555b5726bc980ebe49d29f170043dfb74b4fcf6292d4fa90483ce",
+      "learn": "只学习岛屿植被、岸岩和地域材质；个别旧模型名需替换为已验证的资源。",
+      "playable": [
+        550,
+        575
+      ],
+      "border": 30,
+      "objectCount": 5033,
+      "topTextureNames": [
+        {
+          "name": "Dirt_Mykonos05",
+          "count": 108693
+        },
+        {
+          "name": "Grass_CapeCod05",
+          "count": 31739
+        },
+        {
+          "name": "Dirt_Easter02",
+          "count": 22141
+        },
+        {
+          "name": "Cliff_Easter01",
+          "count": 18451
+        },
+        {
+          "name": "Dirt_Easter05",
+          "count": 15989
+        },
+        {
+          "name": "Dirt_Easter07",
+          "count": 13972
+        },
+        {
+          "name": "Dirt_Easter09",
+          "count": 13856
+        },
+        {
+          "name": "Dirt_Easter01",
+          "count": 13723
+        }
+      ],
+      "topObjectNames": [
+        {
+          "name": "EI_GRASS02",
+          "count": 641
+        },
+        {
+          "name": "IL_BUSH05",
+          "count": 419
+        },
+        {
+          "name": "HA_PLANT04",
+          "count": 401
+        },
+        {
+          "name": "EI_Grass01",
+          "count": 388
+        },
+        {
+          "name": "HA_Plant01",
+          "count": 294
+        },
+        {
+          "name": "HA_PLANT09",
+          "count": 293
+        },
+        {
+          "name": "EasterIslandRoad01",
+          "count": 192
+        },
+        {
+          "name": "EI_RopeFence01",
+          "count": 180
+        },
+        {
+          "name": "MY_ALLYBORDER01",
+          "count": 155
+        },
+        {
+          "name": "CC_GRASS07",
+          "count": 151
+        },
+        {
+          "name": "HA_PLANT07",
+          "count": 137
+        },
+        {
+          "name": "EI_Rocks05",
+          "count": 135
+        }
+      ],
+      "missingInCurrentResourceIndex": [
+        "PALMTREE01"
+      ],
+      "layoutImage": "../assets/maps/m080-layout.png",
+      "images": [],
+      "gameTested": false,
+      "note": "布局图是数据诊断视图；纹理计数包括海床；直线距离不代表寻路距离。"
+    }
+  ],
+  "source": "User-provided map corpus. Map authors are not independently verified; screenshots are instructional references. No map/game resource package is distributed."
+}

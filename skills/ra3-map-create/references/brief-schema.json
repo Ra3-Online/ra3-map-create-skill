@@ -1,0 +1,1072 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ra3 Map Creation Brief",
+  "description": "制图前的工作记录；null 代表未知。能力、画面与游戏状态由实际证据填写，不由 schema 自动认证。",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "用户可读名称；最终写入实际地图名称，文件名另行去重。"
+    },
+    "phase": {
+      "enum": [
+        "collecting",
+        "planning",
+        "building",
+        "review",
+        "delivered"
+      ]
+    },
+    "mapType": {
+      "enum": [
+        "competitive",
+        "campaign",
+        "entertainment",
+        "showcase",
+        "other",
+        null
+      ],
+      "description": "玩法用途；现实复刻另在 fidelity 指定。"
+    },
+    "fidelity": {
+      "enum": [
+        "original",
+        "real_world_reference",
+        "historical_reference",
+        "image_reference",
+        "existing_map",
+        null
+      ],
+      "description": "来源与复现目标，不覆盖玩法用途。"
+    },
+    "deliverableScope": {
+      "enum": [
+        "scene",
+        "skirmish",
+        "scripted_mission",
+        "local_beautification",
+        "other",
+        null
+      ],
+      "description": "场景版不等于完成战役任务。"
+    },
+    "version": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "game": {
+          "enum": [
+            "ra3",
+            "uprising",
+            "mod",
+            null
+          ]
+        },
+        "modName": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "game=mod 时填写具体名称；非 MOD 为 null。"
+        },
+        "assetsAvailable": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "game",
+        "modName",
+        "assetsAvailable"
+      ]
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "operation": {
+          "enum": [
+            "new",
+            "edit_copy",
+            "edit_in_place",
+            null
+          ]
+        },
+        "sourceMap": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "来自当前已验证会话的路径/标识；新建为 null。"
+        },
+        "outputMap": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "唯一同名目录/.map；未选定为 null。"
+        },
+        "overwriteAllowed": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "operation",
+        "sourceMap",
+        "outputMap",
+        "overwriteAllowed"
+      ]
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "playableWidth": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "可玩宽度，单位格，不含 border。"
+        },
+        "playableHeight": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "可玩高度，单位格，不含 border。"
+        },
+        "border": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "description": "各边框格数；数组尺寸由服务读回，不猜测。"
+        }
+      },
+      "required": [
+        "playableWidth",
+        "playableHeight",
+        "border"
+      ]
+    },
+    "theme": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "region": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "地域＋具体地点；浮岛要塞可作为特殊科技风格地域。"
+        },
+        "season": {
+          "enum": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter",
+            "all_season",
+            "other",
+            null
+          ]
+        },
+        "period": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "现实/历史复刻年代；原创可为 null。"
+        },
+        "style": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "建筑与美术语言，不仅是色调。"
+        },
+        "subScenes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "region",
+        "season",
+        "period",
+        "style",
+        "subScenes"
+      ]
+    },
+    "terrain": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "structure": {
+          "enum": [
+            "irregular",
+            "terraced",
+            "flat",
+            "mixed",
+            "other",
+            null
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "层级、坡道、用途、通行关系和需要保留的地形。"
+        },
+        "waters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/water"
+          }
+        },
+        "bridges": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "required": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "typeNames": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "count": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "description": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "真实资源、跨度、接头、上下岸与游戏通行待验证项。"
+            }
+          },
+          "required": [
+            "required",
+            "typeNames",
+            "count",
+            "description"
+          ]
+        }
+      },
+      "required": [
+        "structure",
+        "description",
+        "waters",
+        "bridges"
+      ]
+    },
+    "buildings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "density": {
+          "enum": [
+            "sparse",
+            "medium",
+            "dense",
+            "custom",
+            null
+          ]
+        },
+        "allowScaling": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "scaleRange": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          ],
+          "description": "[最小倍率, 最大倍率]；未确定为 null；禁止缩放时为 [1,1]。"
+        },
+        "allowOverlap": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "按真实占地落实密度、退距、院落、入口；密集不代表可重叠。"
+        }
+      },
+      "required": [
+        "density",
+        "allowScaling",
+        "scaleRange",
+        "allowOverlap",
+        "description"
+      ]
+    },
+    "decor": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "density": {
+          "enum": [
+            "restrained",
+            "medium",
+            "rich",
+            "custom",
+            null
+          ]
+        },
+        "allowScaling": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "scaleRange": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          ],
+          "description": "[最小倍率, 最大倍率]；未确定为 null；禁止缩放时为 [1,1]。"
+        },
+        "allowOverlap": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "功能与分组；与民房缩放/重叠许可独立。"
+        }
+      },
+      "required": [
+        "density",
+        "allowScaling",
+        "scaleRange",
+        "allowOverlap",
+        "description"
+      ]
+    },
+    "vegetation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "coverage": {
+          "enum": [
+            "none",
+            "sparse",
+            "balanced",
+            "dense",
+            "parks_and_streets",
+            "custom",
+            null
+          ]
+        },
+        "speciesRichness": {
+          "enum": [
+            "single_species",
+            "limited_regional",
+            "regional_variety",
+            "custom",
+            null
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "绿地位置、树种层次与季节相容性。"
+        }
+      },
+      "required": [
+        "coverage",
+        "speciesRichness",
+        "description"
+      ]
+    },
+    "orientation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "majorAxisDegrees": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "buildingRule": {
+          "enum": [
+            "45_odd",
+            "reference",
+            "free",
+            "custom",
+            null
+          ]
+        },
+        "roadRule": {
+          "enum": [
+            "45_odd",
+            "reference",
+            "free",
+            "custom",
+            null
+          ]
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "主街/建筑朝向、小物功能朝向、待验证本地轴与网格。"
+        }
+      },
+      "required": [
+        "majorAxisDegrees",
+        "buildingRule",
+        "roadRule",
+        "description"
+      ]
+    },
+    "gameplay": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "players": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "玩法人数，不自动注入遭遇战玩家。"
+        },
+        "oreCount": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "description": "null=未确定，不是 0；战役不自动套资源。"
+        },
+        "oilCount": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "initialBases": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "objectives": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "任务/娱乐规则/资源授权；局部美化保留原有配置。"
+        }
+      },
+      "required": [
+        "players",
+        "oreCount",
+        "oilCount",
+        "initialBases",
+        "objectives",
+        "description"
+      ]
+    },
+    "render": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "timeOfDay": {
+          "enum": [
+            "dawn",
+            "day",
+            "dusk",
+            "night",
+            "inherit",
+            "other",
+            null
+          ]
+        },
+        "weatherRequest": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "用户请求；inherit 保留现状；雨雪值须从当前版本验证。"
+        },
+        "mood": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "期望色调与可读性。"
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/effect"
+          }
+        }
+      },
+      "required": [
+        "timeOfDay",
+        "weatherRequest",
+        "mood",
+        "effects"
+      ]
+    },
+    "hardConstraints": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/decision"
+      }
+    },
+    "openQuestions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/question"
+      }
+    },
+    "acceptance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "data": {
+          "enum": [
+            "pending",
+            "passed",
+            "failed",
+            "not_applicable"
+          ]
+        },
+        "visual": {
+          "enum": [
+            "pending",
+            "passed",
+            "failed",
+            "not_applicable"
+          ]
+        },
+        "game": {
+          "enum": [
+            "not_tested",
+            "passed",
+            "failed",
+            "not_applicable"
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "data",
+        "visual",
+        "game",
+        "notes"
+      ]
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "title",
+    "phase",
+    "mapType",
+    "fidelity",
+    "deliverableScope",
+    "version",
+    "target",
+    "dimensions",
+    "theme",
+    "terrain",
+    "buildings",
+    "decor",
+    "vegetation",
+    "orientation",
+    "gameplay",
+    "render",
+    "hardConstraints",
+    "decisions",
+    "openQuestions",
+    "acceptance"
+  ],
+  "$defs": {
+    "water": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": [
+            "river",
+            "lake",
+            "sea",
+            "canal",
+            "pond",
+            "other"
+          ]
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "命名水域，可为空。"
+        },
+        "extent": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "范围/位置/占比/岸线与连接。"
+        },
+        "widthCells": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "kind",
+        "name",
+        "extent",
+        "widthCells"
+      ]
+    },
+    "effect": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "request": {
+          "type": "string",
+          "minLength": 1
+        },
+        "capability": {
+          "enum": [
+            "unverified",
+            "confirmed_interface",
+            "visually_verified",
+            "game_verified",
+            "unavailable"
+          ]
+        },
+        "tool": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "连接后真实工具名；没有证据为 null。"
+        },
+        "resourceName": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "目录真实名称；尚未解析为 null。"
+        },
+        "value": {},
+        "evidence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "实际回执/参考/截图/游戏证据；未验证为 null。"
+        }
+      },
+      "required": [
+        "request",
+        "capability",
+        "tool",
+        "resourceName",
+        "value",
+        "evidence"
+      ]
+    },
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "enum": [
+            "user",
+            "current_map",
+            "verified_reference",
+            "assumption"
+          ]
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "path",
+        "source",
+        "note"
+      ]
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "stage": {
+          "enum": [
+            "purpose",
+            "basic",
+            "theme",
+            "terrain",
+            "composition",
+            "environment"
+          ]
+        },
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "blocking": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "stage",
+        "question",
+        "blocking"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "phase": {
+            "enum": [
+              "building",
+              "review",
+              "delivered"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "mapType": {
+            "not": {
+              "type": "null"
+            }
+          },
+          "deliverableScope": {
+            "not": {
+              "type": "null"
+            }
+          },
+          "version": {
+            "properties": {
+              "game": {
+                "not": {
+                  "type": "null"
+                }
+              },
+              "assetsAvailable": {
+                "const": true
+              }
+            }
+          },
+          "dimensions": {
+            "properties": {
+              "playableWidth": {
+                "type": "integer"
+              },
+              "playableHeight": {
+                "type": "integer"
+              },
+              "border": {
+                "type": "integer"
+              }
+            }
+          },
+          "target": {
+            "properties": {
+              "operation": {
+                "not": {
+                  "type": "null"
+                }
+              },
+              "outputMap": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "openQuestions": {
+            "items": {
+              "properties": {
+                "blocking": {
+                  "const": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "version": {
+            "properties": {
+              "game": {
+                "const": "mod"
+              }
+            }
+          },
+          "phase": {
+            "enum": [
+              "planning",
+              "building",
+              "review",
+              "delivered"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "version": {
+            "properties": {
+              "modName": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "target": {
+            "properties": {
+              "operation": {
+                "enum": [
+                  "edit_copy",
+                  "edit_in_place"
+                ]
+              }
+            }
+          },
+          "phase": {
+            "enum": [
+              "planning",
+              "building",
+              "review",
+              "delivered"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "target": {
+            "properties": {
+              "sourceMap": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "target": {
+            "properties": {
+              "operation": {
+                "const": "edit_in_place"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "target": {
+            "properties": {
+              "overwriteAllowed": {
+                "const": true
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "buildings": {
+            "properties": {
+              "allowScaling": {
+                "const": false
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "buildings": {
+            "properties": {
+              "scaleRange": {
+                "const": [
+                  1,
+                  1
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "decor": {
+            "properties": {
+              "allowScaling": {
+                "const": false
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "decor": {
+            "properties": {
+              "scaleRange": {
+                "const": [
+                  1,
+                  1
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "phase": {
+            "const": "delivered"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "acceptance": {
+            "properties": {
+              "data": {
+                "enum": [
+                  "passed",
+                  "failed"
+                ]
+              },
+              "visual": {
+                "enum": [
+                  "passed",
+                  "failed",
+                  "pending"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

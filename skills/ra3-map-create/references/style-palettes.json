@@ -1,0 +1,6107 @@
+[
+  {
+    "id": "m049",
+    "style": "雪地俄式村镇",
+    "sourceName": "MAP_MP_COOP_j01_russianvillage_white",
+    "sha256": "192a40ac007a367734005be29b040f9ba31b9cb01130732331d69a7be7a0691d",
+    "learn": "美化与空间关系；不迁移任务经济或脚本",
+    "images": {
+      "overview": "../assets/styles/m049-overview.jpg",
+      "neighborhood": "../assets/styles/m049-neighborhood.jpg"
+    },
+    "houses": [
+      [
+        "VL_Building02",
+        44
+      ],
+      [
+        "VL_Building03",
+        41
+      ],
+      [
+        "VL_Building05",
+        18
+      ],
+      [
+        "VL_Building01",
+        12
+      ],
+      [
+        "VL_building04",
+        12
+      ],
+      [
+        "OD_APARTMENTS01",
+        10
+      ],
+      [
+        "SV_Building07",
+        7
+      ],
+      [
+        "SV_Building08",
+        7
+      ],
+      [
+        "SV_Building05",
+        4
+      ],
+      [
+        "OD_Warehouse01",
+        3
+      ]
+    ],
+    "decorations": [
+      [
+        "AP_FENCE01",
+        481
+      ],
+      [
+        "KR_STREETSEGMENT04",
+        352
+      ],
+      [
+        "SV_Fence01",
+        313
+      ],
+      [
+        "SV_TREE16",
+        308
+      ],
+      [
+        "IL_Tree01",
+        307
+      ],
+      [
+        "SV_Tree03",
+        242
+      ],
+      [
+        "TH_LAMPPOST04",
+        225
+      ],
+      [
+        "IL_TREE02",
+        223
+      ],
+      [
+        "HB_Tree01",
+        141
+      ],
+      [
+        "VL_SeaWall01",
+        135
+      ],
+      [
+        "SV_Shrub01",
+        127
+      ],
+      [
+        "SV_StreetLamp01",
+        122
+      ],
+      [
+        "SV_TREE01",
+        120
+      ],
+      [
+        "ST_STREETSEGMENT06",
+        114
+      ],
+      [
+        "ST_SOVIETFENCE01",
+        98
+      ],
+      [
+        "SV_TREE04",
+        96
+      ]
+    ],
+    "roads": {
+      "types": [
+        [
+          "StPetersburgSidewalk01",
+          264
+        ],
+        [
+          "KremlinSidewalk02",
+          239
+        ],
+        [
+          "KremlinSnowyTracks01",
+          238
+        ],
+        [
+          "HavanaWhiteLine01",
+          174
+        ],
+        [
+          "NorthernRussiaSidewalk01",
+          157
+        ],
+        [
+          "KremlinSidewalk01",
+          124
+        ],
+        [
+          "StPetersburgSidewalk04",
+          105
+        ],
+        [
+          "GenevaRoadMarkings01",
+          104
+        ],
+        [
+          "StPetersburgSidewalk02",
+          98
+        ],
+        [
+          "HavanaSidewalk04",
+          89
+        ],
+        [
+          "KremlinBrickTrim01",
+          70
+        ],
+        [
+          "SantaMonicaSidewalk02",
+          66
+        ]
+      ],
+      "corners": [
+        [
+          "broad",
+          1221
+        ],
+        [
+          "angled",
+          629
+        ],
+        [
+          "tight",
+          139
+        ]
+      ],
+      "segments": 1989,
+      "geometricTurns": 1039,
+      "turnAngles": [
+        [
+          90,
+          706
+        ],
+        [
+          30,
+          76
+        ],
+        [
+          45,
+          74
+        ],
+        [
+          15,
+          71
+        ],
+        [
+          60,
+          34
+        ],
+        [
+          75,
+          30
+        ],
+        [
+          105,
+          25
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          165,
+          2
+        ],
+        [
+          180,
+          2
+        ],
+        [
+          120,
+          1
+        ],
+        [
+          135,
+          1
+        ]
+      ]
+    },
+    "houseDecorationCooccurrence": [
+      [
+        "VL_Building02|KR_STREETSEGMENT04",
+        36
+      ],
+      [
+        "VL_Building03|KR_STREETSEGMENT04",
+        31
+      ],
+      [
+        "VL_Building02|SV_StreetLamp01",
+        29
+      ],
+      [
+        "VL_Building02|HB_Tree01",
+        23
+      ],
+      [
+        "VL_Building02|ST_TREEGRATE",
+        19
+      ],
+      [
+        "VL_Building05|KR_STREETSEGMENT04",
+        17
+      ],
+      [
+        "VL_Building02|TH_LAMPPOST04",
+        17
+      ],
+      [
+        "VL_Building03|TH_LAMPPOST04",
+        17
+      ],
+      [
+        "VL_Building03|HB_Tree01",
+        15
+      ],
+      [
+        "VL_Building03|KR_STREETSEGMENT05",
+        15
+      ],
+      [
+        "VL_Building02|KR_STREETSEGMENT09",
+        14
+      ],
+      [
+        "VL_Building05|KR_STREETSEGMENT09",
+        12
+      ],
+      [
+        "VL_Building03|HB_Tree07",
+        11
+      ],
+      [
+        "VL_Building03|SV_StreetLamp01",
+        10
+      ],
+      [
+        "VL_Building03|KR_STREETSEGMENT09",
+        10
+      ],
+      [
+        "VL_Building01|KR_STREETSEGMENT04",
+        10
+      ],
+      [
+        "OD_APARTMENTS01|TH_LAMPPOST04",
+        9
+      ],
+      [
+        "VL_Building05|HB_Tree01",
+        9
+      ],
+      [
+        "VL_Building02|SV_Bench01",
+        9
+      ],
+      [
+        "VL_Building02|AP_FENCE01",
+        9
+      ],
+      [
+        "VL_Building03|AP_FENCE01",
+        9
+      ],
+      [
+        "VL_Building03|KR_STREETSEGMENT02",
+        9
+      ],
+      [
+        "VL_Building03|ST_TREEGRATE",
+        8
+      ],
+      [
+        "VL_Building03|SV_TREE01",
+        8
+      ]
+    ],
+    "neighborhoods": [
+      {
+        "typeName": "SV_Building05",
+        "x": 5798.889,
+        "y": 5320.047,
+        "angle": 126.231,
+        "radius": 168.1,
+        "nearbyDecorationCount": 54,
+        "decoration": [
+          [
+            "SV_Fence01",
+            27
+          ],
+          [
+            "SV_Tree02",
+            6
+          ],
+          [
+            "SV_TREE04",
+            4
+          ],
+          [
+            "SV_WoodPile01",
+            3
+          ],
+          [
+            "SV_FENCE02",
+            3
+          ],
+          [
+            "SV_Tree03",
+            2
+          ],
+          [
+            "SV_Planter01",
+            2
+          ],
+          [
+            "SV_Auto02",
+            1
+          ]
+        ],
+        "nearestRoad": 55.401
+      },
+      {
+        "typeName": "VL_Building01",
+        "x": 5358.023,
+        "y": 641.969,
+        "angle": 135,
+        "radius": 227.9,
+        "nearbyDecorationCount": 53,
+        "decoration": [
+          [
+            "KR_SHRUB03",
+            20
+          ],
+          [
+            "KR_FENCE01",
+            11
+          ],
+          [
+            "SV_TREE01",
+            8
+          ],
+          [
+            "KR_Tree01",
+            4
+          ],
+          [
+            "KR_TREEGRATE01",
+            4
+          ],
+          [
+            "KR_TREE05",
+            3
+          ],
+          [
+            "KR_FENCE04",
+            2
+          ],
+          [
+            "KR_FENCE02",
+            1
+          ]
+        ],
+        "nearestRoad": 14.658
+      },
+      {
+        "typeName": "VL_Building01",
+        "x": 6548.263,
+        "y": 2575.297,
+        "angle": 314.668,
+        "radius": 227.9,
+        "nearbyDecorationCount": 51,
+        "decoration": [
+          [
+            "SP_SNOWYOILDRUM01",
+            10
+          ],
+          [
+            "SP_SNOWYCHAINFENCE01",
+            8
+          ],
+          [
+            "SP_SNOWYSUPPLYBOX01",
+            7
+          ],
+          [
+            "KR_Tree02",
+            5
+          ],
+          [
+            "KR_STREETSEGMENT04",
+            4
+          ],
+          [
+            "KR_AUTO02",
+            3
+          ],
+          [
+            "KR_RETAININGWALL01",
+            3
+          ],
+          [
+            "KR_LIGHTPOLE01",
+            2
+          ]
+        ],
+        "nearestRoad": 128.985
+      },
+      {
+        "typeName": "SV_Building05",
+        "x": 1190.585,
+        "y": 2442.641,
+        "angle": 126.231,
+        "radius": 168.1,
+        "nearbyDecorationCount": 48,
+        "decoration": [
+          [
+            "SV_Fence01",
+            27
+          ],
+          [
+            "SV_Tree02",
+            4
+          ],
+          [
+            "SV_FENCE02",
+            2
+          ],
+          [
+            "SV_WoodPile01",
+            2
+          ],
+          [
+            "IL_SEACLIFFWALL04",
+            2
+          ],
+          [
+            "SV_Planter01",
+            2
+          ],
+          [
+            "SV_Auto02",
+            1
+          ],
+          [
+            "SV_AUTO04",
+            1
+          ]
+        ],
+        "nearestRoad": 55.401
+      },
+      {
+        "typeName": "VL_Building03",
+        "x": 1081.212,
+        "y": 1042.066,
+        "angle": 315,
+        "radius": 197.5,
+        "nearbyDecorationCount": 48,
+        "decoration": [
+          [
+            "AP_FENCE01",
+            18
+          ],
+          [
+            "VL_RAIL01",
+            4
+          ],
+          [
+            "KR_STREETSEGMENT04",
+            3
+          ],
+          [
+            "HB_Tree01",
+            3
+          ],
+          [
+            "KR_TREEGRATE01",
+            3
+          ],
+          [
+            "SV_Bench01",
+            3
+          ],
+          [
+            "VL_BOXCAR01",
+            2
+          ],
+          [
+            "HB_Tree07",
+            2
+          ]
+        ],
+        "nearestRoad": 37.451
+      },
+      {
+        "typeName": "VL_Building01",
+        "x": 3358.422,
+        "y": 643.205,
+        "angle": 315,
+        "radius": 227.9,
+        "nearbyDecorationCount": 47,
+        "decoration": [
+          [
+            "ST_TREEGRATE",
+            9
+          ],
+          [
+            "HB_Tree01",
+            9
+          ],
+          [
+            "SV_StreetLamp01",
+            8
+          ],
+          [
+            "KR_STREETSEGMENT04",
+            7
+          ],
+          [
+            "ST_STREETSEGMENT06",
+            4
+          ],
+          [
+            "KR_STREETSEGMENT09",
+            3
+          ],
+          [
+            "CC_Bush01",
+            3
+          ],
+          [
+            "KR_STREETSEGMENT05",
+            2
+          ]
+        ],
+        "nearestRoad": 161.942
+      },
+      {
+        "typeName": "SV_Building08",
+        "x": 5267.936,
+        "y": 2084.396,
+        "angle": 45,
+        "radius": 160.2,
+        "nearbyDecorationCount": 46,
+        "decoration": [
+          [
+            "SV_Fence01",
+            22
+          ],
+          [
+            "SV_Shrub01",
+            10
+          ],
+          [
+            "VL_CLIFFWALL02",
+            3
+          ],
+          [
+            "IL_TREE02",
+            3
+          ],
+          [
+            "IL_Tree01",
+            3
+          ],
+          [
+            "SV_Planter01",
+            2
+          ],
+          [
+            "SV_ROCKS06",
+            1
+          ],
+          [
+            "SV_TREE01",
+            1
+          ]
+        ],
+        "nearestRoad": 329.726
+      },
+      {
+        "typeName": "SV_Building05",
+        "x": 5347.144,
+        "y": 2348.283,
+        "angle": 45,
+        "radius": 168.1,
+        "nearbyDecorationCount": 46,
+        "decoration": [
+          [
+            "SV_Fence01",
+            18
+          ],
+          [
+            "ST_PLANT09",
+            6
+          ],
+          [
+            "SV_WoodPile01",
+            5
+          ],
+          [
+            "VL_CLIFFWALL02",
+            3
+          ],
+          [
+            "SV_TREE01",
+            2
+          ],
+          [
+            "IL_TREE02",
+            2
+          ],
+          [
+            "SV_TREE04",
+            1
+          ],
+          [
+            "SV_Snowman",
+            1
+          ]
+        ],
+        "nearestRoad": 67.176
+      }
+    ],
+    "caution": "部分模型或地垫显示不完整，画面主要用于地形、道路与空间关系"
+  },
+  {
+    "id": "m057",
+    "style": "东欧滨海城市",
+    "sourceName": "MAP_MP_COOP_j03_odessa_stewart",
+    "sha256": "5b7d2465faeeb391bf6231428fcc402915f92133f39e6a62a9dc18e1a2fa2bee",
+    "learn": "美化与空间关系；不迁移任务经济或脚本",
+    "images": {
+      "overview": "../assets/styles/m057-overview.jpg",
+      "neighborhood": "../assets/styles/m057-neighborhood.jpg"
+    },
+    "houses": [
+      [
+        "OD_APARTMENTS01",
+        10
+      ],
+      [
+        "ST_Building01",
+        10
+      ],
+      [
+        "ST_building05",
+        9
+      ],
+      [
+        "ST_Building02",
+        8
+      ],
+      [
+        "OD_APARTMENTS02",
+        7
+      ],
+      [
+        "OD_Warehouse01",
+        7
+      ],
+      [
+        "ST_building04",
+        4
+      ],
+      [
+        "OD_Warehouse_KingOni",
+        2
+      ],
+      [
+        "OD_WAREHOUSE02",
+        2
+      ],
+      [
+        "OD_Courthouse",
+        1
+      ]
+    ],
+    "decorations": [
+      [
+        "ST_STREETSEGMENT06",
+        311
+      ],
+      [
+        "OD_SeaWall01",
+        167
+      ],
+      [
+        "CS_BUSH01",
+        117
+      ],
+      [
+        "OD_STAIREDGE02",
+        113
+      ],
+      [
+        "VL_RAIL01",
+        108
+      ],
+      [
+        "ST_PLANT02",
+        100
+      ],
+      [
+        "HB_Tree05",
+        99
+      ],
+      [
+        "ST_PLANT11",
+        93
+      ],
+      [
+        "ST_PLANT05",
+        90
+      ],
+      [
+        "HB_Tree07",
+        89
+      ],
+      [
+        "OD_WALL08",
+        83
+      ],
+      [
+        "AP_MIRAGETREE01",
+        82
+      ],
+      [
+        "ST_PLANT10",
+        81
+      ],
+      [
+        "GE_PLANTER02",
+        76
+      ],
+      [
+        "OD_STONEWALL01",
+        73
+      ],
+      [
+        "ST_PLANT07",
+        59
+      ]
+    ],
+    "roads": {
+      "types": [
+        [
+          "SantaMonicaSidewalk02",
+          346
+        ],
+        [
+          "StPetersburgSidewalk01",
+          229
+        ],
+        [
+          "HavanaWhiteLine01",
+          106
+        ],
+        [
+          "GenevaRoadMarkings01",
+          106
+        ],
+        [
+          "StPetersburgSidewalk02",
+          89
+        ],
+        [
+          "HavanaSidewalk03",
+          73
+        ],
+        [
+          "HawaiiCrosswalk01",
+          64
+        ],
+        [
+          "StPetersburgSidewalk04",
+          61
+        ],
+        [
+          "HavanaParkingLines02",
+          45
+        ],
+        [
+          "MykonosRoadTrim01",
+          36
+        ],
+        [
+          "SantaMonicaSidewalk03",
+          33
+        ],
+        [
+          "HavanaCrosswalk01",
+          29
+        ]
+      ],
+      "corners": [
+        [
+          "broad",
+          755
+        ],
+        [
+          "tight",
+          306
+        ],
+        [
+          "angled",
+          278
+        ]
+      ],
+      "segments": 1339,
+      "geometricTurns": 681,
+      "turnAngles": [
+        [
+          90,
+          523
+        ],
+        [
+          15,
+          43
+        ],
+        [
+          45,
+          33
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          60,
+          22
+        ],
+        [
+          75,
+          14
+        ],
+        [
+          105,
+          9
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          180,
+          2
+        ],
+        [
+          120,
+          1
+        ]
+      ]
+    },
+    "houseDecorationCooccurrence": [
+      [
+        "ST_Building01|HB_Tree07",
+        10
+      ],
+      [
+        "ST_building05|ST_STREETSEGMENT06",
+        9
+      ],
+      [
+        "OD_APARTMENTS01|ST_STREETSEGMENT06",
+        9
+      ],
+      [
+        "OD_APARTMENTS01|AP_MIRAGETREE01",
+        8
+      ],
+      [
+        "OD_APARTMENTS02|HB_Tree07",
+        7
+      ],
+      [
+        "ST_Building01|ST_STREETSEGMENT06",
+        7
+      ],
+      [
+        "ST_building05|ST_STREETSEGMENT07",
+        7
+      ],
+      [
+        "ST_Building02|ST_STREETSEGMENT06",
+        6
+      ],
+      [
+        "OD_APARTMENTS02|ST_TABLE06",
+        6
+      ],
+      [
+        "OD_APARTMENTS02|ST_STREETSEGMENT06",
+        6
+      ],
+      [
+        "OD_APARTMENTS01|ST_PLANT05",
+        6
+      ],
+      [
+        "OD_APARTMENTS01|ST_PLANTER02",
+        6
+      ],
+      [
+        "OD_APARTMENTS01|CS_BUSH01",
+        6
+      ],
+      [
+        "ST_Building01|ST_PLANT11",
+        6
+      ],
+      [
+        "ST_Building01|ST_PLANT10",
+        6
+      ],
+      [
+        "ST_Building01|ST_STREETSEGMENT07",
+        6
+      ],
+      [
+        "OD_APARTMENTS01|ST_SIDEWALKSEGMENT01",
+        6
+      ],
+      [
+        "ST_Building01|ST_TABLE03",
+        6
+      ],
+      [
+        "ST_Building02|HB_Tree07",
+        5
+      ],
+      [
+        "ST_Building02|GE_PLANTER02",
+        5
+      ],
+      [
+        "OD_APARTMENTS02|ST_Auto01",
+        5
+      ],
+      [
+        "OD_APARTMENTS02|ST_STREETSEGMENT07",
+        5
+      ],
+      [
+        "ST_building05|GE_PLANTER02",
+        5
+      ],
+      [
+        "ST_building05|HB_Tree07",
+        5
+      ]
+    ],
+    "neighborhoods": [
+      {
+        "typeName": "ST_Building01",
+        "x": 900.099,
+        "y": 3254.559,
+        "angle": 135,
+        "radius": 227.9,
+        "nearbyDecorationCount": 66,
+        "decoration": [
+          [
+            "ST_PLANT11",
+            12
+          ],
+          [
+            "ST_PLANT10",
+            10
+          ],
+          [
+            "ST_PLANT02",
+            8
+          ],
+          [
+            "ST_PLANT05",
+            6
+          ],
+          [
+            "ST_PLANT06",
+            4
+          ],
+          [
+            "ST_PLANTER01",
+            4
+          ],
+          [
+            "ST_TABLE03",
+            4
+          ],
+          [
+            "HB_Tree07",
+            3
+          ]
+        ],
+        "nearestRoad": 26.844
+      },
+      {
+        "typeName": "ST_Building01",
+        "x": 2170.063,
+        "y": 4397.243,
+        "angle": 45,
+        "radius": 227.9,
+        "nearbyDecorationCount": 54,
+        "decoration": [
+          [
+            "ST_PLANT02",
+            20
+          ],
+          [
+            "ST_PLANT07",
+            8
+          ],
+          [
+            "HB_Tree07",
+            4
+          ],
+          [
+            "ST_TABLE03",
+            4
+          ],
+          [
+            "ST_PLANT10",
+            4
+          ],
+          [
+            "ST_STREETSEGMENT11",
+            2
+          ],
+          [
+            "ST_LIGHT01",
+            2
+          ],
+          [
+            "ST_STREETSEGMENT06",
+            2
+          ]
+        ],
+        "nearestRoad": 31.863
+      },
+      {
+        "typeName": "ST_Building01",
+        "x": 1576.093,
+        "y": 4524.522,
+        "angle": 45,
+        "radius": 227.9,
+        "nearbyDecorationCount": 48,
+        "decoration": [
+          [
+            "ST_PLANT05",
+            8
+          ],
+          [
+            "HB_Tree05",
+            7
+          ],
+          [
+            "ST_TABLE05",
+            5
+          ],
+          [
+            "HB_Tree07",
+            5
+          ],
+          [
+            "ST_PLANTER02",
+            4
+          ],
+          [
+            "ST_PLANT08",
+            4
+          ],
+          [
+            "GE_PLANTER02",
+            4
+          ],
+          [
+            "ST_LIGHT01",
+            3
+          ]
+        ],
+        "nearestRoad": 42.45
+      },
+      {
+        "typeName": "ST_Building01",
+        "x": 2254.703,
+        "y": 3886.54,
+        "angle": 45,
+        "radius": 227.9,
+        "nearbyDecorationCount": 48,
+        "decoration": [
+          [
+            "ST_PLANT10",
+            14
+          ],
+          [
+            "ST_PLANT11",
+            4
+          ],
+          [
+            "ST_PLANTER02",
+            4
+          ],
+          [
+            "ST_PLANT07",
+            4
+          ],
+          [
+            "ST_PLANT03",
+            4
+          ],
+          [
+            "ST_TABLE03",
+            4
+          ],
+          [
+            "HB_Tree07",
+            3
+          ],
+          [
+            "ST_STREETSEGMENT11",
+            3
+          ]
+        ],
+        "nearestRoad": 31.869
+      },
+      {
+        "typeName": "OD_Warehouse01",
+        "x": 470.206,
+        "y": 2841.58,
+        "angle": 225,
+        "radius": 215,
+        "nearbyDecorationCount": 43,
+        "decoration": [
+          [
+            "ST_PLANT02",
+            8
+          ],
+          [
+            "ST_STREETSEGMENT06",
+            5
+          ],
+          [
+            "ST_PLANT10",
+            4
+          ],
+          [
+            "ST_TREEGRATE",
+            4
+          ],
+          [
+            "OD_CHAINBARRIER01",
+            4
+          ],
+          [
+            "VL_RAIL01",
+            3
+          ],
+          [
+            "ST_PLANT11",
+            2
+          ],
+          [
+            "AP_MIRAGETREE01",
+            2
+          ]
+        ],
+        "nearestRoad": 36.585
+      },
+      {
+        "typeName": "ST_building04",
+        "x": 2002.226,
+        "y": 4991.434,
+        "angle": 315,
+        "radius": 206.8,
+        "nearbyDecorationCount": 42,
+        "decoration": [
+          [
+            "HB_Tree05",
+            15
+          ],
+          [
+            "ST_TABLE03",
+            8
+          ],
+          [
+            "CS_BUSH01",
+            4
+          ],
+          [
+            "ST_PLANT11",
+            4
+          ],
+          [
+            "GE_PLANTER02",
+            2
+          ],
+          [
+            "ST_PLANT10",
+            2
+          ],
+          [
+            "ST_PLANTER02",
+            2
+          ],
+          [
+            "HB_Tree07",
+            2
+          ]
+        ],
+        "nearestRoad": 30.238
+      },
+      {
+        "typeName": "OD_Courthouse",
+        "x": 2849.49,
+        "y": 3391.647,
+        "angle": 315,
+        "radius": 283.9,
+        "nearbyDecorationCount": 40,
+        "decoration": [
+          [
+            "HB_Tree05",
+            12
+          ],
+          [
+            "ST_PLANT08",
+            4
+          ],
+          [
+            "ST_PLANT02",
+            4
+          ],
+          [
+            "ST_PLANT01",
+            4
+          ],
+          [
+            "OD_IVY01",
+            2
+          ],
+          [
+            "HB_Statue02",
+            2
+          ],
+          [
+            "ST_STREETSEGMENT06",
+            2
+          ],
+          [
+            "ST_STREETSEGMENT02",
+            2
+          ]
+        ],
+        "nearestRoad": 46.891
+      },
+      {
+        "typeName": "ST_Building01",
+        "x": 350.334,
+        "y": 4472.081,
+        "angle": 225,
+        "radius": 227.9,
+        "nearbyDecorationCount": 40,
+        "decoration": [
+          [
+            "ST_PLANT07",
+            6
+          ],
+          [
+            "HB_Tree05",
+            5
+          ],
+          [
+            "CS_BUSH01",
+            5
+          ],
+          [
+            "ST_TABLE05",
+            4
+          ],
+          [
+            "OD_WALL08",
+            4
+          ],
+          [
+            "ST_TREEGRATE",
+            4
+          ],
+          [
+            "ST_STREETSEGMENT06",
+            3
+          ],
+          [
+            "ST_PLANT11",
+            2
+          ]
+        ],
+        "nearestRoad": 30.749
+      }
+    ],
+    "caution": "部分模型或地垫显示不完整，画面主要用于地形、道路与空间关系"
+  },
+  {
+    "id": "m068",
+    "style": "日式传统庭园",
+    "sourceName": "MAP_MP_COOP_s07_mountfuji_white",
+    "sha256": "7fea6783521e31efd5322f2815f0a3a8cb47160f36807db031d6ce6e66dfa5f4",
+    "learn": "美化与空间关系；不迁移任务经济或脚本",
+    "images": {
+      "overview": "../assets/styles/m068-overview.jpg",
+      "neighborhood": "../assets/styles/m068-neighborhood.jpg"
+    },
+    "houses": [
+      [
+        "MJ_GUARDHOUSE01",
+        6
+      ],
+      [
+        "HA_Building16_03",
+        6
+      ],
+      [
+        "HA_Building16_02",
+        4
+      ],
+      [
+        "HA_BUILDING16",
+        2
+      ]
+    ],
+    "decorations": [
+      [
+        "MJ_GRASS01",
+        610
+      ],
+      [
+        "GC_Bush01",
+        346
+      ],
+      [
+        "OK_Shrub01",
+        164
+      ],
+      [
+        "MJ_Wall01",
+        115
+      ],
+      [
+        "TH_JAPANFENCE04",
+        106
+      ],
+      [
+        "MJ_STONEFENCE01",
+        99
+      ],
+      [
+        "OK_StoneFence01",
+        95
+      ],
+      [
+        "YU_BAMBOOFENCE01",
+        94
+      ],
+      [
+        "HB_Tree03",
+        90
+      ],
+      [
+        "HB_Tree04",
+        83
+      ],
+      [
+        "TH_JAPANFENCE01",
+        72
+      ],
+      [
+        "OK_GARDENROCK03",
+        67
+      ],
+      [
+        "OK_Tree02",
+        56
+      ],
+      [
+        "YU_BAMBOOFENCE02",
+        54
+      ],
+      [
+        "ST_PLANT09",
+        53
+      ],
+      [
+        "IF_StreetSegment01",
+        48
+      ]
+    ],
+    "roads": {
+      "types": [
+        [
+          "MtFujiStoneBorder01",
+          502
+        ],
+        [
+          "MtFujiStoneBorder03",
+          148
+        ],
+        [
+          "MtFujiBuildingTrim01",
+          102
+        ],
+        [
+          "HawaiiDirtRoad01",
+          94
+        ],
+        [
+          "MtFujiStoneBorder02",
+          82
+        ],
+        [
+          "MtFujiSidewalk01",
+          79
+        ],
+        [
+          "YucatanFootpath01",
+          69
+        ],
+        [
+          "IslandFortressSidewalk01",
+          60
+        ],
+        [
+          "HavanaParkingLines03",
+          28
+        ],
+        [
+          "HawaiiSidewalk02",
+          24
+        ],
+        [
+          "HawaiiTrim02",
+          16
+        ],
+        [
+          "MtFujiStoneStaircase01",
+          14
+        ]
+      ],
+      "corners": [
+        [
+          "angled",
+          990
+        ],
+        [
+          "broad",
+          203
+        ],
+        [
+          "tight",
+          25
+        ]
+      ],
+      "segments": 1218,
+      "geometricTurns": 920,
+      "turnAngles": [
+        [
+          90,
+          328
+        ],
+        [
+          15,
+          191
+        ],
+        [
+          30,
+          142
+        ],
+        [
+          60,
+          129
+        ],
+        [
+          45,
+          89
+        ],
+        [
+          75,
+          22
+        ],
+        [
+          0,
+          19
+        ]
+      ]
+    },
+    "houseDecorationCooccurrence": [
+      [
+        "MJ_GUARDHOUSE01|MJ_Wall01",
+        6
+      ],
+      [
+        "MJ_GUARDHOUSE01|MJ_WALL02",
+        5
+      ],
+      [
+        "HA_Building16_03|GC_Bush01",
+        5
+      ],
+      [
+        "HA_Building16_03|MJ_GRASS01",
+        5
+      ],
+      [
+        "MJ_GUARDHOUSE01|MJ_GRASS01",
+        4
+      ],
+      [
+        "HA_Building16_02|MJ_GRASS01",
+        4
+      ],
+      [
+        "HA_Building16_02|GC_Bush01",
+        4
+      ],
+      [
+        "HA_Building16_02|OK_Tree02",
+        4
+      ],
+      [
+        "HA_Building16_03|OK_GardenRock01",
+        4
+      ],
+      [
+        "MJ_GUARDHOUSE01|MJ_WALL06",
+        3
+      ],
+      [
+        "MJ_GUARDHOUSE01|MJ_WALL05",
+        3
+      ],
+      [
+        "HA_Building16_02|YU_BAMBOOFENCE01",
+        3
+      ],
+      [
+        "HA_Building16_02|YU_BAMBOOFENCE02",
+        3
+      ],
+      [
+        "HA_Building16_02|OK_GARDENROCK03",
+        3
+      ],
+      [
+        "HA_Building16_02|OK_GardenRock01",
+        3
+      ],
+      [
+        "HA_Building16_02|OK_LANTERN04",
+        3
+      ],
+      [
+        "HA_Building16_03|OK_LANTERN01",
+        3
+      ],
+      [
+        "MJ_GUARDHOUSE01|GC_Bush01",
+        2
+      ],
+      [
+        "MJ_GUARDHOUSE01|MJ_WALL03",
+        2
+      ],
+      [
+        "MJ_GUARDHOUSE01|OK_SHRUB03",
+        2
+      ],
+      [
+        "MJ_GUARDHOUSE01|OK_SHRUB02",
+        2
+      ],
+      [
+        "HA_Building16_02|HA_Bonsai01",
+        2
+      ],
+      [
+        "HA_BUILDING16|MJ_GRASS01",
+        2
+      ],
+      [
+        "HA_Building16_03|MJ_Wall01",
+        2
+      ]
+    ],
+    "neighborhoods": [
+      {
+        "typeName": "HA_Building16_03",
+        "x": 853.787,
+        "y": 2323.926,
+        "angle": 225,
+        "radius": 151,
+        "nearbyDecorationCount": 45,
+        "decoration": [
+          [
+            "YU_BAMBOOFENCE01",
+            14
+          ],
+          [
+            "YU_BAMBOOFENCE02",
+            8
+          ],
+          [
+            "ST_PLANT03",
+            7
+          ],
+          [
+            "GC_Bush01",
+            7
+          ],
+          [
+            "MJ_Wall01",
+            2
+          ],
+          [
+            "HB_Tree03",
+            2
+          ],
+          [
+            "MJ_GRASS01",
+            2
+          ],
+          [
+            "OK_Tree02",
+            1
+          ]
+        ],
+        "nearestRoad": 30.069
+      },
+      {
+        "typeName": "HA_Building16_03",
+        "x": 2494.722,
+        "y": 1639.624,
+        "angle": 134.952,
+        "radius": 151,
+        "nearbyDecorationCount": 38,
+        "decoration": [
+          [
+            "YU_BAMBOOFENCE01",
+            15
+          ],
+          [
+            "YU_BAMBOOFENCE02",
+            9
+          ],
+          [
+            "GC_Bush01",
+            7
+          ],
+          [
+            "MJ_WOODLANTERN01",
+            2
+          ],
+          [
+            "MJ_GRASS01",
+            2
+          ],
+          [
+            "IF_STREETSEGMENT02",
+            1
+          ],
+          [
+            "OK_GardenRock01",
+            1
+          ],
+          [
+            "OK_LANTERN01",
+            1
+          ]
+        ],
+        "nearestRoad": 30.069
+      },
+      {
+        "typeName": "HA_Building16_02",
+        "x": 1112.856,
+        "y": 1560.829,
+        "angle": 45,
+        "radius": 151,
+        "nearbyDecorationCount": 34,
+        "decoration": [
+          [
+            "YU_BAMBOOFENCE01",
+            14
+          ],
+          [
+            "YU_BAMBOOFENCE02",
+            8
+          ],
+          [
+            "MJ_GRASS01",
+            3
+          ],
+          [
+            "OK_GARDENROCK03",
+            2
+          ],
+          [
+            "IF_StreetSegment01",
+            2
+          ],
+          [
+            "OK_Tree02",
+            1
+          ],
+          [
+            "OK_GardenRock01",
+            1
+          ],
+          [
+            "GC_Bush01",
+            1
+          ]
+        ],
+        "nearestRoad": 133.205
+      },
+      {
+        "typeName": "HA_Building16_02",
+        "x": 1411.453,
+        "y": 602.382,
+        "angle": 315.65,
+        "radius": 151,
+        "nearbyDecorationCount": 32,
+        "decoration": [
+          [
+            "YU_BAMBOOFENCE01",
+            14
+          ],
+          [
+            "YU_BAMBOOFENCE02",
+            8
+          ],
+          [
+            "MJ_GRASS01",
+            3
+          ],
+          [
+            "OK_GARDENROCK03",
+            2
+          ],
+          [
+            "HA_Bonsai01",
+            1
+          ],
+          [
+            "OK_Tree02",
+            1
+          ],
+          [
+            "OK_GardenRock01",
+            1
+          ],
+          [
+            "GC_Bush01",
+            1
+          ]
+        ],
+        "nearestRoad": 152.937
+      },
+      {
+        "typeName": "HA_Building16_02",
+        "x": 2872.335,
+        "y": 1433.686,
+        "angle": 45,
+        "radius": 151,
+        "nearbyDecorationCount": 32,
+        "decoration": [
+          [
+            "YU_BAMBOOFENCE01",
+            14
+          ],
+          [
+            "YU_BAMBOOFENCE02",
+            8
+          ],
+          [
+            "MJ_GRASS01",
+            3
+          ],
+          [
+            "OK_GARDENROCK03",
+            2
+          ],
+          [
+            "ST_Auto02",
+            1
+          ],
+          [
+            "OK_GardenRock01",
+            1
+          ],
+          [
+            "GC_Bush01",
+            1
+          ],
+          [
+            "OK_LANTERN04",
+            1
+          ]
+        ],
+        "nearestRoad": 122.195
+      },
+      {
+        "typeName": "HA_Building16_03",
+        "x": 4719.91,
+        "y": 5029.442,
+        "angle": 45,
+        "radius": 151,
+        "nearbyDecorationCount": 29,
+        "decoration": [
+          [
+            "MJ_GRASS01",
+            9
+          ],
+          [
+            "GC_Bush01",
+            6
+          ],
+          [
+            "MJ_CliffWall01",
+            2
+          ],
+          [
+            "HB_Tree03",
+            2
+          ],
+          [
+            "OK_LANTERN02",
+            2
+          ],
+          [
+            "OK_SHRUB03",
+            2
+          ],
+          [
+            "OK_LANTERN01",
+            1
+          ],
+          [
+            "OK_GARDENROCK02",
+            1
+          ]
+        ],
+        "nearestRoad": 52.538
+      },
+      {
+        "typeName": "MJ_GUARDHOUSE01",
+        "x": 1687.55,
+        "y": 3096.284,
+        "angle": 134.891,
+        "radius": 150,
+        "nearbyDecorationCount": 26,
+        "decoration": [
+          [
+            "MJ_GRASS01",
+            15
+          ],
+          [
+            "OK_SHRUB03",
+            3
+          ],
+          [
+            "HB_Tree03",
+            2
+          ],
+          [
+            "MJ_Wall01",
+            2
+          ],
+          [
+            "OK_SHRUB02",
+            2
+          ],
+          [
+            "MJ_WALL02",
+            1
+          ],
+          [
+            "MJ_WALL06",
+            1
+          ]
+        ],
+        "nearestRoad": 98.681
+      },
+      {
+        "typeName": "HA_Building16_02",
+        "x": 336.21,
+        "y": 4335.695,
+        "angle": 44.639,
+        "radius": 151,
+        "nearbyDecorationCount": 25,
+        "decoration": [
+          [
+            "MJ_GRASS01",
+            13
+          ],
+          [
+            "GC_Bush01",
+            3
+          ],
+          [
+            "HB_Tree03",
+            3
+          ],
+          [
+            "HB_Tree04",
+            2
+          ],
+          [
+            "OK_Tree02",
+            1
+          ],
+          [
+            "HA_Bonsai01",
+            1
+          ],
+          [
+            "YU_CLIFFWALL06",
+            1
+          ],
+          [
+            "OK_LANTERN03",
+            1
+          ]
+        ],
+        "nearestRoad": 36.253
+      }
+    ],
+    "caution": "部分模型或地垫显示不完整，画面主要用于地形、道路与空间关系"
+  },
+  {
+    "id": "m070",
+    "style": "地中海度假区",
+    "sourceName": "MAP_MP_COOP_a02_cannes_smith",
+    "sha256": "32c9323f7bf20e1816bc5f93b85393b6b7a49e2f852fa9595769c1d91cd4557f",
+    "learn": "美化与空间关系；不迁移任务经济或脚本",
+    "images": {
+      "overview": "../assets/styles/m070-overview.jpg",
+      "neighborhood": "../assets/styles/m070-neighborhood.jpg"
+    },
+    "houses": [
+      [
+        "CA_Hotel_01",
+        6
+      ],
+      [
+        "GI_Hotel_01",
+        4
+      ],
+      [
+        "CA_Hotel_04",
+        4
+      ],
+      [
+        "ST_Building01",
+        3
+      ],
+      [
+        "CA_Hotel_02",
+        2
+      ],
+      [
+        "SA_IceCreamShop",
+        1
+      ],
+      [
+        "SA_TireShop",
+        1
+      ],
+      [
+        "GI_Apartment_03",
+        1
+      ],
+      [
+        "GI_Apartment_04",
+        1
+      ],
+      [
+        "GI_Apartment_01",
+        1
+      ]
+    ],
+    "decorations": [
+      [
+        "ST_SOVIETFENCE01",
+        560
+      ],
+      [
+        "CS_BUSH01",
+        204
+      ],
+      [
+        "SP_SANDBAGS01",
+        157
+      ],
+      [
+        "GI_SEAWALLPIECE1",
+        146
+      ],
+      [
+        "ST_PLANT09",
+        144
+      ],
+      [
+        "CS_Palm02",
+        128
+      ],
+      [
+        "CS_Palm01",
+        128
+      ],
+      [
+        "HA_PLANT07",
+        127
+      ],
+      [
+        "HA_BUSH02",
+        118
+      ],
+      [
+        "CS_CHAIR01",
+        115
+      ],
+      [
+        "ST_PLANT02",
+        94
+      ],
+      [
+        "CS_FERN01",
+        87
+      ],
+      [
+        "CA_STREETSEGMENT03",
+        77
+      ],
+      [
+        "ST_PLANT01",
+        61
+      ],
+      [
+        "CS_BUSH02",
+        60
+      ],
+      [
+        "CS_PLANT06",
+        60
+      ]
+    ],
+    "roads": {
+      "types": [
+        [
+          "CannesSidewalk02",
+          987
+        ],
+        [
+          "CannesSidewalk01",
+          327
+        ],
+        [
+          "HavanaSidewalk03",
+          168
+        ],
+        [
+          "HavanaWhiteLine01",
+          99
+        ],
+        [
+          "MtRushmoreRoad01",
+          74
+        ],
+        [
+          "HavanaSidewalk04",
+          72
+        ],
+        [
+          "HavanaParkingLines03",
+          40
+        ],
+        [
+          "YucatanFootpath01",
+          24
+        ],
+        [
+          "StPetersburgSidewalk05",
+          21
+        ],
+        [
+          "GenevaRoadMarkings01",
+          13
+        ],
+        [
+          "HavanaParkingLines01",
+          5
+        ],
+        [
+          "HavanaParkingLines02",
+          4
+        ]
+      ],
+      "corners": [
+        [
+          "angled",
+          1025
+        ],
+        [
+          "broad",
+          415
+        ],
+        [
+          "tight",
+          394
+        ]
+      ],
+      "segments": 1834,
+      "geometricTurns": 1026,
+      "turnAngles": [
+        [
+          90,
+          692
+        ],
+        [
+          15,
+          137
+        ],
+        [
+          30,
+          61
+        ],
+        [
+          45,
+          47
+        ],
+        [
+          75,
+          29
+        ],
+        [
+          60,
+          26
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          105,
+          10
+        ],
+        [
+          135,
+          4
+        ],
+        [
+          120,
+          3
+        ]
+      ]
+    },
+    "houseDecorationCooccurrence": [
+      [
+        "CA_Hotel_01|CA_STREETSEGMENT03",
+        5
+      ],
+      [
+        "CA_Hotel_01|CS_STREETLIGHT",
+        5
+      ],
+      [
+        "CA_Hotel_01|CS_Palm01",
+        5
+      ],
+      [
+        "GI_Hotel_01|CS_Palm02",
+        4
+      ],
+      [
+        "CA_Hotel_01|CA_STREETSEGMENT04",
+        4
+      ],
+      [
+        "CA_Hotel_04|CS_Palm01",
+        4
+      ],
+      [
+        "CA_Hotel_04|HA_BUSH02",
+        4
+      ],
+      [
+        "CA_Hotel_04|CS_Palm02",
+        4
+      ],
+      [
+        "CA_Hotel_01|CS_BUSH01",
+        4
+      ],
+      [
+        "CA_Hotel_01|CS_Palm02",
+        4
+      ],
+      [
+        "GI_Hotel_01|CS_BUSH01",
+        3
+      ],
+      [
+        "CA_Hotel_01|CA_STREETSEGMENT08",
+        3
+      ],
+      [
+        "CA_Hotel_01|CA_STREETSEGMENT10",
+        3
+      ],
+      [
+        "CA_Hotel_04|CS_STREETLIGHT",
+        3
+      ],
+      [
+        "CA_Hotel_04|HA_PLANT07",
+        3
+      ],
+      [
+        "CA_Hotel_04|CS_TRASHCAN",
+        3
+      ],
+      [
+        "ST_Building01|CA_STREETSEGMENT03",
+        3
+      ],
+      [
+        "ST_Building01|CA_STREETSEGMENT10",
+        3
+      ],
+      [
+        "CA_Hotel_04|CS_CHAIR01",
+        3
+      ],
+      [
+        "CA_Hotel_04|CS_FERN01",
+        3
+      ],
+      [
+        "CA_Hotel_04|CS_PLANT05",
+        3
+      ],
+      [
+        "CA_Hotel_01|ST_PLANT09",
+        3
+      ],
+      [
+        "GI_Hotel_01|CS_Palm01",
+        3
+      ],
+      [
+        "GI_Hotel_01|CA_STREETSEGMENT03",
+        2
+      ]
+    ],
+    "neighborhoods": [
+      {
+        "typeName": "CA_Hotel_02",
+        "x": 2590.167,
+        "y": 4876.382,
+        "angle": 315,
+        "radius": 284.3,
+        "nearbyDecorationCount": 145,
+        "decoration": [
+          [
+            "ST_PLANT09",
+            24
+          ],
+          [
+            "ST_PLANT02",
+            20
+          ],
+          [
+            "CS_BUSH01",
+            16
+          ],
+          [
+            "CS_FERN01",
+            16
+          ],
+          [
+            "ST_PLANT06",
+            14
+          ],
+          [
+            "CS_Palm01",
+            12
+          ],
+          [
+            "HA_BUSH02",
+            9
+          ],
+          [
+            "CS_BUSH02",
+            8
+          ]
+        ],
+        "nearestRoad": 30.486
+      },
+      {
+        "typeName": "CA_Hotel_02",
+        "x": 870.291,
+        "y": 3623.965,
+        "angle": 270,
+        "radius": 284.3,
+        "nearbyDecorationCount": 120,
+        "decoration": [
+          [
+            "CS_BUSH01",
+            23
+          ],
+          [
+            "CS_FERN01",
+            14
+          ],
+          [
+            "CS_PLANT06",
+            14
+          ],
+          [
+            "ST_PLANT06",
+            14
+          ],
+          [
+            "CS_Palm02",
+            8
+          ],
+          [
+            "HA_BUSH02",
+            8
+          ],
+          [
+            "ST_PLANT07",
+            8
+          ],
+          [
+            "CS_Palm01",
+            7
+          ]
+        ],
+        "nearestRoad": 22.029
+      },
+      {
+        "typeName": "CA_Hotel_01",
+        "x": 2278.079,
+        "y": 4551.884,
+        "angle": 315,
+        "radius": 243.3,
+        "nearbyDecorationCount": 113,
+        "decoration": [
+          [
+            "CS_BUSH01",
+            36
+          ],
+          [
+            "HA_PLANT07",
+            14
+          ],
+          [
+            "ST_PLANT01",
+            10
+          ],
+          [
+            "CS_FERN01",
+            8
+          ],
+          [
+            "ST_PLANT02",
+            7
+          ],
+          [
+            "CS_Palm01",
+            7
+          ],
+          [
+            "HA_PLANT04",
+            6
+          ],
+          [
+            "ST_PLANT08",
+            5
+          ]
+        ],
+        "nearestRoad": 41.151
+      },
+      {
+        "typeName": "CA_Hotel_04",
+        "x": 1467.284,
+        "y": 3740.012,
+        "angle": 315,
+        "radius": 255.8,
+        "nearbyDecorationCount": 69,
+        "decoration": [
+          [
+            "CS_BUSH01",
+            16
+          ],
+          [
+            "CS_Palm02",
+            8
+          ],
+          [
+            "CS_FERN01",
+            7
+          ],
+          [
+            "HA_BUSH04",
+            6
+          ],
+          [
+            "ST_PLANT07",
+            6
+          ],
+          [
+            "ST_PLANT01",
+            6
+          ],
+          [
+            "HA_BUSH02",
+            4
+          ],
+          [
+            "ST_PLANT09",
+            4
+          ]
+        ],
+        "nearestRoad": 5.536
+      },
+      {
+        "typeName": "CA_Hotel_04",
+        "x": 2751.951,
+        "y": 5410.002,
+        "angle": 225,
+        "radius": 255.8,
+        "nearbyDecorationCount": 60,
+        "decoration": [
+          [
+            "HA_PLANT07",
+            14
+          ],
+          [
+            "CS_CHAIR01",
+            8
+          ],
+          [
+            "CS_FERN01",
+            6
+          ],
+          [
+            "CS_BUSH01",
+            5
+          ],
+          [
+            "HA_BUSH02",
+            4
+          ],
+          [
+            "ST_PLANT01",
+            4
+          ],
+          [
+            "CS_PLANT05",
+            4
+          ],
+          [
+            "CS_Palm02",
+            3
+          ]
+        ],
+        "nearestRoad": 12.125
+      },
+      {
+        "typeName": "CA_Hotel_04",
+        "x": 2985.345,
+        "y": 5175.837,
+        "angle": 315,
+        "radius": 255.8,
+        "nearbyDecorationCount": 54,
+        "decoration": [
+          [
+            "HA_PLANT07",
+            19
+          ],
+          [
+            "CS_Palm02",
+            6
+          ],
+          [
+            "CS_CHAIR01",
+            6
+          ],
+          [
+            "CS_Palm01",
+            4
+          ],
+          [
+            "CA_STREETSEGMENT20",
+            3
+          ],
+          [
+            "HA_BUSH02",
+            3
+          ],
+          [
+            "SA_TENNISNET",
+            2
+          ],
+          [
+            "CS_TRASHCAN",
+            2
+          ]
+        ],
+        "nearestRoad": 12.88
+      },
+      {
+        "typeName": "GI_Apartment_04",
+        "x": 2558.465,
+        "y": 5620.082,
+        "angle": 45,
+        "radius": 248.1,
+        "nearbyDecorationCount": 51,
+        "decoration": [
+          [
+            "CS_BUSH01",
+            14
+          ],
+          [
+            "HA_BUSH02",
+            6
+          ],
+          [
+            "ST_PLANT01",
+            6
+          ],
+          [
+            "HA_PLANT07",
+            6
+          ],
+          [
+            "CS_FERN01",
+            4
+          ],
+          [
+            "CS_Palm02",
+            3
+          ],
+          [
+            "CA_STREETSEGMENT20",
+            2
+          ],
+          [
+            "CS_BUSH03",
+            2
+          ]
+        ],
+        "nearestRoad": 41.535
+      },
+      {
+        "typeName": "GI_Hotel_01",
+        "x": 333.963,
+        "y": 3594.615,
+        "angle": 0,
+        "radius": 200.7,
+        "nearbyDecorationCount": 49,
+        "decoration": [
+          [
+            "CS_BUSH01",
+            13
+          ],
+          [
+            "HA_PLANT07",
+            5
+          ],
+          [
+            "CS_Palm03",
+            3
+          ],
+          [
+            "CS_Palm01",
+            3
+          ],
+          [
+            "HA_BUSH04",
+            3
+          ],
+          [
+            "ST_PLANT07",
+            2
+          ],
+          [
+            "CS_BUSH03",
+            2
+          ],
+          [
+            "ST_PLANT09",
+            2
+          ]
+        ],
+        "nearestRoad": 44.506
+      }
+    ],
+    "caution": "部分模型或地垫显示不完整，画面主要用于地形、道路与空间关系"
+  },
+  {
+    "id": "m071",
+    "style": "欧洲旧城与山谷",
+    "sourceName": "MAP_MP_COOP_a03_heidelberg_smith",
+    "sha256": "f4c5cc1923c3ae8ab67c0d3872c705d34d115dfc6e6b19f7a7286bf83f0dc58e",
+    "learn": "美化与空间关系；不迁移任务经济或脚本",
+    "images": {
+      "overview": "../assets/styles/m071-overview.jpg",
+      "neighborhood": "../assets/styles/m071-neighborhood.jpg"
+    },
+    "houses": [
+      [
+        "HB_House03",
+        14
+      ],
+      [
+        "HB_House02",
+        12
+      ],
+      [
+        "HB_HOUSE04",
+        10
+      ],
+      [
+        "HB_Restaurant_03",
+        8
+      ],
+      [
+        "HB_Rowhouse01",
+        8
+      ],
+      [
+        "HB_Restaurant01",
+        7
+      ],
+      [
+        "HB_Restaurant_04",
+        2
+      ],
+      [
+        "HB_House01",
+        1
+      ],
+      [
+        "HB_Church",
+        1
+      ]
+    ],
+    "decorations": [
+      [
+        "ST_PLANT09",
+        476
+      ],
+      [
+        "HB_GRASS02",
+        200
+      ],
+      [
+        "YU_BUSH05",
+        177
+      ],
+      [
+        "HB_Tree03",
+        165
+      ],
+      [
+        "HV_STREETSEGMENT09",
+        162
+      ],
+      [
+        "SP_SANDBAGS01",
+        121
+      ],
+      [
+        "HB_GRASS01",
+        98
+      ],
+      [
+        "YU_Bush04",
+        96
+      ],
+      [
+        "HB_FENCE04",
+        86
+      ],
+      [
+        "HB_Tree05",
+        77
+      ],
+      [
+        "HB_LIGHT01",
+        77
+      ],
+      [
+        "AP_MIRAGETREE01",
+        75
+      ],
+      [
+        "HB_Tree09",
+        63
+      ],
+      [
+        "HB_BENCH01",
+        58
+      ],
+      [
+        "HB_WALL08",
+        52
+      ],
+      [
+        "HV_STREETSEGMENT10",
+        48
+      ]
+    ],
+    "roads": {
+      "types": [
+        [
+          "StPetersburgSidewalk05",
+          583
+        ],
+        [
+          "HeidelbergBricksTrim01",
+          570
+        ],
+        [
+          "YucatanFootpath01",
+          135
+        ],
+        [
+          "HeidelbergBricks02",
+          110
+        ],
+        [
+          "HawaiiDirtRoad01",
+          61
+        ],
+        [
+          "HavanaParkingLines03",
+          4
+        ],
+        [
+          "HavanaWhiteLine01",
+          3
+        ],
+        [
+          "HB_Bridge_02",
+          1
+        ]
+      ],
+      "corners": [
+        [
+          "angled",
+          918
+        ],
+        [
+          "broad",
+          356
+        ],
+        [
+          "tight",
+          193
+        ]
+      ],
+      "segments": 1467,
+      "geometricTurns": 855,
+      "turnAngles": [
+        [
+          90,
+          551
+        ],
+        [
+          30,
+          122
+        ],
+        [
+          15,
+          76
+        ],
+        [
+          45,
+          60
+        ],
+        [
+          60,
+          17
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          75,
+          12
+        ],
+        [
+          105,
+          2
+        ],
+        [
+          120,
+          1
+        ]
+      ]
+    },
+    "houseDecorationCooccurrence": [
+      [
+        "HB_House03|HV_STREETSEGMENT09",
+        11
+      ],
+      [
+        "HB_House02|YU_Bush04",
+        10
+      ],
+      [
+        "HB_House02|HB_LIGHT01",
+        8
+      ],
+      [
+        "HB_Restaurant_03|HV_STREETSEGMENT09",
+        7
+      ],
+      [
+        "HB_Restaurant01|HV_STREETSEGMENT09",
+        7
+      ],
+      [
+        "HB_HOUSE04|HV_STREETSEGMENT09",
+        7
+      ],
+      [
+        "HB_House03|HB_LIGHT01",
+        7
+      ],
+      [
+        "HB_House02|HV_STREETSEGMENT09",
+        7
+      ],
+      [
+        "HB_House02|YU_BUSH05",
+        7
+      ],
+      [
+        "HB_Restaurant_03|YU_BUSH05",
+        6
+      ],
+      [
+        "HB_Rowhouse01|HV_STREETSEGMENT09",
+        6
+      ],
+      [
+        "HB_Restaurant01|HV_STREETSEGMENT15",
+        6
+      ],
+      [
+        "HB_House03|YU_BUSH05",
+        6
+      ],
+      [
+        "HB_House03|HV_STREETSEGMENT15",
+        5
+      ],
+      [
+        "HB_House03|HB_SIGN01",
+        5
+      ],
+      [
+        "HB_Rowhouse01|HB_LIGHT01",
+        5
+      ],
+      [
+        "HB_Rowhouse01|HV_STREETSEGMENT10",
+        5
+      ],
+      [
+        "HB_Restaurant_03|HV_STREETSEGMENT10",
+        5
+      ],
+      [
+        "HB_House02|HB_SIGN01",
+        5
+      ],
+      [
+        "HB_Rowhouse01|YU_BUSH05",
+        5
+      ],
+      [
+        "HB_House03|HB_Tree03",
+        4
+      ],
+      [
+        "HB_House03|HB_Tree09",
+        4
+      ],
+      [
+        "HB_Restaurant_03|HB_FENCE07",
+        4
+      ],
+      [
+        "HB_Restaurant01|HB_LIGHT01",
+        4
+      ]
+    ],
+    "neighborhoods": [
+      {
+        "typeName": "HB_Church",
+        "x": 2320.695,
+        "y": 3088.998,
+        "angle": 314.87,
+        "radius": 208.1,
+        "nearbyDecorationCount": 67,
+        "decoration": [
+          [
+            "HB_FENCE04",
+            26
+          ],
+          [
+            "HB_Tree05",
+            16
+          ],
+          [
+            "YU_BUSH05",
+            15
+          ],
+          [
+            "HB_FENCE05",
+            5
+          ],
+          [
+            "HB_STREETSEGMENT13",
+            2
+          ],
+          [
+            "ST_Auto01",
+            1
+          ],
+          [
+            "ST_AUTO02",
+            1
+          ],
+          [
+            "ST_AUTO04",
+            1
+          ]
+        ],
+        "nearestRoad": 37.699
+      },
+      {
+        "typeName": "HB_House02",
+        "x": 2683.634,
+        "y": 3319.344,
+        "angle": 315,
+        "radius": 189.5,
+        "nearbyDecorationCount": 39,
+        "decoration": [
+          [
+            "HB_FENCE04",
+            11
+          ],
+          [
+            "ST_PLANT07",
+            10
+          ],
+          [
+            "YU_Bush04",
+            6
+          ],
+          [
+            "YU_BUSH05",
+            4
+          ],
+          [
+            "HB_Tree03",
+            2
+          ],
+          [
+            "HB_FENCE05",
+            2
+          ],
+          [
+            "HB_SIGN01",
+            1
+          ],
+          [
+            "HV_STREETSEGMENT04",
+            1
+          ]
+        ],
+        "nearestRoad": 16.143
+      },
+      {
+        "typeName": "HB_Restaurant_04",
+        "x": 2947.227,
+        "y": 2597.814,
+        "angle": 226.004,
+        "radius": 159.9,
+        "nearbyDecorationCount": 38,
+        "decoration": [
+          [
+            "YU_BUSH05",
+            34
+          ],
+          [
+            "YU_Bush04",
+            2
+          ],
+          [
+            "HV_STREETSEGMENT09",
+            1
+          ],
+          [
+            "HV_STREETSEGMENT15",
+            1
+          ]
+        ],
+        "nearestRoad": 37.451
+      },
+      {
+        "typeName": "HB_Rowhouse01",
+        "x": 2307.885,
+        "y": 2827.955,
+        "angle": 225,
+        "radius": 184.2,
+        "nearbyDecorationCount": 27,
+        "decoration": [
+          [
+            "HB_FENCE04",
+            9
+          ],
+          [
+            "YU_BUSH05",
+            5
+          ],
+          [
+            "HB_FENCE05",
+            4
+          ],
+          [
+            "HB_Tree05",
+            3
+          ],
+          [
+            "HB_LIGHT01",
+            2
+          ],
+          [
+            "HV_STREETSEGMENT09",
+            1
+          ],
+          [
+            "AP_MIRAGETREE01",
+            1
+          ],
+          [
+            "HB_STREETSEGMENT13",
+            1
+          ]
+        ],
+        "nearestRoad": 41.468
+      },
+      {
+        "typeName": "HB_Rowhouse01",
+        "x": 1898.553,
+        "y": 3408.461,
+        "angle": 44.026,
+        "radius": 184.2,
+        "nearbyDecorationCount": 25,
+        "decoration": [
+          [
+            "YU_BUSH05",
+            14
+          ],
+          [
+            "HB_TABLE01",
+            5
+          ],
+          [
+            "YU_Bush04",
+            3
+          ],
+          [
+            "HV_STREETSEGMENT09",
+            2
+          ],
+          [
+            "HV_STREETSEGMENT10",
+            1
+          ]
+        ],
+        "nearestRoad": 29.065
+      },
+      {
+        "typeName": "HB_HOUSE04",
+        "x": 3228.121,
+        "y": 2910.354,
+        "angle": 135,
+        "radius": 150,
+        "nearbyDecorationCount": 25,
+        "decoration": [
+          [
+            "HB_FENCE04",
+            12
+          ],
+          [
+            "HB_FENCE05",
+            4
+          ],
+          [
+            "AP_MIRAGETREE01",
+            2
+          ],
+          [
+            "ST_AUTO02",
+            1
+          ],
+          [
+            "ST_Auto01",
+            1
+          ],
+          [
+            "HB_STREETSEGMENT13",
+            1
+          ],
+          [
+            "ST_AUTO04",
+            1
+          ],
+          [
+            "YU_BUSH05",
+            1
+          ]
+        ],
+        "nearestRoad": 34.554
+      },
+      {
+        "typeName": "HB_House01",
+        "x": 1537.289,
+        "y": 3525.848,
+        "angle": 46.142,
+        "radius": 166.4,
+        "nearbyDecorationCount": 23,
+        "decoration": [
+          [
+            "YU_Bush04",
+            6
+          ],
+          [
+            "HB_Tree02",
+            5
+          ],
+          [
+            "HB_TABLE02",
+            5
+          ],
+          [
+            "AP_MIRAGETREE01",
+            2
+          ],
+          [
+            "HB_WALL08",
+            2
+          ],
+          [
+            "HB_WALL13",
+            1
+          ],
+          [
+            "HB_WALL09",
+            1
+          ],
+          [
+            "HV_STREETSEGMENT15",
+            1
+          ]
+        ],
+        "nearestRoad": 18.877
+      },
+      {
+        "typeName": "HB_Restaurant_03",
+        "x": 3126.239,
+        "y": 2179.311,
+        "angle": 225,
+        "radius": 176.1,
+        "nearbyDecorationCount": 21,
+        "decoration": [
+          [
+            "YU_BUSH05",
+            4
+          ],
+          [
+            "HB_TABLE01",
+            4
+          ],
+          [
+            "YU_Bush04",
+            3
+          ],
+          [
+            "HV_STREETSEGMENT09",
+            3
+          ],
+          [
+            "HB_FLAGS",
+            2
+          ],
+          [
+            "HV_STREETSEGMENT10",
+            1
+          ],
+          [
+            "HB_SIGN01",
+            1
+          ],
+          [
+            "ST_AUTO04",
+            1
+          ]
+        ],
+        "nearestRoad": 36.218
+      }
+    ],
+    "caution": "部分模型或地垫显示不完整，画面主要用于地形、道路与空间关系"
+  },
+  {
+    "id": "m074",
+    "style": "加勒比城镇",
+    "sourceName": "MAP_MP_COOP_a08_havana_rao",
+    "sha256": "b831113d3ed1c392cf0dba9e376c3c0fd44ebfe3d3a36f22fdcd1b51e77e3692",
+    "learn": "美化与空间关系；不迁移任务经济或脚本",
+    "images": {
+      "overview": "../assets/styles/m074-overview.jpg",
+      "neighborhood": "../assets/styles/m074-neighborhood.jpg"
+    },
+    "houses": [
+      [
+        "HV_Apartment01",
+        6
+      ],
+      [
+        "HV_HOTEL08",
+        5
+      ],
+      [
+        "HV_Shop03",
+        4
+      ],
+      [
+        "HV_HOTEL01",
+        3
+      ],
+      [
+        "HV_HOTEL02",
+        3
+      ],
+      [
+        "HV_HOTEL06",
+        3
+      ],
+      [
+        "HV_cigfactory",
+        3
+      ],
+      [
+        "HV_Hotel04_02",
+        2
+      ],
+      [
+        "HV_HOTEL05",
+        2
+      ],
+      [
+        "HV_Hotel10",
+        2
+      ]
+    ],
+    "decorations": [
+      [
+        "YU_CORAL02",
+        217
+      ],
+      [
+        "HV_Shrub01",
+        188
+      ],
+      [
+        "YU_Coral01",
+        159
+      ],
+      [
+        "YU_BUSH05",
+        121
+      ],
+      [
+        "HV_Tree01",
+        97
+      ],
+      [
+        "YU_Bush01",
+        89
+      ],
+      [
+        "SP_SUPPLYBOX01",
+        89
+      ],
+      [
+        "YP_Fern01",
+        83
+      ],
+      [
+        "HV_SeaWallPiece01",
+        70
+      ],
+      [
+        "HV_LAMPPOST02",
+        69
+      ],
+      [
+        "HV_STUCCOFENCE01",
+        69
+      ],
+      [
+        "OD_Tree01",
+        68
+      ],
+      [
+        "HV_LAMPPOST01",
+        59
+      ],
+      [
+        "CS_BUSH03",
+        46
+      ],
+      [
+        "YU_Bush04",
+        45
+      ],
+      [
+        "CS_Palm01",
+        42
+      ]
+    ],
+    "roads": {
+      "types": [
+        [
+          "HavanaSidewalk03",
+          526
+        ],
+        [
+          "YucatanDirtRoad01",
+          57
+        ],
+        [
+          "HavanaParkingLines03",
+          56
+        ],
+        [
+          "YucatanFootpath01",
+          53
+        ],
+        [
+          "HavanaSidewalk01",
+          29
+        ],
+        [
+          "StPetersburgSidewalk01",
+          15
+        ],
+        [
+          "HavanaSidewalk04",
+          8
+        ],
+        [
+          "HavanaParkingLines01",
+          4
+        ],
+        [
+          "HavanaParkingLines02",
+          3
+        ],
+        [
+          "HawaiiCrosswalk01",
+          2
+        ],
+        [
+          "YucatanRoad02",
+          1
+        ],
+        [
+          "HavanaSidewalk02",
+          1
+        ]
+      ],
+      "corners": [
+        [
+          "tight",
+          330
+        ],
+        [
+          "broad",
+          319
+        ],
+        [
+          "angled",
+          106
+        ]
+      ],
+      "segments": 755,
+      "geometricTurns": 392,
+      "turnAngles": [
+        [
+          90,
+          162
+        ],
+        [
+          15,
+          86
+        ],
+        [
+          30,
+          47
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          60,
+          23
+        ],
+        [
+          75,
+          14
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          105,
+          5
+        ],
+        [
+          120,
+          2
+        ],
+        [
+          135,
+          1
+        ]
+      ]
+    },
+    "houseDecorationCooccurrence": [
+      [
+        "HV_Apartment01|HV_STUCCOFENCE01",
+        6
+      ],
+      [
+        "HV_Apartment01|HV_STUCCOFENCE02",
+        6
+      ],
+      [
+        "HV_Apartment01|OD_Tree01",
+        6
+      ],
+      [
+        "HV_Apartment01|YP_Fern01",
+        5
+      ],
+      [
+        "HV_Apartment01|HV_Auto03",
+        5
+      ],
+      [
+        "HV_HOTEL08|HV_LAMPPOST02",
+        4
+      ],
+      [
+        "HV_Shop03|HV_LAMPPOST02",
+        4
+      ],
+      [
+        "HV_Apartment01|HV_STREETSEGMENT10",
+        4
+      ],
+      [
+        "HV_Apartment01|GE_PLANTER01",
+        4
+      ],
+      [
+        "HV_HOTEL01|YU_Bush01",
+        3
+      ],
+      [
+        "HV_HOTEL01|YP_Fern01",
+        3
+      ],
+      [
+        "HV_HOTEL01|HV_STREETSEGMENT18",
+        3
+      ],
+      [
+        "HV_HOTEL08|GE_PLANTER01",
+        3
+      ],
+      [
+        "HV_Shop03|GE_PLANTER01",
+        3
+      ],
+      [
+        "HV_HOTEL06|GE_PLANTER01",
+        3
+      ],
+      [
+        "HV_HOTEL08|OD_Tree01",
+        3
+      ],
+      [
+        "HV_Apartment01|HV_Auto07",
+        3
+      ],
+      [
+        "HV_Apartment01|HV_LAMPPOST02",
+        3
+      ],
+      [
+        "HV_Apartment01|HV_Tree01",
+        3
+      ],
+      [
+        "HV_Apartment01|OD_Bush01",
+        3
+      ],
+      [
+        "HV_Apartment01|HV_Auto05",
+        3
+      ],
+      [
+        "HV_Apartment01|HV_STREETSEGMENT09",
+        3
+      ],
+      [
+        "HV_Hotel04_02|HV_LAMPPOST02",
+        2
+      ],
+      [
+        "HV_HOTEL01|YU_BUSH05",
+        2
+      ]
+    ],
+    "neighborhoods": [
+      {
+        "typeName": "HV_HOTEL09",
+        "x": 1355.512,
+        "y": 1515.9,
+        "angle": 45,
+        "radius": 231.3,
+        "nearbyDecorationCount": 42,
+        "decoration": [
+          [
+            "YU_BUSH05",
+            7
+          ],
+          [
+            "HV_Tree01",
+            5
+          ],
+          [
+            "OD_Bush01",
+            4
+          ],
+          [
+            "YU_Bush04",
+            4
+          ],
+          [
+            "YP_Fern01",
+            3
+          ],
+          [
+            "YU_Bush01",
+            3
+          ],
+          [
+            "OD_Tree01",
+            2
+          ],
+          [
+            "HV_LAMPPOST01",
+            2
+          ]
+        ],
+        "nearestRoad": 33.978
+      },
+      {
+        "typeName": "HV_HOTEL01",
+        "x": 5656.287,
+        "y": 4357.288,
+        "angle": 315,
+        "radius": 192.5,
+        "nearbyDecorationCount": 41,
+        "decoration": [
+          [
+            "YU_BUSH05",
+            29
+          ],
+          [
+            "OD_Tree01",
+            2
+          ],
+          [
+            "HV_LAMPPOST02",
+            2
+          ],
+          [
+            "HV_STREETSEGMENT14",
+            2
+          ],
+          [
+            "YU_Bush01",
+            2
+          ],
+          [
+            "YP_Fern01",
+            1
+          ],
+          [
+            "HV_STREETSEGMENT09",
+            1
+          ],
+          [
+            "HV_STREETSEGMENT15",
+            1
+          ]
+        ],
+        "nearestRoad": 50.038
+      },
+      {
+        "typeName": "HV_Apartment01",
+        "x": 2570.529,
+        "y": 3635.864,
+        "angle": 45,
+        "radius": 157.9,
+        "nearbyDecorationCount": 41,
+        "decoration": [
+          [
+            "HV_STUCCOFENCE01",
+            17
+          ],
+          [
+            "CS_Palm01",
+            4
+          ],
+          [
+            "YU_Bush01",
+            4
+          ],
+          [
+            "HV_STUCCOFENCE02",
+            3
+          ],
+          [
+            "YP_Fern01",
+            3
+          ],
+          [
+            "YU_Bush04",
+            3
+          ],
+          [
+            "OD_Tree01",
+            2
+          ],
+          [
+            "SP_SANDBAGS01",
+            1
+          ]
+        ],
+        "nearestRoad": 19.07
+      },
+      {
+        "typeName": "HV_Hotel03_02",
+        "x": 4830,
+        "y": 2960,
+        "angle": 315,
+        "radius": 190.5,
+        "nearbyDecorationCount": 39,
+        "decoration": [
+          [
+            "YU_BUSH05",
+            17
+          ],
+          [
+            "HV_Shrub01",
+            6
+          ],
+          [
+            "HV_LAMPPOST02",
+            3
+          ],
+          [
+            "YU_Bush01",
+            3
+          ],
+          [
+            "HV_STREETSEGMENT06",
+            1
+          ],
+          [
+            "HV_StreetSegment01",
+            1
+          ],
+          [
+            "HV_SEAWALLPIECE05",
+            1
+          ],
+          [
+            "HV_SEAWALLPIECE06",
+            1
+          ]
+        ],
+        "nearestRoad": 31.35
+      },
+      {
+        "typeName": "HV_Apartment01",
+        "x": 2695.182,
+        "y": 3688.625,
+        "angle": 315,
+        "radius": 157.9,
+        "nearbyDecorationCount": 37,
+        "decoration": [
+          [
+            "HV_STUCCOFENCE01",
+            10
+          ],
+          [
+            "YU_Bush01",
+            5
+          ],
+          [
+            "HV_STUCCOFENCE02",
+            4
+          ],
+          [
+            "CS_Palm01",
+            3
+          ],
+          [
+            "YU_Bush04",
+            3
+          ],
+          [
+            "HV_STREETSEGMENT10",
+            2
+          ],
+          [
+            "OD_Tree01",
+            2
+          ],
+          [
+            "YP_Fern01",
+            2
+          ]
+        ],
+        "nearestRoad": 17.519
+      },
+      {
+        "typeName": "HV_Apartment01",
+        "x": 3121.285,
+        "y": 3553.681,
+        "angle": 135.888,
+        "radius": 157.9,
+        "nearbyDecorationCount": 32,
+        "decoration": [
+          [
+            "HV_STUCCOFENCE01",
+            12
+          ],
+          [
+            "GE_PLANTER01",
+            7
+          ],
+          [
+            "OD_Tree01",
+            3
+          ],
+          [
+            "HV_STUCCOFENCE02",
+            2
+          ],
+          [
+            "HV_Tree01",
+            2
+          ],
+          [
+            "HV_STREETSEGMENT10",
+            1
+          ],
+          [
+            "HV_Auto07",
+            1
+          ],
+          [
+            "HV_LAMPPOST02",
+            1
+          ]
+        ],
+        "nearestRoad": 15.824
+      },
+      {
+        "typeName": "HV_HOTEL01",
+        "x": 5553.513,
+        "y": 899.226,
+        "angle": 315,
+        "radius": 192.5,
+        "nearbyDecorationCount": 31,
+        "decoration": [
+          [
+            "CS_BUSH03",
+            8
+          ],
+          [
+            "YU_Bush01",
+            7
+          ],
+          [
+            "HV_Tree01",
+            4
+          ],
+          [
+            "YP_Fern01",
+            3
+          ],
+          [
+            "CS_Palm01",
+            3
+          ],
+          [
+            "HV_STREETSEGMENT18",
+            1
+          ],
+          [
+            "HV_TOLLBOOTH01",
+            1
+          ],
+          [
+            "HV_STREETSEGMENT09",
+            1
+          ]
+        ],
+        "nearestRoad": 51.929
+      },
+      {
+        "typeName": "HV_Hotel10",
+        "x": 3407.945,
+        "y": 2782.52,
+        "angle": 45,
+        "radius": 179.4,
+        "nearbyDecorationCount": 30,
+        "decoration": [
+          [
+            "CS_PLANT05",
+            6
+          ],
+          [
+            "YU_BUSH05",
+            6
+          ],
+          [
+            "CS_BUSH03",
+            3
+          ],
+          [
+            "HV_LAMPPOST02",
+            2
+          ],
+          [
+            "HV_Tree01",
+            2
+          ],
+          [
+            "HV_STREETSEGMENT09",
+            2
+          ],
+          [
+            "YU_Bush04",
+            2
+          ],
+          [
+            "HV_Auto02",
+            1
+          ]
+        ],
+        "nearestRoad": 27.154
+      }
+    ],
+    "caution": "部分模型或地垫显示不完整，画面主要用于地形、道路与空间关系"
+  },
+  {
+    "id": "m075",
+    "style": "现代美式街区",
+    "sourceName": "MAP_MP_COOP_j06_losangeles_white",
+    "sha256": "cf7f5b15afeac6c478b9a9d84ad5961a80e3ab8f4c6adf4da1d78ce7b8862bb1",
+    "learn": "美化与空间关系；不迁移任务经济或脚本",
+    "images": {
+      "overview": "../assets/styles/m075-overview.jpg",
+      "neighborhood": "../assets/styles/m075-neighborhood.jpg"
+    },
+    "houses": [
+      [
+        "SA_STORE02",
+        11
+      ],
+      [
+        "SA_STORE03",
+        8
+      ],
+      [
+        "SA_House03_02",
+        7
+      ],
+      [
+        "SA_Cafe01_04",
+        6
+      ],
+      [
+        "SA_House03_03",
+        6
+      ],
+      [
+        "SA_House03_04",
+        6
+      ],
+      [
+        "OD_Warehouse01",
+        6
+      ],
+      [
+        "SA_HOUSE03",
+        5
+      ],
+      [
+        "SA_House02_03",
+        4
+      ],
+      [
+        "SA_House02_04",
+        4
+      ]
+    ],
+    "decorations": [
+      [
+        "HB_STREETSEGMENT06",
+        105
+      ],
+      [
+        "SA_PALM02",
+        81
+      ],
+      [
+        "SA_FENCE02",
+        81
+      ],
+      [
+        "HB_GRASS02",
+        75
+      ],
+      [
+        "SA_FENCE05",
+        74
+      ],
+      [
+        "HB_Tree04",
+        69
+      ],
+      [
+        "HB_TREE08",
+        68
+      ],
+      [
+        "HB_TREE09",
+        66
+      ],
+      [
+        "ST_PLANT09",
+        66
+      ],
+      [
+        "MY_ALLYBORDER01",
+        56
+      ],
+      [
+        "HB_STREETSEGMENT07",
+        51
+      ],
+      [
+        "FI_DECKPROP05",
+        48
+      ],
+      [
+        "HB_Tree03",
+        42
+      ],
+      [
+        "HB_STREETSEGMENT10",
+        41
+      ],
+      [
+        "HB_GRASS01",
+        40
+      ],
+      [
+        "GI_SEAWALLPIECE1",
+        38
+      ]
+    ],
+    "roads": {
+      "types": [
+        [
+          "HavanaWhiteLine01",
+          506
+        ],
+        [
+          "StalingradBricksTrim01",
+          408
+        ],
+        [
+          "HavanaSidewalk04",
+          347
+        ],
+        [
+          "HawaiiGrassStrip02",
+          236
+        ],
+        [
+          "HavanaSidewalk03",
+          177
+        ],
+        [
+          "SantaMonicaSidewalk02",
+          139
+        ],
+        [
+          "HawaiiSidewalk01",
+          126
+        ],
+        [
+          "HawaiiTrim03",
+          117
+        ],
+        [
+          "HawaiiGrassStrip03",
+          103
+        ],
+        [
+          "HawaiiDirtRoad01",
+          80
+        ],
+        [
+          "HavanaParkingLines03",
+          79
+        ],
+        [
+          "MtRushmoreRoad02",
+          43
+        ]
+      ],
+      "corners": [
+        [
+          "angled",
+          1310
+        ],
+        [
+          "broad",
+          765
+        ],
+        [
+          "tight",
+          486
+        ]
+      ],
+      "segments": 2561,
+      "geometricTurns": 1648,
+      "turnAngles": [
+        [
+          90,
+          783
+        ],
+        [
+          15,
+          384
+        ],
+        [
+          30,
+          224
+        ],
+        [
+          45,
+          120
+        ],
+        [
+          0,
+          51
+        ],
+        [
+          60,
+          45
+        ],
+        [
+          75,
+          23
+        ],
+        [
+          105,
+          7
+        ],
+        [
+          135,
+          5
+        ],
+        [
+          120,
+          4
+        ],
+        [
+          165,
+          1
+        ],
+        [
+          150,
+          1
+        ]
+      ]
+    },
+    "houseDecorationCooccurrence": [
+      [
+        "SA_House03_02|SA_PALM02",
+        7
+      ],
+      [
+        "SA_STORE02|SA_PALM02",
+        7
+      ],
+      [
+        "SA_House03_03|SA_PALM02",
+        6
+      ],
+      [
+        "SA_STORE03|SA_PALM02",
+        6
+      ],
+      [
+        "SA_STORE02|ST_PLANT09",
+        6
+      ],
+      [
+        "SA_STORE02|ST_PLANT10",
+        6
+      ],
+      [
+        "SA_STORE02|SA_TREEGRATE",
+        6
+      ],
+      [
+        "SA_STORE02|SA_TRASH01",
+        6
+      ],
+      [
+        "SA_House03_04|SA_PALM02",
+        5
+      ],
+      [
+        "SA_HOUSE03|SA_PALM02",
+        5
+      ],
+      [
+        "SA_STORE02|SA_BENCH01",
+        5
+      ],
+      [
+        "SA_House03_03|HB_STREETSEGMENT07",
+        4
+      ],
+      [
+        "SA_House03_03|HA_PLANT03",
+        4
+      ],
+      [
+        "SA_House02_04|YU_BUSH05",
+        4
+      ],
+      [
+        "SA_House02_04|HB_STREETSEGMENT32",
+        4
+      ],
+      [
+        "SA_House02_04|HB_STREETSEGMENT10",
+        4
+      ],
+      [
+        "SA_House02_04|HB_STREETSEGMENT30",
+        4
+      ],
+      [
+        "SA_STORE03|HA_PLANT07",
+        4
+      ],
+      [
+        "SA_STORE02|ST_PLANTER02",
+        4
+      ],
+      [
+        "SA_STORE02|HA_PLANT07",
+        4
+      ],
+      [
+        "SA_STORE02|HA_BUSH03",
+        4
+      ],
+      [
+        "SA_STORE02|SA_PLANTER02",
+        4
+      ],
+      [
+        "SA_STORE03|SA_TREEGRATE",
+        4
+      ],
+      [
+        "SA_STORE03|ST_PLANT10",
+        4
+      ]
+    ],
+    "neighborhoods": [
+      {
+        "typeName": "SA_House02_04",
+        "x": 1707.807,
+        "y": 1012.003,
+        "angle": 315,
+        "radius": 185.9,
+        "nearbyDecorationCount": 67,
+        "decoration": [
+          [
+            "SA_FENCE02",
+            36
+          ],
+          [
+            "HB_STREETSEGMENT10",
+            5
+          ],
+          [
+            "HB_GRASS02",
+            5
+          ],
+          [
+            "ST_PLANT11",
+            3
+          ],
+          [
+            "YU_BUSH05",
+            3
+          ],
+          [
+            "ST_PLANT09",
+            2
+          ],
+          [
+            "HA_BUSH04",
+            1
+          ],
+          [
+            "HB_STREETSEGMENT32",
+            1
+          ]
+        ],
+        "nearestRoad": 32.255
+      },
+      {
+        "typeName": "SA_Cafe01_02",
+        "x": 1309.775,
+        "y": 2866.478,
+        "angle": 45,
+        "radius": 150.3,
+        "nearbyDecorationCount": 66,
+        "decoration": [
+          [
+            "SA_FERN01",
+            16
+          ],
+          [
+            "ST_PLANT04",
+            8
+          ],
+          [
+            "ST_PLANTER02",
+            8
+          ],
+          [
+            "ST_PLANT09",
+            6
+          ],
+          [
+            "SA_TREEGRATE",
+            6
+          ],
+          [
+            "SA_PALM02",
+            6
+          ],
+          [
+            "ST_PLANT10",
+            4
+          ],
+          [
+            "HA_BUSH03",
+            3
+          ]
+        ],
+        "nearestRoad": 49.607
+      },
+      {
+        "typeName": "SA_House02_02",
+        "x": 1469.87,
+        "y": 1243.087,
+        "angle": 315,
+        "radius": 185.9,
+        "nearbyDecorationCount": 63,
+        "decoration": [
+          [
+            "ST_PLANT09",
+            7
+          ],
+          [
+            "HB_GRASS02",
+            6
+          ],
+          [
+            "GC_Bush02",
+            5
+          ],
+          [
+            "HB_GRASS01",
+            5
+          ],
+          [
+            "YU_BUSH05",
+            4
+          ],
+          [
+            "HB_STREETSEGMENT32",
+            4
+          ],
+          [
+            "HB_STREETSEGMENT30",
+            4
+          ],
+          [
+            "HB_GRASS03",
+            4
+          ]
+        ],
+        "nearestRoad": 35.862
+      },
+      {
+        "typeName": "SA_House02_04",
+        "x": 1305.079,
+        "y": 4163.48,
+        "angle": 315,
+        "radius": 185.9,
+        "nearbyDecorationCount": 63,
+        "decoration": [
+          [
+            "SA_FENCE17",
+            13
+          ],
+          [
+            "SA_FENCE09",
+            6
+          ],
+          [
+            "SA_FENCE11",
+            6
+          ],
+          [
+            "ST_PLANT07",
+            5
+          ],
+          [
+            "HA_BUSH02",
+            5
+          ],
+          [
+            "YU_BUSH05",
+            4
+          ],
+          [
+            "HB_STREETSEGMENT32",
+            4
+          ],
+          [
+            "YU_Bush04",
+            4
+          ]
+        ],
+        "nearestRoad": 38.088
+      },
+      {
+        "typeName": "SA_STORE03",
+        "x": 1245,
+        "y": 2805,
+        "angle": 315,
+        "radius": 154,
+        "nearbyDecorationCount": 62,
+        "decoration": [
+          [
+            "SA_FERN01",
+            16
+          ],
+          [
+            "SA_TREEGRATE",
+            8
+          ],
+          [
+            "ST_PLANT04",
+            8
+          ],
+          [
+            "ST_PLANTER02",
+            8
+          ],
+          [
+            "SA_PALM02",
+            8
+          ],
+          [
+            "ST_PLANT10",
+            4
+          ],
+          [
+            "ST_PLANT09",
+            4
+          ],
+          [
+            "SA_TRASH01",
+            2
+          ]
+        ],
+        "nearestRoad": 24.742
+      },
+      {
+        "typeName": "SA_HOUSE04",
+        "x": 1586.087,
+        "y": 1156.003,
+        "angle": 315,
+        "radius": 176.5,
+        "nearbyDecorationCount": 60,
+        "decoration": [
+          [
+            "SA_FENCE02",
+            17
+          ],
+          [
+            "ST_PLANT09",
+            6
+          ],
+          [
+            "HB_GRASS01",
+            5
+          ],
+          [
+            "HB_STREETSEGMENT30",
+            5
+          ],
+          [
+            "GC_Bush02",
+            4
+          ],
+          [
+            "HB_STREETSEGMENT32",
+            3
+          ],
+          [
+            "HB_GRASS02",
+            3
+          ],
+          [
+            "HA_BUSH04",
+            2
+          ]
+        ],
+        "nearestRoad": 8.45
+      },
+      {
+        "typeName": "SA_HOUSE01",
+        "x": 1267.774,
+        "y": 3914.602,
+        "angle": 315,
+        "radius": 179.6,
+        "nearbyDecorationCount": 59,
+        "decoration": [
+          [
+            "SA_FENCE09",
+            16
+          ],
+          [
+            "YU_BUSH05",
+            5
+          ],
+          [
+            "HB_GRASS01",
+            5
+          ],
+          [
+            "HB_STREETSEGMENT32",
+            4
+          ],
+          [
+            "YU_Bush04",
+            4
+          ],
+          [
+            "ST_PLANT07",
+            4
+          ],
+          [
+            "ST_PLANT09",
+            4
+          ],
+          [
+            "HB_Tree05",
+            4
+          ]
+        ],
+        "nearestRoad": 30.14
+      },
+      {
+        "typeName": "SA_House03_04",
+        "x": 1274.868,
+        "y": 2830.531,
+        "angle": 45,
+        "radius": 150,
+        "nearbyDecorationCount": 56,
+        "decoration": [
+          [
+            "SA_FERN01",
+            16
+          ],
+          [
+            "ST_PLANT04",
+            8
+          ],
+          [
+            "ST_PLANTER02",
+            8
+          ],
+          [
+            "SA_TREEGRATE",
+            6
+          ],
+          [
+            "SA_PALM02",
+            6
+          ],
+          [
+            "ST_PLANT09",
+            4
+          ],
+          [
+            "ST_PLANT10",
+            4
+          ],
+          [
+            "SA_TABLE04",
+            2
+          ]
+        ],
+        "nearestRoad": 50.254
+      }
+    ],
+    "caution": "部分模型或地垫显示不完整，画面主要用于地形、道路与空间关系"
+  },
+  {
+    "id": "m077",
+    "style": "欧式广场",
+    "sourceName": "MAP_MP_COOP_s04_geneva_bass",
+    "sha256": "727faa426672d640dafe88f300685c2bebb3acc273c57f3a8f51df1a5b251635",
+    "learn": "美化与空间关系；不迁移任务经济或脚本",
+    "images": {
+      "overview": "../assets/styles/m077-overview.jpg",
+      "neighborhood": "../assets/styles/m077-neighborhood.jpg"
+    },
+    "houses": [
+      [
+        "ST_Building02",
+        12
+      ],
+      [
+        "GE_TOWNHOUSE01",
+        8
+      ],
+      [
+        "ST_building05_01",
+        3
+      ],
+      [
+        "ST_building04",
+        2
+      ],
+      [
+        "ST_building05_02",
+        1
+      ],
+      [
+        "OD_APARTMENTS02",
+        1
+      ],
+      [
+        "ST_Building03",
+        1
+      ],
+      [
+        "ST_building05",
+        1
+      ],
+      [
+        "GE_AlliedSupplyPortBuilding",
+        1
+      ]
+    ],
+    "decorations": [
+      [
+        "CC_BUSH02",
+        225
+      ],
+      [
+        "GE_LIGHT01",
+        146
+      ],
+      [
+        "GE_FENCE01",
+        145
+      ],
+      [
+        "ST_PLANT01",
+        142
+      ],
+      [
+        "CS_PLANT05",
+        140
+      ],
+      [
+        "ST_PLANT09",
+        136
+      ],
+      [
+        "HB_Tree03",
+        131
+      ],
+      [
+        "MY_ALLYFENCE01",
+        131
+      ],
+      [
+        "GE_BENCH",
+        130
+      ],
+      [
+        "GE_PLANTER02",
+        129
+      ],
+      [
+        "MY_ALLYFENCE04",
+        124
+      ],
+      [
+        "ST_STREETSEGMENT06",
+        107
+      ],
+      [
+        "GE_LIGHT03",
+        93
+      ],
+      [
+        "ST_PLANT06",
+        90
+      ],
+      [
+        "ST_PLANT08",
+        87
+      ],
+      [
+        "HB_Wall02",
+        86
+      ]
+    ],
+    "roads": {
+      "types": [
+        [
+          "HavanaSidewalk04",
+          408
+        ],
+        [
+          "HavanaWhiteLine01",
+          272
+        ],
+        [
+          "GenevaBricks01",
+          254
+        ],
+        [
+          "StPetersburgSidewalk01",
+          192
+        ],
+        [
+          "HavanaSidewalk03",
+          96
+        ],
+        [
+          "HawaiiSidewalk01",
+          87
+        ],
+        [
+          "GenevaBricks02",
+          79
+        ],
+        [
+          "HavanaParkingLines03",
+          65
+        ],
+        [
+          "TokyoHarborRoad02",
+          64
+        ],
+        [
+          "MtFujiStoneStaircase01",
+          46
+        ],
+        [
+          "StPetersburgSidewalk02",
+          43
+        ],
+        [
+          "HawaiiSidewalk02",
+          23
+        ]
+      ],
+      "corners": [
+        [
+          "tight",
+          728
+        ],
+        [
+          "angled",
+          624
+        ],
+        [
+          "broad",
+          303
+        ]
+      ],
+      "segments": 1655,
+      "geometricTurns": 822,
+      "turnAngles": [
+        [
+          90,
+          743
+        ],
+        [
+          45,
+          39
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          30,
+          11
+        ],
+        [
+          60,
+          5
+        ],
+        [
+          135,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          75,
+          1
+        ],
+        [
+          105,
+          1
+        ]
+      ]
+    },
+    "houseDecorationCooccurrence": [
+      [
+        "ST_Building02|GE_LIGHT03",
+        10
+      ],
+      [
+        "ST_Building02|GE_LIGHT01",
+        6
+      ],
+      [
+        "ST_Building02|GE_BENCH",
+        6
+      ],
+      [
+        "ST_Building02|HB_Tree02",
+        6
+      ],
+      [
+        "ST_Building02|ST_STREETSEGMENT06",
+        5
+      ],
+      [
+        "GE_TOWNHOUSE01|GE_LIGHT01",
+        5
+      ],
+      [
+        "GE_TOWNHOUSE01|ST_STREETSEGMENT06",
+        5
+      ],
+      [
+        "ST_Building02|GE_PLANTER02",
+        5
+      ],
+      [
+        "ST_Building02|CC_Auto02",
+        5
+      ],
+      [
+        "ST_Building02|ST_STREETSEGMENT21",
+        4
+      ],
+      [
+        "ST_Building02|ST_STREETSEGMENT05",
+        4
+      ],
+      [
+        "GE_TOWNHOUSE01|GE_PLANTER02",
+        4
+      ],
+      [
+        "GE_TOWNHOUSE01|GE_LIGHT03",
+        4
+      ],
+      [
+        "GE_TOWNHOUSE01|ST_PLANT09",
+        4
+      ],
+      [
+        "ST_Building02|ST_PLANT01",
+        4
+      ],
+      [
+        "ST_Building02|HB_Tree03",
+        4
+      ],
+      [
+        "ST_Building02|ST_PLANT09",
+        4
+      ],
+      [
+        "ST_Building02|HB_Tree04",
+        4
+      ],
+      [
+        "GE_TOWNHOUSE01|GE_BENCH",
+        4
+      ],
+      [
+        "ST_Building02|ST_STREETSEGMENT09",
+        3
+      ],
+      [
+        "ST_Building02|ST_SIDEWALKSEGMENT01",
+        3
+      ],
+      [
+        "GE_TOWNHOUSE01|GE_PLANTER01",
+        3
+      ],
+      [
+        "GE_TOWNHOUSE01|ST_STREETSEGMENT07",
+        3
+      ],
+      [
+        "GE_TOWNHOUSE01|ST_PLANT01",
+        3
+      ]
+    ],
+    "neighborhoods": [
+      {
+        "typeName": "GE_TOWNHOUSE01",
+        "x": 2564.184,
+        "y": 2373.743,
+        "angle": 315,
+        "radius": 176.4,
+        "nearbyDecorationCount": 83,
+        "decoration": [
+          [
+            "ST_PLANT08",
+            44
+          ],
+          [
+            "ST_PLANT09",
+            12
+          ],
+          [
+            "HB_Tree02",
+            6
+          ],
+          [
+            "GE_PLANTER01",
+            6
+          ],
+          [
+            "GE_BENCH",
+            5
+          ],
+          [
+            "GE_PLANTER02",
+            4
+          ],
+          [
+            "ST_STREETSEGMENT07",
+            2
+          ],
+          [
+            "ST_STREETSEGMENT06",
+            2
+          ]
+        ],
+        "nearestRoad": 36.323
+      },
+      {
+        "typeName": "GE_TOWNHOUSE01",
+        "x": 1764,
+        "y": 2073.276,
+        "angle": 45,
+        "radius": 176.4,
+        "nearbyDecorationCount": 74,
+        "decoration": [
+          [
+            "ST_PLANT09",
+            30
+          ],
+          [
+            "CS_PLANT05",
+            26
+          ],
+          [
+            "ST_PLANT01",
+            10
+          ],
+          [
+            "GE_LIGHT02",
+            2
+          ],
+          [
+            "ST_STREETSEGMENT07",
+            2
+          ],
+          [
+            "ST_STREETSEGMENT06",
+            2
+          ],
+          [
+            "GE_LIGHT01",
+            1
+          ],
+          [
+            "ST_STREETSEGMENT02",
+            1
+          ]
+        ],
+        "nearestRoad": 40.318
+      },
+      {
+        "typeName": "ST_building05_01",
+        "x": 2683.872,
+        "y": 465.546,
+        "angle": 135,
+        "radius": 207,
+        "nearbyDecorationCount": 73,
+        "decoration": [
+          [
+            "CC_BUSH02",
+            25
+          ],
+          [
+            "ST_PLANT06",
+            8
+          ],
+          [
+            "GE_PLANTER02",
+            7
+          ],
+          [
+            "GE_FENCE01",
+            6
+          ],
+          [
+            "ST_PLANT08",
+            6
+          ],
+          [
+            "ST_PLANT09",
+            4
+          ],
+          [
+            "HB_Tree02",
+            3
+          ],
+          [
+            "HB_Tree03",
+            3
+          ]
+        ],
+        "nearestRoad": 11.027
+      },
+      {
+        "typeName": "GE_TOWNHOUSE01",
+        "x": 1902.382,
+        "y": 1933.962,
+        "angle": 225,
+        "radius": 176.4,
+        "nearbyDecorationCount": 66,
+        "decoration": [
+          [
+            "ST_PLANT09",
+            25
+          ],
+          [
+            "CS_PLANT05",
+            21
+          ],
+          [
+            "ST_PLANT01",
+            10
+          ],
+          [
+            "ST_STREETSEGMENT06",
+            3
+          ],
+          [
+            "GE_LIGHT01",
+            2
+          ],
+          [
+            "GE_LIGHT03",
+            2
+          ],
+          [
+            "GE_BENCH",
+            2
+          ],
+          [
+            "GE_PLANTER02",
+            1
+          ]
+        ],
+        "nearestRoad": 42.49
+      },
+      {
+        "typeName": "ST_building05",
+        "x": 2781.49,
+        "y": 367.781,
+        "angle": 315,
+        "radius": 207,
+        "nearbyDecorationCount": 54,
+        "decoration": [
+          [
+            "CC_BUSH02",
+            11
+          ],
+          [
+            "ST_PLANT08",
+            8
+          ],
+          [
+            "ST_PLANT06",
+            6
+          ],
+          [
+            "GE_FENCE01",
+            6
+          ],
+          [
+            "GE_PLANTER02",
+            5
+          ],
+          [
+            "ST_PLANT09",
+            4
+          ],
+          [
+            "HB_Tree03",
+            3
+          ],
+          [
+            "ST_STREETSEGMENT06",
+            3
+          ]
+        ],
+        "nearestRoad": 10.507
+      },
+      {
+        "typeName": "ST_building05_01",
+        "x": 3054.835,
+        "y": 439.54,
+        "angle": 225,
+        "radius": 207,
+        "nearbyDecorationCount": 52,
+        "decoration": [
+          [
+            "CC_BUSH02",
+            14
+          ],
+          [
+            "ST_PLANT06",
+            10
+          ],
+          [
+            "ST_PLANT01",
+            4
+          ],
+          [
+            "ST_PLANT09",
+            4
+          ],
+          [
+            "GE_LIGHT01",
+            3
+          ],
+          [
+            "HB_Tree03",
+            2
+          ],
+          [
+            "GE_PLANTER02",
+            2
+          ],
+          [
+            "ST_STREETSEGMENT06",
+            2
+          ]
+        ],
+        "nearestRoad": 15.69
+      },
+      {
+        "typeName": "OD_APARTMENTS02",
+        "x": 973.992,
+        "y": 835.887,
+        "angle": 225,
+        "radius": 211.8,
+        "nearbyDecorationCount": 42,
+        "decoration": [
+          [
+            "GE_PLANTER02",
+            8
+          ],
+          [
+            "GE_LIGHT01",
+            7
+          ],
+          [
+            "GE_BENCH",
+            5
+          ],
+          [
+            "GE_PLANTER01",
+            4
+          ],
+          [
+            "GE_FENCE01",
+            3
+          ],
+          [
+            "HB_Tree03",
+            3
+          ],
+          [
+            "CC_Auto03",
+            2
+          ],
+          [
+            "ST_STREETSEGMENT21",
+            2
+          ]
+        ],
+        "nearestRoad": 13.668
+      },
+      {
+        "typeName": "ST_Building02",
+        "x": 3728.828,
+        "y": 3104.862,
+        "angle": 135,
+        "radius": 150,
+        "nearbyDecorationCount": 37,
+        "decoration": [
+          [
+            "ST_PLANT01",
+            9
+          ],
+          [
+            "ST_PLANT09",
+            8
+          ],
+          [
+            "GE_BENCH",
+            8
+          ],
+          [
+            "GE_LIGHT03",
+            5
+          ],
+          [
+            "GE_PLANTER02",
+            2
+          ],
+          [
+            "HB_Tree04",
+            2
+          ],
+          [
+            "ST_SIDEWALKSEGMENT01",
+            2
+          ],
+          [
+            "HB_Tree02",
+            1
+          ]
+        ],
+        "nearestRoad": 22.285
+      }
+    ],
+    "caution": "部分模型或地垫显示不完整，画面主要用于地形、道路与空间关系"
+  },
+  {
+    "id": "m079",
+    "style": "爱琴海白蓝小镇",
+    "sourceName": "MAP_MP_COOP_s05_mykonos_smith",
+    "sha256": "636003fb7dfa638cac77aa6db84fa69b4889180628a9108e464a6b5cdbb8aaa2",
+    "learn": "美化与空间关系；不迁移任务经济或脚本",
+    "images": {
+      "overview": "../assets/styles/m079-overview.jpg",
+      "neighborhood": "../assets/styles/m079-neighborhood.jpg"
+    },
+    "houses": [
+      [
+        "MY_Restaurant_04",
+        34
+      ],
+      [
+        "MY_Apartment01",
+        33
+      ],
+      [
+        "MY_House_01",
+        31
+      ],
+      [
+        "MY_Restaurant_03",
+        28
+      ],
+      [
+        "MY_Restaurant_02",
+        16
+      ],
+      [
+        "MY_House_03",
+        7
+      ],
+      [
+        "MY_Restaurant_01",
+        6
+      ],
+      [
+        "MY_Hotel_01",
+        3
+      ],
+      [
+        "MY_Church_01",
+        2
+      ],
+      [
+        "MY_Church_02",
+        2
+      ]
+    ],
+    "decorations": [
+      [
+        "MY_WALL01",
+        884
+      ],
+      [
+        "CC_GRASS07",
+        721
+      ],
+      [
+        "MY_PLANT05",
+        479
+      ],
+      [
+        "MY_ALLYBORDER01",
+        317
+      ],
+      [
+        "MY_PLANTER01",
+        273
+      ],
+      [
+        "CS_Palm02",
+        246
+      ],
+      [
+        "MY_BENCH",
+        177
+      ],
+      [
+        "CS_Palm01",
+        173
+      ],
+      [
+        "MY_ALLYFENCE04",
+        172
+      ],
+      [
+        "MY_ROCKS01",
+        157
+      ],
+      [
+        "MY_StreetSegment01",
+        147
+      ],
+      [
+        "MY_LIGHT01",
+        126
+      ],
+      [
+        "MY_WALL02",
+        117
+      ],
+      [
+        "MY_POLE01",
+        80
+      ],
+      [
+        "MY_POWER02",
+        60
+      ],
+      [
+        "MY_ROCKS02",
+        51
+      ]
+    ],
+    "roads": {
+      "types": [
+        [
+          "HavanaWhiteLine01",
+          327
+        ],
+        [
+          "MykonosSidewalk02",
+          237
+        ],
+        [
+          "MykonosSidewalk01",
+          235
+        ],
+        [
+          "HawaiiDirtRoad01",
+          210
+        ],
+        [
+          "MykonosRoadTrim01",
+          137
+        ],
+        [
+          "HawaiiRoadMarking03",
+          69
+        ],
+        [
+          "HawaiiCrosswalk01",
+          38
+        ],
+        [
+          "HawaiiRoadMarking02",
+          24
+        ],
+        [
+          "HawaiiTrim01",
+          2
+        ]
+      ],
+      "corners": [
+        [
+          "tight",
+          530
+        ],
+        [
+          "angled",
+          492
+        ],
+        [
+          "broad",
+          257
+        ]
+      ],
+      "segments": 1279,
+      "geometricTurns": 779,
+      "turnAngles": [
+        [
+          90,
+          611
+        ],
+        [
+          45,
+          44
+        ],
+        [
+          30,
+          42
+        ],
+        [
+          15,
+          27
+        ],
+        [
+          60,
+          22
+        ],
+        [
+          75,
+          16
+        ],
+        [
+          105,
+          11
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          135,
+          2
+        ]
+      ]
+    },
+    "houseDecorationCooccurrence": [
+      [
+        "MY_Restaurant_04|MY_PLANTER01",
+        34
+      ],
+      [
+        "MY_Restaurant_04|MY_LIGHT01",
+        34
+      ],
+      [
+        "MY_Apartment01|MY_BENCH",
+        33
+      ],
+      [
+        "MY_Apartment01|MY_LIGHT01",
+        30
+      ],
+      [
+        "MY_Apartment01|MY_PLANTER01",
+        29
+      ],
+      [
+        "MY_House_01|MY_PLANTER01",
+        28
+      ],
+      [
+        "MY_Restaurant_04|MY_StreetSegment01",
+        28
+      ],
+      [
+        "MY_Restaurant_04|MY_POLE01",
+        28
+      ],
+      [
+        "MY_Restaurant_03|MY_BENCH",
+        26
+      ],
+      [
+        "MY_Restaurant_03|MY_LIGHT01",
+        25
+      ],
+      [
+        "MY_House_01|MY_LIGHT01",
+        25
+      ],
+      [
+        "MY_Restaurant_04|MY_BENCH",
+        22
+      ],
+      [
+        "MY_Apartment01|CS_Palm02",
+        21
+      ],
+      [
+        "MY_Apartment01|MY_StreetSegment01",
+        21
+      ],
+      [
+        "MY_House_01|MY_BENCH",
+        21
+      ],
+      [
+        "MY_Restaurant_03|MY_PLANTER01",
+        20
+      ],
+      [
+        "MY_Restaurant_03|MY_POLE01",
+        20
+      ],
+      [
+        "MY_Apartment01|CC_GRASS07",
+        20
+      ],
+      [
+        "MY_Apartment01|MY_WALL01",
+        19
+      ],
+      [
+        "MY_Apartment01|MY_WALL02",
+        19
+      ],
+      [
+        "MY_Restaurant_03|CS_Palm02",
+        17
+      ],
+      [
+        "MY_House_01|MY_WALL01",
+        17
+      ],
+      [
+        "MY_House_01|MY_StreetSegment01",
+        17
+      ],
+      [
+        "MY_Apartment01|CS_Palm01",
+        17
+      ]
+    ],
+    "neighborhoods": [
+      {
+        "typeName": "MY_Restaurant_01",
+        "x": 3856.188,
+        "y": 979.028,
+        "angle": 135,
+        "radius": 186.7,
+        "nearbyDecorationCount": 104,
+        "decoration": [
+          [
+            "MY_WALL01",
+            39
+          ],
+          [
+            "CC_GRASS07",
+            16
+          ],
+          [
+            "MY_PLANTER01",
+            11
+          ],
+          [
+            "MY_BENCH",
+            10
+          ],
+          [
+            "MY_PLANT05",
+            6
+          ],
+          [
+            "MY_ROCKS01",
+            5
+          ],
+          [
+            "CS_Palm02",
+            4
+          ],
+          [
+            "CS_Palm01",
+            3
+          ]
+        ],
+        "nearestRoad": 31.029
+      },
+      {
+        "typeName": "MY_Restaurant_03",
+        "x": 4059.771,
+        "y": 952.826,
+        "angle": 45,
+        "radius": 156.9,
+        "nearbyDecorationCount": 78,
+        "decoration": [
+          [
+            "MY_WALL01",
+            32
+          ],
+          [
+            "MY_PLANTER01",
+            6
+          ],
+          [
+            "CC_GRASS07",
+            5
+          ],
+          [
+            "MY_BENCH",
+            5
+          ],
+          [
+            "CS_Palm02",
+            5
+          ],
+          [
+            "MY_PLANT05",
+            4
+          ],
+          [
+            "MY_WALL02",
+            4
+          ],
+          [
+            "MY_LIGHT01",
+            4
+          ]
+        ],
+        "nearestRoad": 23.095
+      },
+      {
+        "typeName": "MY_Church_01",
+        "x": 269.673,
+        "y": 674.876,
+        "angle": 135,
+        "radius": 162.4,
+        "nearbyDecorationCount": 77,
+        "decoration": [
+          [
+            "MY_WALL01",
+            32
+          ],
+          [
+            "MY_WALL02",
+            9
+          ],
+          [
+            "MY_POLE01",
+            7
+          ],
+          [
+            "MY_PLANTER01",
+            6
+          ],
+          [
+            "CS_Palm01",
+            6
+          ],
+          [
+            "MY_LIGHT01",
+            4
+          ],
+          [
+            "CS_Palm02",
+            4
+          ],
+          [
+            "CC_GRASS07",
+            4
+          ]
+        ],
+        "nearestRoad": 40.634
+      },
+      {
+        "typeName": "MY_Apartment01",
+        "x": 4106.75,
+        "y": 359.448,
+        "angle": 315.631,
+        "radius": 175.5,
+        "nearbyDecorationCount": 75,
+        "decoration": [
+          [
+            "MY_WALL01",
+            23
+          ],
+          [
+            "MY_PLANTER01",
+            13
+          ],
+          [
+            "MY_BENCH",
+            8
+          ],
+          [
+            "MY_PLANT05",
+            6
+          ],
+          [
+            "CC_GRASS07",
+            4
+          ],
+          [
+            "MY_POLE01",
+            4
+          ],
+          [
+            "MY_ROCKS01",
+            4
+          ],
+          [
+            "MY_LIGHT01",
+            3
+          ]
+        ],
+        "nearestRoad": 29.553
+      },
+      {
+        "typeName": "MY_Apartment01",
+        "x": 3752.811,
+        "y": 749.36,
+        "angle": 315.631,
+        "radius": 175.5,
+        "nearbyDecorationCount": 75,
+        "decoration": [
+          [
+            "MY_WALL01",
+            23
+          ],
+          [
+            "MY_PLANTER01",
+            13
+          ],
+          [
+            "MY_BENCH",
+            8
+          ],
+          [
+            "MY_PLANT05",
+            6
+          ],
+          [
+            "CC_GRASS07",
+            4
+          ],
+          [
+            "MY_ROCKS01",
+            4
+          ],
+          [
+            "MY_POLE01",
+            4
+          ],
+          [
+            "MY_LIGHT01",
+            3
+          ]
+        ],
+        "nearestRoad": 29.553
+      },
+      {
+        "typeName": "MY_Restaurant_01",
+        "x": 134.823,
+        "y": 2882.126,
+        "angle": 315,
+        "radius": 186.7,
+        "nearbyDecorationCount": 75,
+        "decoration": [
+          [
+            "MY_WALL01",
+            35
+          ],
+          [
+            "MY_ROCKS01",
+            15
+          ],
+          [
+            "CC_GRASS07",
+            11
+          ],
+          [
+            "MY_WALL02",
+            6
+          ],
+          [
+            "CS_Palm01",
+            2
+          ],
+          [
+            "CS_Palm02",
+            2
+          ],
+          [
+            "MY_LIGHT01",
+            1
+          ],
+          [
+            "MY_WALL03",
+            1
+          ]
+        ],
+        "nearestRoad": 22.612
+      },
+      {
+        "typeName": "MY_Apartment01",
+        "x": 3340.341,
+        "y": 1178.791,
+        "angle": 315.631,
+        "radius": 175.5,
+        "nearbyDecorationCount": 72,
+        "decoration": [
+          [
+            "MY_WALL01",
+            23
+          ],
+          [
+            "MY_PLANTER01",
+            13
+          ],
+          [
+            "MY_BENCH",
+            8
+          ],
+          [
+            "MY_PLANT05",
+            5
+          ],
+          [
+            "MY_ROCKS01",
+            4
+          ],
+          [
+            "MY_POLE01",
+            4
+          ],
+          [
+            "MY_LIGHT01",
+            3
+          ],
+          [
+            "MY_WALL03",
+            3
+          ]
+        ],
+        "nearestRoad": 29.552
+      },
+      {
+        "typeName": "MY_Hotel_01",
+        "x": 277.564,
+        "y": 1203.18,
+        "angle": 45,
+        "radius": 172.3,
+        "nearbyDecorationCount": 68,
+        "decoration": [
+          [
+            "MY_WALL01",
+            33
+          ],
+          [
+            "MY_PLANTER01",
+            10
+          ],
+          [
+            "CS_Palm02",
+            5
+          ],
+          [
+            "MY_BENCH",
+            4
+          ],
+          [
+            "MY_STREETSEGMENT05",
+            3
+          ],
+          [
+            "MY_LIGHT01",
+            3
+          ],
+          [
+            "CS_Palm01",
+            3
+          ],
+          [
+            "MY_WALL02",
+            2
+          ]
+        ],
+        "nearestRoad": 25.324
+      }
+    ],
+    "caution": "可观察建筑和院落，仍查路面与海岸过渡"
+  },
+  {
+    "id": "m080",
+    "style": "自然火山岛",
+    "sourceName": "MAP_MP_COOP_s08_easterisland_stewart",
+    "sha256": "963bf3daa7a555b5726bc980ebe49d29f170043dfb74b4fcf6292d4fa90483ce",
+    "learn": "美化与空间关系；不迁移任务经济或脚本",
+    "images": {
+      "overview": "../assets/styles/m080-overview.jpg",
+      "neighborhood": "../assets/styles/m080-neighborhood.jpg"
+    },
+    "houses": [],
+    "decorations": [
+      [
+        "EI_GRASS02",
+        641
+      ],
+      [
+        "IL_BUSH05",
+        419
+      ],
+      [
+        "HA_PLANT04",
+        401
+      ],
+      [
+        "EI_Grass01",
+        388
+      ],
+      [
+        "HA_Plant01",
+        294
+      ],
+      [
+        "HA_PLANT09",
+        293
+      ],
+      [
+        "EI_RopeFence01",
+        180
+      ],
+      [
+        "MY_ALLYBORDER01",
+        155
+      ],
+      [
+        "CC_GRASS07",
+        151
+      ],
+      [
+        "HA_PLANT07",
+        137
+      ],
+      [
+        "EI_Rocks05",
+        135
+      ],
+      [
+        "ST_SOVIETFENCE01",
+        120
+      ],
+      [
+        "MY_PLANT05",
+        97
+      ],
+      [
+        "EI_PALM03",
+        61
+      ],
+      [
+        "EI_PALM02",
+        54
+      ],
+      [
+        "EI_VOLCANO01",
+        51
+      ]
+    ],
+    "roads": {
+      "types": [
+        [
+          "EasterIslandRoad01",
+          96
+        ],
+        [
+          "EasterIslandRoad02",
+          32
+        ],
+        [
+          "AmsterdamBricks01",
+          1
+        ]
+      ],
+      "corners": [
+        [
+          "tight",
+          83
+        ],
+        [
+          "broad",
+          46
+        ]
+      ],
+      "segments": 129,
+      "geometricTurns": 51,
+      "turnAngles": [
+        [
+          90,
+          29
+        ],
+        [
+          30,
+          6
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          45,
+          4
+        ],
+        [
+          60,
+          3
+        ],
+        [
+          105,
+          2
+        ],
+        [
+          75,
+          1
+        ]
+      ]
+    },
+    "houseDecorationCooccurrence": [],
+    "neighborhoods": [],
+    "caution": "自然地貌，未识别到民房"
+  }
+]

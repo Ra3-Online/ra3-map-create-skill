@@ -1,0 +1,4 @@
+interface:
+  display_name: "红警3多模态制图"
+  short_description: "按用途、地区与季节选择真实样板和物体，通过地编制作并看图检查红警3地图"
+  default_prompt: "使用 $ra3-map-create 创建或美化红警3地图；先沿用已知要求、补齐影响设计的缺项，再按相关地区季节样板分阶段制作，提供地图、实际画面和验收结果。"
